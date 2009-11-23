@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardset>
+
+
+
+
+	<card>
+		<id>1</id>
+		<uniqueName>Dialga</uniqueName>
+		<name>Dialga LV.68</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>M</type>
+			<stage>Basic</stage>
+			<attack1>
+				<name>Time Bellow</name>
+				<cost>M</cost>
+				<damage>10</damage>
+				<text>Draw a card.</text>
+			</attack1>
+			<attack2>
+				<name>Flash Cannon</name>
+				<cost>MMC</cost>
+				<damage>40</damage>
+				<text>You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.</text>
+			</attack2>
+			<weakness>R+20</weakness>
+			<resistance>P-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Nakaoka</illustration>
+	</card>
+	<card>
+		<id>2</id>
+		<uniqueName>Dusknoir</uniqueName>
+		<name>Dusknoir LV.42</name>
+		<pokemon>
+			<hp>120</hp>
+			<type>P</type>
+			<stage>Stage 2</stage>
+			<prestage>Dusclops</prestage>
+			<pokepower>
+				<name>DarkPalm</name>
+				<text>Once during your turn (before your attack), if your opponent has 4 or more Benched Pokémon, you may choose 1 of them and shuffle that Pokémon and all cards attached to it into his or her deck. This power can't be used if Dusknoir is affected by a Special Condition.</text>
+			</pokepower>
+			<attack1>
+				<name>Hard Feelings</name>
+				<cost>PPC</cost>
+				<damage>0</damage>
+				<text>Put 5 damage counters on the Defending Pokémon. Then, count the number of Prize cards your opponent has taken and put that many damage counters on the Defending Pokémon.</text>
+			</attack1>
+			<weakness>D+30</weakness>
+			<resistance>C-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Takabon</illustration>	
+	</card>
+	<card>
+		<id>3</id>
+		<uniqueName>Electivire</uniqueName>
+		<name>Electivire LV.46</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>L</type>
+			<stage>Stage 1</stage>
+			<prestage>Electabuzz</prestage>
+			<pokepower>
+				<name>Intense Voltage</name>
+				<text>As often as you like during your turn (before your attack), if Elekid is anywhere under Electivire, you may move a {L} Energy attached to 1 of your Pokémon to Electivire. This power can't be used if Electivire is affected by a Special Condition.</text>
+			</pokepower>
+			<attack1>
+				<name>Giga Impact</name>
+				<cost>LLLC</cost>
+				<damage>60</damage>
+				<text>You may discard all {L} Energy attached to Electivire. If you do, this attack's base damage is 120 instead of 60.</text>
+			</attack1>
+			<weakness>F+20</weakness>
+			<resistance>M-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Nakaoka</illustration>	
+	</card>
+	<card>
+		<id>4</id>
+		<uniqueName>Empoleon</uniqueName>
+		<name>Empoleon LV.42</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>W</type>
+			<stage>Stage 2</stage>
+			<prestage>Prinplup</prestage>
+			<attack1>
+				<name>Ice Blade</name>
+				<cost>WC</cost>
+				<damage>0</damage>
+				<text>Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+			</attack1>
+			<attack2>
+				<name>Aqua Jet</name>
+				<cost>WWC</cost>
+				<damage>70</damage>
+				<text>Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+			</attack2>
+			<weakness>L+30</weakness>
+			<resistance />
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Nakaoka</illustration>	
+	</card>
+	<card>
+		<id>5</id>
+		<uniqueName>Infernape</uniqueName>
+		<name>Infernape LV.40</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>R</type>
+			<stage>Stage 2</stage>
+			<prestage>Monferno</prestage>
+			<attack1>
+				<name>Meteor Punch</name>
+				<cost>C</cost>
+				<damage>30x</damage>
+				<text>Flip a coin until you get tails. This attack does 30 damage times the number of heads.</text>
+			</attack1>
+			<attack2>
+				<name>Flare Blitz</name>
+				<cost>RR</cost>
+				<damage>90</damage>
+				<text>Discard all {R} Energy attached to Infernape.</text>
+			</attack2>
+			<weakness>W+30</weakness>
+			<resistance />
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Nakaoka</illustration>	
+	</card>
+	<card>
+		<id>6</id>
+		<uniqueName>Lucario</uniqueName>
+		<name>Lucario LV.30</name>		
+		<pokemon>
+			<hp>90</hp>
+			<type>F</type>
+			<stage>Stage 1</stage>
+			<prestage>Riolu</prestage>
+			<attack1>
+				<name>Feint</name>
+				<cost>C</cost>
+				<damage>30</damage>
+				<text>This attack's damage isn't affected by Resistance.</text>
+			</attack1>
+			<attack2>
+				<name>Aura Sphere</name>
+				<cost>FF</cost>
+				<damage>40</damage>
+				<text>Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+			</attack2>
+			<weakness>P+20</weakness>
+			<resistance />
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Ken Sugimori</illustration>	
+	</card>
+</cardset>
