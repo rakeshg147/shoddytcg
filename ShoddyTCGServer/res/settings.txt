@@ -1,0 +1,6 @@
+localhost
+shoddytcg
+root
+localhost
+
+localhost
