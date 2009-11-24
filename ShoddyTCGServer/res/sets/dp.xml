@@ -8,18 +8,18 @@
 			<hp>90</hp>
 			<type>M</type>
 			<stage>Basic</stage>
-			<attack1>
+			<attack>
 				<name>Time Bellow</name>
 				<cost>M</cost>
 				<damage>10</damage>
 				<text>Draw a card.</text>
-			</attack1>
-			<attack2>
+			</attack>
+			<attack>
 				<name>Flash Cannon</name>
 				<cost>MMC</cost>
 				<damage>40</damage>
 				<text>You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck.</text>
-			</attack2>
+			</attack>
 			<weakness>R+20</weakness>
 			<resistance>P-20</resistance>
 			<retreat>CC</retreat>
@@ -40,12 +40,12 @@
 				<name>DarkPalm</name>
 				<text>Once during your turn (before your attack), if your opponent has 4 or more Benched Pokémon, you may choose 1 of them and shuffle that Pokémon and all cards attached to it into his or her deck. This power can't be used if Dusknoir is affected by a Special Condition.</text>
 			</pokepower>
-			<attack1>
+			<attack>
 				<name>Hard Feelings</name>
 				<cost>PPC</cost>
 				<damage>0</damage>
 				<text>Put 5 damage counters on the Defending Pokémon. Then, count the number of Prize cards your opponent has taken and put that many damage counters on the Defending Pokémon.</text>
-			</attack1>
+			</attack>
 			<weakness>D+30</weakness>
 			<resistance>C-20</resistance>
 			<retreat>CCC</retreat>
@@ -66,12 +66,12 @@
 				<name>Intense Voltage</name>
 				<text>As often as you like during your turn (before your attack), if Elekid is anywhere under Electivire, you may move a {L} Energy attached to 1 of your Pokémon to Electivire. This power can't be used if Electivire is affected by a Special Condition.</text>
 			</pokepower>
-			<attack1>
+			<attack>
 				<name>Giga Impact</name>
 				<cost>LLLC</cost>
 				<damage>60</damage>
 				<text>You may discard all {L} Energy attached to Electivire. If you do, this attack's base damage is 120 instead of 60.</text>
-			</attack1>
+			</attack>
 			<weakness>F+20</weakness>
 			<resistance>M-20</resistance>
 			<retreat>CCC</retreat>
@@ -88,18 +88,18 @@
 			<type>W</type>
 			<stage>Stage 2</stage>
 			<prestage>Prinplup</prestage>
-			<attack1>
+			<attack>
 				<name>Ice Blade</name>
 				<cost>WC</cost>
 				<damage>0</damage>
 				<text>Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
-			</attack1>
-			<attack2>
+			</attack>
+			<attack>
 				<name>Aqua Jet</name>
 				<cost>WWC</cost>
 				<damage>70</damage>
 				<text>Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
-			</attack2>
+			</attack>
 			<weakness>L+30</weakness>
 			<resistance />
 			<retreat>CC</retreat>
@@ -116,18 +116,18 @@
 			<type>R</type>
 			<stage>Stage 2</stage>
 			<prestage>Monferno</prestage>
-			<attack1>
+			<attack>
 				<name>Meteor Punch</name>
 				<cost>C</cost>
 				<damage>30x</damage>
 				<text>Flip a coin until you get tails. This attack does 30 damage times the number of heads.</text>
-			</attack1>
-			<attack2>
+			</attack>
+			<attack>
 				<name>Flare Blitz</name>
 				<cost>RR</cost>
 				<damage>90</damage>
 				<text>Discard all {R} Energy attached to Infernape.</text>
-			</attack2>
+			</attack>
 			<weakness>W+30</weakness>
 			<resistance />
 			<retreat>0</retreat>
@@ -144,18 +144,18 @@
 			<type>F</type>
 			<stage>Stage 1</stage>
 			<prestage>Riolu</prestage>
-			<attack1>
+			<attack>
 				<name>Feint</name>
 				<cost>C</cost>
 				<damage>30</damage>
 				<text>This attack's damage isn't affected by Resistance.</text>
-			</attack1>
-			<attack2>
+			</attack>
+			<attack>
 				<name>Aura Sphere</name>
 				<cost>FF</cost>
 				<damage>40</damage>
 				<text>Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
-			</attack2>
+			</attack>
 			<weakness>P+20</weakness>
 			<resistance />
 			<retreat>C</retreat>
@@ -176,18 +176,70 @@
 				<name>Sharp Eye</name>
 				<text>Once during your turn, when you play Luxray from your hand to evolve 1 of your Pokémon, you may look at your opponent's hand. If your opponent's Bench isn't full,  choose 1 Basic Pokémon from your opponent's hand, and put it onto his or her Bench. Then, switch it with the Defending Pokémon.  </text>
 			</pokepower>
-			<attack1>
+			<attack>
 				<name>Lightning Star</name>
 				<cost>LLLL</cost>
 				<damage>80</damage>
 				<text>Move all {L} Energy attached to Luxray to 1 of your Benched Pokémon. (Ignore this effect if you don't have any Benched Pokémon.)</text>
-			</attack1>
+			</attack>
 			<weakness>F+30</weakness>
 			<resistance>M-20</resistance>
 			<retreat>C</retreat>
 		</pokemon>
 		<rarity>H</rarity>
 		<illustration>Mikiko Takeda</illustration>
+	</card>
+	<card>
+		<id>8</id>
+		<uniqueName>Magnezone</uniqueName>
+		<name>Magnezone LV.48</name>		
+		<pokemon>
+			<hp>120</hp>
+			<type>M</type>
+			<stage>Stage 2</stage>
+			<prestage>Magneton</prestage>
+			<pokebody>
+				<name>Magnetize</name>
+				<text>If you have any {M} Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0</text>
+			</pokebody>
+			<attack>
+				<name>Metal Blast</name>
+				<cost>MCC</cost>
+				<damage>50+</damage>
+				<text>Does 50 damage plus 10 more damage for each {M} Energy attached to Magnezone.</text>
+			</attack>
+			<weakness>R+30</weakness>
+			<resistance>P-20</resistance>
+			<retreat>CCCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Nakaoka</illustration>
+	</card>
+	<card>
+		<id>9</id>
+		<uniqueName>Manaphy</uniqueName>
+		<name>Manaphy LV.20</name>		
+		<pokemon>
+			<hp>70</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Call for Family</name>
+				<cost>C</cost>
+				<text>Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.</text>
+			</attack>
+			<attack>
+				<name>Aqua Ring</name>
+				<cost>WW</cost>
+				<damage>30</damage>
+				<text>Switch Manaphy with 1 of your Benched Pokémon.</text>
+			</attack>	
+			<weakness>L+20</weakness>
+			<resistance />
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Nakaoka</illustration>
 	</card>
 	<card>
 		<id>105</id>
