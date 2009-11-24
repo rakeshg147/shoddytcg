@@ -164,7 +164,7 @@
 		<illustration>Ken Sugimori</illustration>	
 	</card>
 	<card>
-	<id>7</id>
+		<id>7</id>
 		<uniqueName>Luxray</uniqueName>
 		<name>Luxray LV.48</name>		
 		<pokemon>
@@ -188,5 +188,95 @@
 		</pokemon>
 		<rarity>H</rarity>
 		<illustration>Mikiko Takeda</illustration>
+	</card>
+	<card>
+		<id>105</id>
+		<uniqueName>Double Full Heal</uniqueName>
+		<name>Double Full Heal</name>		
+		<trainer>
+			<text>Remove all Special Conditions from each of your Active Pokémon.</text>
+		</trainer>
+		<rarity>U</rarity>
+		<illustration>Ryo Ueda</illustration>	
+	</card>
+	<card>
+		<id>106</id>
+		<uniqueName>Energy Restore</uniqueName>
+		<name>Energy Restore</name>		
+		<trainer>
+			<text>Flip 3 coins. For each heads, put a basic Energy card from your discard pile into your hand. If you don't have that many basic Energy cards in your discard pile, put all of them into your hand.</text>
+		</trainer>
+		<rarity>U</rarity>
+		<illustration>Hideyuki Nakajima</illustration>	
+	</card>
+	<card>
+		<id>112</id>
+		<uniqueName>Professor Rowan</uniqueName>
+		<name>Professor Rowan</name>		
+		<supporter>
+			<text>You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Choose 1 card in your hand and shuffle the rest of your cards into your deck. Then, draw 4 cards. (If this is the only card in your hand, you can't play this card.)</text>
+		</supporter>
+		<rarity>U</rarity>
+		<illustration>Ken Sugimori</illustration>	
+	</card>	
+	<card>
+		<id>113</id>
+		<uniqueName>Rival</uniqueName>
+		<name>Rival</name>		
+		<supporter>
+			<text>
+				You can play only one Supporter card each turn. 
+				When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.
+				Reveal the top 5 cards of your deck. Your opponent chooses 3 of those cards. Put those cards into your hand and put other 2 cards on top of your deck. Shuffle your deck afterward.
+			</text>
+		</supporter>
+		<rarity>U</rarity>
+		<illustration>Ken Sugimori</illustration>	
+	</card>	
+	<card>
+		<id>114</id>
+		<uniqueName>Speed Stadium</uniqueName>
+		<name>Speed Stadium</name>		
+		<supporter>
+			<text>
+				This card stays in play when you play it. Discard this card if another Stadium card comes into play. 
+				If another card with the same name is in play, you can't play this card.
+				Once during each player's turn, the player may flip a coin until he or she gets tails. For each heads, that player draws a card.
+			</text>
+		</supporter>
+		<rarity>U</rarity>
+		<illustration>Ryo Ueda</illustration>	
+	</card>
+	<card>
+		<id>120</id>
+		<uniqueName>Empoleon</uniqueName>
+		<name>Empoleon LV.X</name>		
+		<pokemon>
+			<hp>140</hp>
+			<type>W</type>
+			<stage>LV.X</stage>
+			<prestage>Empoleon</prestage>
+			<pokepower>
+				<name>Supreme Command</name>
+				<text>
+					Once during your turn (before your attack), you may choose up to 2 cards from your opponent's hand without looking and put them face down next to the Defending Pokémon.
+					(These cards are not in play or in your opponent's hand.) 
+					At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition.
+				</text>
+			</pokepower>
+			<attack1>
+				<name>Hydro Impact</name>
+				<cost>WWW</cost>
+				<damage>0</damage>
+				<text>Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon.
+						(Don't apply Weakness and Resistance for Benched Pokémon.) Empoleon can't attack during your next turn.
+				</text>
+			</attack1>
+			<weakness>L+30</weakness>
+			<resistance />
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>RH-LV.X</rarity>
+		<illustration>Shizurow</illustration>	
 	</card>
 </cardset>
