@@ -163,4 +163,30 @@
 		<rarity>H</rarity>
 		<illustration>Ken Sugimori</illustration>	
 	</card>
+	<card>
+	<id>7</id>
+		<uniqueName>Luxray</uniqueName>
+		<name>Luxray LV.48</name>		
+		<pokemon>
+			<hp>120</hp>
+			<type>L</type>
+			<stage>Stage 2</stage>
+			<prestage>Luxio</prestage>
+			<pokepower>
+				<name>Sharp Eye</name>
+				<text>Once during your turn, when you play Luxray from your hand to evolve 1 of your Pokémon, you may look at your opponent's hand. If your opponent's Bench isn't full,  choose 1 Basic Pokémon from your opponent's hand, and put it onto his or her Bench. Then, switch it with the Defending Pokémon.  </text>
+			</pokepower>
+			<attack1>
+				<name>Lightning Star</name>
+				<cost>LLLL</cost>
+				<damage>80</damage>
+				<text>Move all {L} Energy attached to Luxray to 1 of your Benched Pokémon. (Ignore this effect if you don't have any Benched Pokémon.)</text>
+			</attack1>
+			<weakness>F+30</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Mikiko Takeda</illustration>
+	</card>
 </cardset>
