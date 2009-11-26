@@ -718,10 +718,10 @@ discarded. This attack does 50 damage times the number of heads.</text>
         <uniqueName>Electrode</uniqueName>
         <name>Electrode LV.42</name>
         <pokemon>
-            <hp></hp>
-            <type></type>
-            <stage></stage> 
-            <prestage></prestage>   
+            <hp>80</hp>
+            <type>L</type>
+            <stage>Stage 1</stage> 
+            <prestage>Voltorb</prestage>   
             <pokepower>
                 <name>Energy Shift</name>
                 <text>If Electrode would be Knocked Out by damage from an attack, you may use this power.
