@@ -6,7 +6,7 @@ Supporter Cards were introduced in the Expedition Base Set. They are cards theme
 
 = Creating a Trainer Card =
 
-Just like creating StadiumCard and SupporterCard, Trainers are quite simple to make. 
+Just like creating StadiumCard and TrainerCard, Support Cards are quite simple to make. 
 The fields that matter are:
  * ID
  * Unique Name
