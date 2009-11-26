@@ -129,4 +129,213 @@
         <rarity>H</rarity>
         <illustration>Daisuke Ito</illustration>
     </card>
+        <card>
+        <id>6</id>
+        <uniqueName>Gallade</uniqueName>
+        <name>Gallade LV.55</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>F</type>
+            <stage>Stage 2</stage> 
+            <prestage>Kirlia</prestage>   
+            <attack>
+                <name>Sonic Blade</name>
+                <cost>FC</cost>
+                <damage>0</damage>
+                <text>Put damage counters on the Defending Pokémon until it is 50 HP away from being
+Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or
+her Benched Pokémon.</text>
+            </attack>
+            <attack>
+                <name>Psychic Cut</name>
+                <cost>PCC</cost>
+                <damage>60+</damage>
+                <text>You may choose as many of your face-down Prize cards as you like and put them face up.
+If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose.
+(These cards remain face up for the rest of the game.)</text>
+            </attack>
+            <weakness>P+30</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
+        <card>
+        <id>7</id>
+        <uniqueName>Gardevoir</uniqueName>
+        <name>Gardevoir LV.55</name>
+        <pokemon>
+            <hp>110</hp>
+            <type>P</type>
+            <stage>Stage 2</stage> 
+            <prestage>Kirlia</prestage>   
+            <pokepower>
+                <name>Telepass</name>
+                <text>Once during your turn (before your attack), you may search your opponent's discard pile
+for a Supporter card and use the effect of that card as the effect of this power. (The
+Supporter card remains in your opponent's discard pile.) You can't use more than 1
+Telepass Poké-Power each turn. This power can't be used if Gardevoir is affected by a
+Special Condition.</text>
+            </pokepower>
+            <attack>
+                <name>Psychic Lock</name>
+                <cost>PCC</cost>
+                <damage>60</damage>
+                <text>During your opponent's next turn, your opponent can't use any Poké-Powers on his or her
+Pokémon.</text>
+            </attack>
+            <weakness>P+30</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Atsuko Nishida</illustration>
+    </card>
+        <card>
+        <id>8</id>
+        <uniqueName>Gastrodon (East Sea)</uniqueName>
+        <name>Gastrodon (East Sea) LV.43</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>W</type>
+            <stage>Stage 1</stage> 
+            <prestage>Shellos (East Sea)</prestage>   
+            <pokepower>
+                <name>Osmosis</name>
+                <text>Once during your turn (before your attack), if you have Gastrodon West Sea in play, you
+may move up to 3 damage counters from Gastrodon East Sea to 1 of your Gastrodon
+West Sea.</text>
+            </pokepower>
+            <attack>
+                <name>Dwindling Wave</name>
+                <cost>WCC</cost>
+                <damage>80-</damage>
+                <text>Does 80 damage minus 10 damage for each damage counter on Gastrodon East Sea.</text>
+            </attack>
+            <weakness>G+30</weakness>
+            <resistance>L-20</resistance>
+            <retreat>CCCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+        <card>
+        <id>9</id>
+        <uniqueName>Gastrodon (West Sea)</uniqueName>
+        <name>Gastrodon (West Sea) LV.44</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>F</type>
+            <stage>Stage 1</stage> 
+            <prestage>Shellos (West Sea)</prestage>   
+            <attack>
+                <name>Raging Flood</name>
+                <cost>FC</cost>
+                <damage>20+</damage>
+                <text>Does 20 damage plus 10 more damage for each damage counter on Gastrodon West Sea.
+Then, remove 2 damage counters from Gastrodon West Sea.</text>
+            </attack>
+            <attack>
+                <name>Wild Waves</name>
+                <cost>FCCC</cost>
+                <damage>80</damage>
+                <text>Put 1 damage counter on each Benched Pokémon (both yours and your opponent's).</text>
+            </attack>
+            <weakness>G+30</weakness>
+            <resistance>L-20</resistance>
+            <retreat>CCCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+        <card>
+        <id>10</id>
+        <uniqueName>Ho-Oh</uniqueName>
+        <name>Ho-Oh LV.45</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>R</type>
+            <stage>Basic</stage> 
+            <prestage /> 
+            <pokepower>
+                <name>Phoenix Turn</name>
+                <text>Once during your opponent's turn, if Ho-Oh would be Knocked Out by damage from an
+attack, you may flip a coin. If heads, Ho-Oh isn't discarded. Instead, remove all damage
+counters, Special Conditions, and other effects from Ho-Oh. Then, discard all cards
+attached to Ho-Oh (except for Energy cards). This counts as Ho-Oh being Knocked Out
+and your opponent takes a Prize card.</text>
+            </pokepower>
+            <attack>
+                <name>Rainbow Wing</name>
+                <cost>CCCC</cost>
+                <damage>20x</damage>
+                <text>This attack does 20 damage times the number of different types of basic Energy cards
+attached to Ho-Oh.</text>
+            </attack>
+            <weakness>Wx2</weakness>
+            <resistance>F-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+        <card>
+        <id>11</id>
+        <uniqueName>Jumpluff</uniqueName>
+        <name>Jumpluff LV.42</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>G</type>
+            <stage>Stage 2</stage> 
+            <prestage>Skiploom</prestage>   
+            <pokebody>
+                <name>Cotton Spore</name>
+                <text>Whenever Jumpluff would be damaged by your opponent's attack, flip a coin. If heads,
+prevent all damage done to Jumpluff by that attack.</text>
+            </pokebody>
+            <attack>
+                <name>Cottonweed Punch</name>
+                <cost>GG</cost>
+                <damage>0</damage>
+                <text>Flip 2 coins. Choose 1 of your opponent's Pokémon. For each heads, this attack does 30
+damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+            </attack>
+            <weakness>R+30</weakness>
+            <resistance>F-20</resistance>
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+        <card>
+        <id>12</id>
+        <uniqueName>Lickilicky</uniqueName>
+        <name>Lickilicky LV.46</name>
+        <pokemon>
+            <hp>110</hp>
+            <type>C</type>
+            <stage>Stage 1</stage> 
+            <prestage>Lickitung</prestage>   
+            <attack>
+                <name>Tongue Reel</name>
+                <cost>CC</cost>
+                <damage>0</damage>
+                <text>Choose 1 of your opponent's Pokémon. If you choose a Benched Pokémon, switch the
+Defending Pokémon with that Pokémon. This attack does 20 damage to the Pokémon you
+chose. Flip a coin. If heads, the Defending Pokémon is now Paralyzed.</text>
+            </attack>
+            <attack>
+                <name>Boundless Power</name>
+                <cost>CCCC</cost>
+                <damage>80</damage>
+                <text>During your next turn, Lickilicky can't attack.</text>
+            </attack>
+            <weakness>F+30</weakness>
+            <resistance />
+            <retreat>CCCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
 </cardset>
