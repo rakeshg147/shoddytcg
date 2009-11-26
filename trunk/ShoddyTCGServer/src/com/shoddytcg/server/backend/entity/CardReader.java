@@ -223,7 +223,7 @@ public class CardReader {
 													NodeList resistList = pokemonElement.getElementsByTagName("resistance");
 													pokemon.setResistance(resistList.item(0).getChildNodes().item(0).getNodeValue());
 												}catch(Exception e){
-													System.out.println(card.getName()+" weakness is wrong or missing!");
+													System.out.println(card.getName()+" resistance is wrong or missing!");
 												}
 
 												// Retreat
