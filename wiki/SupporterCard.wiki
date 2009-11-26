@@ -4,9 +4,9 @@
 
 Supporter Cards were introduced in the Expedition Base Set. They are cards themed on Pokémon characters. They are substantially more powerful than Trainer cards, but only one can be played per turn (as opposed to normal Trainers, which have no limit). 
 
-= Creating a Trainer Card =
+= Creating a Supporter Card =
 
-Just like creating StadiumCard and TrainerCard, Support Cards are quite simple to make. 
+Just like creating StadiumCard and TrainerCard, Supporter Cards are quite simple to make. 
 The fields that matter are:
  * ID
  * Unique Name
