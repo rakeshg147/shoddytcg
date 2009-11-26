@@ -11,7 +11,7 @@ The fields that matter are:
  * ID
  * Unique Name
  * Name
- * Text (Inside the Supporter tag)
+ * Text (Inside the Stadium tag)
  * Rarity
  * Illustration
 
