@@ -506,4 +506,56 @@
         <rarity>H</rarity>
         <illustration>Ryo Ueda</illustration>
     </card>
+    <card>
+        <id>19</id>
+        <uniqueName>Abomasnow</uniqueName>
+        <name>Abomasnow LV.40</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>G</type>
+            <stage>Stage 1</stage>  
+            <prestage>Snover</prestage>   
+            <pokebody>
+                <name>Glaier Snow</name>
+                <text>If Abomasnow is your Active Pokemon and is damaged by an opponent's attack (even if Abomasnow is Knoked Out), the Attacking Pokemon is now Asleep.</text>
+            </pokebody>
+            <attack>
+                <name>Heavy Blizzard</name>
+                <cost>WCC</cost>
+                <damage>60</damage>
+                <text>Flip a coin. If heads, put 1 damage counter on each of your opponent's Benhed Pokemon.</text>
+            </attack>
+            <weakness>R+30</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>20</id>
+        <uniqueName>Ariados</uniqueName>
+        <name>Ariados LV.32</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>G</type>
+            <stage>Stage 1</stage>  
+            <prestage>Spinarak</prestage>   
+            <pokebody>
+                <name>Sticky</name>
+                <text>The Retreat Cost for each player's Pokemon (excluding any Ariados) is {C} more.</text>
+            </pokebody>
+            <attack>
+                <name>Offensive Needle</name>
+                <cost>GC</cost>
+                <damage>20</damage>
+                <text>Flip a coin, If heads, the Defending Pokemon is now Poisoned. If tails, the Defending Pokemon is now Parazlyzed.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
 </cardset>
