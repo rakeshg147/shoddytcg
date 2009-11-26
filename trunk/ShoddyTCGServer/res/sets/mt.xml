@@ -12,7 +12,7 @@
 			<attack>
 				<name>Heap Up</name>
 				<cost>CC</cost>
-				<damage>40</damage>
+				<damage>40+</damage>
 				<text>Search your discard pile for all Energy cards and show them to
 					your opponent. If you find any {M} Special Energy cards there, this
 					attack does 40 damage plus 30 more damage. Put all of those Energy
@@ -147,7 +147,7 @@
 			<attack>
 				<name>Happy Chance</name>
 				<cost>C</cost>
-				<damage>20</damage>
+				<damage>20+</damage>
 				<text>Does 20 damage for each Energy attached to Blissey. Before
 					doing damage, you may search your discard pile for a basic Energy
 					card and attach it to Blissey.</text>
@@ -317,5 +317,193 @@
             </pokemon>
         <rarity>H</rarity>
         <illustration>Mitsuhiro Arita</illustration>
+    </card>
+    <card>
+        <id>12</id>
+        <uniqueName>Magmortar</uniqueName>
+        <name>Magmortar LV.48</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>R</type>
+            <stage>Stage 1</stage>  
+            <prestage>Magmar</prestage>   
+            <attack>
+                <name>Smoke Bomb</name>
+                <cost>RC</cost>
+                <damage>30</damage>
+                <text>If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.</text>
+            </attack>
+            <attack>
+                <name>Flame Drum</name>
+                <cost>RRC</cost>
+                <damage>80</damage>
+                <text>If Magby isn't anwhere under Magmortar, discard 2 Energy cards from your hand. (If you can't discard 2 Energy cards from your hand, this attack does nothing.)</text>
+            </attack>
+            <weakness>W+30</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Hiroaki Ito</illustration>
+    </card>
+    <card>
+        <id>13</id>
+        <uniqueName>Meganium</uniqueName>
+        <name>Meganium LV.48</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>G</type>
+            <stage>Stage 2</stage>  
+            <prestage>Bayleef</prestage>   
+            <attack>
+                <name>Ultra Powder</name>
+                <cost>G</cost>
+                <damage>20</damage>
+                <text>Flip 3 coins. If the first coin is heads, the Defending Pokemon is now Poisoned. If the second is heads, the Defending Pokemon is now Burned. If the third coin is heads, the Defending Pokemon is now Paralyzed.</text>
+            </attack>
+            <attack>
+                <name>Fire Counterattack</name>
+                <cost>GGC</cost>
+                <damage>60+</damage>
+                <text>If your opponent has any {R} Pokemon in play, this attack does 60 damage plus 30 more damage.</text>
+            </attack>
+            <weakness>R+30</weakness>
+            <resistance>W-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
+    <card>
+        <id>14</id>
+        <uniqueName>Mespirit</uniqueName>
+        <name>Mespirit LV.50</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>P</type>
+            <stage>Basic</stage> 
+            <pokebody>
+                <name>Upper Material</name>
+                <text>If you have Uxie and Azelf in play, the Retreat Cost for each Uxie, Mespirit and Azelf (both yours and your opponent's) is 0.</text>
+            </pokebody>
+            <attack>
+                <name>Teleportation Burst</name>
+                <cost>PC</cost>
+                <damage>30</damage>
+                <text>You may switch Mespirit with 1 of your Benched Pokemon.</text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Ryo Ueda</illustration>
+    </card>
+    <card>
+        <id>15</id>
+        <uniqueName>Raichu</uniqueName>
+        <name>Raichu LV.40</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>L</type>
+            <stage>Stage 1</stage>  
+            <prestage>Pikachu</prestage>   
+            <attack>
+                <name>Electromagnetic Induction</name>
+                <cost>0</cost>
+                <damage>0</damage>
+                <text>Search your deck for up to 2 {L} Energy cards and attach them to 1 of your Pokemon. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Explosive Thunger</name>
+                <cost>LC</cost>
+                <damage>30x</damage>
+                <text>Discard all basic {L} Energy cards attached to Raichu. This attack does 30 damage times the number of {L} Energy cards you discarded</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
+    <card>
+        <id>16</id>
+        <uniqueName>Typhlosion</uniqueName>
+        <name>Typhlosion LV.46</name>
+        <pokemon>
+            <hp>110</hp>
+            <type>r</type>
+            <stage>Stage 2</stage>  
+            <prestage>Quilava</prestage>   
+            <pokepower>
+                <name>Firestarter</name>
+                <text>Once during your turn (before your attack), you may attach a {R} Energy Card from your discard pile to 1 of your Benched Pokemon. This power can't be used if Typhlosion is affected by a Special Condition.</text>
+            </pokepower>
+            <attack>
+                <name>Evaporating Heat</name>
+                <cost>RRC</cost>
+                <damage>60</damage>
+                <text>Discard a {W} Energy attached to the Defending Pokemon</text>
+            </attack>
+            <weakness>W+30</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id></id>
+        <uniqueName>Tyranitar</uniqueName>
+        <name>Tyranitar LV.57</name>
+        <pokemon>
+            <hp>140</hp>
+            <type>D</type>
+            <stage>Stage 2</stage>  
+            <prestage>Pupitar</prestage>   
+            <attack>
+                <name>Payback</name>
+                <cost>DC</cost>
+                <damage>40+</damage>
+                <text>If your opponent has only 1 Prize card left, this attack does 40 damage plus 40 more damage and discard the top 3 cards from your opponent's deck.</text>
+            </attack>
+            <attack>
+                <name>Ground Burn</name>
+                <cost>FFDD</cost>
+                <damage>80+</damage>
+                <text>Each player discards the top card of his or her deck. This attack does 80 damage plus 20 more damage for each Energy card discarded in this way.</text>
+            </attack>
+            <weakness>F+30</weakness>
+            <resistance>P-20</resistance>
+            <retreat>CCCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Masakazu Fukuda</illustration>
+    </card>
+    <card>
+        <id>18</id>
+        <uniqueName>Uxie</uniqueName>
+        <name>Uxie LV.50</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>P</type>
+            <stage>Basic</stage>
+            <pokepower>
+                <name>Memory Out</name>
+                <text>Once durin your opponent's turn, if Uxie is damaged by an opponent's attack Peven if Uxie is Knocked Out}, you may use this power. The Attacking Pokemon can't use that attack during your opponent's next turn.</text>
+            </pokepower>
+            <attack>
+                <name>Mind Off</name>
+                <cost>P</cost>
+                <damage>10+</damage>
+                <text>If you have Mespirit and Azelf in play, this attack does 10 damage plus 20 more damage and the Defending Pokemon is now Asleep.</text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Ryo Ueda</illustration>
     </card>
 </cardset>
