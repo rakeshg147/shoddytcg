@@ -25,7 +25,7 @@ Provides:
 || D || Darkness  ||
 || M || Metal ||
 || C || Colorless ||
-|| * || All Colors ||
+|| `*` || All Colors ||
 
 Basic Energy Example: 
 {{{
