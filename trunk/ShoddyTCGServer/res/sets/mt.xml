@@ -7,7 +7,7 @@
 		<pokemon>
 			<hp>130</hp>
 			<type>M</type>
-			<stage>Stage 2</stage>
+			<stage>Stage 2</stage><prestage>Lairon</prestage>
 			<attack>
 				<name>Heap Up</name>
 				<cost>CC</cost>
@@ -20,6 +20,12 @@
 				<text>You may do 60 damage plus 40 more damage. If you do, Aggron does 40 damage to itself.</text></attack>
 			<weakness>R+40</weakness>
 			<resistance>P-20</resistance>
-			<retreat>CCCC</retreat></pokemon>
+			<retreat>CCCC</retreat>
+			</pokemon>
 		<rarity>H</rarity>
-		<illustration></illustration></card></cardset>
+		<illustration>Kouki Saitou</illustration></card>
+	<card>
+		<id></id><uniqueName></uniqueName>
+		<illustration></illustration>
+		<name></name>
+	</card></cardset>
