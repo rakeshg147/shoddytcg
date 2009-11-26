@@ -25,7 +25,104 @@
 		<rarity>H</rarity>
 		<illustration>Kouki Saitou</illustration></card>
 	<card>
-		<id></id><uniqueName></uniqueName>
-		<illustration></illustration>
-		<name></name>
-	</card></cardset>
+		<id>2</id><uniqueName>Alakazam</uniqueName>
+		<name>Alakazam LV.47</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>P</type>
+			<stage>Stage 2</stage>
+			<prestage>Kadabra</prestage>
+			<attack>
+				<name>[Poke-Power] Power Cancel</name>
+				<cost></cost>
+				<damage></damage>
+				<text>Once during your opponent's turn, when your opponent's Pokemon uses any Poke-Power, you may discard 2 cards froum your hand and prevent all effects of that Poke-Power. (This counts as the Pokemon using its Poke-Power.) This power can't be used if Alakazam is affected by a Special Condition.</text></attack>
+			<attack>
+				<name>Psychic Guard</name>
+				<cost>PPC</cost>
+				<damage>50</damage>
+				<text>During your opponent's next turn, any damage done to Alakazam by attacks from your opponent's Stage 2 Evolved Pokemon is reduced by 30 (after applying Weakness and Resistance).</text></attack>
+			<weakness>P+30</weakness>
+			<resistance />
+			<retreat>C</retreat>
+			</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>3</id>
+		<uniqueName>Ambipom</uniqueName>
+		<name>Ambipom LV.36</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Aipom</prestage>
+			<attack>
+				<name>Tail Influence</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>Your opponent flips a coin until he or she gets heads. For each tails, remove an Energy card attched to the Defending Pokemon and put it on the bottom of your opponent's deck.</text></attack>
+			<attack>
+				<name>Charity Tail</name>
+				<cost>CC</cost>
+				<damage>80</damage>
+				<text>Before Ambipom does damage, your opponent may discard 2 cards from his or her hand. If he or she does, this attack's base damage is 10 instead of 80.</text></attack>
+			<weakness>F+20</weakness>
+			<resistance />
+			<retreat>C</retreat>
+			</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kouki Saitou</illustration></card>
+	<card>
+		<id>4</id>
+		<uniqueName>Azelf</uniqueName>
+		<name>Azelf LV.50</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>[Poke-Body] Downer Material</name>
+				<cost></cost>
+				<damage></damage>
+				<text>If you have Uxie and Mespirit in play, the attack cost of each of your opponent's Basic Pokemon's attack is {C} more. You can't use more than 1 Downer Material Poke-Body each turn</text>
+				</attack>
+			<attack>
+				<name>Blind Pulse</name>
+				<cost>P</cost>
+				<damage>10</damage>
+				<text>Durin your opponent's next turn, your opponent can't attach any Special Energy cards from his or her hand to any of his or her Pokemon.</text>
+				</attack>
+			<weakness>P+20</weakness>
+			<resistance />
+			<retreat>C</retreat>
+			</pokemon>
+		<rarity>H</rarity>
+		<illustration>Ryo Ueda</illustration></card>
+			<card>
+		<id>5</id>
+		<uniqueName>Blissey</uniqueName>
+		<name>Blissey LV.44</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Chansey</prestage>
+			<attack>
+				<name>[Poke-Power] Kind Egg</name>
+				<cost></cost>
+				<damage></damage>
+				<text>Once during your turn (before your attack), if Happiny is anywhere under Blisey, you may choose a number of cards in your hand up to the ammount of Energy attached to Blissey and put those cards in your hand up to the ammount of Energy attached to Blissey and put those cards on top of your deck. Shuffle your deck afterward. Then, draw that many cards. This power can't be used if Blissey is affected by a Special Condition</text></attack>
+			<attack>
+				<name>Happy Chance</name>
+				<cost>C</cost>
+				<damage>20</damage>
+				<text>Does 20 damage for each Energy attached to Blissey. Before doing damage, you may search your discard pile for a basic Energy card and attach it to Blissey.</text></attack>
+			<weakness>F+30</weakness>
+			<resistance />
+			<retreat>CCC</retreat>
+			</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kagemaru Himeno</illustration></card>
+		</cardset>
