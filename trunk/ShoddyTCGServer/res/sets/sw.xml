@@ -34,7 +34,8 @@
             <type>W</type>
             <stage>Stage 2</stage> 
             <prestage>Wartortle</prestage>   
-            <pokepower>Waterlog
+            <pokepower>
+                <name>Waterlog</name>
                 <text>Once during your turn (before your attack), you may attach as many basic {W} Energy cards from your hand to any of your Pokémon in any way you like. If you do, your turn ends. This power can't be used if Blastoise is affected by a Special Condition.</text>
             </pokepower>
             <attack>
@@ -59,7 +60,8 @@
             <type>R</type>
             <stage>Stage 2</stage> 
             <prestage>Charmeleon</prestage> 
-            <pokebody>Fury Blaze
+            <pokebody>
+                <name>Fury Blaze</name>
                 <text>If your opponent has 3 or less Prize cards left, each of Charizard's attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance).</text>
             </pokebody>
             <attack>
@@ -83,7 +85,8 @@
             <hp>80</hp>
             <type>R</type>
             <stage>Basic</stage> 
-            <pokebody>Burning Coat
+            <pokebody>
+                <name>Burning Coat</name>
                 <text>Whenever 1 of your opponent's Pokémon is Knocked Out by damage from Entei's attacks, discard the top 3 cards from your opponent's deck.</text>
             </pokebody>
             <attack>
@@ -108,7 +111,8 @@
             <type>F</type>
             <stage>Stage 2</stage> 
             <prestage>Vibrava</prestage>   
-            <pokebody>Irritating Buzz
+            <pokebody>
+                <name>Irritating Buzz</name>
                 <text>As long as Flygon is your Active Pokémon, put 1 damage counter on each of your opponent's Active Pokémon between turns, excluding {F} Pokémon.</text>
             </pokebody>
             <attack>
