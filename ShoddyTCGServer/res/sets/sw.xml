@@ -9,7 +9,8 @@
             <type>L</type>
             <stage>Stage 2</stage> 
             <prestage>Flaaffy</prestage>   
-            <pokebody>Jamming
+            <pokebody>
+                <name>Jamming</name>
                 <text>After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent's Pokémon. You can't use more than 1 Jamming Poké-Body each turn.</text>
             </pokebody>
             <attack>
