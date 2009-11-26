@@ -1624,4 +1624,134 @@
         <rarity>U</rarity>
         <illustration>Atsuko Nishida</illustration>
     </card>
+    <card>
+        <id>61</id>
+        <uniqueName>Sandslash</uniqueName>
+        <name>Sandslash LV.37</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>F</type>
+            <stage>Stage 1</stage>  
+            <prestage>Sandshrew</prestage>   
+            <attack>
+                <name>Spike Armor</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>During you opponent's next turn, if Sandslash is damaged by an damaged by an opponent's attack (even if Sanslash is Knocked Out), put 4 damage counters on the Attacking Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Poison Spike</name>
+                <cost>FFC</cost>
+                <damage>60</damage>
+                <text>If the Defending Pokemon already has any damage counters on it, that Pokemon is now Poisoned.</text>
+            </attack>
+            <weakness>W+20</weakness>
+            <resistance>L-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Atsuko Nishida</illustration>
+    </card>
+    <card>
+        <id>62</id>
+        <uniqueName>Sealeo</uniqueName>
+        <name>Sealeo LV.</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>W</type>
+            <stage>Stage 1</stage>  
+            <prestage>Spheal</prestage>   
+            <attack>
+                <name>Ice Rider</name>
+                <cost>WW</cost>
+                <damage>0</damage>
+                <text>Choose 1 of your opponent's Pokemon. This attack does 30 damage to that Pokemon (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+            </attack>
+            <weakness>M+20</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>63</id>
+        <uniqueName>Shieldon</uniqueName>
+        <name>Shieldon LV.26</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>M</type>
+            <stage>Stage 1</stage>
+            <prestage>Armor Fossil</prestage>
+            <attack>
+                <name>Hard Face</name>
+                <cost>MC</cost>
+                <damage>20</damage>
+                <text>During your opponent's next turn, any damage done to Shieldon by attacks is reduced by 20 (after applying Weakness and Resistance)</text>
+            </attack>
+            <attack>
+                <name>Shield Attack</name>
+                <cost>MCC</cost>
+                <damage>40+</damage>
+                <text>Flip a coin, If heads, this attack does 40 damage plus 20 more damage.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>P-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>64</id>
+        <uniqueName>Tropius</uniqueName>
+        <name>Tropius LV.28</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>G</type>
+            <stage>Basic</stage> 
+            <attack>
+                <name>Bonus Leaf</name>
+                <cost>G</cost>
+                <damage>0</damage>
+                <text>Remove 3 damage counters from each of our Benched Pokemon that has any {G} Energy attached to it.</text>
+            </attack>
+            <attack>
+                <name>Whirlwind</name>
+                <cost>GC</cost>
+                <damage>30</damage>
+                <text>Your opponenet switches the Defending Pokemon with 1 of his or her Benched Pokemon</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>F-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>65</id>
+        <uniqueName>Unown E</uniqueName>
+        <name>Unown E LV.18</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>P</type>
+            <stage>Basic</stage>  
+            <pokepower>
+                <name>EQUIP</name>
+                <text>Once during your turn (before your attack), if Unown E is on your Bench, you may discard all cards attached to Unown E and attach E to 1 of your Pokemon as a Pokemon Tool card. As long as Unown E is attached to a Pokemon, that Pokemon gets +10 HP</text>
+            </pokepower>
+            <attack>
+                <name>Hidden Power</name>
+                <cost>CC</cost>
+                <damage>0</damage>
+                <text>During your opponent's next turn, whenever your opponent flips a coin, treat it as tails.</text>
+            </attack>
+            <weakness>P+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
 </cardset>
