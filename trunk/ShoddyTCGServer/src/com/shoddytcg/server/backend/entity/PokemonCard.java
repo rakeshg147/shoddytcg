@@ -17,6 +17,7 @@ public class PokemonCard extends CardType{
 	private int hp;
 	private String preStage;
 	private Type type;
+	private Item item;
 	private ArrayList<PokePower> pokepowers = new ArrayList<PokePower>();
 	private ArrayList<PokeBody> pokebodies = new ArrayList<PokeBody>();
 	private ArrayList<Attack> attacks = new ArrayList<Attack>();
@@ -24,7 +25,19 @@ public class PokemonCard extends CardType{
 	private String resistance;
 	private String retreat;
 	
-
+	
+	/**
+	 * @return the item
+	 */
+	public Item getItem() {
+		return item;
+	}
+	/**
+	 * @param item the item to set
+	 */
+	public void setItem(Item item) {
+		this.item = item;
+	}
 	/**
 	 * @return the stage
 	 */
