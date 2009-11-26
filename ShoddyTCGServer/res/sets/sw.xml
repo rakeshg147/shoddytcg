@@ -645,6 +645,7 @@ you may move any number of Energy cards attached to that Pokémon to Arcanine.</
                 <text>If Banette is in your discard pile, this attack does 40 damage plus 40 more damage. Then,
 search your discard pile for Banette, show it to your opponent, and shuffle it into your
 deck.</text>
+            </attack>
             <weakness>D+20</weakness>
             <resistance>C-20</resistance>
             <retreat>C</retreat>
