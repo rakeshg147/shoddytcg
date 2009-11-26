@@ -755,13 +755,13 @@
 	            <name>Horn Slash</name>
 	            <cost>GG</cost>
 	            <damage>30+</damage>
-	            </text>Flip a coin. If heads, this attack does 30 damage plus 30 more damage.</text>
+	            <text>Flip a coin. If heads, this attack does 30 damage plus 30 more damage.</text>
 	        </attack>
 	        <weakness>R+20</weakness>
 	        <retreat>CC</retreat>
 	        <rarity>R</rarity>
 	        <illustration>Ken Sugimori</illustration>
-	    </pokemon
+	    </pokemon>
 	</card>
 	<card>
 		<id>105</id>
