@@ -759,10 +759,231 @@
 	        </attack>
 	        <weakness>R+20</weakness>
 	        <retreat>CC</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Ken Sugimori</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Ken Sugimori</illustration>
 	</card>
+	<card>
+        <id>29</id>
+        <uniqueName>Hippowdon</uniqueName>
+        <name>Hippowdon LV.45</name>
+        <pokemon>
+            <hp>110</hp>
+            <type>F</type>
+            <stage>Stage 1</stage> 
+            <prestage>Hippopotas</prestage>   
+            <attack>
+                <name>Vacuum Up</name>
+                <cost>FCC</cost>
+                <damage>40</damage>
+                <text>The Defending Pokemon can't retreat during your opponent's next turn.</text>
+            </attack>
+            <attack>
+                <name>Sand Eject</name>
+                <cost>FFCC</cost>
+                <damage>60</damage>
+                <text>During your next turn, if an attack does damage to the Defending Pokemon (after applying Weakness and Resistance), that attack does 40 more damage.</text>
+            </attack>
+            <weakness>W+20</weakness>
+            <resistance>L-20</resistance>
+            <retreat>CCC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>30</id>
+        <uniqueName>Lopunny</uniqueName>
+        <name>Lopunny LV.33</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>C</type>
+            <stage>Stage 1</stage> 
+            <prestage>Buneary</prestage>   
+            <attack>
+                <name>Healing Wish</name>
+                <cost>C</cost>
+                <damage>--</damage>
+                <text>Flip a coin until you get tails. Remove a number of damage counters equal to the number of heads from 1 f your Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Flop</name>
+                <cost>CCC</cost>
+                <damage>30</damage>
+                <text>Does 20 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon) You may switch Lopunny with 1 of your Benched Pokemon.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+    <card>
+        <id>31</id>
+        <uniqueName>Machamp</uniqueName>
+        <name>Machamp LV.59</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>F</type>
+            <stage>Stage 2</stage> 
+            <prestage>Machoke</prestage>   
+            <attack>
+                <name>Revenge</name>
+                <cost>F</cost>
+                <damage>20+</damage>
+                <text>If any of your Pokemon were knocked out by damage from an opponent's attack during his or her last turn, this attack does 20 damage plus 50 more damage.</text>
+            </attack>
+            <attack>
+                <name>Dynamic Punch</name>
+                <cost>FFF</cost>
+                <damage>60+</damage>
+                <text>Flip a coin. If heads, this attack does 60 damage plus 30 more damage and the Defending Pokemon is now Confused.</text>
+            </attack>
+            <weakness>P+30</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+    <card>
+        <id>32</id>
+        <uniqueName>Medicham</uniqueName>
+        <name>Medicham LV.42</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>F</type>
+            <stage>Stage 1</stage> 
+            <prestage>Meditite</prestage>   
+            <attack>
+                <name>Force Palm</name>
+                <cost>F</cost>
+                <damage>--</damage>
+                <text>Count the number of damage counters on Medicham. Put that many damage counters on 1 of your opponent's Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Spinning Kick</name>
+                <cost>FFC</cost>
+                <damage>80</damage>
+                <text>Medicham does 20 damage to itself.</text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>33</id>
+        <uniqueName>Munchlax</uniqueName>
+        <name>Munchlax LV.8</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>C</type>
+            <stage>Basic</stage>    
+            <pokepower>
+                <name>Baby Evolution</name>
+                <damage>--</damage>
+                <text>Once before your turn (before your attack), you may put Snorlax from your hand onto Munchlax (this counts as evolving Munchlax) and remove all damage counters from Munchlax.</text>
+            </pokepower>
+            <attack>
+                <name>Heave</name>
+                <cost>C</cost>
+                <damage>30x</damage>
+                <text>Discard 2 cards from your hand. (If you can't discard 2 cards, this attack does nothing.) Flip 2 coins. This attack does 30 damage times the number of heads.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+    <card>
+        <id>34</id>
+        <uniqueName>Noctowl</uniqueName>
+        <name>Noctowl LV.40</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>C</type>
+            <stage>Stage 1</stage> 
+            <prestage>Hoothoot</prestage>   
+            <attack>
+                <name>See Beyond</name>
+                <cost>C</cost>
+                <damage>--</damage>
+                <text>Choose a card from your hand and put it as a Prize card face up. Then, choose 1 of your face-down Prize cards without looking and put it into your hand. This attack does nothing if all your Prize cards are face up.</text>
+            </attack>
+            <attack>
+                <name>Extrasensory</name>
+                <cost>CCC</cost>
+                <damage>30+</damage>
+                <text>If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 50 more damage.</text>
+            </attack>
+            <weakness>L+20</weakness>
+            <resistance>F-20</resistance>
+            <retreat>C</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Atsuko Nishida</illustration>
+    </card>
+    <card>
+        <id>35</id>
+        <uniqueName>Pachirisu</uniqueName>
+        <name>Pachirisu LV.23</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>L</type>
+            <stage>Basic</stage>    
+            <attack>
+                <name>Mirror Errand-Running</name>
+                <cost>C</cost>
+                <damage>--</damage>
+                <text>Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Thunder Jolt</name>
+                <cost>L</cost>
+                <damage>20</damage>
+                <text>Flip a coin. If tails, Pachirisu does 10 damage to itself.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+    <card>
+        <id>36</id>
+        <uniqueName>Purugly</uniqueName>
+        <name>Purugly LV.44</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>C</type>
+            <stage>Stage 1</stage> 
+            <prestage>Glameow</prestage>   
+            <attack>
+                <name>High Hat</name>
+                <cost>C</cost>
+                <damage>--</damage>
+                <text>Choose 1 card from your opponent's hand without looking and discard it.</text>
+            </attack>
+            <attack>
+                <name>Body Slam</name>
+                <cost>CCCC</cost>
+                <damage>50</damage>
+                <text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Masakazu Fukuda</illustration>
+    </card>
 	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
