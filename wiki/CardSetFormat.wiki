@@ -46,49 +46,6 @@ A sample cardset is provided below.
 </cardset>
 }}}
 
-== Template ==
-When making a card use this template. It will make it easier to keep everything organised with the spaces and to spot errors.
-
-{{{
-    <card>
-        <id></id>
-        <uniqueName></uniqueName>
-        <name></name>
-        <pokemon>
-            <hp></hp>
-            <type></type>
-            <stage></stage>  
-            <prestage></prestage>   
-            <attack>
-                <name></name>
-                <cost></cost>
-                <damage></damage>
-                <text></text>
-            </attack>
-            <attack>
-                <name></name>
-                <cost></cost>
-                <damage></damage>
-                <text></text>
-            </attack>
-            <weakness></weakness>
-            <resistance></resistance>
-            <retreat></retreat>
-            </pokemon>
-        <rarity></rarity>
-        <illustration></illustration>
-    </card>
-}}}
-
-When a Poke-Power or Poke-Body is used on the card change
-
-{{{
-<attack> and </attack>
-to
-<pokebody> or <pokepower> and </pokebody> or </pokepower>
-Also take away the cost and damage tags.
-}}}
-
 == The Cards ==
 
 In PokemonTCG there's 5 different types of cards, each with different subtypes. 
