@@ -601,4 +601,145 @@ instead of 10.</text>
         <rarity>R</rarity>
         <illustration>Ken Sugimori</illustration>
     </card>
+        <card>
+        <id>22</id>
+        <uniqueName>Arcanine</uniqueName>
+        <name>Arcanine LV. 48</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>R</type>
+            <stage>Stage 1</stage> 
+            <prestage>Growlithe</prestage>   
+            <pokepower>
+                <name>Flame Dash</name>
+                <text>Once during your turn, when you play Arcanine from your hand to evolve 1 of your
+Benched Pokémon, you may switch Arcanine with 1 of your Active Pokémon. If you do,
+you may move any number of Energy cards attached to that Pokémon to Arcanine.</text>
+            </pokepower>
+            <attack>
+                <name>Inferno Onrush</name>
+                <cost>RRCC</cost>
+                <damage>120</damage>
+                <text>Arcanine does 40 damage to itself.</text>
+            </attack>
+            <weakness>W+30</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>CC</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+        <card>
+        <id>23</id>
+        <uniqueName>Banette</uniqueName>
+        <name>Banette LV.42</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>P</type>
+            <stage>Stage 1</stage> 
+            <prestage>Shuppet</prestage>   
+            <attack>
+                <name>Ghost Head</name>
+                <cost>--</cost>
+                <damage>0</damage>
+                <text>If Banette is in your discard pile, this attack does 40 damage plus 40 more damage. Then,
+search your discard pile for Banette, show it to your opponent, and shuffle it into your
+deck.</text>
+            <weakness>D+20</weakness>
+            <resistance>C-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+        <card>
+        <id>24</id>
+        <uniqueName>Dugtrio</uniqueName>
+        <name>Dugtrio LV.26</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>F</type>
+            <stage>Stage 1</stage> 
+            <prestage>Diglett</prestage>   
+            <attack>
+                <name>Dig Trap</name>
+                <cost>FC</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack,
+including damage, done to Dugtrio during your opponent's next turn. If Dugtrio is your
+Active Pokémon at the end of your opponent's next turn, put 6 damage counters on 1 of
+your opponent's Benched Pokémon.</text>
+            </attack>
+            <attack>
+                <name>Pit Trap</name>
+                <cost>FFC</cost>
+                <damage>50+</damage>
+                <text>Your opponent flips a coin. If tails, this attack does 50 damage plus 50 more damage.</text>
+            </attack>
+            <weakness>W+20</weakness>
+            <resistance>L-20</resistance>
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+        <card>
+        <id>25</id>
+        <uniqueName>Electivire</uniqueName>
+        <name>Elective LV.50</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>L</type>
+            <stage>Stage 1</stage> 
+            <prestage>Electabuzz</prestage>   
+            <pokepower>
+                <name>Motor Drive</name>
+                <text>Once during your turn (before your attack), you may search your discard pile for a {L}
+Energy card and attach it to Electivire. This power can't be used if Electivire is affected
+by a Special Condition.</text>
+            </attack>
+            <attack>
+                <name>Discharge</name>
+                <cost>LCC</cost>
+                <damage>50x</damage>
+                <text>Discard all {L} Energy attached to Electivire. Flip a coin for each {L} Energy card you
+discarded. This attack does 50 damage times the number of heads.</text>
+            </attack>
+            <weakness>F+30</weakness>
+            <resistance>M-20</resistance>
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+        <card>
+        <id>26</id>
+        <uniqueName>Electrode</uniqueName>
+        <name>Electrode LV.42</name>
+        <pokemon>
+            <hp></hp>
+            <type></type>
+            <stage></stage> 
+            <prestage></prestage>   
+            <pokepower>
+                <name>Energy Shift</name>
+                <text>If Electrode would be Knocked Out by damage from an attack, you may use this power.
+Electrode isn't discarded. Instead, attach it as an Energy card to 1 of your Pokémon.
+While attached, this card is a Special Energy card and provides every type of Energy but
+provides only 1 Energy at a time. (Has no effect other than providing Energy.)</text>
+            </pokepower>
+            <attack>
+                <name>Ion Blast</name>
+                <cost>LC</cost>
+                <damage>40+</damage>
+                <text>You may do 40 damage plus 60 more damage. If you do, Electrode does 100 damage to
+itself.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>M-20</resistance>
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
 </cardset>
