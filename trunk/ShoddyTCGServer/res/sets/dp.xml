@@ -249,6 +249,7 @@
             <hp>70</hp>
             <type>P</type>
             <stage>Stage 1</stage>
+            <prestage>Misdreavus</prestage>
             <attack>
                 <name>Avenge</name>
                 <cost>P</cost>
@@ -267,6 +268,59 @@
             <illustration>Mikiko Takeda</illustration>
         </pokemon>
 	</card>
+	<card>
+	    <id>11</id>
+	    <uniqueName>Palkia</uniqueName>
+	    <name>Palkia LV.67</name>
+	    <pokemon>
+	        <hp>90</hp>
+	        <type>W</type>
+	        <stage>Basic</stage>
+	        <attack>
+	            <name>Spacial Rend</name>
+	            <cost>W</cost>
+	            <damage>10</damage>
+	            <text>Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. If there is any Stadium card in play, discard it.</text>
+	        </attack>
+	        <attack>
+	            <name>Transback</name>
+	            <cost>WWC</cost>
+	            <damage>40</damage>
+	            <text>You may flip a coin. If heads, discard all Energy attached to Palkia and put the Defending Pokemon and all cards attached to it on top of your opponents deck. Your opponent shuffles his or her deck afterward.</text>
+	        </attack>
+	        <weakness>L+20</weakness>
+	        <resistance />
+	        <retreat>CC</retreat>
+	        <rarity>H</rarity>
+	        <illustration>Nakaoka</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>12</id>
+	    <uniqueName>Rhyperior</uniqueName>
+	    <name>Rhyperior LV.61</name>
+	    <pokemon>
+	        <hp>140</hp>
+	        <type>F</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Rhydon</prestage>
+	        <attack>
+	            <name>Earth Fissure</name>
+	            <cost>FFC</cost>
+	            <text>Once during your turn, when you play Rhyperior from your hand to evolve 1 of your Pokemon, you may discard the top 3 cards from your opponent's deck.</text>
+	        </attack>
+	        <attack>
+	            <name>Rock Wrecker</name>
+	            <cost>FFC</cost>
+	            <damage>80</damage>
+	            <text>This attack's damage isn't affected by Weakness or Resistance. Rhyperior can't attack during your next turn.</text>
+	        </attack>
+	        <resistance>L-20</resistance>
+	        <retreat>CCCC</retreat>
+	        <rarity>H</rarity>
+	        <illustration>Nakaoka</illustration>
+	    </pokemon>
+	</card>     
 	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
