@@ -196,7 +196,7 @@
             <attack>
                 <name>Sprouting</name>
                 <cost>0</cost>
-                <damgage>0</damage>
+                <damage>0</damage>
                 <text>Search your deck for a {G} Energy card and attach it to Celebi. Shuffle your deck afterward.</text>
             </attack>
             <attack>
@@ -224,7 +224,7 @@
             <attack>
                 <name>Energy Cyclone</name>
                 <cost>WW</cost>
-                <damgage>20x</damage>
+                <damage>20x</damage>
                 <text>Choose as many Energy cards from your hand as you like and show them to your opponent. This attack does 20 damage times the number of Energy cards you chose. Put those Energy cards on top of your deck. Shuffle your deck afterward.</text>
             </attack>
             <attack>
