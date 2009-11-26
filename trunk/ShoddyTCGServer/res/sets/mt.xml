@@ -823,4 +823,270 @@
         <rarity>R</rarity>
         <illustration>Kagemaru Himeno</illustration>
     </card>
+    <card>
+        <id>31</id>
+        <uniqueName>Nidequeen</uniqueName>
+        <name>Nidoqueen LV.50</name>
+        <pokemon>
+            <hp>120</hp>
+            <type>P</type>
+            <stage>Stage 2</stage>  
+            <prestage>Nidorina</prestage>   
+            <pokebody>
+                <name>Mother Pheromone</name>
+                <text>the attack cost of your Nidoran, Nidorina, Nidoran, Nirdorino and Nidoking's attack is {C} less.</text>
+            </pokebody>
+            <attack>
+                <name>Give Ais</name>
+                <cost>PPC</cost>
+                <damage>90</damage>
+                <text>If you have the same number of or less Benched Pokemon than your opponent, this attack's base damage is 50 instead of 90.</text>
+            </attack>
+            <weakness>P+30</weakness>
+            <resistance>L-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+    <card>
+        <id>32</id>
+        <uniqueName>Ninetales</uniqueName>
+        <name>Ninetales LV.37</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>R</type>
+            <stage>Stage 1</stage>  
+            <prestage>Vulpix</prestage>   
+            <pokepower>
+                <name>Color Shift</name>
+                <text>Once during your turn (before your attack), you may choose 1 of your opponent's Pokemon. Ninetales is the same type as the Pokemon (all if that Pokemon is more than 1 type) until the end of your turn. This power can't be used if Ninetales is affected by a Special Condition.</text>
+            </pokepower>
+            <attack>
+                <name>Fire Blast</name>
+                <cost>RR</cost>
+                <damage>60</damage>
+                <text>Discard a {R} Energy attached to Ninetales.</text>
+            </attack>
+            <weakness>W+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>33</id>
+        <uniqueName>Rampardos</uniqueName>
+        <name>Rampardos LV.48</name>
+        <pokemon>
+            <hp>120</hp>
+            <type>F</type>
+            <stage>Stage 2</stage>  
+            <prestage>Craindos</prestage>   
+            <attack>
+                <name>Assurance</name>
+                <cost>FC</cost>
+                <damage>30</damage>
+                <text>As long as the Defending Pokemon's remaining HP is 60 or less, this attack's base damage is 60 instead of 30.</text>
+            </attack>
+            <attack>
+                <name>Hasty Headbutt</name>
+                <cost>FFF</cost>
+                <damage>100</damage>
+                <text>Rampardos does 20 damage to itself. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokemon.</text>
+            </attack>
+            <weakness>G+30</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>34</id>
+        <uniqueName>Slaking</uniqueName>
+        <name>Slaking LV.56</name>
+        <pokemon>
+            <hp>140</hp>
+            <type>C</type>
+            <stage>Stage 2</stage>  
+            <prestage>Vigoroth</prestage>   
+            <pokepower>
+                <name>Energetic Impulse</name>
+                <text>Once during your turn (before your attack), if Slaking is your Active Pokemon, you may flip a coin. If heads, Slaking's Lazy Blow attack's base damage is 130 during this turn. If tails, Slaking can't attack or retreat durin this turn. (If Slaking is no longer your Active Pokemon, this effect ends.)</text>
+            </pokepower>
+            <attack>
+                <name>Lazy Blow</name>
+                <cost>CCCC</cost>
+                <damage>50</damage>
+                <text></text>
+            </attack>
+            <weakness>F+30</weakness>
+            <resistance />
+            <retreat>CCCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>35</id>
+        <uniqueName>Sudowoodo</uniqueName>
+        <name>Sudowoodo LV.22</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>F</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Sidestep</name>
+                <cost>C</cost>
+                <damage>20</damage>
+                <text>If Bonsly is anywhere under Sudowood, flip a coin. If heads, prevent all effects of an attack, including damage, done to Sudowoodo during your opponent's next turn.</text>
+            </attack>
+            <attack>
+                <name>Persuade</name>
+                <cost>FF</cost>
+                <damage>30</damage>
+                <text>Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokeomon. The new Defending Pokemon can't retreat during your opponent's next turn.</text>
+            </attack>
+            <weakness>Wx2</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Atsuko Nishida</illustration>
+    </card>
+    <card>
+        <id>36</id>
+        <uniqueName>Toxicroak</uniqueName>
+        <name>Toxicroak LV.39</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>P</type>
+            <stage>Stage 1</stage>  
+            <prestage>Croagunk</prestage>   
+            <pokebody>
+                <name>Poison Sacs</name>
+                <text>Your opponent can't remove the Special Condition Poisoned by evolving or devolving his or her Poisoned Pokemon. (This also includes putting a Pokemon Level-Up card onto the Poisoned Pokemon.)</text>
+            </pokebody>
+            <attack>
+                <name>Knuckle Claws</name>
+                <cost>PC</cost>
+                <damage>30</damage>
+                <text>The Defending Pokemon is now Poisoned</text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
+    <card>
+        <id>37</id>
+        <uniqueName>Unown I</uniqueName>
+        <name>Unown I LV.16</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>P</type>
+            <stage>Basic</stage> 
+            <pokepower>
+                <name>ITEM</name>
+                <text>Once during your turn (before attack), if you have Unown I, Unown T, Unown E, and Unown M on your Bench, you may search your deck for a Trainer card, show it to you opponent, and put it into your hand. Shuffle your deck afterward. You can't use more than 1 ITEM Poke-Power each turn.</text>
+            </pokepower>
+            <attack>
+                <name>Hidden Power</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>Choose an Energy card attached to the Defending Pokemon and put it face down. Treat that card as a Special Energy card that provides {C} Energy and doesn't have any effect other than providing Energy. Put that card face up at the end of your opponent's next turn.</text>
+            </attack>
+            <weakness>P+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
+    <card>
+        <id>38</id>
+        <uniqueName>Urasing</uniqueName>
+        <name>Urasing LV.38</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>C</type>
+            <stage>Stage 1</stage>  
+            <prestage>Teddiursa</prestage>   
+            <attack>
+                <name>Bad Temper</name>
+                <cost>CC</cost>
+                <damage>30</damage>
+                <text>The Defending Pokemon is now Confused. During your opponent's next turn, that Pokemon's attacks do 60 more damage to the Active Pokemon (before applying Weakness and Resistance).</text>
+            </attack>
+            <attack>
+                <name>Defensive Claw</name>
+                <cost>CCCC</cost>
+                <damage>60+</damage>
+                <text>If Teddiursa is on your Bench, this attack does 60 damage plus 20 damage if Teddiursa on your Bench has any damage counters on it, this attack does 60 damage plus 40 more damage and remove all damage counters from the Pokemon.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Mitshiro Arita</illustration>
+    </card>
+    <card>
+        <id>39</id>
+        <uniqueName>Walrein</uniqueName>
+        <name>Walrein LV.51</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>W</type>
+            <stage>Stage 2</stage>  
+            <prestage>Sealo</prestage>   
+            <pokepower>
+                <name>Freeze-up</name>
+                <text>Once during your turn, when you play Walrein from your hand to evolve 1 of your Pokemon, you may flip 2 coins. If both are heads, discard 1 of the Defending Pokemon and all cards attached to it. (This doesn't count as a Knocked Out Pokemon.)</text>
+            </pokepower>
+            <attack>
+                <name>Ice Blind</name>
+                <cost>WWC</cost>
+                <damage>70</damage>
+                <text>If your opponent doesn't discard a card from his or her hand, the Defending Pokemon is now Paralyzed.</text>
+            </attack>
+            <weakness>M+30</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>40</id>
+        <uniqueName>Whiscash</uniqueName>
+        <name>Whishcash LV.41</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>W</type>
+            <stage>Stage 1</stage>  
+            <prestage>Barboach</prestage>   
+            <attack>
+                <name>Fury</name>
+                <cost>WCC</cost>
+                <damage>20x</damage>
+                <text>Does 20 damage times the number of damage counters on Whiscash.</text>
+            </attack>
+            <attack>
+                <name>Magnitude</name>
+                <cost>FCCC</cost>
+                <damage>60</damage>
+                <text>Does 20 damage to each Benched Pokemon (both yours and your opponent's).(Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+            </attack>
+            <weakness>G+3-</weakness>
+            <resistance>L-20</resistance>
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Daisuke Ito</illustration>
+    </card>
 </cardset>
