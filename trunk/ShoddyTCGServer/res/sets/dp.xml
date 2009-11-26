@@ -304,10 +304,10 @@
 	        <type>F</type>
 	        <stage>Stage 2</stage>
 	        <prestage>Rhydon</prestage>
-	        <attack>
+	        <pokepower>
 	            <name>Earth Fissure</name>
 	            <text>Once during your turn, when you play Rhyperior from your hand to evolve 1 of your Pokemon, you may discard the top 3 cards from your opponent's deck.</text>
-	        </attack>
+	        </pokepower>
 	        <attack>
 	            <name>Rock Wrecker</name>
 	            <cost>FFC</cost>
@@ -358,10 +358,10 @@
 	        <type>D</type>
 	        <stage>Stage 2</stage>
 	        <prestage>Nuzleaf</prestage>
-	        <attack>
+	        <pokepower>
 	            <name>Darkness Fan</name>
 	            <text>Once during your turn (before your attack), you may flip a coin. If heads, choose 1 Evolved Pokemon on your opponent's Bench, remove the highest Stage Evolution card from that Pokemon, and put it back into his or her hand. This power can't be used if Shiftry is affected by a Special Condition.</text>
-	        </attack>
+	        </pokepower>
 	        <attack>
 	            <name>Spirit Dance</name>
 	            <cost>DDC</cost>
