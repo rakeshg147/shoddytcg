@@ -537,7 +537,7 @@ them into your hand.</text>
 Pokémon is reduced by 20 (before applying Weakness and Resistance).</text>
             </attack>
             <weakness>L+20</weakness>
-            <resistance/ >
+            <resistance />
             <retreat>C</retreat>
             </pokemon>
         <rarity>H</rarity>
