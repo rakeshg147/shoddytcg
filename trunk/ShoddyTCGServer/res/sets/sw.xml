@@ -571,4 +571,34 @@ Condition. This power can't be used if Venusaur is affected by a Special Conditi
         <rarity>H</rarity>
         <illustration>Kazuyuki Kano</illustration>
     </card>
+        <card>
+        <id>21</id>
+        <uniqueName>Absol</uniqueName>
+        <name>Absol LV.31</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>D</type>
+            <stage>Basic</stage>    
+            <attack>
+                <name>Baleful Wind</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>Choose a card from your opponent's hand without looking and discard it. If you discarded
+a Trainer, Supporter, or Stadium card, choose 1 more card from your opponent's hand
+without looking and discard it.</text>
+            </attack>
+            <attack>
+                <name>Dark Raid</name>
+                <cost>D</cost>
+                <damage>10</damage>
+                <text>If you played Absol from your hand during this turn, this attack's base damage is 40
+instead of 10.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>P-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
 </cardset>
