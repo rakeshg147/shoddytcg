@@ -30,10 +30,6 @@ Basic Energy Example:
 </card>
 }}}
 
-
-
-Collector Number: 129/132
-
 Special Energy Example:
 {{{
 <card>
