@@ -242,6 +242,32 @@
 		<illustration>Nakaoka</illustration>
 	</card>
 	<card>
+        <id>10</id>
+        <uniqueName>Mismagius</uniqueName>
+        <name>Mismagius LV.37</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>P</type>
+            <stage>Stage 1</stage>
+            <attack>
+                <name>Avenge</name>
+                <cost>P</cost>
+                <text>Count the number of your pokemon that have any damage counters on them. Put that many damage counters on the Defending Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Psywave</name>
+                <cost>PPC</cost>
+                <damage>30</damage>
+                <text>Does 30 damage plus 20 more damage for each Energy attached to the Defending Pokemon.</text>
+            </attack>
+            <weakness>D+20</weakness>
+            <resistance>C-20</resistance>
+            <retreat>C</retreat>
+            <rarity>H</rarity>
+            <illustration>Mikiko Takeda</illustration>
+        </pokemon>
+	</card>
+	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
 		<name>Double Full Heal</name>		
