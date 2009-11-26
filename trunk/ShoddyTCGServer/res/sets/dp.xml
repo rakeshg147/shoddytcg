@@ -398,6 +398,7 @@
 	        <weakness>F+20</weakness>
 	        <resistance>P-20</resistance>
 	        <retreat>C</retreat>
+	        <rarity>H</rarity>
 	        <illustration>Hiroaki Ito</illustration>
 	    </pokemon>
 	</card>
@@ -425,7 +426,118 @@
 	        <weakness>L+30</weakness>
 	        <resistance>F-20</resistance>
 	        <retreat>0</retreat>
+	        <rarity>H</rarity>
 	        <illustration>Masahiko Ishii</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>17</id>
+	    <uniqueName>Torterra</uniqueName>
+	    <name>Torterra LV.45</name>
+	    <pokemon>
+	        <hp>140</hp>
+	        <type>G</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Grotle</prestage>
+	        <attack>
+	            <name>Body Slame</name>
+	            <cost>CCC</cost>
+	            <damage>30</damage>
+	            <text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</text>
+	        </attack>
+	        <attack>
+	            <name>Leaf Storm</name>
+	            <cost>GGCC</cost>
+	            <damage>60</damage>
+	            <text>Remove 2 damage counters from each of your {G} Pokemon.</text>
+	        </attack>
+	        <weakness>R+30</weakness>
+	        <resistance />
+	        <retreat>CCCC</retreat>
+	        <rarity>H</rarity>
+	        <illustration>Masahiko Ishii</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>18</id>
+	    <uniqueName>Azumarill</uniqueName>
+	    <name>Azumarill LV.35</name>
+	    <pokemon>
+	        <hp>80</hp>
+	        <type>W</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Marill</prestage>
+	        <attack>
+	            <name>Defense Curl</name>
+	            <cost>C</cost>
+	            <text>Flip a coin. If heads, prevent all damage done to Azumarill during your opponent's next turn.</text>
+	        </attack>
+	        <attack>
+	            <name>Bubble Pump</name>
+	            <cost>WW</cost>
+	            <damage>40</damage>
+	            <text>If Azumarill has 3 or more Energy attached to it, this attack does 40 damage plus 20 more damage. If Azurill is anywhere under Azumarill, flip a coin. If heads, the Defending Pokemon is now Paralyzed.</text>
+	        </attack>
+	        <weakness>L+20</weakness>
+	        <resistance />
+	        <retreat>CC</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Naoyo Kimura</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>19</id>
+	    <uniqueName>Beautifly</uniqueName>
+	    <name>Beautifly LV.29</name>
+	    <pokemon>
+	        <hp>100</hp>
+	        <type>G</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Silcoon</prestage>
+	        <attack>
+	            <name>Whirlwind</name>
+	            <cost>CC</cost>
+	            <damage>30</damage>
+	            <text>Your opponent swithces the Defending Pokemon with 1 of his or her Benched Pokemon.</text>
+	        </attack>
+	        <attack>
+	            <name>Giga Drain</name>
+	            <cost>GGCC</cost>
+	            <damage>50</damage>
+	            <text>After your attack, remove from Beautifly the number of damage counters equal to the damage you did to the Defending Pokemon.</text>
+	        </attack>
+	        <weakness>R+20</weakness>
+	        <resistance>F-20</resistance>
+	        <retreat>C</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Atsuko Nishida</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>20</id>
+	    <uniqueName>Bibarel</uniqueName>
+	    <name>Bibarel LV.26</name>
+	    <pokemon>
+	        <hp>100</hp>
+	        <type>C</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Bidoof</prestage>
+	        <attack>
+	            <name>Rest</name>
+	            <cost>C</cost>
+	            <text>Remove all Special Conditions and 4 damage counters from Bibarel. Bibarel is now Asleep.</text>
+	        </attack>
+	        <attack>
+	            <name>Take Down</name>
+	            <cost>CCC</cost>
+	            <damage>60</damage>
+	            <text>Bibarel does 10 damage to itself.</text>
+	        </attack>
+	        <weakness>F+20</weakness>
+	        <resistance />
+	        <retreat>CC</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Ken Sugimori</illustration>
 	    </pokemon>
 	</card>
 	<card>
