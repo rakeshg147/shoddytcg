@@ -306,7 +306,6 @@
 	        <prestage>Rhydon</prestage>
 	        <attack>
 	            <name>Earth Fissure</name>
-	            <cost>FFC</cost>
 	            <text>Once during your turn, when you play Rhyperior from your hand to evolve 1 of your Pokemon, you may discard the top 3 cards from your opponent's deck.</text>
 	        </attack>
 	        <attack>
@@ -315,12 +314,120 @@
 	            <damage>80</damage>
 	            <text>This attack's damage isn't affected by Weakness or Resistance. Rhyperior can't attack during your next turn.</text>
 	        </attack>
+	        <weakness>W+30</weakness>
 	        <resistance>L-20</resistance>
 	        <retreat>CCCC</retreat>
 	        <rarity>H</rarity>
 	        <illustration>Nakaoka</illustration>
 	    </pokemon>
-	</card>     
+	</card>
+	<card>
+	    <id>13</id>
+	    <uniqueName>Roserade</uniqueName>
+	    <name>Roserade LV.33</name>
+	    <pokemon>
+	        <hp>90</hp>
+	        <type>G</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Roselia</prestage>
+	        <attack>
+	            <name>Poison Sting</name>
+	            <cost>GG</cost>
+	            <damage>30</damage>
+	            <text>The Defending Pokemon is now Poisoned</text>
+	        </attack>
+	        <attack>
+	            <name>Spike Whip</name>
+	            <cost>GGC</cost>
+	            <damage>50</damage>
+	            <text>If Budew is anywhere under Roserade, choose 1 of your opponent's Benched Pokemon. This attack does 30 damage to that pokemon. (Don't apply Weakness and Resistance for that Benched Pokemon.)</text>
+	        </attack>
+	        <weakness>R+20</weakness>	       
+	        <resistance />
+	        <retreat>C</retreat>
+	        <rarity>H</rarity>
+	        <illustration>Nakaoka</illustration>
+	    </pokemon> 
+	</card>
+	<card>
+	    <id>14</id>
+	    <uniqueName>Shiftry</uniqueName>
+	    <name>Shiftry LV.48</name>
+	    <pokemon>
+	        <hp>120</hp>
+	        <type>D</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Nuzleaf</prestage>
+	        <attack>
+	            <name>Darkness Fan</name>
+	            <text>Once during your turn (before your attack), you may flip a coin. If heads, choose 1 Evolved Pokemon on your opponent's Bench, remove the highest Stage Evolution card from that Pokemon, and put it back into his or her hand. This power can't be used if Shiftry is affected by a Special Condition.</text>
+	        </attack>
+	        <attack>
+	            <name>Spirit Dance</name>
+	            <cost>DDC</cost>
+	            <damage>50</damage>
+	            <text>Flip 2 coins. This attack does damage plus 20 more damage for each heads.</text>
+	        </attack>
+	        <weakness>F+20</weakness>
+	        <resistance>P-20</resistance>
+	        <retreat>CC</retreat>
+	        <rarity>H</rarity>
+	        <illustration>Hiroaki Ito</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>15</id>
+	    <uniqueName>Skuntank</uniqueName>
+	    <name>Skuntank LV.36</name>
+	    <pokemon>
+	        <hp>90</hp>
+	        <type>D</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Stunky</prestage>
+	        <attack>
+	            <name>Frustration</name>
+	            <cost>DD</cost>
+	            <text>Choose 1 of your opponent's Pokemon that doesn't have any damage counters on it. This attack does 30 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+	        </attack>
+	        <attack>
+	            <name>Toxic Cloud</name>
+	            <cost>DDC</cost>
+	            <damage>30</damage>
+	            <text>Flip a coin. If heads, the Defending Pokemon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokemon between turns.</text>
+	        </attack>
+	        <weakness>F+20</weakness>
+	        <resistance>P-20</resistance>
+	        <retreat>C</retreat>
+	        <illustration>Hiroaki Ito</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>16</id>
+	    <uniqueName>Staraptor</uniqueName>
+	    <name>Staraptor LV.54</name>
+	    <pokemon>
+	        <hp>100</hp>
+	        <type>C</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Staravia</prestage>
+	        <attack>
+	            <name>Accelerative Dive</name>
+	            <cost>C</cost>
+	            <damage>30</damage>
+	            <text>Flip a coin. If tails, this attack does nothing. If heads, prevent all damage done to Staraptor by attacks (both yours and your opponent's) until the end of your next turn.</text>
+	        </attack>
+	        <attack>
+	            <name>Brave Heart</name>
+	            <cost>CCCC</cost>
+	            <damage>100</damage>
+	            <text>Flip a coin. If tails, Staraptor does 100 damage to itself.</text>
+	        </attack>
+	        <weakness>L+30</weakness>
+	        <resistance>F-20</resistance>
+	        <retreat>0</retreat>
+	        <illustration>Masahiko Ishii</illustration>
+	    </pokemon>
+	</card>
 	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
