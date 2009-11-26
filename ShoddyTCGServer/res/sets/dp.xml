@@ -226,6 +226,7 @@
 			<attack>
 				<name>Call for Family</name>
 				<cost>C</cost>
+				<damage>--</damage>
 				<text>Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.</text>
 			</attack>
 			<attack>
@@ -253,20 +254,21 @@
             <attack>
                 <name>Avenge</name>
                 <cost>P</cost>
+                <damage>--</damage>
                 <text>Count the number of your pokemon that have any damage counters on them. Put that many damage counters on the Defending Pokemon.</text>
             </attack>
             <attack>
                 <name>Psywave</name>
                 <cost>PPC</cost>
-                <damage>30</damage>
+                <damage>30+</damage>
                 <text>Does 30 damage plus 20 more damage for each Energy attached to the Defending Pokemon.</text>
             </attack>
             <weakness>D+20</weakness>
             <resistance>C-20</resistance>
             <retreat>C</retreat>
-            <rarity>H</rarity>
-            <illustration>Mikiko Takeda</illustration>
         </pokemon>
+        <rarity>H</rarity>
+        <illustration>Mikiko Takeda</illustration>
 	</card>
 	<card>
 	    <id>11</id>
@@ -291,9 +293,9 @@
 	        <weakness>L+20</weakness>
 	        <resistance />
 	        <retreat>CC</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Nakaoka</illustration>
 	    </pokemon>
+	    <rarity>H</rarity>
+	    <illustration>Nakaoka</illustration>
 	</card>
 	<card>
 	    <id>12</id>
@@ -317,9 +319,9 @@
 	        <weakness>W+30</weakness>
 	        <resistance>L-20</resistance>
 	        <retreat>CCCC</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Nakaoka</illustration>
 	    </pokemon>
+	    <rarity>H</rarity>
+	    <illustration>Nakaoka</illustration>
 	</card>
 	<card>
 	    <id>13</id>
@@ -345,9 +347,9 @@
 	        <weakness>R+20</weakness>	       
 	        <resistance />
 	        <retreat>C</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Nakaoka</illustration>
 	    </pokemon> 
+	    <rarity>H</rarity>
+	    <illustration>Nakaoka</illustration>
 	</card>
 	<card>
 	    <id>14</id>
@@ -365,15 +367,15 @@
 	        <attack>
 	            <name>Spirit Dance</name>
 	            <cost>DDC</cost>
-	            <damage>50</damage>
+	            <damage>50+</damage>
 	            <text>Flip 2 coins. This attack does damage plus 20 more damage for each heads.</text>
 	        </attack>
 	        <weakness>F+20</weakness>
 	        <resistance>P-20</resistance>
 	        <retreat>CC</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Hiroaki Ito</illustration>
 	    </pokemon>
+	    <rarity>H</rarity>
+	    <illustration>Hiroaki Ito</illustration>
 	</card>
 	<card>
 	    <id>15</id>
@@ -387,6 +389,7 @@
 	        <attack>
 	            <name>Frustration</name>
 	            <cost>DD</cost>
+	            <damage>--</damage>
 	            <text>Choose 1 of your opponent's Pokemon that doesn't have any damage counters on it. This attack does 30 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
 	        </attack>
 	        <attack>
@@ -398,9 +401,9 @@
 	        <weakness>F+20</weakness>
 	        <resistance>P-20</resistance>
 	        <retreat>C</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Hiroaki Ito</illustration>
 	    </pokemon>
+	    <rarity>H</rarity>
+	    <illustration>Hiroaki Ito</illustration>
 	</card>
 	<card>
 	    <id>16</id>
@@ -426,9 +429,9 @@
 	        <weakness>L+30</weakness>
 	        <resistance>F-20</resistance>
 	        <retreat>0</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Masahiko Ishii</illustration>
 	    </pokemon>
+	    <rarity>H</rarity>
+	    <illustration>Masahiko Ishii</illustration>
 	</card>
 	<card>
 	    <id>17</id>
@@ -454,9 +457,9 @@
 	        <weakness>R+30</weakness>
 	        <resistance />
 	        <retreat>CCCC</retreat>
-	        <rarity>H</rarity>
-	        <illustration>Masahiko Ishii</illustration>
 	    </pokemon>
+	    <rarity>H</rarity>
+	    <illustration>Masahiko Ishii</illustration>
 	</card>
 	<card>
 	    <id>18</id>
@@ -470,20 +473,21 @@
 	        <attack>
 	            <name>Defense Curl</name>
 	            <cost>C</cost>
+	            <damage>--</damage>
 	            <text>Flip a coin. If heads, prevent all damage done to Azumarill during your opponent's next turn.</text>
 	        </attack>
 	        <attack>
 	            <name>Bubble Pump</name>
 	            <cost>WW</cost>
-	            <damage>40</damage>
+	            <damage>40+</damage>
 	            <text>If Azumarill has 3 or more Energy attached to it, this attack does 40 damage plus 20 more damage. If Azurill is anywhere under Azumarill, flip a coin. If heads, the Defending Pokemon is now Paralyzed.</text>
 	        </attack>
 	        <weakness>L+20</weakness>
 	        <resistance />
 	        <retreat>CC</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Naoyo Kimura</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Naoyo Kimura</illustration>
 	</card>
 	<card>
 	    <id>19</id>
@@ -509,9 +513,9 @@
 	        <weakness>R+20</weakness>
 	        <resistance>F-20</resistance>
 	        <retreat>C</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Atsuko Nishida</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Atsuko Nishida</illustration>
 	</card>
 	<card>
 	    <id>20</id>
@@ -525,6 +529,7 @@
 	        <attack>
 	            <name>Rest</name>
 	            <cost>C</cost>
+	            <damage>--</damage>
 	            <text>Remove all Special Conditions and 4 damage counters from Bibarel. Bibarel is now Asleep.</text>
 	        </attack>
 	        <attack>
@@ -536,9 +541,9 @@
 	        <weakness>F+20</weakness>
 	        <resistance />
 	        <retreat>CC</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Ken Sugimori</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 	    <id>21</id>
@@ -563,9 +568,9 @@
 	        <weakness>R+20</weakness>
 	        <resistance>W-20</resistance>
 	        <retreat>C</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Kouki Saitou</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Kouki Saitou</illustration>
 	</card>
 	<card>
 	    <id>22</id>
@@ -585,13 +590,14 @@
 	        <attack>
 	            <name>Metronome</name>
 	            <cost>CCC</cost>
+	            <damage>--</damage>
 	            <text>Choose 1 of the Defending Pokemon's attacks. Metronome copies that attack except its Energy cost. (You must still do anything else in order to use that attack.) Clefable performs that attack.</text>
 	        </attack>
 	        <weakness>F+20</weakness>
 	        <retreat>CC</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Ken Sugimori</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 	    <id>23</id>
@@ -605,7 +611,7 @@
 	        <attack>
 	            <name>Stomp</name>
 	            <cost>CC</cost>
-	            <damage>20</damage>
+	            <damage>20+</damage>
 	            <text>Flip a coin. If heads, this attack does 20 damage plus 20 more damage.</text>
 	        </attack>
 	        <attack>
@@ -617,9 +623,9 @@
 	        <weakness>P+20</weakness>
 	        <resistance />
 	        <retreat>CCC</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Kouki Saitou</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Kouki Saitou</illustration>
 	</card>
 	<card>
 	    <id>24</id>
@@ -633,6 +639,7 @@
 	        <attack>
 	            <name>Wind Wave</name>
 	            <cost>C</cost>
+	            <damage>--</damage>
 	            <text>Search your discard pile for up to 5 in any combination of Pokemon and Supporter cards. Show them to your opponent and shuffle them into your deck.</text>
 	        </attack>
 	        <attack>
@@ -644,9 +651,9 @@
 	        <weakness>D+20</weakness>
 	        <resistance>C-20</resistance>
 	        <retreat>0</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Mitsuhiro Arita</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Mitsuhiro Arita</illustration>
 	</card>
 	<card>
 	    <id>25</id>
@@ -671,9 +678,90 @@
 	        </attack>
 	        <weakness>R+30</weakness>
 	        <retreat>CC</retreat>
-	        <rarity>R</rarity>
-	        <illustration>Kouki Saitou</illustration>
 	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+	    <id>26</id>
+	    <uniqueName>Floatzel</uniqueName>
+	    <name>Floatzel LV.29</name>
+	    <pokemon>
+	        <hp>90</hp>
+	        <type>W</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Buizel</prestage>
+	        <attack>
+	            <name>Screw Tail</name>
+	            <cost>WC</cost>
+	            <damage>30</damage>
+	            <text>Flip a coin. If heads, discard an Energy attached to the Defending Pokemon.</text>
+	        </attack>
+	        <attack>
+	            <name>Water Gun</name>
+	            <cost>WW</cost>
+	            <damage>40+</damage>
+	            <text>Does 40 damage plus 20 more damage for each {W} Energy attached to Floatzel but not used to pay fpr this attack's Energy cost. You can't add mre than 40 damage in this way.</text>
+	        </attack>
+	        <weakness>L+20</weakness>
+	        <retreat>C</retreat>
+	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Masahiko Ishii</illustration>
+	</card>
+	<card>
+	    <id>27</id>
+	    <uniqueName>Gengar</uniqueName>
+	    <name>Gengar LV.39</name>
+	    <pokemon>
+	        <hp>110</hp>
+	        <type>P</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Haunter</prestage>
+	        <attack>
+	            <name>Life Drain</name>
+	            <cost>C</cost>
+	            <damage>--</damage>
+	            <text>Flip a coin. If heads, put damage counters on the defending Pokemon until it is 10 HP away from being knocked out.</text>
+	        </attack>
+	        <attack>
+	            <name>Shadow Dance</name>
+	            <cost>PPC</cost>
+	            <damage>--</damage>
+	            <text>Put 4 damage counters on your opponent's Pokemon in any way you like. Then, switch Gengar with 1 of your Benched Pokemon.</text>
+	        </attack>
+	        <weakness>D+30</weakness>
+	        <resistance>C-20</resistance>
+	        <retreat>C</retreat>
+	    </pokemon>
+	    <rarity>R</rarity>
+	    <illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+	    <id>28</id>
+	    <uniqueName>Heracross</uniqueName>
+	    <name>Heracross LV.29</name>
+	    <pokemon>
+	        <hp>80</hp>
+	        <type>G</type>
+	        <stage>Basic</stage>
+	        <attack>
+	            <name>Pitch</name>
+	            <cost>C</cost>
+	            <damage>10</damage>
+	            <text>Your opponent switches the Defending Pokemon with 1 d his or her Benched Pokemon.</text>
+	        </attack>
+	        <attack>
+	            <name>Horn Slash</name>
+	            <cost>GG</cost>
+	            <damage>30+</damage>
+	            </text>Flip a coin. If heads, this attack does 30 damage plus 30 more damage.</text>
+	        </attack>
+	        <weakness>R+20</weakness>
+	        <retreat>CC</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Ken Sugimori</illustration>
+	    </pokemon
 	</card>
 	<card>
 		<id>105</id>
