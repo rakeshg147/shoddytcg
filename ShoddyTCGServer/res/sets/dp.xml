@@ -541,6 +541,141 @@
 	    </pokemon>
 	</card>
 	<card>
+	    <id>21</id>
+	    <uniqueName>Carnivine</uniqueName>
+	    <name>Carnivine LV.32</name>
+	    <pokemon>
+	        <hp>70</hp>
+	        <type>G</type>
+	        <stage>Basic</stage>
+	        <attack>
+	            <name>Swallow Up</name>
+	            <cost>GC</cost>
+	            <damage>30</damage>
+	            <text>Before doing damage, count rhe remaining HP of the Defending Pokemon and Carnivine. If the Defening Pokemon has fewer remaining HP than Carnivine's, this attack does 60 damage instead.</text>
+	        </attack>
+	        <attack>
+	            <name>Wring out</name>
+	            <cost>GG</cost>
+	            <damage>20</damage>
+	            <text>Flip a coin. If heads, the Defening Pokemon is noew Paralyzed and discard an Energy card attached to the Defending Pokemon.</text>
+	        </attack>
+	        <weakness>R+20</weakness>
+	        <resistance>W-20</resistance>
+	        <retreat>C</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Kouki Saitou</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>22</id>
+	    <uniqueName>Clefable</uniqueName>
+	    <name>Clefable LV.37</name>
+	    <pokemon>
+	        <hp>90</hp>
+	        <type>C</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Clefairy</prestage>
+	        <attack>
+	            <name>Double Slap</name>
+	            <cost>CC</cost>
+	            <damage>30x</damage>
+	            <text>Flip 2 coins. This attack does 30 damage times the number of heads.</text>
+	        </attack>
+	        <attack>
+	            <name>Metronome</name>
+	            <cost>CCC</cost>
+	            <text>Choose 1 of the Defending Pokemon's attacks. Metronome copies that attack except its Energy cost. (You must still do anything else in order to use that attack.) Clefable performs that attack.</text>
+	        </attack>
+	        <weakness>F+20</weakness>
+	        <retreat>CC</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Ken Sugimori</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>23</id>
+	    <uniqueName>Drapion</uniqueName>
+	    <name>Drapion LV.41</name>
+	    <pokemon>
+	        <hp>100</hp>
+	        <type>P</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Skorupo</prestage>
+	        <attack>
+	            <name>Stomp</name>
+	            <cost>CC</cost>
+	            <damage>20</damage>
+	            <text>Flip a coin. If heads, this attack does 20 damage plus 20 more damage.</text>
+	        </attack>
+	        <attack>
+	            <name>Poison Claws</name>
+	            <cost>PPC</cost>
+	            <damage>50</damage>
+	            <text>The Defending Pokemon is now Poisoned.</text>
+	        </attack>
+	        <weakness>P+20</weakness>
+	        <resistance />
+	        <retreat>CCC</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Kouki Saitou</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>24</id>
+	    <uniqueName>Drifblim</uniqueName>
+	    <name>Drifblim LV.40</name>
+	    <pokemon>
+	        <hp>80</hp>
+	        <type>P</type>
+	        <stage>Stage 1</stage>
+	        <prestage>Drifloon</prestage>
+	        <attack>
+	            <name>Wind Wave</name>
+	            <cost>C</cost>
+	            <text>Search your discard pile for up to 5 in any combination of Pokemon and Supporter cards. Show them to your opponent and shuffle them into your deck.</text>
+	        </attack>
+	        <attack>
+	            <name>Explosive Smoke</name>
+	            <cost>PPP</cost>
+	            <damage>60</damage>
+	            <text>Does 10 damage to each Benched Pokemon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+	        </attack>
+	        <weakness>D+20</weakness>
+	        <resistance>C-20</resistance>
+	        <retreat>0</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Mitsuhiro Arita</illustration>
+	    </pokemon>
+	</card>
+	<card>
+	    <id>25</id>
+	    <uniqueName>Dustox</uniqueName>
+	    <name>Dustox LV.34</name>
+	    <pokemon>
+	        <hp>120</hp>
+	        <type>G</type>
+	        <stage>Stage 2</stage>
+	        <prestage>Cascoon</prestage>
+	        <attack>
+	            <name>Stun Spore</name>
+	            <cost>GC</cost>
+	            <damage>30</damage>
+	            <text>Flip a coin. If heads, the Defending Pokmeon is now Paralyzed.</text>
+	        </attack>
+	        <attack>
+	            <name>Toxic Dust</name>
+	            <cost>GGCC</cost>
+	            <damage>50</damage>
+	            <text>The Defending Pokemon is now Poisnoned. Put 2 damage counters instead of 1 on the Defending Pokemon between turns.</text>
+	        </attack>
+	        <weakness>R+30</weakness>
+	        <retreat>CC</retreat>
+	        <rarity>R</rarity>
+	        <illustration>Kouki Saitou</illustration>
+	    </pokemon>
+	</card>
+	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
 		<name>Double Full Heal</name>		
