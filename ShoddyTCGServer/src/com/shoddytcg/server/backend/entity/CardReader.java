@@ -118,7 +118,33 @@ public class CardReader {
 												}else{
 													pokemon.setPreStage("");
 												}
+												
+												// Held Items
+												try{
+													NodeList itemNodeList = ((Element)cardNodeList.item(j)).getElementsByTagName("item");
+													for(int hi=0;hi<itemNodeList.getLength();hi++){
+														Item item = new Item();
+														Element itemElement = (Element) itemNodeList.item(hi);
 
+														// Held Item Name
+														try{
+															NodeList nameList = itemElement.getElementsByTagName("name");
+															item.setName(nameList.item(0).getChildNodes().item(0).getNodeValue());
+														}catch(Exception e){
+															System.out.println(card.getName()+" Item Name is wrong or missing!");
+														}
+
+														// Held Item Text
+														try{
+															NodeList textList = itemElement.getElementsByTagName("text");
+															item.setText(textList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n",""));
+														}catch(Exception e){
+															System.out.println(card.getName()+" Pokepower Text is wrong or missing!");
+														}
+														pokemon.setItem(item);
+													}
+												}catch(Exception ex){}
+												
 												// Poke Bodies
 												try{
 													NodeList pokebodyNodeList = ((Element)cardNodeList.item(j)).getElementsByTagName("pokebody");
