@@ -482,4 +482,93 @@ damage counters from Roserade.</text>
         <rarity>H</rarity>
         <illustration>Ken Sugimori</illustration>
     </card>
+        <card>
+        <id>18</id>
+        <uniqueName>Salamence</uniqueName>
+        <name>Salamence LV. 62</name>
+        <pokemon>
+            <hp>140</hp>
+            <type>C</type>
+            <stage>Stage 2</stage> 
+            <prestage>Shelgon</prestage>   
+            <attack>
+                <name>Direct Hit</name>
+                <cost>CC</cost>
+                <damage>50</damage>
+                <text>This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies,
+or any other effects on the Defending Pokémon.</text>
+            </attack>
+            <attack>
+                <name>Dragon Finish</name>
+                <cost>RRWW</cost>
+                <damage>0</damage>
+                <text>Discard 2 basic {R} Energy cards or 2 basic {W} Energy cards attached to Salamence. If
+you discarded 2 basic {R} Energy cards, this attack does 100 damage to the Defending
+Pokémon. If you discarded 2 basic {W} Energy cards, this attack does 100 damage to 1
+of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for
+Benched Pokémon.) (If you can't discard cards, this attack does nothing.)</text>
+            </attack>
+            <weakness>C+30</weakness>
+            <resistance>F-20</resistance>
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+        <card>
+        <id>19</id>
+        <uniqueName>Suicune</uniqueName>
+        <name>Suicune LV. 44</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>W</type>
+            <stage>Basic</stage> 
+            <pokepower>
+                <name>Aqua Recovery</name>
+                <text>Once during your turn, when you put Suicune from your hand onto your Bench, you may
+search your discard pile for up to 3 {W} Pokémon, show them to your opponent, and put
+them into your hand.</text>
+            </pokepower>
+            <attack>
+                <name>Cure Stream</name>
+                <cost>WWW</cost>
+                <damage>60</damage>
+                <text>During your opponent's next turn, any damage done by attacks from the Defending
+Pokémon is reduced by 20 (before applying Weakness and Resistance).</text>
+            </attack>
+            <weakness>L+20</weakness>
+            <resistance/ >
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Ryo Ueda</illustration>
+    </card>
+        <card>
+        <id>20</id>
+        <uniqueName>Venusaur</uniqueName>
+        <name>Venusaur LV.51</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>G</type>
+            <stage>Stage 2</stage> 
+            <prestage>Ivysaur</prestage>   
+            <pokepower>
+                <name>Miracle Aroma</name>
+                <text>Once during your turn (before your attack), you may flip a coin. If heads, choose either
+Asleep, Burned, or Poisoned. The Defending Pokémon is now affected by that Special
+Condition. This power can't be used if Venusaur is affected by a Special Condition.</text>
+            </pokepower>
+            <attack>
+                <name>Giant Bloom</name>
+                <cost>GGC</cost>
+                <damage>60</damage>
+                <text>Flip a coin. If heads, remove 4 damage counters from Venusaur.</text>
+            </attack>
+            <weakness>R+30</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
 </cardset>
