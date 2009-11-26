@@ -44,6 +44,7 @@ public class CardReader {
 					NodeList cardsetNodeList = doc.getElementsByTagName("cardset");
 					Element cardsetElement = (Element) cardsetNodeList.item(0);
 					String code = cardsetElement.getAttribute("code");
+					int cardcount = 0;
 					for (int s = 0; s < cardsetNodeList.getLength(); s++) {
 						Node cardsetNode = cardsetNodeList.item(s);
 						if (cardsetNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -322,6 +323,7 @@ public class CardReader {
 										}catch(Exception e){
 											System.out.println(card.getName()+" Illustrator is wrong or missing!");
 										}
+										cardcount++;
 									}catch(Exception e){
 										System.out.println("Card "+(j+1)+" card could not be read");
 									}
@@ -329,8 +331,7 @@ public class CardReader {
 							}
 						}
 					}
-					System.out.println("Done");
-					System.out.println("");
+					System.out.println("Done\nCards Read: "+cardcount+"\n");
 				}
 			}
 		} catch (SAXParseException err) {
