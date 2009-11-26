@@ -8,18 +8,15 @@
             <hp>130</hp>
             <type>L</type>
             <stage>Stage 2</stage> 
-            <prestage>Evolves from Flaaffy</prestage>   
-            <pokebody>Jamming</pokebody>
-                <text>After your opponent plays a Supporter card from his or her hand, put 1 damage counter
-on each of your opponent's Pokémon. You can't use more than 1 Jamming Poké-Body
-each turn.</text>
+            <prestage>Flaaffy</prestage>   
+            <pokebody>Jamming
+                <text>After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent's Pokémon. You can't use more than 1 Jamming Poké-Body each turn.</text>
+            </pokebody>
             <attack>
                 <name>Cluster Bolt</name>
                 <cost>LCC</cost>
                 <damage>70</damage>
-                <text>You may discard all {L} Energy attached to Ampharos. If you do, this attack does 20
-damage to each of your opponent's Benched Pokémon that has any Energy cards attached
-to it. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+                <text>You may discard all {L} Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent's Benched Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
             </attack>
             <weakness>F+30</weakness>
             <resistance>M-20</resistance>
@@ -36,17 +33,15 @@ to it. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
             <hp>120</hp>
             <type>W</type>
             <stage>Stage 2</stage> 
-            <prestage>Evolves from Wartortle</prestage>   
-            <pokepower>Waterlog</pokepower>
-                <text>Once during your turn (before your attack), you may attach as many basic {W} Energy
-cards from your hand to any of your Pokémon in any way you like. If you do, your turn
-ends. This power can't be used if Blastoise is affected by a Special Condition.</text>
+            <prestage>Wartortle</prestage>   
+            <pokepower>Waterlog
+                <text>Once during your turn (before your attack), you may attach as many basic {W} Energy cards from your hand to any of your Pokémon in any way you like. If you do, your turn ends. This power can't be used if Blastoise is affected by a Special Condition.</text>
+            </pokepower>
             <attack>
                 <name>Hydro Pump</name>
                 <cost>WWC</cost>
                 <damage>50+</damage>
-                <text>Does 50 damage plus 20 more damage for each {W} Energy attached to Blastoise but not
-used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.</text>
+                <text>Does 50 damage plus 20 more damage for each {W} Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.</text>
             </attack>
             <weakness>L+30</weakness>
             <resistance />
@@ -63,16 +58,15 @@ used to pay for this attack's Energy cost. You can't add more than 40 damage in 
             <hp>130</hp>
             <type>R</type>
             <stage>Stage 2</stage> 
-            <prestage>Evolves from Charmeleon</prestage> 
-            <pokebody>Fury Blaze</pokebody>
-                <text>If your opponent has 3 or less Prize cards left, each of Charizard's attacks does 50 more
-damage to the Active Pokémon (before applying Weakness and Resistance).</text>
+            <prestage>Charmeleon</prestage> 
+            <pokebody>Fury Blaze
+                <text>If your opponent has 3 or less Prize cards left, each of Charizard's attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance).</text>
+            </pokebody>
             <attack>
                 <name>Blast Burn</name>
                 <cost>RRRC</cost>
                 <damage>120</damage>
-                <text>Flip a coin. If heads, discard 2 Energy cards attached to Charizard. If tails, discard 4
-Energy cards attached to Charizard. (If you can't, this attack does nothing.)</text>
+                <text>Flip a coin. If heads, discard 2 Energy cards attached to Charizard. If tails, discard 4 Energy cards attached to Charizard. (If you can't, this attack does nothing.)</text>
             </attack>
             <weakness>W+40</weakness>
             <resistance>F-20</resistance>
@@ -89,21 +83,18 @@ Energy cards attached to Charizard. (If you can't, this attack does nothing.)</t
             <hp>80</hp>
             <type>R</type>
             <stage>Basic</stage> 
-            <prestage />   
-            <pokebody>Burning Coat</pokebody>
-                <text>Whenever 1 of your opponent's Pokémon is Knocked Out by damage from Entei's attacks,
-discard the top 3 cards from your opponent's deck.</text>
+            <pokebody>Burning Coat
+                <text>Whenever 1 of your opponent's Pokémon is Knocked Out by damage from Entei's attacks, discard the top 3 cards from your opponent's deck.</text>
+            </pokebody>
             <attack>
                 <name>Blaze Roar</name>
                 <cost>RRR</cost>
                 <damage>60</damage>
-                <text>Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and
-Resistance for Benched Pokémon.) Flip a coin. If tails, discard 2 {R} Energy cards
-attached to Entei.</text>
+                <text>Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If tails, discard 2 {R} Energy cards attached to Entei.</text>
             </attack>
             <weakness>W+20</weakness>
             <resistance>CC</resistance>
-            <retreat />
+            <retreat>0</retreat>
             </pokemon>
         <rarity>H</rarity>
         <illustration>Ryo Ueda</illustration>
@@ -116,16 +107,15 @@ attached to Entei.</text>
             <hp>120</hp>
             <type>F</type>
             <stage>Stage 2</stage> 
-            <prestage>Evolves from Vibrava</prestage>   
-            <pokebody>Irritating Buzz</pokebody>
-                <text>As long as Flygon is your Active Pokémon, put 1 damage counter on each of your
-opponent's Active Pokémon between turns, excluding {F} Pokémon.</text>
+            <prestage>Vibrava</prestage>   
+            <pokebody>Irritating Buzz
+                <text>As long as Flygon is your Active Pokémon, put 1 damage counter on each of your opponent's Active Pokémon between turns, excluding {F} Pokémon.</text>
+            </pokebody>
             <attack>
                 <name>Sand Sonic</name>
                 <cost>FCC</cost>
                 <damage>60+</damage>
-                <text>If you attach a {F} Energy card from your hand to Flygon during this turn, this attack
-does 60 damage plus 20 more damage.</text>
+                <text>If you attach a {F} Energy card from your hand to Flygon during this turn, this attack does 60 damage plus 20 more damage.</text>
             </attack>
             <weakness>W+30</weakness>
             <resistance>L-20</resistance>
