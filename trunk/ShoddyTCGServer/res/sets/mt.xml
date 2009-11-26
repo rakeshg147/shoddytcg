@@ -158,5 +158,164 @@
 		</pokemon>
 		<rarity>H</rarity>
 		<illustration>Kagemaru Himeno</illustration>
+	</card>	
+	<card>
+        <id>6</id>
+        <uniqueName>Bronzong</uniqueName>
+        <name>Bronzong LV.40</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>M</type>
+            <stage>Stage 1</stage>		
+            <prestage>Bronzor</prestage>
+            <pokepower>
+                <name>Miracle Oracle</name>
+                <text>Once during your turn (before your attack), you may draw a card. Then, discard a card from your hand. If you discard an Energy card, draw 1 more card This power can't be used if Bronzong is affected by a Special Condition.</text>
+            </pokepower>
+            <attack>
+                <name>Shady Stamp</name>
+                <cost>MMC</cost>
+                <damage>50</damage>
+                <text>The Defending Pokemon is now Confused.</text>
+            </attack>
+            <weakness>R+30</weakness>
+            <resistance>P-20</resistance>
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Daisuke Ito</illustration>
 	</card>
+	<card>
+        <id>7</id>
+        <uniqueName>Celebi</uniqueName>
+        <name>Celebi LV.39</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>G</type>
+            <stage>Basic</stage>       
+            <attack>
+                <name>Sprouting</name>
+                <cost>0</cost>
+                <damgage>0</damage>
+                <text>Search your deck for a {G} Energy card and attach it to Celebi. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Leaf Tornado</name>
+                <cost>GG</cost>
+                <damage>30</damage>
+                <text>You may move any number of basic {G} Energy cards attached to your Pokemon to your other Pokemon in any way you like.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+        <id>8</id>
+        <uniqueName>Feraligatr</uniqueName>
+        <name>Feraligatr LV.53</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>W</type>
+            <stage>Stage 2</stage>
+            <prestage>Croconaw</prestage>       
+            <attack>
+                <name>Energy Cyclone</name>
+                <cost>WW</cost>
+                <damgage>20x</damage>
+                <text>Choose as many Energy cards from your hand as you like and show them to your opponent. This attack does 20 damage times the number of Energy cards you chose. Put those Energy cards on top of your deck. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Breaking Tail</name>
+                <cost>WCC</cost>
+                <damage>60</damage>
+                <text>Choose 1 card from your opponent's hand without looking and discard it.</text>
+            </attack>
+            <weakness>L+30</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>9</id>
+        <uniqueName>Garchomp</uniqueName>
+        <name>Garchomp LV.66</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>C</type>
+            <stage>Stage 2</stage> 
+            <prestage>Gabite</prestage>     
+            <pokebody>
+                <name>Rainbow Scale</name>
+                <text>If an Active Pokemon has Weakness to any of the types of Energy attached to Garchomp, Garchomp's attacks do 40 more damage to that Pokemon (before applying Weakness and Resistance). Rainbow scale Poke-Body can't be used if Garchomp has any Special Energy cards attached to it.</text>
+            </pokebody>
+            <attack>
+                <name>Dragon Fang</name>
+                <cost>CCC</cost>
+                <damage>70</damage>
+                <text></text>
+            </attack>
+            <weakness>C+30</weakness>
+            <resistance />
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>10</id>
+        <uniqueName>Honchkrow</uniqueName>
+        <name>Honchkrow LV.42</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>D</type>
+            <stage>Stage 1</stage> 
+            <prestage>Murkrow</prestage>
+            <pokebody>
+                <name>Dark Genes</name>
+                <text>As long as Honchkrow has the Energy necessary to us its attack, each of your Murkrow can use Honchkrow's attack as its own without the necessary Enery to use that attack.</text>
+            </pokebody>
+            <attack>
+                <name>Dark Wing Flaps</name>
+                <cost>DDC</cost>
+                <damage>50</damage>
+                <text>Choose 1 card from your opponent's hand without looking. Look at the card you choose, then have your opponent shuffle that card into his or her deck.</text>
+            </attack>
+            <weakness>L+20</weakness>
+            <resistance>F-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>11</id>
+        <uniqueName>Lumineon</uniqueName>
+        <name>Lumineon LV.34</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>W</type>
+            <stage>Stage 1</stage>  
+            <prestage>Finneon</prestage>   
+            <pokepower>
+                <name>Lure Ring</name>
+                <text>Once during your turn (before your attack), if Lumineon is your Active Pokemon, you may choose 1 of your opponent's Benched Pokemon that has maximum HP of 100 or more and switch it with 1 of the Defending Pokemon. This power can't be used if Lumineon is affected by a Special Condition.</text>
+            </pokepower>
+            <attack>
+                <name>Reverse Stream</name>
+                <cost>CC</cost>
+                <damage>30+</damage>
+                <text>Does 30 damage plus 10 more damage for each {W} Energy attached to Lumineon. Then, return all {W} Energy attached to Luminon to your hand.</text>
+            </attack>
+            <weakness>L+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>H</rarity>
+        <illustration>Mitsuhiro Arita</illustration>
+    </card>
 </cardset>
