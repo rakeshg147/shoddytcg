@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cardset>
+<cardset code="DP">
 	<card>
 		<id>1</id>
 		<uniqueName>Dialga</uniqueName>
@@ -503,14 +503,14 @@
 					At the end of your opponent's next turn, return those cards to your opponent's hand. This power can't be used if Empoleon is affected by a Special Condition.
 				</text>
 			</pokepower>
-			<attack1>
+			<attack>
 				<name>Hydro Impact</name>
 				<cost>WWW</cost>
 				<damage>0</damage>
 				<text>Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon.
 						(Don't apply Weakness and Resistance for Benched Pokémon.) Empoleon can't attack during your next turn.
 				</text>
-			</attack1>
+			</attack>
 			<weakness>L+30</weakness>
 			<resistance />
 			<retreat>CC</retreat>
