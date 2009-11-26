@@ -116,6 +116,41 @@ Cards have varying Rarities and Illustrators.
 <illustration>Ryo Ueda</illustration>
 }}}
 
+== Template ==
+{{{
+    <card>
+        <id></id>
+        <uniqueName></uniqueName>
+        <name></name>
+        <pokemon>
+            <hp></hp>
+            <type></type>
+            <stage></stage>  
+            <prestage></prestage>   
+            <attack>
+                <name></name>
+                <cost></cost>
+                <damage></damage>
+                <text></text>
+            </attack>
+            <attack>
+                <name></name>
+                <cost></cost>
+                <damage></damage>
+                <text></text>
+            </attack>
+            <weakness></weakness>
+            <resistance></resistance>
+            <retreat></retreat>
+            </pokemon>
+        <rarity></rarity>
+        <illustration></illustration>
+    </card>
+
+When using this template change <attack></attack> to <pokebody></pokebody> or <pokepower></pokepower> respectively.
+Also delete the <cost></cost> and <damage></damage> tags since they would not be needed.
+}}}
+
 = All together now! =
 
 The following corresponds to the card DP-5. 
