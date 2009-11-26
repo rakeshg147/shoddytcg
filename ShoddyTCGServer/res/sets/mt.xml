@@ -1383,31 +1383,245 @@
         <illustration>Mitsuhiro Arita</illustration>
     </card>
     <card>
-        <id></id>
-        <uniqueName></uniqueName>
-        <name></name>
+        <id>52</id>
+        <uniqueName>Happiny</uniqueName>
+        <name>Happiny LV.8</name>
         <pokemon>
-            <hp></hp>
-            <type></type>
-            <stage></stage>  
-            <prestage></prestage>   
+            <hp>60</hp>
+            <type>C</type>
+            <stage>Basic</stage>  
+            <pokepower>
+                <name>Baby Evolution</name>
+                <text>Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny</text>
+            </pokepower>
             <attack>
-                <name></name>
-                <cost></cost>
-                <damage></damage>
-                <text></text>
+                <name>Lively</name>
+                <cost>0</cost>
+                <damage>0</damage>
+                <text>Remove 2 damage counters from 1 of your Pokemon</text>
             </attack>
-            <attack>
-                <name></name>
-                <cost></cost>
-                <damage></damage>
-                <text></text>
-            </attack>
-            <weakness></weakness>
-            <resistance></resistance>
-            <retreat></retreat>
+            <weakness>F+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
             </pokemon>
-        <rarity></rarity>
-        <illustration></illustration>
+        <rarity>U</rarity>
+        <illustration>Yuka Morii</illustration>
+    </card>
+    <card>
+        <id>53</id>
+        <uniqueName>Lairon</uniqueName>
+        <name>Lairon LV.32</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>M</type>
+            <stage>Stage 1</stage>  
+            <prestage>Aaron</prestage>   
+            <attack>
+                <name>Mend</name>
+                <cost>M</cost>
+                <damage>0</damage>
+                <text>Search your discard pile for a {M} Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon.</text>
+            </attack>
+            <attack>
+                <name>Confront</name>
+                <cost>MMC</cost>
+                <damage>50</damage>
+                <text></text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>P-20</resistance>
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>54</id>
+        <uniqueName>Magmar</uniqueName>
+        <name>Magmar LV.30</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>R</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Flare</name>
+                <cost>R</cost>
+                <damage>20</damage>
+                <text></text>
+            </attack>
+            <attack>
+                <name>Flamethrower</name>
+                <cost>RRC</cost>
+                <damage>50</damage>
+                <text>Discard an Energy attached to Magmar.</text>
+            </attack>
+            <weakness>W+20</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Mitsuhiro Arita</illustration>
+    </card>
+    <card>
+        <id>55</id>
+        <uniqueName>Masquerain</uniqueName>
+        <name>Masquerain LV.32</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>G</type>
+            <stage>Stage 1</stage>  
+            <prestage>Surskit</prestage>   
+            <attack>
+                <name>Centrifugal Force</name>
+                <cost>CC</cost>
+                <damage>20x</damage>
+                <text>Does 20 damage times the number of {C} Energy in the Defending Pokemon's Retreat Cost (after aplying effects to the Retreat Cost).</text>
+            </attack>
+            <attack>
+                <name>Swirling Ripple</name>
+                <cost>GG</cost>
+                <damage>30+</damage>
+                <text>If your opponent has any {W} Pokemon in play, this attack does 30 damage plus 30 more damage and the Defending Pokemon is now Confused.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>F-20</resistance>
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>56</id>
+        <uniqueName>Nidorina</uniqueName>
+        <name>Nidorina LV.25</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>P</type>
+            <stage>Stage 1</stage>  
+            <prestage>Nidoran</prestage>   
+            <attack>
+                <name>Rescue</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>Search your discard pile for up to 2 Pokemon, show them to your opponent, and put them into your hand.</text>
+            </attack>
+            <attack>
+                <name>Scratch</name>
+                <cost>PC</cost>
+                <damage>30</damage>
+                <text></text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Atsuko Nishida</illustration>
+    </card>
+    <card>
+        <id>57</id>
+        <uniqueName>Octillery</uniqueName>
+        <name>Octillery LVL.32</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>W</type>
+            <stage>Stage 1</stage>  
+            <prestage>Remoraid</prestage>   
+            <attack>
+                <name>Crash Bomber</name>
+                <cost>CC</cost>
+                <damage>30+</damage>
+                <text>If the Defending Pokemon has any Special Energy cards attached to it, this attack does 30 damage plus 30 more damage. Then, discard a Special Energy card attached to the Defending Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Aqua Liner</name>
+                <cost>WW</cost>
+                <damage>0</damage>
+                <text>Choose 1 of your opponent's Benched pokemon. This attack does 40 damage to that Pokemon (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+            </attack>
+            <weakness>L+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+    <card>
+        <id>58</id>
+        <uniqueName>Parasect</uniqueName>
+        <name>Parasect LV.36</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>G</type>
+            <stage>Stage 1</stage>  
+            <prestage>Paras</prestage>   
+            <attack>
+                <name>Wild Spores</name>
+                <cost>G</cost>
+                <damage>20</damage>
+                <text>If Parasect evolved from Paras during this turn, this attack does 40 damage and the Defending Pokemon is now Asleep and Poisoned.</text>
+            </attack>
+            <attack>
+                <name>Extended Fungus</name>
+                <cost>GGC</cost>
+                <damage>60</damage>
+                <text>Remove 2 damage counters from Parasext.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Masakazu Fukuda</illustration>
+    </card>
+    <card>
+        <id>59</id>
+        <uniqueName>Pupitar</uniqueName>
+        <name>Pupitar LV.31</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>F</type>
+            <stage>Stage 1</stage>  
+            <prestage>Larvitar</prestage>   
+            <attack>
+                <name>Pressurized Gaz</name>
+                <cost>CC</cost>
+                <damage>0</damage>
+                <text>Does 10 damage to each of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+            </attack>
+            <attack>
+                <name>Rocket Tackle</name>
+                <cost>FCC</cost>
+                <damage>50</damage>
+                <text>Pupitar does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Pupitar by attacks during your oppenent's next turn.</text>
+            </attack>
+            <weakness>G+20</weakness>
+            <resistance>L-20</resistance>
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>60</id>
+        <uniqueName>Quilava</uniqueName>
+        <name>Quilava LV.25</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>R</type>
+            <stage>Stage 1</stage>  
+            <prestage>Cyndaquil</prestage>   
+            <attack>
+                <name>Fireworks</name>
+                <cost>RC</cost>
+                <damage>40</damage>
+                <text>Flip a coin. If tails, discard a {R} Energy attached to Quilava.</text>
+            </attack>
+            <weakness>W+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Atsuko Nishida</illustration>
     </card>
 </cardset>
