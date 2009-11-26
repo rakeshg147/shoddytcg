@@ -811,13 +811,13 @@
 		<id>114</id>
 		<uniqueName>Speed Stadium</uniqueName>
 		<name>Speed Stadium</name>		
-		<supporter>
+		<stadium>
 			<text>
 				This card stays in play when you play it. Discard this card if another Stadium card comes into play. 
 				If another card with the same name is in play, you can't play this card.
 				Once during each player's turn, the player may flip a coin until he or she gets tails. For each heads, that player draws a card.
 			</text>
-		</supporter>
+		</stadium>
 		<rarity>U</rarity>
 		<illustration>Ryo Ueda</illustration>	
 	</card>

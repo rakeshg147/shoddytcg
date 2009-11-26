@@ -17,11 +17,13 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
+import com.shoddytcg.server.backend.entity.TrainerCard.Type;
+
 /**
  * @author Nushio
  *
  *
- * Recursive filelisting code by: *  
+ * Recursive filelisting code by:   
  * @author javapractices.com
  * @author Alex Wong
  * @author anonymous user
@@ -243,11 +245,20 @@ public class CardReader {
 											NodeList trainerNodeList = ((Element)cardNodeList.item(j)).getElementsByTagName("trainer");
 											if(trainerNodeList.getLength()==1){
 												TrainerCard trainer = new TrainerCard();
-												Element textElement = (Element) trainerNodeList.item(0);
+												Element trainerElement = (Element) trainerNodeList.item(0);
 
-												//Read Trainer Text
+												//Read Trainer Type
 												try{
-													NodeList textList = textElement.getElementsByTagName("text");
+													NodeList typeList = trainerElement.getElementsByTagName("type");
+													trainer.setType(TrainerCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+												}catch(Exception e){
+													trainer.setType(Type.TRAINER);
+												}
+												
+												//Read Trainer Text
+												
+												try{
+													NodeList textList = trainerElement.getElementsByTagName("text");
 													trainer.setText(textList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n",""));
 												}catch(Exception e){
 													System.out.println(card.getName()+" has missing or invalid text!");
@@ -309,6 +320,46 @@ public class CardReader {
 											}
 										}catch(Exception e){}//Not a stadium
 
+										// Check If Its an Energy
+										try{
+											NodeList energyNodeList = ((Element)cardNodeList.item(j)).getElementsByTagName("energy");
+											if(energyNodeList.getLength()==1){
+												EnergyCard energy = new EnergyCard();
+												Element energyElement = (Element) energyNodeList.item(0);
+
+												//Read Energy Type (Basic or Special)
+												try{
+													NodeList typeList = energyElement.getElementsByTagName("type");
+													energy.setType(EnergyCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+												}catch(Exception e){
+													energy.setType(EnergyCard.Type.BASIC);
+													System.out.println(card.getName()+" has missing or invalid Energy Type!!");
+												}
+												
+												//Read Energy Provides Text
+												try{
+													NodeList providesList = energyElement.getElementsByTagName("provides");
+													energy.setProvides(EnergyCard.returnProvides(providesList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+												}catch(Exception e){
+													System.out.println(card.getName()+" has missing or invalid energy provides!");
+												}
+												
+												//Read Energy Text
+												try{
+													NodeList textList = energyElement.getElementsByTagName("text");
+													energy.setText(textList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n",""));
+												}catch(Exception e){
+													energy.setText("");
+												}
+												card.setCardType(energy);
+
+												if(!cardDefined){
+													cardDefined=true;
+												}else{
+													System.out.println("Card "+card.getId()+" cannot be a Pokemon and a Trainer!");
+												}
+											}//else not a trainer
+										}catch(Exception e){}//Not a trainer
 										// Set Rarity
 										try{
 											NodeList rarityNodeList = ((Element)cardNodeList.item(j)).getElementsByTagName("rarity");
