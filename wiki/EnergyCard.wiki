@@ -14,6 +14,19 @@ The amount of Basic Energy cards allowed in a deck is unrestricted, while Specia
 
 Energy Cards may have no Illustrator, and may have no text. If the Energy card has a condition to the amount of energy it provides, place the lowest amount of energy provided. 
 
+Provides:
+|| Code || Name ||
+|| G || Grass ||
+|| R || Fire ||
+|| W || Water ||
+|| L || Lightning  ||
+|| P || Psychic  ||
+|| F || Fighting ||
+|| D || Darkness  ||
+|| M || Metal ||
+|| C || Colorless ||
+|| * || All Colors ||
+
 Basic Energy Example: 
 {{{
 <card>
