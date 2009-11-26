@@ -195,8 +195,7 @@ public class CardReader {
 															NodeList damageList = attackElement.getElementsByTagName("damage");
 															attack.setDamage(damageList.item(0).getChildNodes().item(0).getNodeValue());
 														}catch(Exception e){
-															attack.setDamage("0");
-															System.out.println(card.getName()+" Attack Damage is wrong or missing!");
+															attack.setDamage("--");
 														}
 
 														// Attack Text
@@ -204,7 +203,7 @@ public class CardReader {
 															NodeList textList = attackElement.getElementsByTagName("text");
 															attack.setText(textList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n",""));
 														}catch(Exception e){
-															System.out.println(card.getName()+" Attack Text is wrong or missing!");
+															attack.setText("");
 														}
 														pokemon.addAttack(attack);
 													}
@@ -215,7 +214,7 @@ public class CardReader {
 													NodeList weakList = pokemonElement.getElementsByTagName("weakness");
 													pokemon.setWeakness(weakList.item(0).getChildNodes().item(0).getNodeValue());
 												}catch(Exception e){
-													System.out.println(card.getName()+" weakness is wrong or missing!");
+													pokemon.setWeakness("0");
 												}
 
 												// Resistance
@@ -223,7 +222,7 @@ public class CardReader {
 													NodeList resistList = pokemonElement.getElementsByTagName("resistance");
 													pokemon.setResistance(resistList.item(0).getChildNodes().item(0).getNodeValue());
 												}catch(Exception e){
-													System.out.println(card.getName()+" resistance is wrong or missing!");
+													pokemon.setResistance("0");
 												}
 
 												// Retreat
