@@ -885,7 +885,6 @@
             <stage>Basic</stage>    
             <pokepower>
                 <name>Baby Evolution</name>
-                <damage>--</damage>
                 <text>Once before your turn (before your attack), you may put Snorlax from your hand onto Munchlax (this counts as evolving Munchlax) and remove all damage counters from Munchlax.</text>
             </pokepower>
             <attack>
@@ -983,6 +982,117 @@
         </pokemon>
         <rarity>R</rarity>
         <illustration>Masakazu Fukuda</illustration>
+    </card>
+    <card>
+        <id>37</id>
+        <uniqueName>Snorlax</uniqueName>
+        <name>Snorlax LV. 35</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>C</type>
+            <stage>Basic</stage>    
+            <attack>
+                <name>Block</name>
+                <cost>C</cost>
+                <damage>--</damage>
+                <text>The Defending Pokemon can't retreat during your opponent's next turn.</text>
+            </attack>
+            <attack>
+                <name>Ease Up</name>
+                <cost>CCCC</cost>
+                <damage>40+</damage>
+                <text>Snorlax is now Asleep. If snorlac evolved from Munchlax, this attack does 30 damage plus 30 more damage.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance />
+            <retreat>CCCC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+    <card>
+        <id>38</id>
+        <uniqueName>Steelix</uniqueName>
+        <name>Steelix LV.50</name>
+        <pokemon>
+            <hp>110</hp>
+            <type>M</type>
+            <stage>Stage 1</stage> 
+            <prestage>Onix</prestage>   
+            <attack>
+                <name>Slam</name>
+                <cost>M</cost>
+                <damage>30x</damage>
+                <text>Flip 2 coins. This attack does 30 damage times the number of heads.</text>
+            </attack>
+            <attack>
+                <name>Metal Slash</name>
+                <cost>MMCC</cost>
+                <damage>100</damage>
+                <text>Steelix can't attack during your next turn.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>P-20</resistance>
+            <retreat>CCCC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>39</id>
+        <uniqueName>Vespiqueen</uniqueName>
+        <name>Vespiqueen LV.40</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>G</type>
+            <stage>Stage 1</stage> 
+            <prestage>Combee</prestage>   
+            <attack>
+                <name>Leaf Honey</name>
+                <cost>G</cost>
+                <damage>--</damage>
+                <text>Discard a {G} Energy attached to Vespiqueen and remove all damage counters from 1 of your Benched {G} Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Attack Order</name>
+                <cost>GCC</cost>
+                <damage>10x</damage>
+                <text>Does 10 damage times the number of {G} Pokemon in play (both yours and your opponent's).</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>F-20</resistance>
+            <retreat>CCC</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Mitsuhiro Arita</illustration>
+    </card>
+    <card>
+        <id>40</id>
+        <uniqueName>Weavile</uniqueName>
+        <name>Weavile LV.37</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>D</type>
+            <stage>Stage 1</stage> 
+            <prestage>Sneasel</prestage>   
+            <attack>
+                <name>Nasty Plot</name>
+                <cost>D</cost>
+                <damage>--</damage>
+                <text>Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Dark Pulse</name>
+                <cost>DDD</cost>
+                <damage>10x</damage>
+                <text>Does 10 damage times the total amount of {D} Energy attached to all of your Pokemon.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>P-20</resistance>
+            <retreat>C</retreat>
+        </pokemon>
+        <rarity>R</rarity>
+        <illustration>Naoyo Kimura</illustration>
     </card>
 	<card>
 		<id>105</id>
