@@ -1748,10 +1748,189 @@
                 <text>During your opponent's next turn, whenever your opponent flips a coin, treat it as tails.</text>
             </attack>
             <weakness>P+10</weakness>
-            <resistance />
+            <resistance></resistance>
             <retreat>C</retreat>
             </pokemon>
         <rarity>U</rarity>
         <illustration>Daisuke Ito</illustration>
+    </card>
+        <id>66</id>
+        <uniqueName>Unown M</uniqueName>
+        <name>Unown M LV.15</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>P</type>
+            <stage>Basic</stage>
+	    <pokepower>
+		<name>Manget</name>
+		<text>Once during your turn (before your attack), if Unown M is
+your Active Pokémon, you may flip a coin. If heads, switch 1 of your opponent's
+Benched Pokémon with 1 of the Defending Pokémon. This power can't be used if
+Unown M is affected by a Special Condition. </text>
+            <attack>
+                <name>Hidden Power</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If heads, this attack does 30 damage. If
+tails, this attack does 30 damage to 1 of your Pokémon, and this attack's damage
+isn't affected by Weakness or Resistance. </text>
+            </attack>
+            <weakness>P+10</weakness>
+            <resistance></resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>67</id>
+        <uniqueName>Unown T</uniqueName>
+        <name>Unown T LV.14</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>P</type>
+            <stage>Basic</stage>
+	    <pokepower>
+		<name>Throw</name>
+		<text>Once during your turn (before your attack), if Unown T is your Active Pokémon, you may discard a card from your hand. Then, flip a coin. If heads, put 2 damage counters  on 1 of your opponent's Benched Pokémon. This power can't be used if Unown T is affected by a Special Condition.</text>
+	    </pokepower>
+            <attack>
+                <name>Hidden Power</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text></text>
+            </attack>
+            <weakness>P+10</weakness>
+            <resistance></resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kazuyuki Kano</illustration>
+    </card>
+    <card>
+        <id>68</id>
+        <uniqueName>Vigoroth</uniqueName>
+        <name>Vigoroth LV.24</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>C</type>
+            <stage>1</stage>  
+            <prestage>Slakoth</prestage>   
+            <attack>
+                <name>Wake-up Punch</name>
+                <cost>C</cost>
+                <damage>10</damage>
+                <text>If Vigoroth evolved from Slakoth during this turn and Slakoth was Asleep, this attack's base damage is 60 instead of 10.</text>
+            </attack>
+            <attack>
+                <name>Fury Swipes</name>
+                <cost>CCC</cost>
+                <damage>30x</damage>
+                <text>Flip 3 coins. This attack does 30 damage times the number of heads. </text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance></resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Masakazu Fukuda</illustration>
+    </card>
+    <card>
+        <id>69</id>
+        <uniqueName>Abra</uniqueName>
+        <name>Abra LV.8</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>P</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Play Search</name>
+                <cost>P</cost>
+                <damage>0</damage>
+                <text>Look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Put the other 4 cards back on top of your deck
+. Shuffle your deck afterward. </text>
+            </attack>
+            <attack>
+                <name>Ultra Evolution</name>
+                <cost>PC</cost>
+                <damage>0</damage>
+                <text>Search your deck for Alakazam and put it on Abra (this counts as evolving Abra). Shuffle your deck afterward. </text>
+            </attack>
+            <weakness>P+10</weakness>
+            <resistance></resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+    <card>
+        <id>70</id>
+        <uniqueName>Aipom</uniqueName>
+        <name>Aipom LV.17</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>C</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Tail Whip</name>
+                <cost>C</cost>
+                <damage>10</damage>
+                <text></text>
+            </attack>
+            <attack>
+                <name>Throw Off</name>
+                <cost>CC</cost>
+                <damage>10</damage>
+                <text>Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)  Before doing damage, discard all Pokémon Tool
+cards attached to that Pokémon.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance></resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Kogemaru Himeno</illustration>
+    </card>
+    <card>
+        <id>71</id>
+        <uniqueName>Aron</uniqueName>
+        <name>Aron LV.15</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>M</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Steel Tackle</name>
+                <cost>MC</cost>
+                <damage>30</damage>
+                <text>Aron does 10 damage to itself.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance>P-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Yuka Morii</illustration>
+    </card>
+    <card>
+        <id>72</id>
+        <uniqueName>Barboach</uniqueName>
+        <name>Barboach LV.12</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>W</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Mud Spit</name>
+                <cost>F</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+            </attack>
+            <weakness>G+10</weakness>
+            <resistance>L-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Ken Sugimori</illustration>
     </card>
 </cardset>
