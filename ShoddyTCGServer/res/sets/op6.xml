@@ -346,7 +346,7 @@
 			<stage>Basic</stage>  
 			<attack>
 				<name>Scratch</name>
-				<cost></cost>
+				<cost>0</cost>
 				<damage>10</damage>
 				<text></text>
 			</attack>
@@ -373,13 +373,13 @@
 			<stage>Basic</stage>  
 			<attack>
 				<name>Peck</name>
-				<cost></cost>
+				<cost>0</cost>
 				<damage>10</damage>
 				<text></text>
 			</attack>
 			<attack>
 				<name>Water Splash</name>
-				<cost></cost>
+				<cost>WC</cost>
 				<damage>20+</damage>
 				<text>Flip a coin. If heads, this attack does 20 damage plus 10 more damage. </text>
 			</attack>
@@ -405,7 +405,7 @@
 				<text></text>
 			</attack>
 			<attack>
-				<name></name>
+				<name>Quick Attack</name>
 				<cost>CC</cost>
 				<damage>10+</damage>
 				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more damage. </text>
@@ -427,7 +427,7 @@
 			<stage>Basic</stage>   
 			<attack>
 				<name>Tackle</name>
-				<cost></cost>
+				<cost>0</cost>
 				<damage>10</damage>
 				<text></text>
 			</attack>
