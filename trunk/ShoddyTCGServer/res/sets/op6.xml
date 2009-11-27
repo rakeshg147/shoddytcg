@@ -12,6 +12,7 @@
 			<pokepower>
 			<name>Protective Wall</name>
 			<text>Prevent all damage done to your Benched Pokemon by your opponent's attacks.</text>
+			</pokepower>
 			<attack>
 				<name>Anger Revenge</name>
 				<cost>MMC</cost>
