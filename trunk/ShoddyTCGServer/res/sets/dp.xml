@@ -1094,6 +1094,160 @@
         <rarity>R</rarity>
         <illustration>Naoyo Kimura</illustration>
     </card>
+    <card>
+        <id>41</id>
+        <uniqueName>Wobbuffet</uniqueName>
+        <name>Wobbuffet LV.25</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>P</type>
+            <stage>Basic</stage>    
+            <attack>
+                <name>Countercharge</name>
+                <cost>PC</cost>
+                <damage>--</damage>
+                <text>Flip a coin. If heads, move all damage counters from Wobbuffet to the defending Pokemon.</text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+    <card>
+        <id>42</id>
+        <uniqueName>Wynaut</uniqueName>
+        <name>Wynaut LV.6</name>
+        <pokemon>
+            <hp>40</hp>
+            <type>P</type>
+            <stage>Basic</stage>     
+            <pokepower>
+                <name>Baby Evolution</name>
+                <text>Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut) and remove all damage counters from Wynaut.</text>
+            </pokepower>
+            <attack>
+                <name>Astonish</name>
+                <cost>--</cost>
+                <damage>--</damage>
+                <text>Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.</text>
+            </attack>
+            <weakness>P+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration>Masakazu Fukuda</illustration>
+    </card>
+    <card>
+        <id>43</id>
+        <uniqueName>Budew</uniqueName>
+        <name>Budew LV. 6</name>
+        <pokemon>
+            <hp>40</hp>
+            <type>G</type>
+            <stage>Basic</stage>     
+            <pokepower>
+                <name>Baby Evolution</name>
+                <text>Once during your turn (before your attack), you may but Roselia from your hand onto Budew (this counts as evolving Budew) and emove all damage counters from Budew.</text>
+            </pokepower>
+            <attack>
+                <name>Errand Running</name>
+                <cost>--</cost>
+                <damage>--</damage>
+                <text>Search your deck for a trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+    <card>
+        <id>44</id>
+        <uniqueName>Cascoon</uniqueName>
+        <name>Cascoon LV.8</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>G</type>
+            <stage>Stage 1</stage>  
+            <prestage>Wurmple</prestage>   
+            <attack>
+                <name>Harden</name>
+                <cost>G</cost>
+                <damage>--</damage>
+                <text>During your opponent's next turn, if Cascoon would be damaged by an attack, prevent that attack's damage done to Cascoon if that damage is 30 or less.</text>
+            </attack>
+            <attack>
+                <name>Gooey Thread</name>
+                <cost>GC</cost>
+                <damage>20</damage>
+                <text>The Defending Pokemon can't retreat during your opponent's next turn.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance />
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
+    <card>
+        <id>45</id>
+        <uniqueName>Cherrim</uniqueName>
+        <name>Cherim LV.26</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>G</type>
+            <stage>Stage 1</stage>  
+            <prestage>Cherubi</prestage>   
+            <attack>
+                <name>Worry Seed</name>
+                <cost>G</cost>
+                <damage>20</damage>
+                <text>Flip a coin. If heads, the Defending Pokemon is now confused.</text>
+            </attack>
+            <attack>
+                <name>Magical Leaf</name>
+                <cost>GG</cost>
+                <damage>20+</damage>
+                <text>Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.</text>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>W-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Atsuko Nishida</illustration>
+    </card>
+    <card>
+        <id>46</id>
+        <uniqueName>Drifloon</uniqueName>
+        <name>Drifloon LV.17</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>P</type>
+            <stage>Basic</stage>     
+            <attack>
+                <name>Blowing Wind</name>
+                <cost>P</cost>
+                <damage>--</damage>
+                <text>Flip a coin. If heads, put 1 of your benched Pokemon and all cards attached to it on top of your deck. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Ominous Wind</name>
+                <cost>PC</cost>
+                <damage>10</damage>
+                <text>Flip a coin. If heads, the Defending Pokemon is now Confused and can't retreat during your opponent's next turn.</text>
+            </attack>
+            <weakness>D+10</weakness>
+            <resistance>C-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
 	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
