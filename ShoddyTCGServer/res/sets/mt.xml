@@ -1754,6 +1754,7 @@
         <rarity>U</rarity>
         <illustration>Daisuke Ito</illustration>
     </card>
+    <card>
         <id>66</id>
         <uniqueName>Unown M</uniqueName>
         <name>Unown M LV.15</name>
@@ -1761,19 +1762,15 @@
             <hp>50</hp>
             <type>P</type>
             <stage>Basic</stage>
-	    <pokepower>
-		<name>Manget</name>
-		<text>Once during your turn (before your attack), if Unown M is
-your Active Pokémon, you may flip a coin. If heads, switch 1 of your opponent's
-Benched Pokémon with 1 of the Defending Pokémon. This power can't be used if
-Unown M is affected by a Special Condition. </text>
+	         <pokepower>
+		       <name>Manget</name>
+		       <text>Once during your turn (before your attack), if Unown M is your Active Pokémon, you may flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. This power can't be used if Unown M is affected by a Special Condition. </text>
+            </pokepower>    
             <attack>
                 <name>Hidden Power</name>
                 <cost>C</cost>
                 <damage>0</damage>
-                <text>Flip a coin. If heads, this attack does 30 damage. If
-tails, this attack does 30 damage to 1 of your Pokémon, and this attack's damage
-isn't affected by Weakness or Resistance. </text>
+                <text>Flip a coin. If heads, this attack does 30 damage. If tails, this attack does 30 damage to 1 of your Pokémon, and this attack's damage isn't affected by Weakness or Resistance. </text>
             </attack>
             <weakness>P+10</weakness>
             <resistance></resistance>
@@ -1790,10 +1787,10 @@ isn't affected by Weakness or Resistance. </text>
             <hp>50</hp>
             <type>P</type>
             <stage>Basic</stage>
-	    <pokepower>
-		<name>Throw</name>
-		<text>Once during your turn (before your attack), if Unown T is your Active Pokémon, you may discard a card from your hand. Then, flip a coin. If heads, put 2 damage counters  on 1 of your opponent's Benched Pokémon. This power can't be used if Unown T is affected by a Special Condition.</text>
-	    </pokepower>
+	        <pokepower>
+		        <name>Throw</name>
+		        <text>Once during your turn (before your attack), if Unown T is your Active Pokémon, you may discard a card from your hand. Then, flip a coin. If heads, put 2 damage counters  on 1 of your opponent's Benched Pokémon. This power can't be used if Unown T is affected by a Special Condition.</text>
+	        </pokepower>
             <attack>
                 <name>Hidden Power</name>
                 <cost>C</cost>
@@ -1847,8 +1844,7 @@ isn't affected by Weakness or Resistance. </text>
                 <name>Play Search</name>
                 <cost>P</cost>
                 <damage>0</damage>
-                <text>Look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Put the other 4 cards back on top of your deck
-. Shuffle your deck afterward. </text>
+                <text>Look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Put the other 4 cards back on top of your deck. Shuffle your deck afterward. </text>
             </attack>
             <attack>
                 <name>Ultra Evolution</name>
@@ -1881,8 +1877,7 @@ isn't affected by Weakness or Resistance. </text>
                 <name>Throw Off</name>
                 <cost>CC</cost>
                 <damage>10</damage>
-                <text>Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)  Before doing damage, discard all Pokémon Tool
-cards attached to that Pokémon.</text>
+                <text>Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)  Before doing damage, discard all Pokémon Tool cards attached to that Pokémon.</text>
             </attack>
             <weakness>F+10</weakness>
             <resistance></resistance>
