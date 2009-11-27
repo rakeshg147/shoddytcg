@@ -1,22 +1,22 @@
 // Pokemon
-    1 [DP] Electivire LV.50 
-    4 [DP] Electabuzz LV.32
-    1 [DP] Ampharos LV.52
-    2 [DP] Flaaffy LV.26
-    4 [DP] Mareep LV.11
-    2 [DP] Donphan LV.47
-    4 [DP] Phanpy LV.14
-    3 [DP] Stantler LV.28 
-    1 [DP] Electrode LV.42
-    4 [DP] Voltorb LV.29
+    1 [SW] Electivire LV.50 
+    4 [SW] Electabuzz LV.32
+    1 [SW] Ampharos LV.52
+    2 [SW] Flaaffy LV.26
+    4 [SW] Mareep LV.11
+    2 [SW] Donphan LV.47
+    4 [SW] Phanpy LV.14
+    3 [SW] Stantler LV.28 
+    1 [SW] Electrode LV.42
+    4 [SW] Voltorb LV.29
 
 // Trainers
-    2 [DP] Professor Oak's Visit
-    2 [DP] Roseanne's Research
-    2 [DP] PlusPower
-    2 [DP] Energy Search
-    2 [DP] Potion
+    2 [SW] Professor Oak's Visit
+    2 [SW] Roseanne's Research
+    2 [SW] PlusPower
+    2 [SW] Energy Search
+    2 [SW] Potion
 
 // Energies
-    18 [DP] Lightning Energy 
-     6 [DP] Fighting Energy 
+    18 [SW] Lightning Energy 
+     6 [SW] Fighting Energy 
