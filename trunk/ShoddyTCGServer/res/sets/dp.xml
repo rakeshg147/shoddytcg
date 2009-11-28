@@ -1248,6 +1248,84 @@
         <rarity>U</rarity>
         <illustration>Ken Sugimori</illustration>
     </card>
+        <card>
+        <id>47</id>
+        <uniqueName>Dusclops</uniqueName>
+        <name>Dusclops LV.38</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>P</type>
+            <stage>1</stage>
+            <prestage>Duskull</prestage>     
+            <attack>
+                <name>Roam</name>
+                <cost>PC</cost>
+                <damage>--</damage>
+                <text>Flip a coin. If heads, put 2 damage counters on each of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.</text>
+            </attack>
+            <attack>
+                <name>Gravity Wave</name>
+                <cost>PP</cost>
+                <damage>30</damage>
+                <text>Does 10 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+            </attack>
+            <weakness>D+20</weakness>
+            <resistance>C-20</resistance>
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kouki Saitou</illustration>
+    </card>
+            <card>
+        <id>48</id>
+        <uniqueName>Elekid</uniqueName>
+        <name>Elekid LV.6</name>
+        <pokemon>
+            <hp>40</hp>
+            <type>L</type>
+            <stage>Basic</stage>     
+            <pokepower>
+            	<name>Baby Evolution</name>
+            	<text>Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid. </text>
+            </pokepower>
+            <attack>
+                <name>Outlet</name>
+                <cost>--</cost>
+                <text>Search your deck for a {L} Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+     <card>
+        <id>49</id>
+        <uniqueName>Grotle</uniqueName>
+        <name>Grotle LV.21</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>G</type>
+            <stage>1</stage>
+            <prestage>Turtwig</prestage>     
+            <attack>
+            	<name>Synthesis</name>
+            	<cost>G</cost>
+            	<text>Search your deck for a {G} Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward</text>
+            </attack>
+            <attack>
+                <name>Cut</name>
+                <cost>GCC</cost>
+                <damage>50</damage>
+            </attack>
+            <weakness>R+20</weakness>
+            <resistance>W-20</resistance>
+            <retreat>CCC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Ken Sugimori</illustration>
+    </card>
 	<card>
 		<id>105</id>
 		<uniqueName>Double Full Heal</uniqueName>
