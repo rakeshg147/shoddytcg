@@ -1,161 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cardset code="AR">
-    <card>
-        <id>1</id>
-        <uniqueName>Charizard</uniqueName>
-        <name>Charizard LV.60</name>
-        <pokemon>
-            <hp>140</hp>
-            <type>R</type>
-            <stage>2</stage>  
-            <prestage>Charmeleon</prestage>   
-            <attack>
-                <name>Fire Wing</name>
-                <cost>R</cost>
-                <damage>30</damage>
-            </attack>
-            <attack>
-                <name>Burning Tail</name>
-                <cost>RRC</cost>
-                <damage>80</damage>
-                <text>Discard a Fire Energy attached to Charizard.</text>
-            </attack>
-            <weakness>W+30</weakness>
-            <resistance>F-20</resistance>
-            <retreat>CCC</retreat>
-            </pokemon>
-        <rarity>H</rarity>
-        <illustration>Kagemaru Himeno</illustration>
-    </card>
-        <card>
-        <id>2</id>
-        <uniqueName>Froslass</uniqueName>
-        <name>Froslass LV.45</name>
-        <pokemon>
-            <hp>80</hp>
-            <type>W</type>
-            <stage>1</stage>  
-            <prestage>Snorunt</prestage>   
-            <pokepower>
-                <name>Snow Gift</name>
-                <text>Once during your turn, when you play Froslass from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward. </text>
-            </pokepower>
-            <attack>
-                <name>Ground Frost</name>
-                <cost>WC</cost>
-                <damage>50</damage>
-                <text>If there is any Stadium card in play, this attack does nothing.</text>
-            </attack>
-            <weakness>S+20</weakness>
-            <retreat>C</retreat>
-            </pokemon>
-        <rarity>H</rarity>
-        <illustration>TOKIYA</illustration>
-    </card>
-    	<card>
-        <id>3</id>
-        <uniqueName>Heatran</uniqueName>
-        <name>Heatran LV.58</name>
-        <pokemon>
-            <hp>100</hp>
-            <type>R</type>
-            <stage>Basic</stage>     
-            <attack>
-                <name>Fire Fang</name>
-                <cost>RC</cost>
-                <damage>20</damage>
-                <text>The Defending Pokémon is now Burned.</text>
-            </attack>
-            <attack>
-                <name>Magma Mantle</name>
-                <cost>RRCC</cost>
-                <damage>60+</damage>
-                <text>Discard the top 3 cards of your deck. This attack does 60 damage plus 20 more damage for each {R} or {S} Energy card you discarded</text>
-            </attack>
-            <weakness>Wx2</weakness>
-            <retreat>CCC</retreat>
-            </pokemon>
-        <rarity>H</rarity>
-        <illustration>Keiko Moritsugu</illustration>
-    </card>
-        <card>
-        <id>4</id>
-        <uniqueName>Kabutops</uniqueName>
-        <name>Kabutops LV.59</name>
-        <pokemon>
-            <hp>130</hp>
-            <type>F</type>
-            <stage>2</stage>
-            <prestage>Kabuto</prestage>     
-            <attack>
-                <name>Primal Scythe</name>
-                <cost>F</cost>
-                <damage>20+</damage>
-                <text>You may discard Helix Fossil, Dome Fossil, or Old Amber from your hand. If you do, this attack does 20 damage plus 50 more damage.</text>
-            </attack>
-            <attack>
-                <name>Rock Slide</name>
-                <cost>FCC</cost>
-                <damage>60</damage>
-                <text>Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
-            </attack>
-            <weakness>G+30</weakness>
-            <retreat>CC</retreat>
-            </pokemon>
-        <rarity>H</rarity>
-        <illustration>Hajime Kusajima</illustration>
-    </card>
-        <card>
-        <id>5</id>
-        <uniqueName>Luxray</uniqueName>
-        <name>Luxray LV.53</name>
-        <pokemon>
-            <hp>120</hp>
-            <type>L</type>
-            <stage>2</stage>
-            <prestage>Luxio</prestage>     
-            <attack>
-                <name>Flash</name>
-                <cost>L</cost>
-                <damage>30</damage>
-                <text>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.</text>
-            </attack>
-            <attack>
-                <name>Gadget Bold</name>
-                <cost>LCC</cost>
-                <damage>60</damage>
-                <text>If Luxray has a Pokémon Tool card attached to it, you may do 100 damage instead of 60 to the Defending Pokémon. If you do, discard that Pokémon Tool card.</text>
-            </attack>
-            <weakness>F+30</weakness>
-            <resistance>S-20</resistance>
-            </pokemon>
-        <rarity>H</rarity>
-        <illustration>kawayoo</illustration>
-    </card>
-        <card>
-        <id>6</id>
-        <uniqueName>Mothim</uniqueName>
-        <name>Mothim LV.43</name>
-        <pokemon>
-            <hp>90</hp>
-            <type>G</type>
-            <stage>1</stage>
-            <prestage>Burmy</prestage>     
-            <attack>
-                <name>Cloak Party</name>
-                <cost>--</cost>
-                <text>Search your deck for up to 3 in any combination of Burmy and Wormadam, show them to your opponent, and put them into your hand. Shuffle your deck afterward.</text>
-            </attack>
-            <attack>
-                <name>Energy Assist</name>
-                <cost>C</cost>
-                <damage>30</damage>
-                <text>Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.</text>
-            </attack>
-            <weakness>R+20</weakness>
-            <resistance>F-20</resistance>
-            </pokemon>
-        <rarity>H</rarity>
-        <illustration>Kagemaru Himeno</illustration>
-    </card>
-    </cardset>
+	<card>
+		<id>1</id>
+		<uniqueName>Charizard</uniqueName>
+		<name>Charizard LV.60</name>
+		<pokemon>
+			<hp>140</hp>
+			<type>R</type>
+			<stage>2</stage>
+			<prestage>Charmeleon</prestage>
+			<attack>
+				<name>Fire Wing</name>
+				<cost>R</cost>
+				<damage>30</damage>
+			</attack>
+			<attack>
+				<name>Burning Tail</name>
+				<cost>RRC</cost>
+				<damage>80</damage>
+				<text>Discard a Fire Energy attached to Charizard.</text>
+			</attack>
+			<weakness>W+30</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>2</id>
+		<uniqueName>Froslass</uniqueName>
+		<name>Froslass LV.45</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>W</type>
+			<stage>1</stage>
+			<prestage>Snorunt</prestage>
+			<pokepower>
+				<name>Snow Gift</name>
+				<text>Once during your turn, when you play Froslass from your hand
+					to evolve 1 of your Pokémon, you may search your deck for any 1
+					card and put it into your hand. Shuffle your deck afterward. </text>
+			</pokepower>
+			<attack>
+				<name>Ground Frost</name>
+				<cost>WC</cost>
+				<damage>50</damage>
+				<text>If there is any Stadium card in play, this attack does
+					nothing.</text>
+			</attack>
+			<weakness>S+20</weakness>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>TOKIYA</illustration>
+	</card>
+	<card>
+		<id>3</id>
+		<uniqueName>Heatran</uniqueName>
+		<name>Heatran LV.58</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Fire Fang</name>
+				<cost>RC</cost>
+				<damage>20</damage>
+				<text>The Defending Pokémon is now Burned.</text>
+			</attack>
+			<attack>
+				<name>Magma Mantle</name>
+				<cost>RRCC</cost>
+				<damage>60+</damage>
+				<text>Discard the top 3 cards of your deck. This attack does 60
+					damage plus 20 more damage for each {R} or {S} Energy card you
+					discarded</text>
+			</attack>
+			<weakness>Wx2</weakness>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Keiko Moritsugu</illustration>
+	</card>
+	<card>
+		<id>4</id>
+		<uniqueName>Kabutops</uniqueName>
+		<name>Kabutops LV.59</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>F</type>
+			<stage>2</stage>
+			<prestage>Kabuto</prestage>
+			<attack>
+				<name>Primal Scythe</name>
+				<cost>F</cost>
+				<damage>20+</damage>
+				<text>You may discard Helix Fossil, Dome Fossil, or Old Amber from
+					your hand. If you do, this attack does 20 damage plus 50 more
+					damage.</text>
+			</attack>
+			<attack>
+				<name>Rock Slide</name>
+				<cost>FCC</cost>
+				<damage>60</damage>
+				<text>Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't
+					apply Weakness and Resistance for Benched Pokémon.)</text>
+			</attack>
+			<weakness>G+30</weakness>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>5</id>
+		<uniqueName>Luxray</uniqueName>
+		<name>Luxray LV.53</name>
+		<pokemon>
+			<hp>120</hp>
+			<type>L</type>
+			<stage>2</stage>
+			<prestage>Luxio</prestage>
+			<attack>
+				<name>Flash</name>
+				<cost>L</cost>
+				<damage>30</damage>
+				<text>If the Defending Pokémon tries to attack during your
+					opponent's next turn, your opponent flips a coin. If tails, that
+					attack does nothing.</text>
+			</attack>
+			<attack>
+				<name>Gadget Bold</name>
+				<cost>LCC</cost>
+				<damage>60</damage>
+				<text>If Luxray has a Pokémon Tool card attached to it, you may do
+					100 damage instead of 60 to the Defending Pokémon. If you do,
+					discard that Pokémon Tool card.</text>
+			</attack>
+			<weakness>F+30</weakness>
+			<resistance>S-20</resistance>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>6</id>
+		<uniqueName>Mothim</uniqueName>
+		<name>Mothim LV.43</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>G</type>
+			<stage>1</stage>
+			<prestage>Burmy</prestage>
+			<attack>
+				<name>Cloak Party</name>
+				<cost>--</cost>
+				<text>Search your deck for up to 3 in any combination of Burmy and
+					Wormadam, show them to your opponent, and put them into your hand.
+					Shuffle your deck afterward.</text>
+			</attack>
+			<attack>
+				<name>Energy Assist</name>
+				<cost>C</cost>
+				<damage>30</damage>
+				<text>Search your discard pile for a basic Energy card and attach it
+					to 1 of your Benched Pokémon.</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance>F-20</resistance>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+</cardset>
