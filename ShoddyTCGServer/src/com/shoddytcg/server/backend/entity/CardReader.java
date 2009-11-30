@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -29,23 +30,37 @@ import com.shoddytcg.server.backend.entity.TrainerCard.Type;
  * @author anonymous user
  */
 public class CardReader {
-
+	HashMap<String, CardSet> cardsets;
+	
+	public CardReader(){
+		cardsets = this.getCardSets();
+	}
+	
 	public static void main(String args[]){
+		new CardReader();
+	}
+	
+
+	public HashMap<String, CardSet> getCardSets(){
+		HashMap<String,CardSet> cardsets = new HashMap<String,CardSet>();
 		try{
 			File startingDirectory= new File("res/sets/");
 			List<File> files = CardReader.getFileListing(startingDirectory);
-
+			int supercounter = 0;
 			for(File file : files ){
 				String filename = file.getAbsolutePath();
-				if(!filename.contains(".svn")){
+				if(!filename.contains(".svn")){ //Ignores all .svn files and folders. 
 					DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
 					DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
 					Document doc = docBuilder.parse(file);
 					doc.getDocumentElement().normalize();
+					
+					CardSet cardset = new CardSet();
 					System.out.println("Reading cardset: "+file.getName());
 					NodeList cardsetNodeList = doc.getElementsByTagName("cardset");
 					Element cardsetElement = (Element) cardsetNodeList.item(0);
 					String code = cardsetElement.getAttribute("code");
+					cardset.setCode(code);
 					int cardcount = 0;
 					for (int s = 0; s < cardsetNodeList.getLength(); s++) {
 						Node cardsetNode = cardsetNodeList.item(s);
@@ -298,6 +313,39 @@ public class CardReader {
 												}
 											}//else not a trainer
 										}catch(Exception e){}//Not a trainer
+										
+										// Check If Its a "Goods" Card (HeartGold and SoulSilver Collections renames all Trainers into Goods
+										try{
+											NodeList trainerNodeList = ((Element)cardNodeList.item(j)).getElementsByTagName("goods");
+											if(trainerNodeList.getLength()==1){
+												TrainerCard trainer = new TrainerCard();
+												Element trainerElement = (Element) trainerNodeList.item(0);
+
+												//Read Trainer Type
+												try{
+													NodeList typeList = trainerElement.getElementsByTagName("type");
+													trainer.setType(TrainerCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+												}catch(Exception e){
+													trainer.setType(Type.TRAINER); //Even if its a "Goods", we'll treat it as a trainer internally. 
+												}
+												
+												//Read Trainer Text
+												
+												try{
+													NodeList textList = trainerElement.getElementsByTagName("text");
+													trainer.setText(textList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n",""));
+												}catch(Exception e){
+													System.out.println(card.getName()+" has missing or invalid text!");
+												}
+												card.setCardType(trainer);
+
+												if(!cardDefined){
+													cardDefined=true;
+												}else{
+													System.out.println("Card "+card.getId()+" cannot be a multiple types!");
+												}
+											}//else not a trainer
+										}catch(Exception e){}//Not a trainer
 
 										// Check If Its a Supporter
 										try{
@@ -401,16 +449,20 @@ public class CardReader {
 											System.out.println(card.getName()+" Illustrator is wrong or missing!");
 										}
 										cardcount++;
+										cardset.addCard(code+"-"+card.getId(), card);
 									}catch(Exception e){
-										System.out.println("Card "+(j+1)+" card could not be read");
+										System.out.println("Card "+(j+1)+" could not be read");
 									}
 								}
 							}
 						}
 					}
-					System.out.println("Done\nCards Read: "+cardcount+"\n");
+					System.out.println("Cards Read: "+cardcount+"\n");
+					supercounter+=cardcount;
+					cardsets.put(code,cardset);
 				}
 			}
+			System.out.println("Total: "+supercounter+"/1511");
 		} catch (SAXParseException err) {
 			System.out.println("** Parse error, on line "
 					+ err.getLineNumber() + ", uri " + err.getSystemId());
@@ -421,6 +473,7 @@ public class CardReader {
 		} catch (Throwable t) {
 			t.printStackTrace();
 		}
+		return cardsets;
 	}
 	/**
 	 * Recursively walk a directory tree and return a List of all
