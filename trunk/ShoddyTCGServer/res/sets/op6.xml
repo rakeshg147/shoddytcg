@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cardset code = "OP6">
+<cardset code="OP6">
 	<card>
 		<id>1</id>
 		<uniqueName>Bastiodon</uniqueName>
@@ -10,17 +10,19 @@
 			<stage>2</stage>
 			<prestage>Shieldon</prestage>
 			<pokepower>
-			<name>Protective Wall</name>
-			<text>Prevent all damage done to your Benched Pokemon by your opponent's attacks.</text>
+				<name>Protective Wall</name>
+				<text>Prevent all damage done to your Benched Pokemon by your
+					opponent's attacks.</text>
 			</pokepower>
 			<attack>
 				<name>Anger Revenge</name>
 				<cost>MMC</cost>
 				<damage>60</damage>
 				<text>If Bastiodon was damaged by an attack
-				during your opponent's last turn, this attack does 40 damage to 1 of your
-				opponent's Benched Pokemon.(Don't apply Weakness and Resistance for Benched
-				Pokemon.)</text>
+					during your opponent's last turn, this attack does 40 damage to 1 of your
+					opponent's Benched Pokemon.(Don't apply Weakness and Resistance for
+					Benched
+					Pokemon.)</text>
 			</attack>
 			<weakness>R+40</weakness>
 			<resistance>P-20</resistance>
@@ -36,8 +38,8 @@
 		<pokemon>
 			<hp>90</hp>
 			<type>F</type>
-			<stage>1</stage>  
-			<prestage>Riolu</prestage>   
+			<stage>1</stage>
+			<prestage>Riolu</prestage>
 			<attack>
 				<name>Fient</name>
 				<cost>C</cost>
@@ -48,14 +50,15 @@
 				<name>Aura Sphere</name>
 				<cost>FF</cost>
 				<damage>40</damage>
-				<text>Does 20 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+				<text>Does 20 damage to 1 of your opponent's Benched Pokemon. (Don't
+					apply Weakness and Resistance for Benched Pokemon.)</text>
 			</attack>
 			<weakness>P+20</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
 		</pokemon>
-	    <rarity>R</rarity>
-	    <illustration>Kouki Saitou</illustration>
+		<rarity>R</rarity>
+		<illustration>Kouki Saitou</illustration>
 	</card>
 	<card>
 		<id>3</id>
@@ -64,11 +67,12 @@
 		<pokemon>
 			<hp>70</hp>
 			<type>W</type>
-			<stage>Basic</stage>   
+			<stage>Basic</stage>
 			<attack>
 				<name>Call for Family</name>
 				<cost>C</cost>
-				<text>Search your deck for a Basic Pokemon and put it onto your Bench. Shuffle your deck afterward.</text>
+				<text>Search your deck for a Basic Pokemon and put it onto your
+					Bench. Shuffle your deck afterward.</text>
 			</attack>
 			<attack>
 				<name>Aqua Ring</name>
@@ -79,7 +83,7 @@
 			<weakness>L+20</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>R</rarity>
 		<illustration>Atsuko Nishida</illustration>
 	</card>
@@ -90,22 +94,25 @@
 		<pokemon>
 			<hp>70</hp>
 			<type>L</type>
-			<stage>Basic</stage>   
+			<stage>Basic</stage>
 			<attack>
 				<name>Minor Errand-Running</name>
 				<cost>C</cost>
-				<text>Search your deck for a basic Energy card, show it your opponent, and put it into your hand. Shuffle your deck afterward.</text>
+				<text>Search your deck for a basic Energy card, show it your
+					opponent, and put it into your hand. Shuffle your deck afterward.
+				</text>
 			</attack>
 			<attack>
 				<name>Thunder Jolt</name>
 				<cost>L</cost>
 				<damage>20</damage>
-				<text>Flip a coin. If tails, Pachirisu does 10 damage to itself.</text>
+				<text>Flip a coin. If tails, Pachirisu does 10 damage to itself.
+				</text>
 			</attack>
 			<weakness>F+20</weakness>
 			<resistance>M-20</resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>R</rarity>
 		<illustration>Atsuko Nishida</illustration>
 	</card>
@@ -116,24 +123,27 @@
 		<pokemon>
 			<hp>120</hp>
 			<type>F</type>
-			<stage>2</stage>  
-			<prestage>Cranidos</prestage>   
+			<stage>2</stage>
+			<prestage>Cranidos</prestage>
 			<attack>
 				<name>Assurance</name>
 				<cost>FC</cost>
 				<damage>30</damage>
-				<text>As long as the Defending Pokemon's remaining HP is 60 or less, this attack's base damage is 60 instead of 60.</text>
+				<text>As long as the Defending Pokemon's remaining HP is 60 or less,
+					this attack's base damage is 60 instead of 60.</text>
 			</attack>
 			<attack>
 				<name>Hasty Headbutt</name>
 				<cost>FFF</cost>
 				<damage>100</damage>
-				<text>Rampardos does 20 damage to itself. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokemon.</text>
+				<text>Rampardos does 20 damage to itself. This attack's damage isn't
+					affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any
+					other effects on the Defending Pokemon.</text>
 			</attack>
 			<weakness>G+30</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>R</rarity>
 		<illustration>Kanzuyuki Kano</illustration>
 	</card>
@@ -149,18 +159,21 @@
 				<name>Blowing Wind</name>
 				<cost>P</cost>
 				<damage>0</damage>
-				<text>Flip a coin. If heads, put 1 of your Benched Pokemon and all cards attached to it on top of your deck. Shuffle your deck afterward.</text>
+				<text>Flip a coin. If heads, put 1 of your Benched Pokemon and all
+					cards attached to it on top of your deck. Shuffle your deck
+					afterward.</text>
 			</attack>
 			<attack>
 				<name>Ominous Wind</name>
 				<cost>PC</cost>
 				<damage>10</damage>
-				<text>Flip a coin. If heads, the Defending Pokemon is now Confused and can't retreat during your opponent's next turn.</text>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Confused
+					and can't retreat during your opponent's next turn.</text>
 			</attack>
 			<weakness>D+10</weakness>
 			<resistance>C-20</resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>U</rarity>
 		<illustration>Mitsumira Arito</illustration>
 	</card>
@@ -181,7 +194,7 @@
 			<weakness>C+10</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>U</rarity>
 		<illustration>Kouki Saitou</illustration>
 	</card>
@@ -192,7 +205,7 @@
 		<pokemon>
 			<hp>60</hp>
 			<type>F</type>
-			<stage>Basic</stage>   
+			<stage>Basic</stage>
 			<attack>
 				<name>Wild Kick</name>
 				<cost>F</cost>
@@ -202,7 +215,7 @@
 			<weakness>P+10</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>U</rarity>
 		<illustration>Kouki Saitou</illustration>
 	</card>
@@ -218,12 +231,13 @@
 				<name>Spark</name>
 				<cost>LC</cost>
 				<damage>10</damage>
-				<text>Does 10 damage to 2 of your opponent's Benched Pokemon. (Don't apply Weakness or Resistance for Benched Pokemon.)</text>
+				<text>Does 10 damage to 2 of your opponent's Benched Pokemon. (Don't
+					apply Weakness or Resistance for Benched Pokemon.)</text>
 			</attack>
 			<weakness>F+10</weakness>
 			<resistance>M-20</resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>U</rarity>
 		<illustration>Kagemoru Himano</illustration>
 	</card>
@@ -234,24 +248,26 @@
 		<pokemon>
 			<hp>70</hp>
 			<type>C</type>
-			<stage>1</stage>  
-			<prestage>Starly</prestage>   
+			<stage>1</stage>
+			<prestage>Starly</prestage>
 			<attack>
 				<name>Whirlwind</name>
 				<cost>CC</cost>
 				<damage>20</damage>
-				<text>Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon. </text>
+				<text>Your opponent switches the Defending Pokémon with 1 of his or
+					her Benched Pokémon. </text>
 			</attack>
 			<attack>
 				<name>Clutch</name>
 				<cost>CC</cost>
 				<damage>20</damage>
-				<text>The Defending Pokémon can't retreat during your opponent's next turn. </text>
+				<text>The Defending Pokémon can't retreat during your opponent's
+					next turn. </text>
 			</attack>
 			<weakness>L+10</weakness>
 			<resistance>F-20</resistance>
 			<retreat></retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>U</rarity>
 		<illustration>Masakuzu Fukuda</illustration>
 	</card>
@@ -262,23 +278,25 @@
 		<pokemon>
 			<hp>50</hp>
 			<type>C</type>
-			<stage>Basic</stage> 
+			<stage>Basic</stage>
 			<attack>
 				<name>Amnesi</name>
 				<cost>C</cost>
 				<damage>0</damage>
-				<text>Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn. </text>
+				<text>Choose 1 of the Defending Pokémon's attacks. That Pokémon
+					can't use that attack during your opponent's next turn. </text>
 			</attack>
 			<attack>
 				<name>Scavenge</name>
 				<cost>C</cost>
 				<damage>0</damage>
-				<text>Search your discard pile for a Trainer card, show it to your opponent, and put it into your hand. </text>
+				<text>Search your discard pile for a Trainer card, show it to your
+					opponent, and put it into your hand. </text>
 			</attack>
 			<weakness>F+10</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Mitsuhiro Arita</illustration>
 	</card>
@@ -289,7 +307,7 @@
 		<pokemon>
 			<hp>50</hp>
 			<type>C</type>
-			<stage>Basic</stage>  
+			<stage>Basic</stage>
 			<attack>
 				<name>Splash</name>
 				<cost>C</cost>
@@ -300,12 +318,13 @@
 				<name>Jump Kick</name>
 				<cost>CC</cost>
 				<damage>10</damage>
-				<text>Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</text>
+				<text>Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't
+					apply Weakness and Resistance for Benched Pokémon.)</text>
 			</attack>
 			<weakness>F+10</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Kogemaru Himeno</illustration>
 	</card>
@@ -316,7 +335,7 @@
 		<pokemon>
 			<hp>50</hp>
 			<type>G</type>
-			<stage>Basic</stage>  
+			<stage>Basic</stage>
 			<attack>
 				<name>Sleep Powder</name>
 				<cost>G</cost>
@@ -327,12 +346,14 @@
 				<name>Leech Seed</name>
 				<cost>GC</cost>
 				<damage>20</damage>
-				<text>If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter  from Cherubi. </text>
+				<text>If this attack does any damage to the Defending Pokémon (after
+					applying Weakness and Resistance), remove 1 damage counter from
+					Cherubi. </text>
 			</attack>
 			<weakness>F+10</weakness>
 			<resistance>W-20</resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Atsuko Nishido</illustration>
 	</card>
@@ -343,7 +364,7 @@
 		<pokemon>
 			<hp>50</hp>
 			<type>F</type>
-			<stage>Basic</stage>  
+			<stage>Basic</stage>
 			<attack>
 				<name>Scratch</name>
 				<cost>0</cost>
@@ -354,12 +375,13 @@
 				<name>Ember</name>
 				<cost>FC</cost>
 				<damage>30</damage>
-				<text>Flip a coin. If tails, discard a Fire Energy attached to Chimchar. </text>
+				<text>Flip a coin. If tails, discard a Fire Energy attached to
+					Chimchar. </text>
 			</attack>
 			<weakness>W+10</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Kagemaru Himeno</illustration>
 	</card>
@@ -370,7 +392,7 @@
 		<pokemon>
 			<hp>60</hp>
 			<type>W</type>
-			<stage>Basic</stage>  
+			<stage>Basic</stage>
 			<attack>
 				<name>Peck</name>
 				<cost>0</cost>
@@ -381,12 +403,13 @@
 				<name>Water Splash</name>
 				<cost>WC</cost>
 				<damage>20+</damage>
-				<text>Flip a coin. If heads, this attack does 20 damage plus 10 more damage. </text>
+				<text>Flip a coin. If heads, this attack does 20 damage plus 10 more
+					damage. </text>
 			</attack>
 			<weakness>L+10</weakness>
 			<resistance></resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Atsuko Nishida</illustration>
 	</card>
@@ -397,7 +420,7 @@
 		<pokemon>
 			<hp>50</hp>
 			<type>C</type>
-			<stage>Basic</stage>  
+			<stage>Basic</stage>
 			<attack>
 				<name>Gust</name>
 				<cost>C</cost>
@@ -408,12 +431,13 @@
 				<name>Quick Attack</name>
 				<cost>CC</cost>
 				<damage>10+</damage>
-				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more damage. </text>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more
+					damage. </text>
 			</attack>
 			<weakness>L+10</weakness>
 			<resistance>F-20</resistance>
 			<retreat>C</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Mosakazu Fukudo</illustration>
 	</card>
@@ -424,7 +448,7 @@
 		<pokemon>
 			<hp>60</hp>
 			<type>G</type>
-			<stage>Basic</stage>   
+			<stage>Basic</stage>
 			<attack>
 				<name>Tackle</name>
 				<cost>0</cost>
@@ -440,7 +464,7 @@
 			<weakness>F+10</weakness>
 			<resistance>W-20</resistance>
 			<retreat>CC</retreat>
-			</pokemon>
+		</pokemon>
 		<rarity>C</rarity>
 		<illustration>Masakuzu Fukuda</illustration>
 	</card>
