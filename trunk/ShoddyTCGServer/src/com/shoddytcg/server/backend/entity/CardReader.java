@@ -1,10 +1,6 @@
 package com.shoddytcg.server.backend.entity;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -19,6 +15,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
 import com.shoddytcg.server.backend.entity.TrainerCard.Type;
+import com.shoddytcg.server.utils.FileListing;
 
 /**
  * @author Nushio
@@ -33,19 +30,18 @@ public class CardReader {
 	HashMap<String, CardSet> cardsets;
 	
 	public CardReader(){
-		cardsets = this.getCardSets();
+		this.reloadCardSets();
 	}
 	
 	public static void main(String args[]){
 		new CardReader();
 	}
 	
-
-	public HashMap<String, CardSet> getCardSets(){
-		HashMap<String,CardSet> cardsets = new HashMap<String,CardSet>();
+	public HashMap<String, CardSet> reloadCardSets(){
+		this.cardsets = new HashMap<String,CardSet>();
 		try{
 			File startingDirectory= new File("res/sets/");
-			List<File> files = CardReader.getFileListing(startingDirectory);
+			List<File> files = FileListing.getFileListing(startingDirectory);
 			int supercounter = 0;
 			for(File file : files ){
 				String filename = file.getAbsolutePath();
@@ -475,56 +471,18 @@ public class CardReader {
 		}
 		return cardsets;
 	}
+	
 	/**
-	 * Recursively walk a directory tree and return a List of all
-	 * Files found; the List is sorted using File.compareTo().
-	 *
-	 * @param aStartingDir is a valid directory, which can be read.
+	 * @return the cardsets
 	 */
-	static public List<File> getFileListing(
-			File aStartingDir
-	) throws FileNotFoundException {
-		validateDirectory(aStartingDir);
-		List<File> result = getFileListingNoSort(aStartingDir);
-		Collections.sort(result);
-		return result;
-	}
-	// PRIVATE //
-	static private List<File> getFileListingNoSort(
-			File aStartingDir
-	) throws FileNotFoundException {
-		List<File> result = new ArrayList<File>();
-		File[] filesAndDirs = aStartingDir.listFiles();
-		List<File> filesDirs = Arrays.asList(filesAndDirs);
-		for(File file : filesDirs) {
-			result.add(file); //always add, even if directory
-			if ( ! file.isFile() ) {
-				//must be a directory
-				//recursive call!
-				List<File> deeperList = getFileListingNoSort(file);
-				result.addAll(deeperList);
-			}
-		}
-		return result;
+	public HashMap<String, CardSet> getCardsets() {
+		return cardsets;
 	}
 
 	/**
-	 * Directory is valid if it exists, does not represent a file, and can be read.
+	 * @param cardsets the cardsets to set
 	 */
-	static private void validateDirectory (
-			File aDirectory
-	) throws FileNotFoundException {
-		if (aDirectory == null) {
-			throw new IllegalArgumentException("Directory should not be null.");
-		}
-		if (!aDirectory.exists()) {
-			throw new FileNotFoundException("Directory does not exist: " + aDirectory);
-		}
-		if (!aDirectory.isDirectory()) {
-			throw new IllegalArgumentException("Is not a directory: " + aDirectory);
-		}
-		if (!aDirectory.canRead()) {
-			throw new IllegalArgumentException("Directory cannot be read: " + aDirectory);
-		}
+	public void setCardsets(HashMap<String, CardSet> cardsets) {
+		this.cardsets = cardsets;
 	}
 }
