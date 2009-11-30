@@ -16,6 +16,10 @@
  */
 package com.shoddytcg.server;
 
+import java.util.HashMap;
+
+import com.shoddytcg.server.backend.entity.CardReader;
+import com.shoddytcg.server.backend.entity.CardSet;
 import com.shoddytcg.server.network.IdleTimer;
 import com.shoddytcg.server.network.NetworkService;
 
@@ -27,6 +31,7 @@ import com.shoddytcg.server.network.NetworkService;
 public class ServiceManager {
 	private NetworkService m_networkService;
 	private IdleTimer m_idleTimer;
+	private HashMap<String,CardSet> cardsets;
 	
 	/**
 	 * Default constructor
@@ -37,6 +42,7 @@ public class ServiceManager {
 		 */
 		m_networkService = new NetworkService();
 		m_idleTimer = new IdleTimer();
+		cardsets = new CardReader().getCardsets();
 	}
 	
 	/**
@@ -47,7 +53,20 @@ public class ServiceManager {
 		return m_networkService;
 	}
 	
-		
+	/**
+	 * Returns the card sets
+	 * @return
+	 */
+	public HashMap<String, CardSet> getCardSets() {
+		return cardsets;
+	}	
+	/**
+	 * Returns a particular CardSet
+	 * @return
+	 */
+	public CardSet getCardSet(String code) {
+		return cardsets.get(code);
+	}
 	/**
 	 * Starts all services
 	 */
