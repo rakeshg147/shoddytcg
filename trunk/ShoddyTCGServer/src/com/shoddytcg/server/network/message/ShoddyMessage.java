@@ -14,35 +14,21 @@
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.shoddytcg.server.network.codec;
-
-import java.nio.charset.Charset;
-
-import org.apache.mina.core.buffer.IoBuffer;
-import org.apache.mina.core.session.IoSession;
-import org.apache.mina.filter.codec.ProtocolDecoderOutput;
-import org.apache.mina.filter.codec.textline.LineDelimiter;
-import org.apache.mina.filter.codec.textline.TextLineDecoder;
+package com.shoddytcg.server.network.message;
 
 /**
- * Decodes messages received from a client
+ * A message from server to client
  * @author shadowkanji
  *
  */
-public class PokenetDecoder extends TextLineDecoder {
+public class ShoddyMessage {
+	protected String m_message = "";
 	
 	/**
-	 * Default constructor
+	 * Returns the message
+	 * @return
 	 */
-	public PokenetDecoder() {
-		super(Charset.forName("US-ASCII"), LineDelimiter.AUTO);
-	}
-	
-	/**
-	 * Decodes a message
-	 */
-	public void decode(IoSession session, IoBuffer in,
-			ProtocolDecoderOutput out) throws Exception {
-		super.decode(session, in, out);
+	public String getMessage() {
+		return m_message;
 	}
 }
