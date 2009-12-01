@@ -346,6 +346,43 @@ public class SetParser {
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
+							}else if(tempType.contains("Technical")){
+								//								System.out.println("FOSSIL");
+
+								card.setName(card.getUniqueName());
+								TrainerCard trainer = new TrainerCard();
+								String temp = "";
+								
+
+								boolean stop = false;
+								String text = "";
+								while(!stop){
+									temp = br.readLine();
+									if(temp.contains("Illus"))
+										stop=true;
+									else
+										text += temp+ " ";
+								}
+								trainer.setText(text);
+								trainer.setTrainerType(TrainerType.TM);
+								card.setCardType(trainer);
+								//								System.out.println("Text: "+((TrainerCard)card.getCardType()).getText());
+								
+								temp = temp.replace("Illus. ","");
+								card.setIllustrator(temp);
+								
+								temp = br.readLine();
+								if(temp.contains("Collector")){
+									temp = temp.replace("Collector Number: ","");
+									card.setId(temp.split("/")[0]);
+								}
+
+								temp = br.readLine();
+								if(temp.contains("Rarity")){
+									line = temp;
+									temp = temp.replace("Rarity: ","");
+									card.setRarity(temp);
+								}
 							}else if(tempType.contains("Special Energy")){
 								//								System.out.println("Special Energy");
 								EnergyCard energy = new EnergyCard();

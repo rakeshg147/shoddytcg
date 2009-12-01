@@ -2404,7 +2404,7 @@
 		<illustration>Kagemaru Himeno</illustration>
 	</card>
 	<card>
-		<id>null</id>
+		<id>77</id>
 		<uniqueName>Honchkrow [G]</uniqueName>
 		<name>Honchkrow [G] LV.47</name>
 		<pokemon>
@@ -2433,7 +2433,7 @@
 			<resistance></resistance>
 			<retreat>0</retreat>
 		</pokemon>
-		<rarity>null</rarity>
+		<rarity>C</rarity>
 		<illustration>Yusuke Ishikawa</illustration>
 	</card>
 	<card>
