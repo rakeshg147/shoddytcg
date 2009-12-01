@@ -51,15 +51,15 @@ public class SetParser {
 						{					
 							Card card = new Card();
 							card.setUniqueName(line);
-//							System.out.println("Name: "+card.getUniqueName());
+							System.out.println("Name: "+card.getUniqueName());
 							String tempType = br.readLine();
 							if(tempType.contains("LV")){
-//								System.out.println("Pokemon");
+								//								System.out.println("Pokemon");
 								card.setName(card.getUniqueName()+" "+tempType);
 								PokemonCard pokemon = new PokemonCard();
-								pokemon.setHP(Integer.parseInt(br.readLine().split(" ")[0]));
+								pokemon.setHP(Integer.parseInt(br.readLine().split(" ")[1]));
 								String temp = br.readLine();
-								temp = temp.replace("Pokemon Type: ","");
+								temp = temp.replace("Pokemon Energy Type: ","");
 								pokemon.setPokemonType(PokemonCard.StringToPokemonType(temp));
 
 								temp = br.readLine();
@@ -76,10 +76,6 @@ public class SetParser {
 										pokemon.setPreStage("");
 									}
 								}
-
-								temp = br.readLine();
-								temp = temp.replace("Illus. ","");
-								card.setIllustrator(temp);
 
 								boolean stop = false;
 								while(!stop){
@@ -122,9 +118,14 @@ public class SetParser {
 										}
 
 									}
-									if(line.contains("aaaaaaack"))
+									if(line.contains("Illus")){
 										stop = true;
+										temp = line;
+									}
 								}
+
+								temp = temp.replace("Illus. ","");
+								card.setIllustrator(temp);
 
 								temp = br.readLine();
 								if(temp.contains("Weakness")){
@@ -167,6 +168,7 @@ public class SetParser {
 									temp = temp.replace("Collector Number: ","");
 									card.setId(temp.split("/")[0]);
 								}else if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
@@ -177,19 +179,18 @@ public class SetParser {
 									pokemon.setResistance("");
 								if(pokemon.getRetreat()==null)
 									pokemon.setRetreat("0");
-								
-								temp = br.readLine();
-								if(temp.contains("Rarity")){
-									temp = temp.replace("Rarity: ","");
-									card.setRarity(temp);
-								}
 
-								if(temp.equals("/**\\"))
-									line = temp;
-								
+								if(card.getRarity()==null){
+									temp = br.readLine();
+									if(temp.contains("Rarity")){
+										line = temp;
+										temp = temp.replace("Rarity: ","");
+										card.setRarity(temp);
+									}					
+								}
 								card.setCardType(pokemon);
 							}else if(tempType.contains("Stadium")){
-//								System.out.println("Stadium");
+								//								System.out.println("Stadium");
 								card.setName(card.getUniqueName());
 								String temp = br.readLine();
 								temp = temp.replace("Illus. ","");
@@ -214,11 +215,12 @@ public class SetParser {
 
 								temp = br.readLine();
 								if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
 							}else if(tempType.contains("Supporter")){
-//								System.out.println("Supporter");
+								//								System.out.println("Supporter");
 								card.setName(card.getUniqueName());
 								String temp = br.readLine();
 								temp = temp.replace("Illus. ","");
@@ -243,11 +245,12 @@ public class SetParser {
 
 								temp = br.readLine();
 								if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
 							}else if(tempType.contains("Trainer")){
-//								System.out.println("Trainer");
+								//								System.out.println("Trainer");
 								card.setName(card.getUniqueName());
 								String temp = br.readLine();
 								temp = temp.replace("Illus. ","");
@@ -273,11 +276,12 @@ public class SetParser {
 
 								temp = br.readLine();
 								if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
 							}else if(tempType.contains("Pokemon Tool")){
-//								System.out.println("Pokemon Tool");
+								//								System.out.println("Pokemon Tool");
 								card.setName(card.getUniqueName());
 								String temp = br.readLine();
 								temp = temp.replace("Illus. ","");
@@ -303,11 +307,12 @@ public class SetParser {
 
 								temp = br.readLine();
 								if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
 							}else if(tempType.contains("FOSSIL")){
-//								System.out.println("FOSSIL");
+								//								System.out.println("FOSSIL");
 
 								card.setName(card.getUniqueName());
 								TrainerCard trainer = new TrainerCard();
@@ -337,11 +342,12 @@ public class SetParser {
 
 								temp = br.readLine();
 								if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
 							}else if(tempType.contains("Special Energy")){
-//								System.out.println("Special Energy");
+								//								System.out.println("Special Energy");
 								EnergyCard energy = new EnergyCard();
 								card.setName(card.getUniqueName());
 								String temp = br.readLine();
@@ -368,83 +374,85 @@ public class SetParser {
 
 								temp = br.readLine();
 								if(temp.contains("Rarity")){
+									line = temp;
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
 							}
-//							do{
-							while(line!=null && !line.contains("/**\\")){
+							//							do{
+							while(line!=null && !line.contains("Rarity")){
 								line = br.readLine();
 								if(line!=null)
-									if(line.contains("/**\\"))
+									if(line.contains("Rarity"))
 										counter++;
 							}
-//							}while(line!=null && !line.contains("/**\\"));
+							//							}while(line!=null && !line.contains("/**\\"));
 							cards.add(card);
 						}
-//						System.out.println("Cards total: "+cards.size());
-						System.out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-						System.out.println("<cardset code=\"PL\">");
-						for(int i=0;i<cards.size();i++){
-							Card card = cards.get(i);
-							System.out.println("<card>");
-							System.out.println("<id>"+card.getId()+"</id>");
-							System.out.println("<uniqueName>"+card.getUniqueName()+"</uniqueName>");
-							System.out.println("<name>"+card.getName()+"</name>");
-							System.out.println("<"+card.getCardType().getType().toString().toLowerCase()+">");
-							if(card.getCardType().isTrainer()){
-								System.out.println("<text>"+((TrainerCard)card.getCardType()).getText()+"</text>");
-							}else if(card.getCardType().isSupporter()){
-								System.out.println("<text>"+((SupporterCard)card.getCardType()).getText()+"</text>");
-							}else if(card.getCardType().isStadium()){
-								System.out.println("<text>"+((StadiumCard)card.getCardType()).getText()+"</text>");
-							}else if(card.getCardType().isEnergy()){
-								System.out.println("<type>"+((EnergyCard)card.getCardType()).getEnergyType()+"</type>");
-								System.out.println("<provides>"+((EnergyCard)card.getCardType()).getProvidesText()+"</provides>");
-								System.out.println("<text>"+((EnergyCard)card.getCardType()).getText()+"</text>");
-							}else if(card.getCardType().isPokemon()){
-								PokemonCard pokemon = (PokemonCard)card.getCardType();
-								System.out.println("<hp>"+pokemon.getHP()+"</hp>");
-								System.out.println("<type>"+pokemon.getPokemonTypeText()+"</type>");
-								System.out.println("<stage>"+pokemon.getStageText()+"</stage>");
-								if(!pokemon.getStage().equals(PokemonCard.Stage.BASIC))
-									if(!pokemon.getStage().equals(PokemonCard.Stage.LVLX))
-										System.out.println("<prestage>"+pokemon.getPreStage()+"</prestage>");
-									else
-										System.out.println("<prestage>"+card.getName()+"</prestage>");
-								for(int x = 0; x<pokemon.getPokebodies().size();x++){
-									PokeBody pb = pokemon.getPokebodies().get(x);
-									System.out.println("<pokebody>");
-									System.out.println("<name>"+pb.getName()+"</name>");
-									System.out.println("<text>"+pb.getText()+"</text>");
-									System.out.println("</pokebody>");
-								}
-								for(int x = 0; x<pokemon.getPokepowers().size();x++){
-									PokePower pp = pokemon.getPokepowers().get(x);
-									System.out.println("<pokepower>");
-									System.out.println("<name>"+pp.getName()+"</name>");
-									System.out.println("<text>"+pp.getText()+"</text>");
-									System.out.println("</pokepower>");
-								}
-								for(int x = 0; x<pokemon.getAttacks().size();x++){
-									Attack attack = pokemon.getAttacks().get(x);
-									System.out.println("<attack>");
-									System.out.println("<name>"+attack.getName()+"</name>");
-									System.out.println("<cost>"+attack.getCost()+"</cost>");
-									System.out.println("<damage>"+attack.getDamage()+"</damage>");
-									System.out.println("<text>"+attack.getText()+"</text>");
-									System.out.println("</attack>");
-								}
-								System.out.println("<weakness>"+pokemon.getWeakness()+"</weakness>");
-								System.out.println("<resistance>"+pokemon.getResistance()+"</resistance>");
-								System.out.println("<retreat>"+pokemon.getRetreat()+"</retreat>");
-							} 
-							System.out.println("</"+card.getCardType().getType().toString().toLowerCase()+">");
-							System.out.println("<rarity>"+card.getRarity()+"</rarity>");
-							System.out.println("<illustration>"+card.getIllustrator()+"</illustration>");
-							System.out.println("</card>");
-						}
-						System.out.println("</cardset>");
+						System.out.println("Cards total: "+cards.size());
+
+												System.out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+												System.out.println("<cardset code=\"PL\">");
+												for(int i=0;i<cards.size();i++){
+													Card card = cards.get(i);
+													System.out.println("<card>");
+													System.out.println("<id>"+card.getId()+"</id>");
+													System.out.println("<uniqueName>"+card.getUniqueName()+"</uniqueName>");
+													System.out.println("<name>"+card.getName()+"</name>");
+													System.out.println("<"+card.getCardType().getType().toString().toLowerCase()+">");
+													if(card.getCardType().isTrainer()){
+														System.out.println("<text>"+((TrainerCard)card.getCardType()).getText()+"</text>");
+													}else if(card.getCardType().isSupporter()){
+														System.out.println("<text>"+((SupporterCard)card.getCardType()).getText()+"</text>");
+													}else if(card.getCardType().isStadium()){
+														System.out.println("<text>"+((StadiumCard)card.getCardType()).getText()+"</text>");
+													}else if(card.getCardType().isEnergy()){
+														System.out.println("<type>"+((EnergyCard)card.getCardType()).getEnergyType()+"</type>");
+														System.out.println("<provides>"+((EnergyCard)card.getCardType()).getProvidesText()+"</provides>");
+														System.out.println("<text>"+((EnergyCard)card.getCardType()).getText()+"</text>");
+													}else if(card.getCardType().isPokemon()){
+														PokemonCard pokemon = (PokemonCard)card.getCardType();
+														System.out.println("<hp>"+pokemon.getHP()+"</hp>");
+														System.out.println("<type>"+pokemon.getPokemonTypeText()+"</type>");
+														System.out.println("<stage>"+pokemon.getStageText()+"</stage>");
+														if(!pokemon.getStage().equals(PokemonCard.Stage.BASIC))
+															if(!pokemon.getStage().equals(PokemonCard.Stage.LVLX))
+																System.out.println("<prestage>"+pokemon.getPreStage()+"</prestage>");
+															else
+																System.out.println("<prestage>"+card.getName()+"</prestage>");
+														for(int x = 0; x<pokemon.getPokebodies().size();x++){
+															PokeBody pb = pokemon.getPokebodies().get(x);
+															System.out.println("<pokebody>");
+															System.out.println("<name>"+pb.getName()+"</name>");
+															System.out.println("<text>"+pb.getText()+"</text>");
+															System.out.println("</pokebody>");
+														}
+														for(int x = 0; x<pokemon.getPokepowers().size();x++){
+															PokePower pp = pokemon.getPokepowers().get(x);
+															System.out.println("<pokepower>");
+															System.out.println("<name>"+pp.getName()+"</name>");
+															System.out.println("<text>"+pp.getText()+"</text>");
+															System.out.println("</pokepower>");
+														}
+														for(int x = 0; x<pokemon.getAttacks().size();x++){
+															Attack attack = pokemon.getAttacks().get(x);
+															System.out.println("<attack>");
+															System.out.println("<name>"+attack.getName()+"</name>");
+															System.out.println("<cost>"+attack.getCost()+"</cost>");
+															System.out.println("<damage>"+attack.getDamage()+"</damage>");
+															System.out.println("<text>"+attack.getText()+"</text>");
+															System.out.println("</attack>");
+														}
+														System.out.println("<weakness>"+pokemon.getWeakness()+"</weakness>");
+														System.out.println("<resistance>"+pokemon.getResistance()+"</resistance>");
+														System.out.println("<retreat>"+pokemon.getRetreat()+"</retreat>");
+													} 
+													System.out.println("</"+card.getCardType().getType().toString().toLowerCase()+">");
+													System.out.println("<rarity>"+card.getRarity()+"</rarity>");
+													System.out.println("<illustration>"+card.getIllustrator()+"</illustration>");
+													System.out.println("</card>");
+												}
+												System.out.println("</cardset>");
 					}catch(Exception e){
 						e.printStackTrace();
 					}
