@@ -38,7 +38,6 @@ public class Card {
 	private boolean faceUp = false; 
 	
 	public Card() {
-		
 	}
 	
 	public Card(String cardId) {
@@ -93,7 +92,14 @@ public class Card {
 	public CardType getCardType() {
 		return cardType;
 	}
-
+	
+//	public String getCardTypeName() {
+//		
+//		if(cardType.isPokemon())
+//			return "pokemon";
+//		else if(cardType.)
+//			return "Unown";
+//	}
 	/**
 	 * @param cardType the cardType to set
 	 */

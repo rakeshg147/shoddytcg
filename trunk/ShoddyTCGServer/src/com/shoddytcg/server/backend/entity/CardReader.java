@@ -30,7 +30,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-import com.shoddytcg.server.backend.entity.TrainerCard.Type;
+import com.shoddytcg.server.backend.entity.EnergyCard.EnergyType;
+import com.shoddytcg.server.backend.entity.TrainerCard.TrainerType;
 import com.shoddytcg.server.utils.FileListing;
 
 /**
@@ -115,7 +116,7 @@ public class CardReader {
 												// Type
 												try{
 													NodeList typeList = pokemonElement.getElementsByTagName("type");
-													pokemon.setType(PokemonCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue()));
+													pokemon.setPokemonType(PokemonCard.StringToPokemonType(typeList.item(0).getChildNodes().item(0).getNodeValue()));
 												}catch(Exception e){
 													System.out.println(card.getId()+" Pokemon Type is wrong or missing!");
 												}
@@ -123,7 +124,7 @@ public class CardReader {
 												// Stage
 												try{
 													NodeList stageList = pokemonElement.getElementsByTagName("stage");
-													pokemon.setStage(PokemonCard.returnStage(stageList.item(0).getChildNodes().item(0).getNodeValue()));
+													pokemon.setStage(PokemonCard.StringToStage(stageList.item(0).getChildNodes().item(0).getNodeValue()));
 												}catch(Exception e){
 													System.out.println(card.getId()+" Pokemon Stage is wrong or missing!");
 												}
@@ -134,7 +135,7 @@ public class CardReader {
 														NodeList preStageList = pokemonElement.getElementsByTagName("prestage");
 														pokemon.setPreStage(preStageList.item(0).getChildNodes().item(0).getNodeValue());
 													}catch(Exception e){
-														System.out.println(card.getId()+" Pokemon Stage is wrong or missing!");
+														System.out.println(card.getId()+" Pokemon PreStage is wrong or missing!");
 													}
 												}else{
 													pokemon.setPreStage("");
@@ -297,9 +298,9 @@ public class CardReader {
 												//Read Trainer Type
 												try{
 													NodeList typeList = trainerElement.getElementsByTagName("type");
-													trainer.setType(TrainerCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+													trainer.setTrainerType(TrainerCard.returnTrainerType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
 												}catch(Exception e){
-													trainer.setType(Type.TRAINER);
+													trainer.setTrainerType(TrainerType.TRAINER);
 												}
 												
 												//Read Trainer Text
@@ -330,9 +331,9 @@ public class CardReader {
 												//Read Trainer Type
 												try{
 													NodeList typeList = trainerElement.getElementsByTagName("type");
-													trainer.setType(TrainerCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+													trainer.setTrainerType(TrainerCard.returnTrainerType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
 												}catch(Exception e){
-													trainer.setType(Type.TRAINER); //Even if its a "Goods", we'll treat it as a trainer internally. 
+													trainer.setTrainerType(TrainerType.TRAINER); //Even if its a "Goods", we'll treat it as a trainer internally. 
 												}
 												
 												//Read Trainer Text
@@ -410,9 +411,9 @@ public class CardReader {
 												//Read Energy Type (Basic or Special)
 												try{
 													NodeList typeList = energyElement.getElementsByTagName("type");
-													energy.setType(EnergyCard.returnType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+													energy.setEnergyType(EnergyCard.returnEnergyType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
 												}catch(Exception e){
-													energy.setType(EnergyCard.Type.BASIC);
+													energy.setEnergyType(EnergyType.BASIC);
 													System.out.println(card.getName()+" has missing or invalid Energy Type!!");
 												}
 												
