@@ -1,0 +1,4305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardset code="PL">
+	<card>
+		<id>1</id>
+		<uniqueName>Absol [G]</uniqueName>
+		<name>Absol [G] LV.59</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>D</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Feint Attack</name>
+				<cost>D</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon. This attack does 20
+					damage to that Pokemon. This attack's damage isn't affected by
+					Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other
+					effects on that Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Doom News</name>
+				<cost>DCC</cost>
+				<damage></damage>
+				<text>Return all Energy cards attached to Absol [G] to your hand.
+					The Defending Pokemon is Knocked Out at the end of your opponent's
+					next turn.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance>P-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Yusuke Ishikawa</illustration>
+	</card>
+	<card>
+		<id>2</id>
+		<uniqueName>Blaziken [FB]</uniqueName>
+		<name>Blaziken [FB] LV.50</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Luring Flame</name>
+				<cost>R</cost>
+				<damage></damage>
+				<text>Switch the Defending Pokemon with 1 of your opponent's Benched
+					Pokemon. The new Defending Pokemon is now Burned.</text>
+			</attack>
+			<attack>
+				<name>Vapor Kick</name>
+				<cost>RC</cost>
+				<damage>30+</damage>
+				<text>If your opponent has any {W} Pokemon in play, this attack does
+					30 damage plus 30 more damage.</text>
+			</attack>
+			<weakness>W×2</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Motofumi Fujiwara</illustration>
+	</card>
+	<card>
+		<id>3</id>
+		<uniqueName>Drifblim [FB]</uniqueName>
+		<name>Drifblim [FB] LV.50</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokebody>
+				<name>Pump Up</name>
+				<text>If your opponent has 3 or less Prize cards left, Drifblim [FB]
+					gets +40 HP.</text>
+			</pokebody>
+			<attack>
+				<name>Shadow Ball</name>
+				<cost>PCC</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Benched Pokemon. This attack does
+					40 damage to that Pokemon. Apply Weakness and Resistance.</text>
+			</attack>
+			<weakness>D×2</weakness>
+			<resistance>C-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Lee HyunJung</illustration>
+	</card>
+	<card>
+		<id>4</id>
+		<uniqueName>Electivire [FB]</uniqueName>
+		<name>Electivire [FB] LV.50</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Dump and Draw</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Discard up to 2 Energy cards from your hand. Then, draw 2
+					cards for each Energy card you discarded.</text>
+			</attack>
+			<attack>
+				<name>Electric Current</name>
+				<cost>LCC</cost>
+				<damage>40</damage>
+				<text>Move a {L} Energy card attached to Electivire [FB] to 1 of
+					your Benched Pokemon.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance>M-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Hironobu Yoshida</illustration>
+	</card>
+	<card>
+		<id>5</id>
+		<uniqueName>Garchomp</uniqueName>
+		<name>Garchomp LV.71</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>C</type>
+			<stage>Stage 2</stage>
+			<prestage>Evolves from: Gabite</prestage>
+			<pokebody>
+				<name>Dragon Intimidation</name>
+				<text>If Garchomp is your Active Pokemon and is damaged by an
+					opponent's attack (even if Garchomp is Knocked Out), choose an
+					Energy card attached to the Attacking Pokemon and put it into your
+					opponent's hand.</text>
+			</pokebody>
+			<attack>
+				<name>Guard Claw</name>
+				<cost>CC</cost>
+				<damage>40</damage>
+				<text>During your opponent's next turn, any damage done to Garchomp
+					by attacks is reduced by 20 (after applying Weakness and
+					Resistance).</text>
+			</attack>
+			<attack>
+				<name>Speed Impact</name>
+				<cost>CCC</cost>
+				<damage>120-</damage>
+				<text>Does 120 damage minus 20 damage for each Energy card attached
+					to the Defending Pokemon.</text>
+			</attack>
+			<weakness>C+30</weakness>
+			<resistance></resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>6</id>
+		<uniqueName>Magmortar</uniqueName>
+		<name>Magmortar LV.54</name>
+		<pokemon>
+			<hp>110</hp>
+			<type>R</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Magmar</prestage>
+			<pokepower>
+				<name>Evolutionary Flame</name>
+				<text>Once during your turn, when you play Magmortar from your hand
+					to evolve 1 of your Pokemon, you may use this power. Your
+					opponent's Active Pokemon is now Burned and Confused.</text>
+			</pokepower>
+			<attack>
+				<name>Fire Arrow</name>
+				<cost>RC</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon. This attack does 30
+					damage to that Pokemon. (Don't apply Weakness and Resistance for
+					Benched Pokemon.)</text>
+			</attack>
+			<attack>
+				<name>Flame Ball</name>
+				<cost>RCC</cost>
+				<damage>60</damage>
+				<text>You may move a {R} Energy card attached to Magmortar to 1 of
+					your Benched Pokemon.</text>
+			</attack>
+			<weakness>W+30</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Naoyo Kimura</illustration>
+	</card>
+	<card>
+		<id>7</id>
+		<uniqueName>Metagross</uniqueName>
+		<name>Metagross LV.68</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>M</type>
+			<stage>Stage 2</stage>
+			<prestage>Evolves from: Metang</prestage>
+			<pokebody>
+				<name>Gravitation</name>
+				<text>Each Pokemon in play (both yours and your opponent's) gets -20
+					HP. No more than 20 HP can be reduced by all Gravitation
+					Poke-Bodies.</text>
+			</pokebody>
+			<attack>
+				<name>Geo Impact</name>
+				<cost>MMC</cost>
+				<damage>60</damage>
+				<text>If you have a Stadium card in play, this attack does 20 damage
+					to each of your opponent's Benched Pokemon that is the same type as
+					the Defending Pokemon. (Don't apply Weakness and Resistance for
+					Benched Pokemon.)</text>
+			</attack>
+			<weakness>R+30</weakness>
+			<resistance>P-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>8</id>
+		<uniqueName>Rayquaza [C]</uniqueName>
+		<name>Rayquaza [C] LV.73</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Trash Burst</name>
+				<cost>C</cost>
+				<damage>10+</damage>
+				<text>You may discard up to 5 Energy cards from your hand. If you
+					do, this attack does 10 damage plus 10 more damage for each Energy
+					card you discarded.</text>
+			</attack>
+			<attack>
+				<name>Twister</name>
+				<cost>CCCC</cost>
+				<damage>50</damage>
+				<text>Flip 2 coins. If both are tails, this attack does nothing. For
+					each heads, discard an Energy attached to the Defending Pokemon.
+				</text>
+			</attack>
+			<weakness>C×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>9</id>
+		<uniqueName>Regigigas [FB]</uniqueName>
+		<name>Regigigas [FB] LV.50</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Drain Punch</name>
+				<cost>CCC</cost>
+				<damage>30</damage>
+				<text>Remove from Regigigas [FB] a number of damage counters equal
+					to the amount of Energy attached to the Defending Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Rainbow Lariat</name>
+				<cost>CCCC</cost>
+				<damage>20×</damage>
+				<text>Does 20 damage times the number of different types of Pokemon
+					SP you have in play.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance></resistance>
+			<retreat>CCCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Shin Nagasawa</illustration>
+	</card>
+	<card>
+		<id>10</id>
+		<uniqueName>Rhyperior</uniqueName>
+		<name>Rhyperior LV.66</name>
+		<pokemon>
+			<hp>140</hp>
+			<type>F</type>
+			<stage>Stage 2</stage>
+			<prestage>Evolves from: Rhydon</prestage>
+			<attack>
+				<name>Raging Drill</name>
+				<cost>FC</cost>
+				<damage>30+</damage>
+				<text>Does 30 damage plus 10 more damage for each damage counter on
+					Rhyperior.</text>
+			</attack>
+			<attack>
+				<name>Deep Scrap</name>
+				<cost>FFCC</cost>
+				<damage>60</damage>
+				<text>If the Defending Pokemon is Knocked Out by this attack,
+					discard the top 3 cards from your opponent's deck.</text>
+			</attack>
+			<weakness>W+30</weakness>
+			<resistance>L-20</resistance>
+			<retreat>CCCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>11</id>
+		<uniqueName>Staraptor [FB]</uniqueName>
+		<name>Staraptor [FB] LV.50</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Quick Attack</name>
+				<cost>C</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 10 more
+					damage.</text>
+			</attack>
+			<attack>
+				<name>Whirlwind</name>
+				<cost>CCC</cost>
+				<damage>30</damage>
+				<text>Your opponent switches the Defending Pokemon with 1 of his or
+					her Benched Pokemon.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Hiroki Fuchino</illustration>
+	</card>
+	<card>
+		<id>12</id>
+		<uniqueName>Swampert</uniqueName>
+		<name>Swampert LV.60</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>W</type>
+			<stage>Stage 2</stage>
+			<prestage>Evolves from: Marshtomp</prestage>
+			<pokebody>
+				<name>Root Protector</name>
+				<text>Any damage done to Swampert by attacks from your opponent's
+					Pokemon that isn't an Evolved Pokemon is reduced by 20 (after
+					applying Weakness and Resistance).</text>
+			</pokebody>
+			<attack>
+				<name>Drag Off</name>
+				<cost>WCC</cost>
+				<damage>30</damage>
+				<text>Before doing damage, you may choose 1 of your opponent's
+					Benched Pokemon and switch it with 1 of the Defending Pokemon.
+				</text>
+			</attack>
+			<attack>
+				<name>Push Over</name>
+				<cost>WCCC</cost>
+				<damage>60+</damage>
+				<text>Does 60 damage plus 10 more damage for each {F} Energy
+					attached to Swampert.</text>
+			</attack>
+			<weakness>G+30</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>13</id>
+		<uniqueName>Venusaur</uniqueName>
+		<name>Venusaur LV.55</name>
+		<pokemon>
+			<hp>140</hp>
+			<type>G</type>
+			<stage>Stage 2</stage>
+			<prestage>Evolves from: Ivysaur</prestage>
+			<pokebody>
+				<name>Green Aroma</name>
+				<text>Remove any Special Conditions from each of your {G} Pokemon.
+					Each of your {G} Pokemon can't be affected by any Special
+					Conditions.</text>
+			</pokebody>
+			<attack>
+				<name>Desperate Pollen</name>
+				<cost>G</cost>
+				<damage>30</damage>
+				<text>If Venusaur already has 8 or more damage counters on it, the
+					Defending Pokemon is now Burned, Confused, and Poisoned.</text>
+			</attack>
+			<attack>
+				<name>Special Reaction</name>
+				<cost>GGCC</cost>
+				<damage>40+</damage>
+				<text>If the Defending Pokemon is affected by any Special
+					Conditions, this attack does 40 damage plus 40 more damage for each
+					of those Special Conditions.</text>
+			</attack>
+			<weakness>R+40</weakness>
+			<resistance></resistance>
+			<retreat>CCCC</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>14</id>
+		<uniqueName>Yanmega</uniqueName>
+		<name>Yanmega LV.53</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Yanma</prestage>
+			<pokepower>
+				<name>Speed Boost</name>
+				<text>Once during your turn (before your attack), if Yanmega is your
+					Active Pokemon, you may search your discard pile for a {G} Energy
+					card and attach it to Yanmega. This power can't be used if Yanmega
+					is affected by a Special Condition.</text>
+			</pokepower>
+			<attack>
+				<name>Wind Return</name>
+				<cost>CC</cost>
+				<damage>20+</damage>
+				<text>You may return all {G} Energy attached to Yanmega to your
+					hand. If you do, this attack does 20 damage plus 20 more damage for
+					each Energy card you returned.</text>
+			</attack>
+			<attack>
+				<name>Speed Dive</name>
+				<cost>GGCC</cost>
+				<damage>70</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>15</id>
+		<uniqueName>Arcanine [G]</uniqueName>
+		<name>Arcanine [G] LV.60</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<pokebody>
+				<name>Extreme Speed</name>
+				<text>Arcanine [G]'s Retreat Cost is {C} less for each {R} Energy
+					attached to Arcanine [G].</text>
+			</pokebody>
+			<attack>
+				<name>Overrun</name>
+				<cost>RCC</cost>
+				<damage>40</damage>
+				<text>Does 20 damage to 1 of your opponent's Benched Pokemon. (Don't
+					apply Weakness and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<weakness>W×2</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Yusuke Ishikawa</illustration>
+	</card>
+	<card>
+		<id>16</id>
+		<uniqueName>Articuno</uniqueName>
+		<name>Articuno LV.41</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Sharp Beak</name>
+				<cost>WCC</cost>
+				<damage>30+</damage>
+				<text>Flip a coin. If heads, this attack does 30 damage plus 10 more
+					damage.</text>
+			</attack>
+			<attack>
+				<name>Ice Beam</name>
+				<cost>WWCC</cost>
+				<damage>50</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+				</text>
+			</attack>
+			<weakness>M+30</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>17</id>
+		<uniqueName>Butterfree [FB]</uniqueName>
+		<name>Butterfree [FB] LV.50</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<pokebody>
+				<name>Compound Eyes</name>
+				<text>If your opponent's Active Pokemon has any Poke-Bodies, each of
+					Butterfree [FB]'s attacks does 30 more damage to the Active Pokemon
+					(before applying Weakness and Resistance).</text>
+			</pokebody>
+			<attack>
+				<name>Select Powder</name>
+				<cost>GCC</cost>
+				<damage>30</damage>
+				<text>Choose either Burned or Poisoned. The Defending Pokemon is now
+					affected by that Special Condition.</text>
+			</attack>
+			<weakness>R×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Lee HyunJung</illustration>
+	</card>
+	<card>
+		<id>18</id>
+		<uniqueName>Camerupt</uniqueName>
+		<name>Camerupt LV.49</name>
+		<pokemon>
+			<hp>120</hp>
+			<type>R</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Numel</prestage>
+			<attack>
+				<name>Moving Fire</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>You may move a {R} Energy card attached to 1 of your Benched
+					Pokemon to Camerupt.</text>
+			</attack>
+			<attack>
+				<name>Volcanic Crash</name>
+				<cost>RRCC</cost>
+				<damage>100</damage>
+				<text>Flip 3 coins. For each tails, discard the top card of your
+					deck. Ignore this effect if your opponent has any {W}</text>
+			</attack>
+			<weakness>W+30</weakness>
+			<resistance></resistance>
+			<retreat>CCCC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Yukiko Baba</illustration>
+	</card>
+	<card>
+		<id>19</id>
+		<uniqueName>Camerupt [G]</uniqueName>
+		<name>Camerupt [G] LV.57</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Searing Flame</name>
+				<cost>RC</cost>
+				<damage>20</damage>
+				<text>The Defending Pokemon is now Burned.</text>
+			</attack>
+			<attack>
+				<name>Earth Power</name>
+				<cost>CCCC</cost>
+				<damage>60</damage>
+				<text>Flip 2 coins. This attack does 10 damage times the number of
+					heads to each of your opponent's Benched Pokemon. (Don't apply
+					Weakness and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<weakness>W×2</weakness>
+			<resistance></resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Ryota Saito</illustration>
+	</card>
+	<card>
+		<id>20</id>
+		<uniqueName>Charizard [G]</uniqueName>
+		<name>Charizard [G] LV.65</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Flame Jet</name>
+				<cost>RC</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon. Flip a coin. If heads,
+					this attack does 40 damage to that Pokemon. (Don't apply Weakness
+					and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<attack>
+				<name>Heat Blast</name>
+				<cost>RCC</cost>
+				<damage>50</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>W×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Wataru Kawahara</illustration>
+	</card>
+	<card>
+		<id>21</id>
+		<uniqueName>Chimecho</uniqueName>
+		<name>Chimecho LV.30</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Heal Bell</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Remove 3 damage counters from each of your Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Super Psywave</name>
+				<cost>P</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon. Count the amount of
+					Energy attached to that Pokemon. Put that many damage counters on
+					the Pokemon.</text>
+			</attack>
+			<weakness>P+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Yukiko Baba</illustration>
+	</card>
+	<card>
+		<id>22</id>
+		<uniqueName>Claydol</uniqueName>
+		<name>Claydol LV.51</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>P</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Baltoy</prestage>
+			<attack>
+				<name>Antique Magic</name>
+				<cost>CC</cost>
+				<damage></damage>
+				<text>Put 3 damage counters on any Pokemon (both yours and your
+					opponent's) in any way you like.</text>
+			</attack>
+			<attack>
+				<name>Synchro Attack</name>
+				<cost>PP</cost>
+				<damage>30</damage>
+				<text>If the Defending Pokemon has the same remaining HP as Claydol,
+					this attack's base damage is 90 instead of 30.</text>
+			</attack>
+			<weakness>P+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>23</id>
+		<uniqueName>Crawdaunt [G]</uniqueName>
+		<name>Crawdaunt [G] LV.61</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>D</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Smash Turn</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>You may switch Crawdaunt [G] with 1 of your Benched Pokemon.
+				</text>
+			</attack>
+			<attack>
+				<name>Hyper Beam</name>
+				<cost>DCC</cost>
+				<damage>40</damage>
+				<text>Flip a coin. If heads, discard an Energy card attached to the
+					Defending Pokemon.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Wataru Kawahara</illustration>
+	</card>
+	<card>
+		<id>24</id>
+		<uniqueName>Dewgong</uniqueName>
+		<name>Dewgong LV.40</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Seel</prestage>
+			<pokebody>
+				<name>Thick Fat</name>
+				<text>Any damage done to Dewgong by attacks from {R} Pokemon and {W}
+					Pokemon is reduced by 30 (after applying Weakness and Resistance).
+				</text>
+			</pokebody>
+			<attack>
+				<name>Ice Throw</name>
+				<cost>WC</cost>
+				<damage>30</damage>
+				<text>If the Defending Pokemon is a {F} Pokemon, this attack's base
+					damage is 80 instead of 30.</text>
+			</attack>
+			<attack>
+				<name>Aurora Beam</name>
+				<cost>WWCC</cost>
+				<damage>70</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>M+20</weakness>
+			<resistance></resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kanako Eo</illustration>
+	</card>
+	<card>
+		<id>25</id>
+		<uniqueName>Dodrio</uniqueName>
+		<name>Dodrio LV.32</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Doduo</prestage>
+			<pokepower>
+				<name>Echo Draw</name>
+				<text>Once during your turn (before your attack), you may draw a
+					card. This power can't be used if Dodrio is affected by a Special
+					Condition.</text>
+			</pokepower>
+			<attack>
+				<name>Drill Peck</name>
+				<cost>CCC</cost>
+				<damage>50</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>26</id>
+		<uniqueName>Dusknoir [FB]</uniqueName>
+		<name>Dusknoir [FB] LV.50</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Ghost Hand</name>
+				<cost>PC</cost>
+				<damage>30</damage>
+				<text>Put 1 damage counter on 1 of your Benched Pokemon.</text>
+			</attack>
+			<attack>
+				<name> Cursed Wrath</name>
+				<cost>PCC</cost>
+				<damage>10×</damage>
+				<text>Does 10 damage times the number of Pokemon SP in your discard
+					pile.</text>
+			</attack>
+			<weakness>D×2</weakness>
+			<resistance>C-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Motofumi Fujiwara</illustration>
+	</card>
+	<card>
+		<id>27</id>
+		<uniqueName>Empoleon [FB]</uniqueName>
+		<name>Empoleon [FB] LV.50</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Rushing Water</name>
+				<cost>WC</cost>
+				<damage>20</damage>
+				<text>Move an Energy card attached to the Defending Pokemon to
+					another of your opponent's Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Escort</name>
+				<cost>WCC</cost>
+				<damage>40+</damage>
+				<text>If you played any Supporter card from your hand during this
+					turn, this attack does 40 damage plus 20 more damage.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Hiroki Fuchino</illustration>
+	</card>
+	<card>
+		<id>28</id>
+		<uniqueName>Exploud</uniqueName>
+		<name>Exploud LV.60</name>
+		<pokemon>
+			<hp>130</hp>
+			<type>C</type>
+			<stage>Stage 2</stage>
+			<prestage>Evolves from: Loudred</prestage>
+			<pokebody>
+				<name>Erasing Sound</name>
+				<text>Each of your Pokemon has no Weakness.</text>
+			</pokebody>
+			<attack>
+				<name>Knock Back</name>
+				<cost>CC</cost>
+				<damage>40</damage>
+				<text>Your opponent switches the Defending Pokemon with 1 of his or
+					her Benched Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Hyper Beam</name>
+				<cost>CCC</cost>
+				<damage>60</damage>
+				<text>Flip a coin. If heads, discard an Energy card attached to the
+					Defending Pokemon.</text>
+			</attack>
+			<weakness>F+30</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>29</id>
+		<uniqueName>Honchkrow</uniqueName>
+		<name>Honchkrow LV.46</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>D</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Murkrow</prestage>
+			<pokepower>
+				<name>Darkness Restore</name>
+				<text>Once during your turn (before your attack), if Honchkrow is
+					your Active Pokemon, you may use this power. If your opponent's
+					Bench isn't full, search your opponent's discard pile for a Basic
+					Pokemon and put it onto his or her Bench. This power can't be used
+					if Honchkrow is affected by a Special Condition.</text>
+			</pokepower>
+			<attack>
+				<name>Riot</name>
+				<cost>DCC</cost>
+				<damage>30+</damage>
+				<text>Does 30 damage plus 10 more damage for each Pokemon that isn't
+					an Evolved Pokemon in play (both yours and your opponent's).</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>30</id>
+		<uniqueName>Lickilicky [C]</uniqueName>
+		<name>Lickilicky [C] LV.57</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Licking-licking Heal</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Attach a basic Energy card from your hand to 1 of your
+					Pokemon. Then, remove 2 damage counters from that Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Return</name>
+				<cost>CCC</cost>
+				<damage>40</damage>
+				<text>Draw cards until you have 6 cards in your hand.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>31</id>
+		<uniqueName>Lucario [C]</uniqueName>
+		<name>Lucario [C] LV.60</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Metal Claw</name>
+				<cost>C</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Mid-air Strike</name>
+				<cost>FCC</cost>
+				<damage>30+</damage>
+				<text>Flip a coin. If heads, this attack does 30 damage plus 30 more
+					damage.</text>
+			</attack>
+			<weakness>P×2</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>32</id>
+		<uniqueName>Lunatone</uniqueName>
+		<name>Lunatone LV.38</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokebody>
+				<name>Marvel Eyes</name>
+				<text>If you have Solrock in play, prevent all effects of attacks,
+					including damage, done to your Lunatone or Solrock by your
+					opponent's Pokemon LV.X.</text>
+			</pokebody>
+			<attack>
+				<name>Gravity Wave</name>
+				<cost>PC</cost>
+				<damage>30</damage>
+				<text>Does 30 damage to each of your opponent's Benched Pokemon that
+					doesn't have a Retreat Cost. (Don't apply Weakness and Resistance
+					for Benched Pokemon.)</text>
+			</attack>
+			<weakness>P+20</weakness>
+			<resistance></resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Naoyo Kimura</illustration>
+	</card>
+	<card>
+		<id>33</id>
+		<uniqueName>Mawile</uniqueName>
+		<name>Mawile LV.41</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>M</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Turnaround Standby</name>
+				<cost>M</cost>
+				<damage></damage>
+				<text>During your next turn, any damage done by Mawile's Swallow or
+					Bite to your opponent's Active Pokemon is increased by 40 (before
+					applying Weakness and Resistance).</text>
+			</attack>
+			<attack>
+				<name>Swallow</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>Remove from Mawile the number of damage counters equal to the
+					damage you did to the Defending Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Bite</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance>P-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Suwama Chiaki</illustration>
+	</card>
+	<card>
+		<id>34</id>
+		<uniqueName>Medicham</uniqueName>
+		<name>Medicham LV.48</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>P</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Meditite</prestage>
+			<attack>
+				<name>Channeling</name>
+				<cost>PC</cost>
+				<damage>60</damage>
+				<text>Your opponent draws 2 cards.</text>
+			</attack>
+			<attack>
+				<name>Chakra Points</name>
+				<cost>PCC</cost>
+				<damage>10+</damage>
+				<text>Does 10 damage plus 10 more damage for each card in your
+					opponent's hand.</text>
+			</attack>
+			<weakness>P+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>35</id>
+		<uniqueName>Milotic [C]</uniqueName>
+		<name>Milotic [C] LV.58</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Aqua Tail</name>
+				<cost>C</cost>
+				<damage>10+</damage>
+				<text>Flip a coin for each {W} Energy attached to Milotic [C]. This
+					attack does 10 damage plus 20 more damage for each heads.</text>
+			</attack>
+			<attack>
+				<name>Wrap</name>
+				<cost>WCC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+				</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>36</id>
+		<uniqueName>Moltres</uniqueName>
+		<name>Moltres LV.42</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Wing Attack</name>
+				<cost>RC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Sky Attack</name>
+				<cost>RRCC</cost>
+				<damage>80</damage>
+				<text>Flip a coin. If tails, this attack does nothing.</text>
+			</attack>
+			<weakness>W+30</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>37</id>
+		<uniqueName>Mr. Mime</uniqueName>
+		<name>Mr. Mime LV.40</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokebody>
+				<name>Focus Wall</name>
+				<text>If Mr. Mime would be Knocked Out by damage from an attack that
+					does 70 or more damage (after applying Weakness and Resistance),
+					Mr. Mime is not Knocked Out and its remaining HP becomes 10
+					instead.</text>
+			</pokebody>
+			<attack>
+				<name>Desperate Slap</name>
+				<cost>PC</cost>
+				<damage>20+</damage>
+				<text>If Mr. Mime has 5 or more damage counters on it, this attack
+					does 20 damage plus 40 more damage.</text>
+			</attack>
+			<weakness></weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+	<id>38</id>
+		<uniqueName>Parasect</uniqueName>
+		<name>Parasect LV.33</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Paras</prestage>
+			<attack>
+				<name>Nutritional Support</name>
+				<cost>C</cost>
+				<damage>0</damage>
+				<text>Search your deck for up to 2 {G} Energy cards and attach them to any of your Pokémon in any way you like.Shuffle your deck afterward.</text>
+			</attack>
+			<attack>
+				<name>Hibernation Spore</name>
+				<cost>GGC</cost>
+				<damage>40</damage>
+				<text>The Defending Pokémon is now Asleep. Flip 2 coins instead of 1 between turns. If either of them is tails, the Defending Pokémon is still Asleep.
+				</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>39</id>
+		<uniqueName>Primeape</uniqueName>
+		<name>Primeape LV.45</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>F</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Mankey</prestage>
+			<attack>
+				<name>Top Drop</name>
+				<cost>CC</cost>
+				<damage></damage>
+				<text>Discard the top card from your opponent's deck. If you
+					discarded a Pokemon, this attack does damage equal to the HP of
+					that Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Brick Break</name>
+				<cost>FC</cost>
+				<damage>40</damage>
+				<text>This attack's damage isn't affected by Resistance,
+					Poke-Powers, Poke-Bodies, or any other effects on the Defending
+					Pokemon.</text>
+			</attack>
+			<weakness>P+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Midori Harada</illustration>
+	</card>
+	<card>
+		<id>40</id>
+		<uniqueName>Roserade [C]</uniqueName>
+		<name>Roserade [C] LV.58</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokebody>
+				<name>Natural Cure</name>
+				<text>When you attach an Energy card from your hand to Roserade [C],
+					remove all Special Conditions from Roserade [C].</text>
+			</pokebody>
+			<attack>
+				<name>Magical Leaf</name>
+				<cost>PCC</cost>
+				<damage>40+</damage>
+				<text>Flip a coin. If heads, this attack does 40 damage plus 20 more
+					damage and remove 2 damage counters from Roserade [C].</text>
+			</attack>
+			<weakness>P×2</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>41</id>
+		<uniqueName>Sableye [G]</uniqueName>
+		<name>Sableye [G] LV.58</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>D</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Scratch</name>
+				<cost>--</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Astonish</name>
+				<cost>DC</cost>
+				<damage>20</damage>
+				<text>Choose 1 card from your opponent's hand without looking. Look
+					at that card you chose, then have your opponent shuffle that card
+					into his or her deck.</text>
+			</attack>
+			<weakness></weakness>
+			<resistance>C-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Yusuke Ishikawa</illustration>
+	</card>
+	<card>
+		<id>42</id>
+		<uniqueName>Sandslash</uniqueName>
+		<name>Sandslash LV.32</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>F</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Sandshrew</prestage>
+			<pokepower>
+				<name>Bore Down</name>
+				<text>Once during your turn (before your attack), you may look at
+					the top 5 cards of your deck. Choose as many {F} Energy cards as
+					you like, show them to your opponent, and put them into your hand.
+					Put the other cards back on top of your deck. Shuffle your deck
+					afterward. This power can't be used if Sandslash is affected by a
+					Special Condition.</text>
+			</pokepower>
+			<attack>
+				<name>Needle</name>
+				<cost>FCC</cost>
+				<damage>40</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed
+					and Poisoned.</text>
+			</attack>
+			<weakness>W+20</weakness>
+			<resistance>L-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>43</id>
+		<uniqueName>Seaking</uniqueName>
+		<name>Seaking LV.43</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Goldeen</prestage>
+			<attack>
+				<name>Horn Pierce</name>
+				<cost>C</cost>
+				<damage>90</damage>
+				<text>Flip 2 coins. If either of them is tails, this attack does
+					nothing.</text>
+			</attack>
+			<attack>
+				<name>Endure</name>
+				<cost>W</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If heads, during your opponent's next turn, if
+					Seaking would be Knocked Out by damage from an attack, Seaking is
+					not Knocked Out and its remaining HP becomes 10 instead.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Suwama Chiaki</illustration>
+	</card>
+	<card>
+		<id>44</id>
+		<uniqueName>Shedinja</uniqueName>
+		<name>Shedinja LV.40</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Nincada</prestage>
+			<pokebody>
+				<name>Marvel Shell</name>
+				<text>Prevent all effects of attacks, including damage, done to
+					Shedinja by your opponent's Pokemon that has any Poke-Powers or
+					Poke-Bodies.</text>
+			</pokebody>
+			<attack>
+				<name>Spike Wound</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon that has any damage
+					counters on it. This attack does 30 damage to that Pokemon. (Don't
+					apply Weakness and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>45</id>
+		<uniqueName>Solrock</uniqueName>
+		<name>Solrock LV.41</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokepower>
+				<name>Sunshine Fate</name>
+				<text>Once during your turn (before your attack), if you have
+					Lunatone in play, you may look at the top 3 cards of your deck and
+					put them back on top of your deck in any order. This power can't be
+					used if Solrock is affected by a Special Condition.</text>
+			</pokepower>
+			<attack>
+				<name>Luna Turn</name>
+				<cost>CC</cost>
+				<damage>30+</damage>
+				<text>If Lunatone is in your discard pile, this attack does 30
+					damage plus 30 more damage. Then, search your discard pile for
+					Lunatone, show it to your opponent, and shuffle it into your deck.
+				</text>
+			</attack>
+			<weakness>G+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Naoyo Kimura</illustration>
+	</card>
+	<card>
+		<id>46</id>
+		<uniqueName>Spinda</uniqueName>
+		<name>Spinda LV.27</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Synchro Removal</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>If any Energy card attached to Spinda is the same type as any
+					Energy card attached to the Defending Pokemon, discard 1 of those
+					Energy cards from the Defending Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Pulled Punch</name>
+				<cost>C</cost>
+				<damage>30</damage>
+				<text>If the Defending Pokemon already has any damage counters on
+					it, this attack's base damage is 10 instead of 30.</text>
+			</attack>
+			<weakness>F+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Miki Tanaka</illustration>
+	</card>
+	<card>
+		<id>47</id>
+		<uniqueName>Wailord</uniqueName>
+		<name>Wailord LV.41</name>
+		<pokemon>
+			<hp>180</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Wailmer</prestage>
+			<attack>
+				<name>Rest</name>
+				<cost>CC</cost>
+				<damage></damage>
+				<text>Remove all Special Conditions and 4 damage counters from
+					Wailord. Wailord is now Asleep.</text>
+			</attack>
+			<attack>
+				<name>Giant Wave</name>
+				<cost>WWWCC</cost>
+				<damage>100</damage>
+				<text>Wailord can't use Giant Wave during your next turn.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance></resistance>
+			<retreat>CCCC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Midori Harada</illustration>
+	</card>
+	<card>
+		<id>48</id>
+		<uniqueName>Zapdos</uniqueName>
+		<name>Zapdos LV.40</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Drill Peck</name>
+				<cost>LCC</cost>
+				<damage>30</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Lightning Wing</name>
+				<cost>LLCC</cost>
+				<damage>50+</damage>
+				<text>Flip a coin. If heads, this attack does 50 damage plus 20 more
+					damage.</text>
+			</attack>
+			<weakness>L+30</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>R</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>49</id>
+		<uniqueName>Altaria [C]</uniqueName>
+		<name>Altaria [C] LV.59</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Sing</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>The Defending Pokemon is now Asleep.</text>
+			</attack>
+			<attack>
+				<name>Sonic Wing</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>This attack's damage isn't affected by Resistance.</text>
+			</attack>
+			<weakness>C×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>50</id>
+		<uniqueName>Arcanine</uniqueName>
+		<name>Arcanine LV.32</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>R</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Growlithe</prestage>
+			<attack>
+				<name>Overrun</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>Choose 1 of your opponent's Benched Pokemon. This attack does
+					10 damage to that Pokemon. (Don't apply Weakness and Resistance for
+					Benched Pokemon.)</text>
+			</attack>
+			<attack>
+				<name>Combustion</name>
+				<cost>RCCC</cost>
+				<damage>40</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>W+20</weakness>
+			<resistance></resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>51</id>
+		<uniqueName>Bibarel</uniqueName>
+		<name>Bibarel LV.20</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Bidoof</prestage>
+			<attack>
+				<name>Rolling Tackle</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Tail Rap</name>
+				<cost>CCC</cost>
+				<damage>30×</damage>
+				<text>Flip 2 coins. This attack does 30 damage times the number of
+					heads.</text>
+			</attack>
+			<weakness>F+20</weakness>
+			<resistance></resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>52</id>
+		<uniqueName>Breloom</uniqueName>
+		<name>Breloom LV.37</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>F</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Shroomish</prestage>
+			<attack>
+				<name>Hover Up</name>
+				<cost>F</cost>
+				<damage>40</damage>
+				<text>The Retreat Cost for the Defending Pokemon is 0 until the end
+					of your next turn.</text>
+			</attack>
+			<attack>
+				<name>Crash Bomber</name>
+				<cost>CC</cost>
+				<damage>20+</damage>
+				<text>If the Defending Pokemon has any Special Energy cards attached
+					to it, this attack does 20 damage plus 40 more damage. Then,
+					discard a Special Energy card attached to the Defending Pokemon.
+				</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kyoko Umemoto</illustration>
+	</card>
+	<card>
+		<id>53</id>
+		<uniqueName>Carnivine</uniqueName>
+		<name>Carnivine LV.34</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Vine Whip</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Swallow</name>
+				<cost>GGC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If heads, remove from Carnivine the number of
+					damage counters equal to the damage you did to the Defending
+					Pokemon.</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance>W-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Satoshi Ohta</illustration>
+	</card>
+	<card>
+		<id>54</id>
+		<uniqueName>Chatot [G]</uniqueName>
+		<name>Chatot [G] LV.49</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<pokepower>
+				<name>Disrupting Spy</name>
+				<text>Once during your turn, when you put Chatot [G] from your hand
+					onto your Bench, you may look at the top 4 cards of your opponent's
+					deck. Put them back on top of your opponent's deck in any order.
+				</text>
+			</pokepower>
+			<attack>
+				<name>Search and Escape</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Search your deck for a Trainer card, show it to your opponent,
+					and put it into your hand. Put Chatot [G] and all cards attached to
+					it on top of your deck. Shuffle your deck afterward.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Yusuke Ishikawa</illustration>
+	</card>
+	<card>
+		<id>55</id>
+		<uniqueName>Cherrim</uniqueName>
+		<name>Cherrim LV.29</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Cherubi</prestage>
+			<attack>
+				<name>Ram</name>
+				<cost>--</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Petal Dance</name>
+				<cost>G</cost>
+				<damage>30×</damage>
+				<text>Flip 3 coins. This attack does 30 damage times the number of
+					heads. Cherrim is now Confused.</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance>W-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Saya Tsuruta</illustration>
+	</card>
+	<card>
+		<id>56</id>
+		<uniqueName>Dragonite [FB]</uniqueName>
+		<name>Dragonite [FB] LV.50</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Mach Blow</name>
+				<cost>CCC</cost>
+				<damage>20</damage>
+				<text>If the Defending Pokemon is a Pokemon SP, this attack's base
+					damage is 80 instead of 20.</text>
+			</attack>
+			<attack>
+				<name>Giant Tail</name>
+				<cost>CCCC</cost>
+				<damage>100</damage>
+				<text>Flip a coin. If tails, this attack does nothing.</text>
+			</attack>
+			<weakness>C×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Shin Nagasawa</illustration>
+	</card>
+	<card>
+		<id>57</id>
+		<uniqueName>Drifblim</uniqueName>
+		<name>Drifblim LV.33</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>P</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Drifloon</prestage>
+			<attack>
+				<name>Ram</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Gust</name>
+				<cost>CCC</cost>
+				<damage>40</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>D+20</weakness>
+			<resistance>C-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>58</id>
+		<uniqueName>Floatzel</uniqueName>
+		<name>Floatzel LV.27</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Buizel</prestage>
+			<attack>
+				<name>Razor Fin</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Jet Screw</name>
+				<cost>WCC</cost>
+				<damage>30+</damage>
+				<text>Flip a coin. If heads, this attack does 30 damage plus 10 more
+					damage.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>59</id>
+		<uniqueName>Gabite</uniqueName>
+		<name>Gabite LV.36</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Gible</prestage>
+			<attack>
+				<name>Healing Scale</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Remove 1 damage counter from each of your Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Sand Tomb</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>The Defending Pokemon can't retreat during your opponent's
+					next turn.</text>
+			</attack>
+			<weakness>C+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Tomokazu Komiya</illustration>
+	</card>
+	<card>
+		<id>60</id>
+		<uniqueName>Garchomp [C]</uniqueName>
+		<name>Garchomp [C] LV.62</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Claw Swipe</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Earthquake</name>
+				<cost>CCC</cost>
+				<damage>50</damage>
+				<text>Does 10 damage to each of your Benched Pokemon. (Don't apply
+					Weakness and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<weakness>C×2</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>61</id>
+		<uniqueName>Hippopotas</uniqueName>
+		<name>Hippopotas LV.29</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Double Headbutt</name>
+				<cost>CC</cost>
+				<damage>10×</damage>
+				<text>Flip 2 coins. This attack does 10 damage times the number of
+					heads.</text>
+			</attack>
+			<attack>
+				<name>Mud Shot</name>
+				<cost>FCC</cost>
+				<damage>40</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>W+10</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>62</id>
+		<uniqueName>Ivysaur</uniqueName>
+		<name>Ivysaur LV.26</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Bulbasaur</prestage>
+			<pokepower>
+				<name>Evolutionary Pollen</name>
+				<text>Once during your turn, when you play Ivysaur from your hand to
+					evolve 1 of your Pokemon, you may use this power. Your opponent's
+					Active Pokemon is now Asleep.</text>
+			</pokepower>
+			<attack>
+				<name>Cut</name>
+				<cost>GCC</cost>
+				<damage>50</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kanako Eo</illustration>
+	</card>
+	<card>
+		<id>63</id>
+		<uniqueName>Lopunny</uniqueName>
+		<name>Lopunny LV.34</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Buneary</prestage>
+			<attack>
+				<name>Ice Beam</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+				</text>
+			</attack>
+			<attack>
+				<name>Rear Kick</name>
+				<cost>CC</cost>
+				<damage>40</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>F+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kanako Eo</illustration>
+	</card>
+	<card>
+		<id>64</id>
+		<uniqueName>Loudred</uniqueName>
+		<name>Loudred LV.35</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Whismur</prestage>
+			<attack>
+				<name>Smash Kick</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Stomp Off</name>
+				<cost>CCC</cost>
+				<damage>50</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>F+20</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>65</id>
+		<uniqueName>Magmar</uniqueName>
+		<name>Magmar LV.28</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Smokescreen</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>If the Defending Pokemon tries to attack during your
+					opponent's next turn, your opponent flips a coin. If tails, that
+					attack does nothing.</text>
+			</attack>
+			<attack>
+				<name>Fireworks</name>
+				<cost>RC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If tails, discard a {R} Energy attached to
+					Magmar.</text>
+			</attack>
+			<weakness>W+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Midori Harada</illustration>
+	</card>
+	<card>
+		<id>66</id>
+		<uniqueName>Manectric [G]</uniqueName>
+		<name>Manectric [G] LV.58</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Energy Absorption</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Search your discard pile for up to 2 Energy cards and attach
+					them to Manectric [G].</text>
+			</attack>
+			<attack>
+				<name>Thunder Fang</name>
+				<cost>LC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+				</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Ryota Saito</illustration>
+	</card>
+	<card>
+		<id>67</id>
+		<uniqueName>Marshtomp</uniqueName>
+		<name>Marshtomp LV.21</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Mudkip</prestage>
+			<pokepower>
+				<name>Plunge</name>
+				<text> Once during your turn (before your attack), if Marshtomp is
+					on your Bench, you may flip a coin. If heads, move all Energy cards
+					attached to your Active Pokemon to Marshtomp. If you do, switch
+					Marshtomp with that Active Pokemon.</text>
+			</pokepower>
+			<attack>
+				<name>Mud Shot</name>
+				<cost>CCC</cost>
+				<damage>50</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>G+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Tomokazu Komiya</illustration>
+	</card>
+	<card>
+		<id>68</id>
+		<uniqueName>Masquerain</uniqueName>
+		<name>Masquerain LV.36</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Surskit</prestage>
+			<pokebody>
+				<name>Intimidating Pattern</name>
+				<text>As long as Masquerain is your Active Pokemon, any damage done
+					by an opponent's attack is reduced by 20 (before applying Weakness
+					and Resistance).</text>
+			</pokebody>
+			<attack>
+				<name>Skim Attack</name>
+				<cost>G</cost>
+				<damage>30</damage>
+				<text>Draw 2 cards.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>69</id>
+		<uniqueName>Metang</uniqueName>
+		<name>Metang LV.28</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>M</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Beldum</prestage>
+			<pokebody>
+				<name>Metallic Lift</name>
+				<text>If Metang has any {M} Energy attached to it, the Retreat Cost
+					for Metang is 0.</text>
+			</pokebody>
+			<attack>
+				<name>Psychic</name>
+				<cost>MCC</cost>
+				<damage>40+</damage>
+				<text>Does 40 damage plus 10 more damage for each Energy attached to
+					the Defending Pokemon.</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance>P-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kyoko Umemoto</illustration>
+	</card>
+	<card>
+		<id>70</id>
+		<uniqueName>Milotic</uniqueName>
+		<name>Milotic LV.49</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Feebas</prestage>
+			<attack>
+				<name>Clearing</name>
+				<cost>WC</cost>
+				<damage>20</damage>
+				<text>You may discard 2 cards from your hand. If you do, remove 4
+					damage counters from 1 of your Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Scale Blow</name>
+				<cost>WCC</cost>
+				<damage>90-</damage>
+				<text>Does 90 damage minus 10 damage for each card in your hand.
+				</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>71</id>
+		<uniqueName>Minun</uniqueName>
+		<name>Minun LV.33</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Call for Family</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Search your deck for up to 2 Basic {L} Pokemon and put them
+					onto your Bench. Shuffle your deck afterward.</text>
+			</attack>
+			<attack>
+				<name>Trash Charge</name>
+				<cost>L</cost>
+				<damage>10</damage>
+				<text>Search your discard pile for a {L} Energy card and attach it
+					to 1 of your Pokemon.</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Yuka Morii</illustration>
+	</card>
+	<card>
+		<id>72</id>
+		<uniqueName>Murkrow</uniqueName>
+		<name>Murkrow LV.22</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>D</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Switcheroo</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Move a Pokemon Tool card attached to 1 of your opponent's
+					Pokemon to another of your opponent's Pokemon (excluding Pokemon
+					that already has a Pokemon Tool attached to it). (If an effect of
+					this attack is prevented, this attack does nothing.)</text>
+			</attack>
+			<attack>
+				<name>Flap</name>
+				<cost>DC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Yukiko Baba</illustration>
+	</card>
+	<card>
+		<id>73</id>
+		<uniqueName>Ninjask</uniqueName>
+		<name>Ninjask LV.38</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Nincada</prestage>
+			<attack>
+				<name>Circling Dive</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>This attack does 10 damage to each of your opponent's Pokemon.
+					(Don't apply Weakness and Resistance for Benched Pokemon.) Switch
+					Ninjask with 1 of your Benched Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Parallel Drain</name>
+				<cost>G</cost>
+				<damage>30</damage>
+				<text>Remove from 1 of your Pokemon the number of damage counters
+					equal to the damage you did to the</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>74</id>
+		<uniqueName>Numel</uniqueName>
+		<name>Numel LV.21</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Draw In</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Search your discard pile for up to 2 {R} Energy cards and
+					attach them to Numel.</text>
+			</attack>
+			<attack>
+				<name>Combustion</name>
+				<cost>RCC</cost>
+				<damage>40</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>W+20</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>75</id>
+		<uniqueName>Pinsir</uniqueName>
+		<name>Pinsir LV.32</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Gripthrow</name>
+				<cost>CC</cost>
+				<damage></damage>
+				<text>Flip a coin. If heads, your opponent returns the Defending
+					Pokemon and all cards attached to it to his or her hand.</text>
+			</attack>
+			<attack>
+				<name>Sever</name>
+				<cost>GCC</cost>
+				<damage>50+</damage>
+				<text>If the Defending Pokemon is a Stage 2 Pokemon, this attack
+					does 50 damage plus 30 more damage.</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>76</id>
+		<uniqueName>Plusle</uniqueName>
+		<name>Plusle LV.33</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Greedy Draw</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>If you have the same number of cards or less in your hand as
+					your opponent, draw cards until you have 1 more card than your
+					opponent. (If you have more cards in your hand than your opponent,
+					this attack does nothing.)</text>
+			</attack>
+			<attack>
+				<name>Hand Charge</name>
+				<cost>L</cost>
+				<damage>10</damage>
+				<text>Attach a {L} Energy card from your hand to 1 of your Pokemon.
+				</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Yuka Morii</illustration>
+	</card>
+	<card>
+		<id>77</id>
+		<uniqueName>Raichu</uniqueName>
+		<name>Raichu LV.35</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>L</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Pikachu</prestage>
+			<attack>
+				<name>Quick Attack</name>
+				<cost>C</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 30 more
+					damage.</text>
+			</attack>
+			<attack>
+				<name>Gigashock</name>
+				<cost>LLC</cost>
+				<damage>60</damage>
+				<text>Does 10 damage to 2 of your opponent's Benched Pokemon. (Don't
+					apply Weakness and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<weakness>F+20</weakness>
+			<resistance>M-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Takao Unno</illustration>
+	</card>
+	<card>
+		<id>78</id>
+		<uniqueName>Raticate [G]</uniqueName>
+		<name>Raticate [G] LV.57</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Find</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Search your discard pile for a Trainer card or a Supporter
+					card, show it to your opponent, and put it into your hand.</text>
+			</attack>
+			<attack>
+				<name>Biting Fang</name>
+				<cost>C</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more
+					damage.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance></resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Ryota Saito</illustration>
+	</card>
+	<card>
+		<id>79</id>
+		<uniqueName>Relicanth</uniqueName>
+		<name>Relicanth LV.36</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Ground Swell</name>
+				<cost>F</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon. This attack does 30
+					damage to that Pokemon for each Pokemon Tool card and Stadium card
+					your opponent has in play. (Don't apply Weakness and Resistance for
+					Benched Pokemon.)</text>
+			</attack>
+			<attack>
+				<name>Amnesia</name>
+				<cost>FC</cost>
+				<damage>30</damage>
+				<text> Choose 1 of the Defending Pokemon's attacks. That Pokemon
+					can't use that attack during your opponent's next turn.</text>
+			</attack>
+			<weakness>G+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Sumiyoshi Kizuki</illustration>
+	</card>
+	<card>
+		<id>80</id>
+		<uniqueName>Rhydon</uniqueName>
+		<name>Rhydon LV.45</name>
+		<pokemon>
+			<hp>90</hp>
+			<type>F</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Rhyhorn</prestage>
+			<attack>
+				<name>Fury Attack</name>
+				<cost>F</cost>
+				<damage>20×</damage>
+				<text>Flip 3 coins. This attack does 20 damage times the number of
+					heads.</text>
+			</attack>
+			<attack>
+				<name>Rock Tumble</name>
+				<cost>FFC</cost>
+				<damage>60</damage>
+				<text>This attack's damage isn't affected by Resistance.</text>
+			</attack>
+			<weakness>W+20</weakness>
+			<resistance>L-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>81</id>
+		<uniqueName>Roserade</uniqueName>
+		<name>Roserade LV.25</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>G</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Roselia</prestage>
+			<attack>
+				<name>Cut</name>
+				<cost>G</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Poison Seed</name>
+				<cost>GCC</cost>
+				<damage>30</damage>
+				<text>The Defending Pokemon is now Poisoned.</text>
+			</attack>
+			<weakness>R+20</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>82</id>
+		<uniqueName>Rotom</uniqueName>
+		<name>Rotom LV.40</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Discharge</name>
+				<cost>L</cost>
+				<damage>40×</damage>
+				<text>Discard all {L} Energy attached to Rotom. Flip a coin for each
+					Energy card you discarded. This attack does 40 damage times the
+					number of heads.</text>
+			</attack>
+			<attack>
+				<name>Uproar</name>
+				<cost>CC</cost>
+				<damage></damage>
+				<text>This attack does 10 damage to each of your opponent's Pokemon.
+					(Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+			</attack>
+			<weakness>D+20</weakness>
+			<resistance>C-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Ken Sugimori</illustration>
+	</card>
+	<card>
+		<id>83</id>
+		<uniqueName>Skarmory [FB]</uniqueName>
+		<name>Skarmory [FB] LV.50</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>M</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Silver Feather</name>
+				<cost>M</cost>
+				<damage>20</damage>
+				<text>During your opponent's next turn, when your opponent puts a
+					Basic Pokemon from his or her hand onto his or her Bench, put 2
+					damage counters on that Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Metal Max</name>
+				<cost>CC</cost>
+				<damage>20+</damage>
+				<text>Discard all {M} Energy attached to Skarmory [FB] . Flip a coin
+					for each Energy card you discarded. This attack does 20 damage plus
+					40 more damage for each heads.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Hironobu Yoshida</illustration>
+	</card>
+	<card>
+		<id>84</id>
+		<uniqueName>Spiritomb [C]</uniqueName>
+		<name>Spiritomb [C] LV.58</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Sharpshooting</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Pokemon. This attack does 10
+					damage to that Pokemon. (Don't apply Weakness and Resistance for
+					Benched Pokemon.)</text>
+			</attack>
+			<attack>
+				<name>Lock Up</name>
+				<cost>PC</cost>
+				<damage>20</damage>
+				<text>The Defending Pokemon can't retreat during your opponent's
+					next turn.</text>
+			</attack>
+			<weakness></weakness>
+			<resistance>C-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>85</id>
+		<uniqueName>Staravia</uniqueName>
+		<name>Staravia LV.16</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>C</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Starly</prestage>
+			<attack>
+				<name>Double Peck</name>
+				<cost>CC</cost>
+				<damage>20×</damage>
+				<text>Flip 2 coins. This attack does 20 damage times the number of
+					heads.</text>
+			</attack>
+			<attack>
+				<name>Air Crash</name>
+				<cost>CCC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If heads, discard an Energy attached to the
+					Defending Pokemon.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>86</id>
+		<uniqueName>Togekiss [C]</uniqueName>
+		<name>Togekiss [C] LV.60</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Collect</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Draw a card.</text>
+			</attack>
+			<attack>
+				<name>Reckless Charge</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>Togekiss [C] does 10 damage to itself.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>kawayoo</illustration>
+	</card>
+	<card>
+		<id>87</id>
+		<uniqueName>Wailmer</uniqueName>
+		<name>Wailmer LV.10</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Hydro Pump</name>
+				<cost>WC</cost>
+				<damage>20+</damage>
+				<text>Does 20 damage plus 10 more damage for each {W} Energy
+					attached to Wailmer but not used to pay for this attack's Energy
+					cost. You can't add more than 20 damage in this way.</text>
+			</attack>
+			<attack>
+				<name>Take Down</name>
+				<cost>WCC</cost>
+				<damage>50</damage>
+				<text>Wailmer does 20 damage to itself.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance></resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>88</id>
+		<uniqueName>Yanma</uniqueName>
+		<name>Yanma LV.17</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Supersonic</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Confused.
+				</text>
+			</attack>
+			<attack>
+				<name>Air Slash</name>
+				<cost>G</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If tails, discard an Energy attached to Yanma.
+				</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>U</rarity>
+		<illustration>Midori Harada</illustration>
+	</card>
+	<card>
+		<id>89</id>
+		<uniqueName>Baltoy</uniqueName>
+		<name>Baltoy LV.19</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Spinning Attack</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Quick Turn</name>
+				<cost>CC</cost>
+				<damage>20×</damage>
+				<text>Flip 2 coins. This attack does 20 damage times the number of
+					heads.</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>90</id>
+		<uniqueName>Beldum</uniqueName>
+		<name>Beldum LV.10</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>M</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Pit Search</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Search your deck for a Stadium card, show it to your opponent,
+					and put it into your hand. Shuffle your deck</text>
+			</attack>
+			<attack>
+				<name>Ram</name>
+				<cost>M</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance>P-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>91</id>
+		<uniqueName>Bidoof</uniqueName>
+		<name>Bidoof LV.12</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Whimsy Tackle</name>
+				<cost>C</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If tails, this attack does nothing.</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>92</id>
+		<uniqueName>Buizel</uniqueName>
+		<name>Buizel LV.7</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Tackle</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Wave Splash</name>
+				<cost>WC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>93</id>
+		<uniqueName>Bulbasaur</uniqueName>
+		<name>Bulbasaur LV.13</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Tackle</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Vine Whip</name>
+				<cost>GC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Naoyo Kimura</illustration>
+	</card>
+	<card>
+		<id>94</id>
+		<uniqueName>Buneary</uniqueName>
+		<name>Buneary LV.9</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Bounce</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Switch Buneary with 1 of your Benched Pokemon.</text>
+			</attack>
+			<attack>
+				<name>Mini Drain</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>Remove 1 damage counter from Buneary.</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kanako Eo</illustration>
+	</card>
+	<card>
+		<id>95</id>
+		<uniqueName>Chatot</uniqueName>
+		<name>Chatot LV.28</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Call for Family</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Search your deck for a Basic Pokemon and put it onto your
+					Bench. Shuffle your deck afterward.</text>
+			</attack>
+			<attack>
+				<name>Nosedive</name>
+				<cost>CC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If tails, Chatot does 10 damage to itself.</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Satoshi Ohta</illustration>
+	</card>
+	<card>
+		<id>96</id>
+		<uniqueName>Cherubi</uniqueName>
+		<name>Cherubi LV.10</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Growth</name>
+				<cost>--</cost>
+				<damage></damage>
+				<text>Attach a {G} Energy card from your hand to Cherubi.</text>
+			</attack>
+			<attack>
+				<name>Razor Leaf</name>
+				<cost>G</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance>W-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Saya Tsuruta</illustration>
+	</card>
+	<card>
+		<id>97</id>
+		<uniqueName>Chimchar</uniqueName>
+		<name>Chimchar LV.11</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Chop</name>
+				<cost>R</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Jump On</name>
+				<cost>CC</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more
+					damage.</text>
+			</attack>
+			<weakness>W+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>98</id>
+		<uniqueName>Chingling</uniqueName>
+		<name>Chingling LV.7</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokepower>
+				<name>Baby Evolution</name>
+				<text>Once during your turn (before your attack), you may put
+					Chimecho from your hand onto Chingling (this counts as evolving
+					Chingling) and remove all damage counters from Chingling.</text>
+			</pokepower>
+			<attack>
+				<name>Chime</name>
+				<cost>0</cost>
+				<damage></damage>
+				<text>Search your opponent's discard pile for a Supporter card and
+					use the effect of that card as the effect of this attack. (The
+					Supporter card remains in your opponent's discard pile.)</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>99</id>
+		<uniqueName>Combee</uniqueName>
+		<name>Combee LV.4</name>
+		<pokemon>
+			<hp>40</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Nap</name>
+				<cost>G</cost>
+				<damage></damage>
+				<text>Remove 2 damage counters from Combee.</text>
+			</attack>
+			<attack>
+				<name>Zzzt</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>100</id>
+		<uniqueName>Corphish</uniqueName>
+		<name>Corphish LV.11</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Crabhammer </name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Sharp Pincers</name>
+				<cost>W</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 10 more
+					damage.</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>101</id>
+		<uniqueName>Croagunk</uniqueName>
+		<name>Croagunk LV.10</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Hook</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Corkscrew Punch</name>
+				<cost>PC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>102</id>
+		<uniqueName>Doduo</uniqueName>
+		<name>Doduo LV.12</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Take Down</name>
+				<cost>C</cost>
+				<damage>20</damage>
+				<text>Doduo does 10 damage to itself.</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>103</id>
+		<uniqueName>Drifloon</uniqueName>
+		<name>Drifloon LV.10</name>
+		<pokemon>
+			<hp>40</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Reckless Charge</name>
+				<cost>C</cost>
+				<damage>20</damage>
+				<text>Drifloon does 10 damage to itself.</text>
+			</attack>
+			<attack>
+				<name>Collect</name>
+				<cost>P</cost>
+				<damage></damage>
+				<text>Draw a card.</text>
+			</attack>
+			<weakness>D+10</weakness>
+			<resistance>C-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>104</id>
+		<uniqueName>Feebas</uniqueName>
+		<name>Feebas LV.5</name>
+		<pokemon>
+			<hp>30</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Surprise Attack</name>
+				<cost>--</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If tails, this attack does nothing.</text>
+			</attack>
+			<attack>
+				<name>Count and Draw</name>
+				<cost>W</cost>
+				<damage></damage>
+				<text>Draw a card for each of your opponent's Pokemon that isn't an
+					Evolved Pokemon.</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>105</id>
+		<uniqueName>Geodude</uniqueName>
+		<name>Geodude LV.9</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Knuckle Punch</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Focus Fist</name>
+				<cost>FC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If tails, this attack does nothing.</text>
+			</attack>
+			<weakness>W+10</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>106</id>
+		<uniqueName>Gible</uniqueName>
+		<name>Gible LV.12</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Sand Attack</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>If the Defending Pokemon tries to attack during your
+					opponent's next turn, your opponent flips a coin. If tails, that
+					attack does nothing.</text>
+			</attack>
+			<attack>
+				<name>Bite</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>C+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kanako Eo</illustration>
+	</card>
+	<card>
+		<id>107</id>
+		<uniqueName>Goldeen</uniqueName>
+		<name>Goldeen LV.7</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Flail</name>
+				<cost>C</cost>
+				<damage>10×</damage>
+				<text>Does 10 damage times the number of damage counters on Goldeen.
+				</text>
+			</attack>
+			<attack>
+				<name>Fury Attack</name>
+				<cost>W</cost>
+				<damage>10×</damage>
+				<text>Flip 3 coins. This attack does 10 damage times the number of
+					heads.</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kyoko Umemoto</illustration>
+	</card>
+	<card>
+		<id>108</id>
+		<uniqueName>Growlithe</uniqueName>
+		<name>Growlithe LV.15</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Smash Kick</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Fireworks</name>
+				<cost>RCC</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If tails, discard a {R} Energy attached to
+					Growlithe.</text>
+			</attack>
+			<weakness>W+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>109</id>
+		<uniqueName>Kricketot</uniqueName>
+		<name>Kricketot LV.4</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Headbutt</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Beat</name>
+				<cost>GC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>110</id>
+		<uniqueName>Magikarp</uniqueName>
+		<name>Magikarp LV.9</name>
+		<pokemon>
+			<hp>30</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Flail Around</name>
+				<cost>C</cost>
+				<damage>10×</damage>
+				<text>Flip 3 coins. This attack does 10 damage times the number of
+					heads.</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>111</id>
+		<uniqueName>Magnemite</uniqueName>
+		<name>Magnemite LV.7</name>
+		<pokemon>
+			<hp>40</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Speed Ball</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Quick Attack</name>
+				<cost>CC</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more
+					damage.</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>112</id>
+		<uniqueName>Mankey</uniqueName>
+		<name>Mankey LV.19</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Extra Punch</name>
+				<cost>F</cost>
+				<damage>10+</damage>
+				<text>If the Defending Pokemon is a Pokemon LV.X, this attack does
+					10 damage plus 50 more damage.</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kanako Eo</illustration>
+	</card>
+	<card>
+		<id>113</id>
+		<uniqueName>Meditite</uniqueName>
+		<name>Meditite LV.22</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Psyshot</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Karate Chop</name>
+				<cost>PC</cost>
+				<damage>30-</damage>
+				<text>Does 30 damage minus 10 damage for each damage counter on
+					Meditite.</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>114</id>
+		<uniqueName>Meowth</uniqueName>
+		<name>Meowth LV.18</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Scratch</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Double Kick</name>
+				<cost>CCC</cost>
+				<damage>20×</damage>
+				<text>Flip 2 coins. This attack does 20 damage times the number of
+					heads.</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>115</id>
+		<uniqueName>Mime Jr.</uniqueName>
+		<name>Mime Jr. LV.8</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<pokepower>
+				<name>Baby Evolution</name>
+				<text>Once during your turn (before your attack), you may put Mr.
+					Mime from your hand onto Mime Jr. (this counts as evolving Mime
+					Jr.) and remove all damage counters from Mime Jr.</text>
+			</pokepower>
+			<attack>
+				<name>Encore</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Choose 1 of the Defending Pokemon's attacks. That Pokemon can
+					use only that attack during your opponent's next turn.</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Miki Tanaka</illustration>
+	</card>
+	<card>
+		<id>116</id>
+		<uniqueName>Mudkip</uniqueName>
+		<name>Mudkip LV.6</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Mud Sport</name>
+				<cost>W</cost>
+				<damage>10+</damage>
+				<text>If Mudkip has less Energy attached to it than the Defending
+					Pokemon, this attack does 10 damage plus 10 more damage.</text>
+			</attack>
+			<attack>
+				<name>Surf</name>
+				<cost>WC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>G+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>117</id>
+		<uniqueName>Nincada</uniqueName>
+		<name>Nincada LV.8</name>
+		<pokemon>
+			<hp>40</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Call for Family</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Search your deck for a Basic Pokemon and put it onto your
+					Bench. Shuffle your deck afterward.</text>
+			</attack>
+			<attack>
+				<name>Dash Attack</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Choose 1 of your opponent's Benched Pokemon. This attack does
+					10 damage to that Pokemon. (Don't apply Weakness and Resistance for
+					Benched Pokemon.)</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Tomokazu Komiya</illustration>
+	</card>
+	<card>
+		<id>118</id>
+		<uniqueName>Pachirisu</uniqueName>
+		<name>Pachirisu LV.14</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Tail Slap</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Pachi</name>
+				<cost>L</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 10 more
+					damage.</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kagemaru Himeno</illustration>
+	</card>
+	<card>
+		<id>119</id>
+		<uniqueName>Paras</uniqueName>
+		<name>Paras LV.10</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Spore</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>The Defending Pokemon is now Asleep.</text>
+			</attack>
+			<attack>
+				<name>Stomp</name>
+				<cost>G</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 10 more
+					damage.</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Yukiko Baba</illustration>
+	</card>
+	<card>
+		<id>120</id>
+		<uniqueName>Pikachu</uniqueName>
+		<name>Pikachu LV.11</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Gnaw</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Thundershock</name>
+				<cost>LC</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+				</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Takao Unno</illustration>
+	</card>
+	<card>
+		<id>121</id>
+		<uniqueName>Piplup</uniqueName>
+		<name>Piplup LV.13</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Pound</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Surf</name>
+				<cost>WC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>122</id>
+		<uniqueName>Rhyhorn</uniqueName>
+		<name>Rhyhorn LV.23</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Stomp</name>
+				<cost>CC</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 20 more
+					damage.</text>
+			</attack>
+			<attack>
+				<name>Horn Drill</name>
+				<cost>FFC</cost>
+				<damage>50</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>W+10</weakness>
+			<resistance>L-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Tomokazu Komiya</illustration>
+	</card>
+	<card>
+		<id>123</id>
+		<uniqueName>Roselia</uniqueName>
+		<name>Roselia LV.17</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Vine Slap</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Spit Poison</name>
+				<cost>GC</cost>
+				<damage>10</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>124</id>
+		<uniqueName>Sandshrew</uniqueName>
+		<name>Sandshrew LV.10</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Scratch</name>
+				<cost>F</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>W+10</weakness>
+			<resistance>L-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Suwama Chiaki</illustration>
+	</card>
+	<card>
+		<id>125</id>
+		<uniqueName>Seel</uniqueName>
+		<name>Seel LV.20</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Tail Slap</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Icy Wind</name>
+				<cost>WC</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Asleep.
+				</text>
+			</attack>
+			<weakness>M+10</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>126</id>
+		<uniqueName>Shinx</uniqueName>
+		<name>Shinx LV.8</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Bite</name>
+				<cost>LC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance>M-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Kouki Saitou</illustration>
+	</card>
+	<card>
+		<id>127</id>
+		<uniqueName>Shroomish</uniqueName>
+		<name>Shroomish LV.11</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Stun Spore</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+				</text>
+			</attack>
+			<attack>
+				<name>Tackle</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance>W-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Yuka Morii</illustration>
+	</card>
+	<card>
+		<id>128</id>
+		<uniqueName>Skorupi</uniqueName>
+		<name>Skorupi LV.6</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Poison Sting</name>
+				<cost>PC</cost>
+				<damage>10</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+				</text>
+			</attack>
+			<attack>
+				<name>Tail Smash</name>
+				<cost>PCC</cost>
+				<damage>40</damage>
+				<text>Flip a coin. If tails, this attack does nothing.</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance></resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>129</id>
+		<uniqueName>Starly</uniqueName>
+		<name>Starly LV.5</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Peck</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>L+10</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Mitsuhiro Arita</illustration>
+	</card>
+	<card>
+		<id>130</id>
+		<uniqueName>Surskit</uniqueName>
+		<name>Surskit LV.9</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Quick Attack</name>
+				<cost>C</cost>
+				<damage>10+</damage>
+				<text>Flip a coin. If heads, this attack does 10 damage plus 10 more
+					damage.</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Miki Tanaka</illustration>
+	</card>
+	<card>
+		<id>131</id>
+		<uniqueName>Turtwig</uniqueName>
+		<name>Turtwig LV.8</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Shell Attack</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>
+				</text>
+			</attack>
+			<attack>
+				<name>Stomp</name>
+				<cost>GCC</cost>
+				<damage>20+</damage>
+				<text>Flip a coin. If heads, this attack does 20 damage plus 10 more
+					damage.</text>
+			</attack>
+			<weakness>R+10</weakness>
+			<resistance>W-20</resistance>
+			<retreat>CC</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Atsuko Nishida</illustration>
+	</card>
+	<card>
+		<id>132</id>
+		<uniqueName>Whismur</uniqueName>
+		<name>Whismur LV.11</name>
+		<pokemon>
+			<hp>60</hp>
+			<type>C</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Tone-Deaf</name>
+				<cost>C</cost>
+				<damage></damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Confused.
+				</text>
+			</attack>
+			<attack>
+				<name>Rollout</name>
+				<cost>CC</cost>
+				<damage>20</damage>
+				<text>
+				</text>
+			</attack>
+			<weakness>F+10</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Yuka Morii</illustration>
+	</card>
+	<card>
+		<id>133</id>
+		<uniqueName>Zubat</uniqueName>
+		<name>Zubat LV.6</name>
+		<pokemon>
+			<hp>50</hp>
+			<type>P</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Quick Turn</name>
+				<cost>C</cost>
+				<damage>10×</damage>
+				<text>Flip 2 coins. This attack does 10 damage times the number of
+					heads.</text>
+			</attack>
+			<weakness>P+10</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>C</rarity>
+		<illustration>Masakazu Fukuda</illustration>
+	</card>
+	<card>
+		<id>134</id>
+		<uniqueName>Battle Tower</uniqueName>
+		<name>Battle Tower</name>
+		<stadium>
+			<text>the same name is in play, you can't play this card. Whenever
+				any player plays any Pokemon from his or her hand to level up 1 of
+				his or her Pokemon, remove 4 damage counters from that Pokemon.
+				Illus. Wataru Kawahara </text>
+		</stadium>
+		<rarity>U</rarity>
+		<illustration>This card stays in play when you play it. Discard this
+			card if another Stadium card comes into play. If another card with
+		</illustration>
+	</card>
+	<card>
+		<id>135</id>
+		<uniqueName>Champion's Room</uniqueName>
+		<name>Champion's Room</name>
+		<stadium>
+			<text>the same name is in play, you can't play this card. The Retreat
+				Cost for each Pokemon SP (both yours and your opponent's) is {C}
+				less. Illus. Yusuke Ishikawa </text>
+		</stadium>
+		<rarity>U</rarity>
+		<illustration>This card stays in play when you play it. Discard this
+			card if another Stadium card comes into play. If another card with
+		</illustration>
+	</card>
+	<card>
+		<id>136</id>
+		<uniqueName>Cynthia's Guidance</uniqueName>
+		<name>Cynthia's Guidance</name>
+		<supporter>
+			<text>your turn ends, discard this card. Look at the top 7 cards of
+				your deck, choose 1 of them, and put it into your hand. Put the
+				other cards back on top of your deck. Shuffle your deck afterward.
+				Illus. Ken Sugimori </text>
+		</supporter>
+		<rarity>U</rarity>
+		<illustration>You can play only one Supporter card each turn. When you
+			play this card, put it next to your Active Pokemon. When
+		</illustration>
+	</card>
+	<card>
+		<id>137</id>
+		<uniqueName>Cyrus's Initiative</uniqueName>
+		<name>Cyrus's Initiative</name>
+		<supporter>
+			<text>your turn ends, discard this card. Flip 2 coins. If either of
+				them is heads, look at your opponent's hand. For each heads, choose
+				1 card from your opponent's hand and put it on the bottom of your
+				opponent's deck in any order. Illus. Ken Sugimori </text>
+		</supporter>
+		<rarity>U</rarity>
+		<illustration>You can play only one Supporter card each turn. When you
+			play this card, put it next to your Active Pokemon. When
+		</illustration>
+	</card>
+	<card>
+		<id>138</id>
+		<uniqueName>Night Teleporter</uniqueName>
+		<name>Night Teleporter</name>
+		<trainer>
+			<text>into your hand. Shuffle your deck afterward. Illus. Ryota Saito
+			</text>
+		</trainer>
+		<rarity>U</rarity>
+		<illustration>Flip a coin. If heads, put all cards in your hand on top
+			of your deck. Then, search your deck for any 1 card and put it
+		</illustration>
+	</card>
+	<card>
+		<id>139</id>
+		<uniqueName>Palmer's Contribution</uniqueName>
+		<name>Palmer's Contribution</name>
+		<supporter>
+			<text>your turn ends, discard this card. Search your discard pile for
+				up to 5 in any combination of Pokemon and basic Energy cards, show
+				them to your opponent, and put them on top of your deck. Shuffle
+				your deck afterward. Illus. Ken Sugimori </text>
+		</supporter>
+		<rarity>U</rarity>
+		<illustration>You can play only one Supporter card each turn. When you
+			play this card, put it next to your Active Pokemon. When
+		</illustration>
+	</card>
+	<card>
+		<id>140</id>
+		<uniqueName>VS Seeker</uniqueName>
+		<name>VS Seeker</name>
+		<trainer>
+			<text>Illus. Wataru Kawahara </text>
+		</trainer>
+		<rarity>U</rarity>
+		<illustration>Search your discard pile for a Supporter card, show it
+			to your opponent, and put it into your hand.</illustration>
+	</card>
+	<card>
+		<id>141</id>
+		<uniqueName>Absol [G]</uniqueName>
+		<name>Absol [G] LV.X</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>D</type>
+			<stage>LV.X</stage>
+			<prestage>Absol [G] LV.X</prestage>
+			<attack>
+				<name>Darkness Slugger</name>
+				<cost>DC</cost>
+				<damage>30+</damage>
+				<text>You may discard a card from your hand. If you do, this attack
+					does 30 damage plus 30 more damage.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance>P-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Yusuke Ishikawa</illustration>
+	</card>
+	<card>
+		<id>142</id>
+		<uniqueName>Blaziken [FB]</uniqueName>
+		<name>Blaziken [FB] LV.X</name>
+		<pokemon>
+			<hp>110</hp>
+			<type>R</type>
+			<stage>LV.X</stage>
+			<prestage>Blaziken [FB] LV.X</prestage>
+			<attack>
+				<name>Jet Shoot</name>
+				<cost>RC</cost>
+				<damage>80</damage>
+				<text>During your opponent's next turn, any damage done to Blaziken
+					[FB] by attacks is increased by 40 (after applying Weakness and
+					Resistance).</text>
+			</attack>
+			<weakness>W×2</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Ryo Ueda</illustration>
+	</card>
+	<card>
+		<id>143</id>
+		<uniqueName>Charizard [G]</uniqueName>
+		<name>Charizard [G] LV.X</name>
+		<pokemon>
+			<hp>120</hp>
+			<type>R</type>
+			<stage>LV.X</stage>
+			<prestage>Charizard [G] LV.X</prestage>
+			<attack>
+				<name>Malevolent Fire</name>
+				<cost>RRCCC</cost>
+				<damage>150</damage>
+				<text>Flip a coin. If tails, discard all Energy attached to
+					Charizard [G].</text>
+			</attack>
+			<weakness>W×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Wataru Kawahara</illustration>
+	</card>
+	<card>
+		<id>144</id>
+		<uniqueName>Electivire [FB]</uniqueName>
+		<name>Electivire [FB] LV.X</name>
+		<pokemon>
+			<hp>120</hp>
+			<type>L</type>
+			<stage>LV.X</stage>
+			<prestage>Electivire [FB] LV.X</prestage>
+			<attack>
+				<name>Powerful Spark</name>
+				<cost>LCC</cost>
+				<damage>30+</damage>
+				<text>Does 30 damage plus 10 more damage for each Energy attached to
+					all of your Pokemon.</text>
+			</attack>
+			<weakness>F×2</weakness>
+			<resistance>M-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Ryo Ueda</illustration>
+	</card>
+	<card>
+		<id>145</id>
+		<uniqueName>Garchomp [C]</uniqueName>
+		<name>Garchomp [C] LV.X</name>
+		<pokemon>
+			<hp>110</hp>
+			<type>C</type>
+			<stage>LV.X</stage>
+			<prestage>Garchomp [C] LV.X</prestage>
+			<attack>
+				<name>Dragon Rush</name>
+				<cost>CCC</cost>
+				<damage></damage>
+				<text>Discard 2 Energy attached to Garchomp [C]. Choose 1 of your
+					opponent's Pokemon. This attack does 80 damage to that Pokemon.
+					(Don't apply Weakness and Resistance for Benched Pokemon.) Garchomp
+					[C] can't use Dragon Rush during your next turn.</text>
+			</attack>
+			<weakness>C×2</weakness>
+			<resistance></resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Shizurow</illustration>
+	</card>
+	<card>
+		<id>146</id>
+		<uniqueName>Rayquaza [C]</uniqueName>
+		<name>Rayquaza [C] LV.X</name>
+		<pokemon>
+			<hp>120</hp>
+			<type>C</type>
+			<stage>LV.X</stage>
+			<prestage>Rayquaza [C] LV.X</prestage>
+			<attack>
+				<name>Final Blowup</name>
+				<cost>WPFC</cost>
+				<damage>200</damage>
+				<text>Discard all Energy attached to Rayquaza [C]. Ignore this
+					effect if you have no cards in your hand.</text>
+			</attack>
+			<weakness>C×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>CCC</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Shizurow</illustration>
+	</card>
+	<card>
+		<id>147</id>
+		<uniqueName>Staraptor [FB]</uniqueName>
+		<name>Staraptor [FB] LV.X</name>
+		<pokemon>
+			<hp>100</hp>
+			<type>C</type>
+			<stage>LV.X</stage>
+			<prestage>Staraptor [FB] LV.X</prestage>
+			<attack>
+				<name>Defog</name>
+				<cost>CCC</cost>
+				<damage>40</damage>
+				<text>Before doing damage, you may discard a Stadium card in play.
+					If you do, this attack's base damage is 70 instead of 40.</text>
+			</attack>
+			<weakness>L×2</weakness>
+			<resistance>F-20</resistance>
+			<retreat>0</retreat>
+		</pokemon>
+		<rarity>LV.X</rarity>
+		<illustration>Ryo Ueda</illustration>
+	</card>
+	<card>
+		<id>148</id>
+		<uniqueName>Articuno</uniqueName>
+		<name>Articuno LV.34</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>W</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Diamond Dust</name>
+				<cost>WWW</cost>
+				<damage>20</damage>
+				<text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed
+					and this attack does 10 damage to each of your opponent's Benched
+					Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+				</text>
+			</attack>
+			<weakness></weakness>
+			<resistance>F-30</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Toshinao Aoki</illustration>
+	</card>
+	<card>
+		<id>149</id>
+		<uniqueName>Moltres</uniqueName>
+		<name>Moltres LV.33</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>R</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Hyper Flame</name>
+				<cost>RRR</cost>
+				<damage>60</damage>
+				<text>Flip a coin. If heads, discard a {R} Energy attached to
+					Moltres. If tails, discard all Energy attached to Moltres.</text>
+			</attack>
+			<weakness></weakness>
+			<resistance>F-30</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Toshinao Aoki</illustration>
+	</card>
+	<card>
+		<id>150</id>
+		<uniqueName>Zapdos</uniqueName>
+		<name>Zapdos LV.30</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>L</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Lightning Burn</name>
+				<cost>LLL</cost>
+				<damage>30</damage>
+				<text>Flip a coin. If heads, this attack does 30 damage to 1 of your
+					opponent's Benched Pokemon. (Don't apply Weakness and Resistance
+					for Benched Pokemon.) If tails, Zapdos does 30 damage to itself.
+				</text>
+			</attack>
+			<weakness></weakness>
+			<resistance>F-30</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Toshinao Aoki</illustration>
+	</card>
+	<card>
+		<id>SH7</id>
+		<uniqueName>Milotic</uniqueName>
+		<name>Milotic LV.52</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>W</type>
+			<stage>Stage 1</stage>
+			<prestage>Evolves from: Feebas</prestage>
+			<pokebody>
+				<name>Aqua Mirage</name>
+				<text>If you have no cards in your hand, prevent all damage done to
+					Milotic by attacks from your opponent's Pokemon.</text>
+			</pokebody>
+			<attack>
+				<name>Dwindling Wave</name>
+				<cost>WWC</cost>
+				<damage>80-</damage>
+				<text>Does 80 damage minus 10 damage for each damage counter on
+					Milotic.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Hajime Kusajima</illustration>
+	</card>
+	<card>
+		<id>SH8</id>
+		<uniqueName>Relicanth</uniqueName>
+		<name>Relicanth LV.39</name>
+		<pokemon>
+			<hp>80</hp>
+			<type>F</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Deep Sea Pressure</name>
+				<cost>FC</cost>
+				<damage>20</damage>
+				<text>During your opponent's next turn, the Defending Pokemon's
+					Retreat Cost is {C}{C} more.</text>
+			</attack>
+			<attack>
+				<name>Aqua Wave</name>
+				<cost>FCC</cost>
+				<damage>40+</damage>
+				<text>Flip 2 coins. This attack does 40 damage plus 10 more damage
+					for each heads.</text>
+			</attack>
+			<weakness>G+20</weakness>
+			<resistance></resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Sumiyoshi Kizuki</illustration>
+	</card>
+	<card>
+		<id>SH9</id>
+		<uniqueName>Yanma</uniqueName>
+		<name>Yanma LV.22</name>
+		<pokemon>
+			<hp>70</hp>
+			<type>G</type>
+			<stage>Basic</stage>
+			<attack>
+				<name>Sonicboom</name>
+				<cost>C</cost>
+				<damage>10</damage>
+				<text>This attack's damage isn't affected by Weakness or Resistance.
+				</text>
+			</attack>
+			<attack>
+				<name>Baton Pass</name>
+				<cost>GCC</cost>
+				<damage>30</damage>
+				<text>You may switch Yanma with 1 of your Benched Pokemon. If you
+					do, move as many Energy cards attached to Yanma as you like to the
+					new Active Pokemon.</text>
+			</attack>
+			<weakness>L+20</weakness>
+			<resistance>F-20</resistance>
+			<retreat>C</retreat>
+		</pokemon>
+		<rarity>H</rarity>
+		<illustration>Midori Harada</illustration>
+	</card>
+</cardset>
