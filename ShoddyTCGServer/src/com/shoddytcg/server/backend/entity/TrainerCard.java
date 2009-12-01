@@ -22,12 +22,26 @@ package com.shoddytcg.server.backend.entity;
  *
  */
 public class TrainerCard extends CardType{
-	public enum Type { TRAINER, TOOL, TM, POKEMON}
+	public enum Type { TRAINER, TOOL, TM, POKEMON, FOSSIL}
 	
 	private Type type;
 	private String Text;
+	private String hp="0";
 
-	
+	/**
+	 * @return the hp
+	 */
+	public String getHP() {
+		return hp;
+	}
+
+	/**
+	 * @param hp the hp to set
+	 */
+	public void setHP(String hp) {
+		this.hp = hp;
+	}
+
 	/**
 	 * @return the type
 	 */
