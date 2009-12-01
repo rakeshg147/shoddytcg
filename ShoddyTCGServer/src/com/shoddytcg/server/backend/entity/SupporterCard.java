@@ -21,6 +21,13 @@ package com.shoddytcg.server.backend.entity;
  *
  */
 public class SupporterCard extends CardType{
+	/**
+	 * @param type
+	 */
+	SupporterCard() {
+		super(CardType.Type.SUPPORTER);
+	}
+
 	public enum Type { BASIC, SPECIAL}
 	
 	private String Text;

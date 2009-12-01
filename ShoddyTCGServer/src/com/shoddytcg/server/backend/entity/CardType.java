@@ -22,4 +22,69 @@ package com.shoddytcg.server.backend.entity;
  */
 public class CardType {
 
+	public enum Type { POKEMON, TRAINER, STADIUM, SUPPORTER, ENERGY}
+	
+	private Type type;
+	CardType(Type type){
+		this.type=type;
+	}
+	
+	public Type getType(){
+		return type;
+	}
+	
+	public boolean isPokemon(){
+		try{
+			if(type.equals(Type.POKEMON))
+				return true;
+			else
+				return false;
+		}catch(Exception e){
+			return false;
+		}
+	}
+	
+	public boolean isTrainer(){
+		try{
+			if(type.equals(Type.TRAINER))
+				return true;
+			else
+				return false;
+		}catch(Exception e){
+			return false;
+		}
+	}
+	
+	public boolean isSupporter(){
+		try{
+			if(type.equals(Type.SUPPORTER))
+				return true;
+			else
+				return false;
+		}catch(Exception e){
+			return false;
+		}
+	}
+	
+	public boolean isStadium(){
+		try{
+			if(type.equals(Type.STADIUM))
+				return true;
+			else
+				return false;
+		}catch(Exception e){
+			return false;
+		}
+	}
+	
+	public boolean isEnergy(){
+		try{
+			if(type.equals(Type.ENERGY))
+				return true;
+			else
+				return false;
+		}catch(Exception e){
+			return false;
+		}
+	}
 }

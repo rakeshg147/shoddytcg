@@ -23,13 +23,19 @@ import java.util.ArrayList;
  *
  */
 public class PokemonCard extends CardType{
+	/**
+	 * @param type
+	 */
+	PokemonCard() {
+		super(CardType.Type.POKEMON);
+	}
 	public enum Stage { BASIC, STAGE1, STAGE2, LVLX}
-	public enum Type { GRASS, FIRE, WATER, LIGHTNING, PSYCHIC, FIGHTING, COLORLESS, DARK, METAL}
+	public enum PokemonType { GRASS, FIRE, WATER, LIGHTNING, PSYCHIC, FIGHTING, COLORLESS, DARK, METAL}
 	
 	private Stage stage;
 	private int hp;
 	private String preStage;
-	private Type type;
+	private PokemonType pokemonType;
 	private Item item;
 	private ArrayList<PokePower> pokepowers = new ArrayList<PokePower>();
 	private ArrayList<PokeBody> pokebodies = new ArrayList<PokeBody>();
@@ -56,6 +62,12 @@ public class PokemonCard extends CardType{
 	 */
 	public Stage getStage() {
 		return stage;
+	}
+	/**
+	 * @return the stage
+	 */
+	public String getStageText() {
+		return StageToString(stage);
 	}
 	/**
 	 * @param stage the stage to set
@@ -90,14 +102,20 @@ public class PokemonCard extends CardType{
 	/**
 	 * @return the type
 	 */
-	public Type getType() {
-		return type;
+	public PokemonType getPokemonType() {
+		return pokemonType;
+	}
+	/**
+	 * @return the type
+	 */
+	public String getPokemonTypeText() {
+		return PokemonTypeToString(this.pokemonType);
 	}
 	/**
 	 * @param type the type to set
 	 */
-	public void setType(Type type) {
-		this.type = type;
+	public void setPokemonType(PokemonType type) {
+		this.pokemonType = type;
 	}
 	/**
 	 * @return the attacks
@@ -190,34 +208,62 @@ public class PokemonCard extends CardType{
 		this.retreat = retreat;
 	}
 	
-	public static Type returnType(String name){
+	public static PokemonType StringToPokemonType(String name){
 		try{
 			name = name.toUpperCase();
 			if(name.equals("C"))
-				return Type.COLORLESS;
+				return PokemonType.COLORLESS;
 			else if(name.equals("D"))
-				return Type.DARK;
+				return PokemonType.DARK;
 			else if(name.equals("F"))
-				return Type.FIGHTING;
+				return PokemonType.FIGHTING;
 			else if(name.equals("R"))
-				return Type.FIRE;
+				return PokemonType.FIRE;
 			else if(name.equals("G"))
-				return Type.GRASS;
+				return PokemonType.GRASS;
 			else if(name.equals("L"))
-				return Type.LIGHTNING;
+				return PokemonType.LIGHTNING;
 			else if(name.equals("M"))
-				return Type.METAL;
+				return PokemonType.METAL;
 			else if(name.equals("P"))
-				return Type.PSYCHIC;
+				return PokemonType.PSYCHIC;
 			else if(name.equals("W"))
-				return Type.WATER;
+				return PokemonType.WATER;
 			else
 				return null;
 		}catch(Exception e){
 			return null;
 		}
 	}
-	public static Stage returnStage(String stage){
+	
+	public static String PokemonTypeToString(PokemonType name){
+		try{
+			if(name.equals(PokemonType.COLORLESS))
+				return "C";
+			else if(name.equals(PokemonType.DARK))
+				return "D";
+			else if(name.equals(PokemonType.FIGHTING))
+				return "F";
+			else if(name.equals(PokemonType.FIRE))
+				return "R";
+			else if(name.equals(PokemonType.GRASS))
+				return "G";
+			else if(name.equals(PokemonType.LIGHTNING))
+				return "L";
+			else if(name.equals(PokemonType.METAL))
+				return "M";
+			else if(name.equals(PokemonType.PSYCHIC))
+				return "P";
+			else if(name.equals(PokemonType.WATER))
+				return "W";
+			else
+				return "";
+		}catch(Exception e){
+			return "";
+		}
+	}
+	
+	public static Stage StringToStage(String stage){
 		try{
 			if(stage.equalsIgnoreCase("basic"))
 				return Stage.BASIC;
@@ -227,10 +273,28 @@ public class PokemonCard extends CardType{
 				return Stage.STAGE2;
 			else if(stage.equalsIgnoreCase("lv.x"))
 				return Stage.LVLX;
+			else if(stage.equalsIgnoreCase("Level-Up"))
+				return Stage.LVLX;
 			else
 				return null;
 		}catch(Exception e){
 			return null;
+		}
+	}
+	public static String StageToString(Stage stage){
+		try{
+			if(stage.equals(Stage.BASIC))
+				return "Basic";
+			else if(stage.equals(Stage.STAGE1))
+				return "Stage 1";
+			else if(stage.equals(Stage.STAGE2))
+				return "Stage 2";
+			else if(stage.equals(Stage.LVLX))
+				return "LV.X";
+			else 
+				return "";
+		}catch(Exception e){
+			return "";
 		}
 	}
 }

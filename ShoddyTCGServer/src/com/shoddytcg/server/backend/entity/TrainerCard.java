@@ -16,15 +16,21 @@
  */
 package com.shoddytcg.server.backend.entity;
 
-
 /**
  * @author Nushio
  *
  */
 public class TrainerCard extends CardType{
-	public enum Type { TRAINER, TOOL, TM, POKEMON, FOSSIL}
+	/**
+	 * @param type
+	 */
+	TrainerCard() {
+		super(Type.TRAINER);
+	}
+
+	public enum TrainerType { TRAINER, TOOL, TM, POKEMON}
 	
-	private Type type;
+	private TrainerType type;
 	private String Text;
 	private String hp="0";
 
@@ -45,14 +51,14 @@ public class TrainerCard extends CardType{
 	/**
 	 * @return the type
 	 */
-	public Type getType() {
+	public TrainerType getTrainerType() {
 		return type;
 	}
 
 	/**
 	 * @param type the type to set
 	 */
-	public void setType(Type type) {
+	public void setTrainerType(TrainerType type) {
 		this.type = type;
 	}
 
@@ -70,18 +76,18 @@ public class TrainerCard extends CardType{
 		Text = text;
 	}
 	
-	public static Type returnType(String type){
+	public static TrainerType returnTrainerType(String type){
 		try{
 			if(type.equalsIgnoreCase("Tool"))
-				return Type.TOOL;
+				return TrainerType.TOOL;
 			else if(type.equalsIgnoreCase("TM"))
-				return Type.TM;
+				return TrainerType.TM;
 			else if(type.equalsIgnoreCase("Pokemon"))
-				return Type.POKEMON;
+				return TrainerType.POKEMON;
 			else 
-				return Type.TRAINER;
+				return TrainerType.TRAINER;
 		}catch(Exception e){
-			return Type.TRAINER;
+			return TrainerType.TRAINER;
 		}
 	}
 }

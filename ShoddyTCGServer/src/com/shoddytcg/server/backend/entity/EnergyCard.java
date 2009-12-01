@@ -23,29 +23,46 @@ import java.util.ArrayList;
  *
  */
 public class EnergyCard extends CardType{
-	public enum Type { BASIC, SPECIAL}
+	
+	/**
+	 * @param type
+	 */
+	EnergyCard() {
+		super(CardType.Type.ENERGY);
+	}
+	public enum EnergyType { BASIC, SPECIAL}
 	public enum Energy { GRASS, FIRE, WATER, LIGHTNING, PSYCHIC, FIGHTING, COLORLESS, DARK, METAL, EMPTY}
 	
-	private Type type;
+	private EnergyType type;
 	private ArrayList<Energy> provides = new ArrayList<Energy>();
 	private String text;
 	
 	/**
 	 * @return the type
 	 */
-	public Type getType() {
+	public EnergyType getEnergyType() {
 		return type;
 	}
 	/**
 	 * @param type the type to set
 	 */
-	public void setType(Type type) {
+	public void setEnergyType(EnergyType type) {
 		this.type = type;
 	}
 	/**
 	 * @return the provides
 	 */
 	public ArrayList<Energy> getProvides() {
+		return provides;
+	}
+	/**
+	 * @return the provides
+	 */
+	public String getProvidesText() {
+		String provides = "";
+		for(int i = 0;i<this.provides.size();i++){
+			provides+=EnergyToString(this.provides.get(i));
+		}
 		return provides;
 	}
 	/**
@@ -77,24 +94,24 @@ public class EnergyCard extends CardType{
 		ArrayList<Energy> energyList = new ArrayList<Energy>();
 		String[] energies = energy.split("|");
 		for(int i = 0; i<energies.length;i++){
-			energyList.add(returnEnergy(energies[i]));
+			energyList.add(StringToEnergy(energies[i]));
 		}
 		return energyList;
 	}
 	
-	public static Type returnType(String type){
+	public static EnergyType returnEnergyType(String type){
 		try{
 			if(type.equalsIgnoreCase("Basic"))
-				return Type.BASIC;
+				return EnergyType.BASIC;
 			else if(type.equalsIgnoreCase("Special"))
-				return Type.SPECIAL;
+				return EnergyType.SPECIAL;
 			else 
-				return Type.BASIC;
+				return EnergyType.BASIC;
 		}catch(Exception e){
-			return Type.BASIC;
+			return EnergyType.BASIC;
 		}
 	}
-	public static Energy returnEnergy(String energy){
+	public static Energy StringToEnergy(String energy){
 		try{
 			if(energy.equals("C"))
 				return Energy.COLORLESS;
@@ -118,6 +135,32 @@ public class EnergyCard extends CardType{
 				return Energy.EMPTY;
 		}catch(Exception e){
 			return Energy.EMPTY;
+		}
+	}
+	public static String EnergyToString(Energy energy){
+		try{
+			if(energy.equals(Energy.COLORLESS))
+				return "C";
+			else if(energy.equals(Energy.DARK))
+				return "D";
+			else if(energy.equals(Energy.FIGHTING))
+				return "F";
+			else if(energy.equals(Energy.FIRE))
+				return "R";
+			else if(energy.equals(Energy.GRASS))
+				return "G";
+			else if(energy.equals(Energy.LIGHTNING))
+				return "L";
+			else if(energy.equals(Energy.METAL))
+				return "M";
+			else if(energy.equals(Energy.PSYCHIC))
+				return "P";
+			else if(energy.equals(Energy.WATER))
+				return "W";
+			else
+				return "0";
+		}catch(Exception e){
+			return "0";
 		}
 	}
 }
