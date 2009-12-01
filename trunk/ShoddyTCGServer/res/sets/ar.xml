@@ -173,4 +173,36 @@
 		<rarity>H</rarity>
 		<illustration>Kagemaru Himeno</illustration>
 	</card>
+	<card>
+	<id>7</id>
+	<uniqueName>Probopass</uniqueName>
+	<name>Probopass LV.55</name>
+	<pokemon>
+		<hp>100</hp>
+		<type>S</type>
+		<stage>1</stage>
+		<prestage>Nosepass</prestage>
+		<pokebody>
+			<name>Competitiveness</name>
+			<text>If you don't have a Supporter card in play, each of Probopass's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).</text>
+		</pokebody>
+		<attack>
+			<name>Top Chop</name>
+			<cost>SC</cost>
+			<damage>30</damage>
+			<text>Draw a card.</text>
+		</attack>
+		<attack>
+			<name>Tumbling Attack</name>
+			<cost>SCC</cost>
+			<damage>50+</damage>
+			<text>Flip a coin. If heads, this attack does 50 damage plus 30 more damage.</text>
+		</attack>
+		<weakness>R+20</weakness>
+		<resistance>P-20</resistance>
+		<retreat>CCC</retreat>
+	</pokemon>
+	<rarity>H</rarity>
+	<illustration>Kouki Saitou</illustration>
+</card>
 </cardset>
