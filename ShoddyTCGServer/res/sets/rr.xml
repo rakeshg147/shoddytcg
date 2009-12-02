@@ -3,12 +3,12 @@
 	<card>
 		<id>1</id>
 		<uniqueName>Arcanine</uniqueName>
-		<name>Arcanine LV. 53</name>
+		<name>Arcanine LV.53</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>R</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Growlithe</prestage>
+			<prestage>Growlithe</prestage>
 			<pokebody>
 				<name>Flare Condition</name>
 				<text>As long as Arcanine has any {R} Energy attached to it,
@@ -39,7 +39,7 @@
 	<card>
 		<id>2</id>
 		<uniqueName>Bastiodon [GL]</uniqueName>
-		<name>Bastiodon [GL] LV. 41</name>
+		<name>Bastiodon [GL] LV.41</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>M</type>
@@ -67,7 +67,7 @@
 	<card>
 		<id>3</id>
 		<uniqueName>Darkrai [G]</uniqueName>
-		<name>Darkrai [G] LV. 58</name>
+		<name>Darkrai [G] LV.58</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>D</type>
@@ -94,7 +94,7 @@
 	<card>
 		<id>4</id>
 		<uniqueName>Floatzel [GL]</uniqueName>
-		<name>Floatzel [GL] LV. 37</name>
+		<name>Floatzel [GL] LV.37</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>W</type>
@@ -123,12 +123,12 @@
 	<card>
 		<id>5</id>
 		<uniqueName>Flygon</uniqueName>
-		<name>Flygon LV. 65</name>
+		<name>Flygon LV.65</name>
 		<pokemon>
 			<hp>120</hp>
 			<type>C</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Vibrava</prestage>
+			<prestage>Vibrava</prestage>
 			<pokebody>
 				<name>Rainbow Float</name>
 				<text>If any basic Energy card attached to Flygon is the same type
@@ -160,7 +160,7 @@
 	<card>
 		<id>6</id>
 		<uniqueName>Froslass [GL]</uniqueName>
-		<name>Froslass [GL] LV. 44</name>
+		<name>Froslass [GL] LV.44</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>W</type>
@@ -190,7 +190,7 @@
 	<card>
 		<id>7</id>
 		<uniqueName>Jirachi</uniqueName>
-		<name>Jirachi LV. 39</name>
+		<name>Jirachi LV.39</name>
 		<pokemon>
 			<hp>60</hp>
 			<type>M</type>
@@ -226,7 +226,7 @@
 	<card>
 		<id>8</id>
 		<uniqueName>Lucario [GL]</uniqueName>
-		<name>Lucario [GL] LV. 32</name>
+		<name>Lucario [GL] LV.32</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>F</type>
@@ -253,7 +253,7 @@
 	<card>
 		<id>9</id>
 		<uniqueName>Luxray [GL]</uniqueName>
-		<name>Luxray [GL] LV. 48</name>
+		<name>Luxray [GL] LV.48</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>L</type>
@@ -282,7 +282,7 @@
 	<card>
 		<id>10</id>
 		<uniqueName>Mismagius [GL]</uniqueName>
-		<name>Mismagius [GL] LV. 26</name>
+		<name>Mismagius [GL] LV.26</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
@@ -311,7 +311,7 @@
 	<card>
 		<id>11</id>
 		<uniqueName>Rampardos [GL]</uniqueName>
-		<name>Rampardos [GL] LV. 63</name>
+		<name>Rampardos [GL] LV.63</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>F</type>
@@ -342,7 +342,7 @@
 	<card>
 		<id>12</id>
 		<uniqueName>Roserade [GL]</uniqueName>
-		<name>Roserade [GL] LV. 22</name>
+		<name>Roserade [GL] LV.22</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>G</type>
@@ -372,12 +372,12 @@
 	<card>
 		<id>13</id>
 		<uniqueName>Shiftry</uniqueName>
-		<name>Shiftry LV. 55</name>
+		<name>Shiftry LV.55</name>
 		<pokemon>
 			<hp>130</hp>
 			<type>D</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Nuzleaf</prestage>
+			<prestage>Nuzleaf</prestage>
 			<pokebody>
 				<name>Unlucky Wind</name>
 				<text>As long as Shiftry is your Active Pokemon, whenever your
@@ -408,12 +408,12 @@
 	<card>
 		<id>14</id>
 		<uniqueName>Aggron</uniqueName>
-		<name>Aggron LV. 53</name>
+		<name>Aggron LV.53</name>
 		<pokemon>
 			<hp>130</hp>
 			<type>M</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Lairon</prestage>
+			<prestage>Lairon</prestage>
 			<attack>
 				<name>Return Blow</name>
 				<cost>CC</cost>
@@ -445,12 +445,12 @@
 	<card>
 		<id>15</id>
 		<uniqueName>Beedrill</uniqueName>
-		<name>Beedrill LV. 47</name>
+		<name>Beedrill LV.47</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>G</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Kakuna</prestage>
+			<prestage>Kakuna</prestage>
 			<pokepower>
 				<name>Flutter Wings</name>
 				<text>Once during your turn (before your attack), you may search
@@ -476,7 +476,7 @@
 	<card>
 		<id>16</id>
 		<uniqueName>Bronzong [E4]</uniqueName>
-		<name>Bronzong [E4] LV. 54</name>
+		<name>Bronzong [E4] LV.54</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>P</type>
@@ -506,7 +506,7 @@
 	<card>
 		<id>17</id>
 		<uniqueName>Drapion [E4]</uniqueName>
-		<name>Drapion [E4] LV. 53</name>
+		<name>Drapion [E4] LV.53</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>D</type>
@@ -535,7 +535,7 @@
 	<card>
 		<id>18</id>
 		<uniqueName>Espeon [E4]</uniqueName>
-		<name>Espeon [E4] LV. 55</name>
+		<name>Espeon [E4] LV.55</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
@@ -563,12 +563,12 @@
 	<card>
 		<id>19</id>
 		<uniqueName>Flareon</uniqueName>
-		<name>Flareon LV. 38</name>
+		<name>Flareon LV.38</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>R</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Eevee</prestage>
+			<prestage>Eevee</prestage>
 			<pokepower>
 				<name>Undevelop</name>
 				<text>Once during your turn (before your attack), you may devolve
@@ -599,7 +599,7 @@
 	<card>
 		<id>20</id>
 		<uniqueName>Gallade [E4]</uniqueName>
-		<name>Gallade [E4] LV. 59</name>
+		<name>Gallade [E4] LV.59</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
@@ -628,12 +628,12 @@
 	<card>
 		<id>21</id>
 		<uniqueName>Gastrodon East Sea</uniqueName>
-		<name>Gastrodon East Sea LV. 40</name>
+		<name>Gastrodon East Sea LV.40</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>W</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Shellos East Sea</prestage>
+			<prestage>Shellos East Sea</prestage>
 			<pokebody>
 				<name>Sticky Hold</name>
 				<text>If Gastrodon East Sea is switched or retreats to your Bench,
@@ -665,12 +665,12 @@
 	<card>
 		<id>22</id>
 		<uniqueName>Gastrodon West Sea</uniqueName>
-		<name>Gastrodon West Sea LV. 50</name>
+		<name>Gastrodon West Sea LV.50</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>F</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Shellos West Sea</prestage>
+			<prestage>Shellos West Sea</prestage>
 			<attack>
 				<name>Tackle</name>
 				<cost>CCC</cost>
@@ -704,7 +704,7 @@
 	<card>
 		<id>23</id>
 		<uniqueName>Golem [E4]</uniqueName>
-		<name>Golem [E4] LV. 52</name>
+		<name>Golem [E4] LV.52</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>F</type>
@@ -732,7 +732,7 @@
 	<card>
 		<id>24</id>
 		<uniqueName>Heracross [E4]</uniqueName>
-		<name>Heracross [E4] LV. 51</name>
+		<name>Heracross [E4] LV.51</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>G</type>
@@ -760,12 +760,12 @@
 	<card>
 		<id>25</id>
 		<uniqueName>Hippowdon</uniqueName>
-		<name>Hippowdon LV. 48</name>
+		<name>Hippowdon LV.48</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>F</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Hippopotas</prestage>
+			<prestage>Hippopotas</prestage>
 			<pokebody>
 				<name>Sand Cover</name>
 				<text>As long as Hippowdon is your Active Pokemon, put 1 damage
@@ -798,12 +798,12 @@
 	<card>
 		<id>26</id>
 		<uniqueName>Jolteon</uniqueName>
-		<name>Jolteon LV. 43</name>
+		<name>Jolteon LV.43</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>L</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Eevee</prestage>
+			<prestage>Eevee</prestage>
 			<pokepower>
 				<name>Undevelop</name>
 				<text>Once during your turn (before your attack), you may devolve
@@ -835,7 +835,7 @@
 	<card>
 		<id>27</id>
 		<uniqueName>Mamoswine [GL]</uniqueName>
-		<name>Mamoswine [GL] LV. 61</name>
+		<name>Mamoswine [GL] LV.61</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>W</type>
@@ -864,7 +864,7 @@
 	<card>
 		<id>28</id>
 		<uniqueName>Mr.Mime [E4]</uniqueName>
-		<name>Mr.Mime [E4] LV. 53</name>
+		<name>Mr.Mime [E4] LV.53</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>P</type>
@@ -894,12 +894,12 @@
 	<card>
 		<id>29</id>
 		<uniqueName>Nidoking</uniqueName>
-		<name>Nidoking LV. 59</name>
+		<name>Nidoking LV.59</name>
 		<pokemon>
 			<hp>130</hp>
 			<type>F</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Nidorino</prestage>
+			<prestage>Nidorino</prestage>
 			<pokebody>
 				<name>Territoriality</name>
 				<text>If your Active Pokemon is damaged by an opponent's attack
@@ -933,12 +933,12 @@
 	<card>
 		<id>30</id>
 		<uniqueName>Nidoqueen</uniqueName>
-		<name>Nidoqueen LV. 54</name>
+		<name>Nidoqueen LV.54</name>
 		<pokemon>
 			<hp>120</hp>
 			<type>P</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Nidorina</prestage>
+			<prestage>Nidorina</prestage>
 			<pokebody>
 				<name>Maternal Comfort</name>
 				<text>At any time between turns, remove 1 damage counter from each
@@ -969,7 +969,7 @@
 	<card>
 		<id>31</id>
 		<uniqueName>Raichu [GL]</uniqueName>
-		<name>Raichu [GL] LV. 46</name>
+		<name>Raichu [GL] LV.46</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>L</type>
@@ -999,7 +999,7 @@
 	<card>
 		<id>32</id>
 		<uniqueName>Rhyperior [E4]</uniqueName>
-		<name>Rhyperior [E4] LV. 55</name>
+		<name>Rhyperior [E4] LV.55</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>F</type>
@@ -1027,7 +1027,7 @@
 	<card>
 		<id>33</id>
 		<uniqueName>Snorlax</uniqueName>
-		<name>Snorlax LV. 37</name>
+		<name>Snorlax LV.37</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>C</type>
@@ -1056,12 +1056,12 @@
 	<card>
 		<id>34</id>
 		<uniqueName>Vaporeon</uniqueName>
-		<name>Vaporeon LV. 48</name>
+		<name>Vaporeon LV.48</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>W</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Eevee</prestage>
+			<prestage>Eevee</prestage>
 			<pokepower>
 				<name>Undevelop</name>
 				<text>Once during your turn (before your attack), you may devolve
@@ -1095,7 +1095,7 @@
 	<card>
 		<id>35</id>
 		<uniqueName>Vespiquen [E4]</uniqueName>
-		<name>Vespiquen [E4] LV. 50</name>
+		<name>Vespiquen [E4] LV.50</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>G</type>
@@ -1123,12 +1123,12 @@
 	<card>
 		<id>36</id>
 		<uniqueName>Walrein</uniqueName>
-		<name>Walrein LV. 59</name>
+		<name>Walrein LV.59</name>
 		<pokemon>
 			<hp>140</hp>
 			<type>W</type>
 			<stage>Stage 2</stage>
-			<prestage>Evolves from: Sealeo</prestage>
+			<prestage>Sealeo</prestage>
 			<pokepower>
 				<name>Gather Ice</name>
 				<text>Once during your turn (before your attack), when you play
@@ -1153,7 +1153,7 @@
 	<card>
 		<id>37</id>
 		<uniqueName>Yanmega [E4]</uniqueName>
-		<name>Yanmega [E4] LV. 49</name>
+		<name>Yanmega [E4] LV.49</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>G</type>
@@ -1183,7 +1183,7 @@
 	<card>
 		<id>38</id>
 		<uniqueName>Alakazam [E4]</uniqueName>
-		<name>Alakazam [E4] LV. 56</name>
+		<name>Alakazam [E4] LV.56</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
@@ -1212,7 +1212,7 @@
 	<card>
 		<id>39</id>
 		<uniqueName>Electrode [G]</uniqueName>
-		<name>Electrode [G] LV. 38</name>
+		<name>Electrode [G] LV.38</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>L</type>
@@ -1242,7 +1242,7 @@
 	<card>
 		<id>40</id>
 		<uniqueName>Gengar [GL]</uniqueName>
-		<name>Gengar [GL] LV. 65</name>
+		<name>Gengar [GL] LV.65</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>P</type>
@@ -1271,12 +1271,12 @@
 	<card>
 		<id>41</id>
 		<uniqueName>Glaceon</uniqueName>
-		<name>Glaceon LV. 42</name>
+		<name>Glaceon LV.42</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>W</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Eevee</prestage>
+			<prestage>Eevee</prestage>
 			<pokebody>
 				<name>Frost Wind</name>
 				<text>As long as Glaceon is your Active Pokemon, any damage done to
@@ -1308,7 +1308,7 @@
 	<card>
 		<id>42</id>
 		<uniqueName>Hippowdon [E4]</uniqueName>
-		<name>Hippowdon [E4] LV. 52</name>
+		<name>Hippowdon [E4] LV.52</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>F</type>
@@ -1336,7 +1336,7 @@
 	<card>
 		<id>43</id>
 		<uniqueName>Infernape [E4]</uniqueName>
-		<name>Infernape [E4] LV. 55</name>
+		<name>Infernape [E4] LV.55</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>R</type>
@@ -1366,12 +1366,12 @@
 	<card>
 		<id>44</id>
 		<uniqueName>Lairon</uniqueName>
-		<name>Lairon LV. 37</name>
+		<name>Lairon LV.37</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>M</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Aron</prestage>
+			<prestage>Aron</prestage>
 			<attack>
 				<name>Heavy Metal</name>
 				<cost>CC</cost>
@@ -1397,12 +1397,12 @@
 	<card>
 		<id>45</id>
 		<uniqueName>Leafeon</uniqueName>
-		<name>Leafeon LV. 49</name>
+		<name>Leafeon LV.49</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>G</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Eevee</prestage>
+			<prestage>Eevee</prestage>
 			<pokebody>
 				<name>Energy Refresh</name>
 				<text>As long as Leafeon is your Active Pokemon, whenever you attach
@@ -1431,7 +1431,7 @@
 	<card>
 		<id>46</id>
 		<uniqueName>Machamp [GL]</uniqueName>
-		<name>Machamp [GL] LV. 64</name>
+		<name>Machamp [GL] LV.64</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>F</type>
@@ -1462,7 +1462,7 @@
 	<card>
 		<id>47</id>
 		<uniqueName>Rapidash [E4]</uniqueName>
-		<name>Rapidash [E4] LV. 53</name>
+		<name>Rapidash [E4] LV.53</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>R</type>
@@ -1492,7 +1492,7 @@
 	<card>
 		<id>48</id>
 		<uniqueName>Scizor [E4]</uniqueName>
-		<name>Scizor [E4] LV. 49</name>
+		<name>Scizor [E4] LV.49</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>G</type>
@@ -1521,12 +1521,12 @@
 	<card>
 		<id>49</id>
 		<uniqueName>Sharpedo</uniqueName>
-		<name>Sharpedo LV. 43</name>
+		<name>Sharpedo LV.43</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>D</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Carvanha</prestage>
+			<prestage>Carvanha</prestage>
 			<pokebody>
 				<name>Energy Shark</name>
 				<text>If Sharpedo is your Active Pokemon and is damaged by an
@@ -1559,12 +1559,12 @@
 	<card>
 		<id>50</id>
 		<uniqueName>Starmie</uniqueName>
-		<name>Starmie LV. 44</name>
+		<name>Starmie LV.44</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>W</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Staryu</prestage>
+			<prestage>Staryu</prestage>
 			<pokepower>
 				<name>Aqua Recycle</name>
 				<text>Once during your turn (before your attack), you may search
@@ -1596,7 +1596,7 @@
 	<card>
 		<id>51</id>
 		<uniqueName>Steelix [GL]</uniqueName>
-		<name>Steelix [GL] LV. 38</name>
+		<name>Steelix [GL] LV.38</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>M</type>
@@ -1626,7 +1626,7 @@
 	<card>
 		<id>52</id>
 		<uniqueName>Tropius</uniqueName>
-		<name>Tropius LV. 35</name>
+		<name>Tropius LV.35</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>G</type>
@@ -1663,12 +1663,12 @@
 	<card>
 		<id>53</id>
 		<uniqueName>Vibrava</uniqueName>
-		<name>Vibrava LV. 36</name>
+		<name>Vibrava LV.36</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>C</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Trapinch</prestage>
+			<prestage>Trapinch</prestage>
 			<attack>
 				<name>Energy Typhoon</name>
 				<cost>C</cost>
@@ -1695,7 +1695,7 @@
 	<card>
 		<id>54</id>
 		<uniqueName>Whiscash [E4]</uniqueName>
-		<name>Whiscash [E4] LV. 50</name>
+		<name>Whiscash [E4] LV.50</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>F</type>
@@ -1723,7 +1723,7 @@
 	<card>
 		<id>55</id>
 		<uniqueName>Aerodactyl [GL]</uniqueName>
-		<name>Aerodactyl [GL] LV. 62</name>
+		<name>Aerodactyl [GL] LV.62</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>F</type>
@@ -1752,7 +1752,7 @@
 	<card>
 		<id>56</id>
 		<uniqueName>Ambipom [G]</uniqueName>
-		<name>Ambipom [G] LV. 40</name>
+		<name>Ambipom [G] LV.40</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>C</type>
@@ -1781,7 +1781,7 @@
 	<card>
 		<id>57</id>
 		<uniqueName>Aron</uniqueName>
-		<name>Aron LV. 21</name>
+		<name>Aron LV.21</name>
 		<pokemon>
 			<hp>50</hp>
 			<type>M</type>
@@ -1810,7 +1810,7 @@
 	<card>
 		<id>58</id>
 		<uniqueName>Carvanha</uniqueName>
-		<name>Carvanha LV. 13</name>
+		<name>Carvanha LV.13</name>
 		<pokemon>
 			<hp>40</hp>
 			<type>D</type>
@@ -1839,7 +1839,7 @@
 	<card>
 		<id>59</id>
 		<uniqueName>Eevee</uniqueName>
-		<name>Eevee LV. 10</name>
+		<name>Eevee LV.10</name>
 		<pokemon>
 			<hp>50</hp>
 			<type>C</type>
@@ -1868,7 +1868,7 @@
 	<card>
 		<id>60</id>
 		<uniqueName>Flareon [E4]</uniqueName>
-		<name>Flareon [E4] LV. 55</name>
+		<name>Flareon [E4] LV.55</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>R</type>
@@ -1897,7 +1897,7 @@
 	<card>
 		<id>61</id>
 		<uniqueName>Forretress [G]</uniqueName>
-		<name>Forretress [G] LV. 35</name>
+		<name>Forretress [G] LV.35</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>M</type>
@@ -1930,7 +1930,7 @@
 	<card>
 		<id>62</id>
 		<uniqueName>Gliscor [E4]</uniqueName>
-		<name>Gliscor [E4] LV. 53</name>
+		<name>Gliscor [E4] LV.53</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>F</type>
@@ -1959,7 +1959,7 @@
 	<card>
 		<id>63</id>
 		<uniqueName>Growlithe</uniqueName>
-		<name>Growlithe LV. 26</name>
+		<name>Growlithe LV.26</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>R</type>
@@ -1987,7 +1987,7 @@
 	<card>
 		<id>64</id>
 		<uniqueName>Hippopotas</uniqueName>
-		<name>Hippopotas LV. 31</name>
+		<name>Hippopotas LV.31</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>F</type>
@@ -2016,7 +2016,7 @@
 	<card>
 		<id>65</id>
 		<uniqueName>Houndoom [E4]</uniqueName>
-		<name>Houndoom [E4] LV. 52</name>
+		<name>Houndoom [E4] LV.52</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>D</type>
@@ -2044,12 +2044,12 @@
 	<card>
 		<id>66</id>
 		<uniqueName>Kakuna</uniqueName>
-		<name>Kakuna LV. 8</name>
+		<name>Kakuna LV.8</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>G</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Weedle</prestage>
+			<prestage>Weedle</prestage>
 			<pokebody>
 				<name>Exoskeleton</name>
 				<text>Any damage done to Kakuna by attacks is reduced by 20 (after
@@ -2074,7 +2074,7 @@
 	<card>
 		<id>67</id>
 		<uniqueName>Kecleon</uniqueName>
-		<name>Kecleon LV. 34</name>
+		<name>Kecleon LV.34</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>C</type>
@@ -2100,7 +2100,7 @@
 	<card>
 		<id>68</id>
 		<uniqueName>Koffing</uniqueName>
-		<name>Koffing LV. 22</name>
+		<name>Koffing LV.22</name>
 		<pokemon>
 			<hp>60</hp>
 			<type>P</type>
@@ -2129,7 +2129,7 @@
 	<card>
 		<id>69</id>
 		<uniqueName>Munchlax</uniqueName>
-		<name>Munchlax LV. 13</name>
+		<name>Munchlax LV.13</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>C</type>
@@ -2144,7 +2144,8 @@
 				<name>Rest</name>
 				<cost>CC</cost>
 				<damage>0</damage>
-				<text>Remove all Special Conditions and 6 damage counters from Munchlax. Munchlax is now Asleep.</text>
+				<text>Remove all Special Conditions and 6 damage counters from
+					Munchlax. Munchlax is now Asleep.</text>
 			</attack>
 			<weakness>F+10</weakness>
 			<resistance></resistance>
@@ -2156,7 +2157,7 @@
 	<card>
 		<id>70</id>
 		<uniqueName>Munchlax</uniqueName>
-		<name>Munchlax LV. 15</name>
+		<name>Munchlax LV.15</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>C</type>
@@ -2184,7 +2185,7 @@
 	<card>
 		<id>71</id>
 		<uniqueName>Nidoran-F</uniqueName>
-		<name>Nidoran-F LV. 14</name>
+		<name>Nidoran-F LV.14</name>
 		<pokemon>
 			<hp>60</hp>
 			<type>P</type>
@@ -2214,7 +2215,7 @@
 	<card>
 		<id>72</id>
 		<uniqueName>Nidoran-M</uniqueName>
-		<name>Nidoran-M LV. 9</name>
+		<name>Nidoran-M LV.9</name>
 		<pokemon>
 			<hp>50</hp>
 			<type>P</type>
@@ -2242,12 +2243,12 @@
 	<card>
 		<id>73</id>
 		<uniqueName>Nidorina</uniqueName>
-		<name>Nidorina LV. 29</name>
+		<name>Nidorina LV.29</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Nidoran-F</prestage>
+			<prestage>Nidoran-F</prestage>
 			<attack>
 				<name>Jump Tackle</name>
 				<cost>C</cost>
@@ -2273,12 +2274,12 @@
 	<card>
 		<id>74</id>
 		<uniqueName>Nidorino</uniqueName>
-		<name>Nidorino LV. 30</name>
+		<name>Nidorino LV.30</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Nidoran-M</prestage>
+			<prestage>Nidoran-M</prestage>
 			<attack>
 				<name>Toxic</name>
 				<cost>PC</cost>
@@ -2304,12 +2305,12 @@
 	<card>
 		<id>75</id>
 		<uniqueName>Nuzleaf</uniqueName>
-		<name>Nuzleaf LV. 25</name>
+		<name>Nuzleaf LV.25</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>D</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Seedot</prestage>
+			<prestage>Seedot</prestage>
 			<attack>
 				<name>Blind</name>
 				<cost>D</cost>
@@ -2337,7 +2338,7 @@
 	<card>
 		<id>76</id>
 		<uniqueName>Quagsire [GL]</uniqueName>
-		<name>Quagsire [GL] LV. 34</name>
+		<name>Quagsire [GL] LV.34</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>W</type>
@@ -2365,12 +2366,12 @@
 	<card>
 		<id>77</id>
 		<uniqueName>Sealeo</uniqueName>
-		<name>Sealeo LV. 31</name>
+		<name>Sealeo LV.31</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>W</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Spheal</prestage>
+			<prestage>Spheal</prestage>
 			<attack>
 				<name>Find Ice</name>
 				<cost>--</cost>
@@ -2396,7 +2397,7 @@
 	<card>
 		<id>78</id>
 		<uniqueName>Seedot</uniqueName>
-		<name>Seedot LV. 8</name>
+		<name>Seedot LV.8</name>
 		<pokemon>
 			<hp>40</hp>
 			<type>G</type>
@@ -2427,7 +2428,7 @@
 	<card>
 		<id>79</id>
 		<uniqueName>Shellos East Sea</uniqueName>
-		<name>Shellos East Sea LV. 21</name>
+		<name>Shellos East Sea LV.21</name>
 		<pokemon>
 			<hp>60</hp>
 			<type>W</type>
@@ -2457,7 +2458,7 @@
 	<card>
 		<id>80</id>
 		<uniqueName>Shellos West Sea</uniqueName>
-		<name>Shellos West Sea LV. 27</name>
+		<name>Shellos West Sea LV.27</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>W</type>
@@ -2486,7 +2487,7 @@
 	<card>
 		<id>81</id>
 		<uniqueName>Snorlax</uniqueName>
-		<name>Snorlax LV. 40</name>
+		<name>Snorlax LV.40</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>C</type>
@@ -2520,7 +2521,7 @@
 	<card>
 		<id>82</id>
 		<uniqueName>Spheal</uniqueName>
-		<name>Spheal LV. 18</name>
+		<name>Spheal LV.18</name>
 		<pokemon>
 			<hp>60</hp>
 			<type>W</type>
@@ -2548,7 +2549,7 @@
 	<card>
 		<id>83</id>
 		<uniqueName>Staryu</uniqueName>
-		<name>Staryu LV. 18</name>
+		<name>Staryu LV.18</name>
 		<pokemon>
 			<hp>50</hp>
 			<type>W</type>
@@ -2578,7 +2579,7 @@
 	<card>
 		<id>84</id>
 		<uniqueName>Trapinch</uniqueName>
-		<name>Trapinch LV. 14</name>
+		<name>Trapinch LV.14</name>
 		<pokemon>
 			<hp>50</hp>
 			<type>F</type>
@@ -2606,7 +2607,7 @@
 	<card>
 		<id>85</id>
 		<uniqueName>Turtwig [GL]</uniqueName>
-		<name>Turtwig [GL] LV. 20</name>
+		<name>Turtwig [GL] LV.20</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>G</type>
@@ -2635,7 +2636,7 @@
 	<card>
 		<id>86</id>
 		<uniqueName>Weedle</uniqueName>
-		<name>Weedle LV. 6</name>
+		<name>Weedle LV.6</name>
 		<pokemon>
 			<hp>60</hp>
 			<type>G</type>
@@ -2664,12 +2665,12 @@
 	<card>
 		<id>87</id>
 		<uniqueName>Weezing</uniqueName>
-		<name>Weezing LV. 47</name>
+		<name>Weezing LV.47</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>P</type>
 			<stage>Stage 1</stage>
-			<prestage>Evolves from: Koffing</prestage>
+			<prestage>Koffing</prestage>
 			<pokebody>
 				<name>Camouflage Gas</name>
 				<text>If Weezing is Confused and is Knocked Out, your opponent can't
@@ -2701,106 +2702,125 @@
 		<uniqueName>Aaron's Collection</uniqueName>
 		<name>Aaron's Collection</name>
 		<supporter>
-			<text>your turn ends, discard this card. Search your discard pile for
-				up to 2 in any combination of Pokemon SP and basic Energy cards,
-				show them to your opponent, and put them into your hand. Illus. Ken
-				Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends,
+				discard this card.
+				Search your discard pile for up to 2 in any
+				combination of Pokémon SP and basic Energy cards, show them to your
+				opponent, and put them into your hand.
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>89</id>
 		<uniqueName>Bebe's Search</uniqueName>
 		<name>Bebe's Search</name>
 		<supporter>
-			<text>your turn ends, discard this card. Choose a card from your hand
-				and put it on top of your deck. Search your deck for a Pokemon, show
-				it to your opponent, and put it into your hand. Shuffle your deck
-				afterward. (If this is the only card in your hand, you can't play
-				this card.) Illus. Ken Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends,
+				discard this card.
+				Choose a card from your hand and put it on top of
+				your deck. Search your deck for a Pokémon, show it to your
+				opponent,
+				and put it into your hand. Shuffle your deck afterward. (If this is
+				the only card in your hand, you can't play
+				this card.)
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>90</id>
 		<uniqueName>Bertha's Warmth</uniqueName>
 		<name>Bertha's Warmth</name>
 		<supporter>
-			<text>your turn ends, discard this card. Remove 5 damage counters
-				from 1 of your Pokemon SP. Illus. Ken Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends, discard this card.
+				Remove 5 damage counters from 1 of your Pokémon SP
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>91</id>
 		<uniqueName>Flint's Willpower</uniqueName>
 		<name>Flint's Willpower</name>
 		<supporter>
-			<text>your turn ends, discard this card. Attach a basic Energy card
-				from your hand to 1 of your Pokemon SP. Illus. Ken Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends, discard this card.
+				Attach a basic Energy card from your hand to 1 of your Pokémon SP
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>92</id>
 		<uniqueName>Lucian's Assignment</uniqueName>
 		<name>Lucian's Assignment</name>
 		<supporter>
-			<text>your turn ends, discard this card. Move as many Energy cards
-				attached to 1 of your Pokemon as you like to another of your
-				Pokemon. Illus. Ken Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends,
+				discard this card.
+				Move as many Energy cards attached to 1 of your
+				Pokémon as you like to another of your Pokémon.
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>93</id>
 		<uniqueName>Pokemon Contest Hall</uniqueName>
 		<name>Pokemon Contest Hall</name>
 		<stadium>
-			<text>the same name is in play, you can't play this card. Once during
-				each player's turn, if that player's Bench isn't full, the player
-				may flip a coin. If heads, that player searches his or her deck for
-				a Basic Pokemon and puts it onto his or her Bench. If the player
-				does, he or she may search his or her deck for a Pokemon Tool card
-				and attach it to that Pokemon. If that player searched his or her
-				deck, the player shuffles his or her deck afterward. Illus. Makoto
-				Imai </text>
+			<text>
+				This card stays in play when you play it. Discard this card if
+				another Stadium card comes into play. If another card with
+				the same
+				name is in play, you can't play this card.
+				Once during each player’s
+				turn, if that player’s Bench isn’t full, the player may flip a coin.
+				If heads, that player
+				searches his or her deck for a Basic Pokémon
+				and puts it onto his or her Bench. If the player does, he or she may
+				search
+				his or her deck for a Pokémon Tool card and attach it to that
+				Pokémon. If that player searched his or her deck, the
+				player shuffles
+				his or her deck afterward.
+			</text>
 		</stadium>
 		<rarity>U</rarity>
-		<illustration>This card stays in play when you play it. Discard this
-			card if another Stadium card comes into play. If another card with
-		</illustration>
+		<illustration>Makoto Imai</illustration>
 	</card>
 	<card>
 		<id>94</id>
 		<uniqueName>Sunyshore City Gym</uniqueName>
 		<name>Sunyshore City Gym</name>
 		<stadium>
-			<text>the same name is in play, you can't play this card. Any damage
-				done by attacks from {L} Pokemon (both yours and your opponent's) to
-				the Defending Pokemon isn't affected by Resistance. Each {L} Pokemon
-				in play (both yours and your opponent's) has no Weakness. Illus.
-				Yusuke Ishikawa </text>
+			<text>This card stays in play when you play it. Discard this card if
+				another Stadium card comes into play. If another card with
+				the same
+				name is in play, you can't play this card.
+				Any damage done by attacks
+				from {L} Pokémon (both yours and your opponent's) to the Defending
+				Pokémon isn't
+				affected by Resistance. Each {L} Pokémon in play (both
+				yours and your opponent's) has no Weakness.
+			</text>
 		</stadium>
 		<rarity>U</rarity>
-		<illustration>This card stays in play when you play it. Discard this
-			card if another Stadium card comes into play. If another card with
-		</illustration>
+		<illustration>Yusuke Ishikawa</illustration>
 	</card>
 	<card>
 		<id>95</id>
@@ -2808,13 +2828,17 @@
 		</uniqueName>
 		<name>Team Galactic's Invention G-107 Technical Machine [G]</name>
 		<trainer>
-			<text>Attach this card to 1 of your Pokemon SP in play. That Pokemon
-				may use this card's attack instead of its own. When the Pokemon this
-				card is attached to is no longer a Pokemon SP, discard this card.
-				CCC Damage Porter Choose 1 of your opponent's Pokemon. This attack
-				does 10 damage times the number of damage counters on the Pokemon
-				this card is attached to to that Pokemon. (Don't apply Weakness and
-				Resistance for Benched Pokemon.) </text>
+			<text>Attach this card to 1 of your Pokémon SP in play. That Pokémon
+				may use this card's attack instead of its own. When
+				the Pokémon this card is attached to is no longer a Pokémon SP, discard
+				this card.
+				CCC Damage Porter
+				Choose 1 of your opponent's Pokémon. This attack does 10 damage times the
+				number of damage counters on
+				the Pokémon this card is attached to to that Pokémon. (Don't apply
+				Weakness and Resistance for Benched
+				Pokémon.)
+		</text>
 		</trainer>
 		<rarity>U</rarity>
 		<illustration>Makoto Imai</illustration>
@@ -2826,42 +2850,44 @@
 		<trainer>
 			<text>opponent, and put it into your hand. Shuffle your deck
 				afterward. (If this is the only card in your hand, you can't play
-				this card.) Illus. Kent Kanetsuna </text>
+				this card.)</text>
 		</trainer>
 		<rarity>U</rarity>
-		<illustration>Choose a card from your hand and put it on top of your
-			deck. Search your deck for a Pokemon SP, show it to your
-		</illustration>
+		<illustration>Kent Kanetsuna</illustration>
 	</card>
 	<card>
 		<id>97</id>
 		<uniqueName>Underground Expedition</uniqueName>
 		<name>Underground Expedition</name>
 		<supporter>
-			<text>your turn ends, discard this card. Look at the 4 cards from the
-				bottom of your deck. Choose any 2 cards you find there and put them
-				into your hand. Put the remaining cards back on the bottom of your
-				deck in any order. Illus. Kagemaru Himeno </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends,
+				discard this card.
+				Look at the 4 cards from the bottom of your deck.
+				Choose any 2 cards you find there and put them into your hand. Put
+				the remaining cards back on the bottom of your deck in any order.
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Kagemaru Himeno</illustration>
 	</card>
 	<card>
 		<id>98</id>
 		<uniqueName>Volkner's Philosophy</uniqueName>
 		<name>Volkner's Philosophy</name>
 		<supporter>
-			<text>your turn ends, discard this card. You may discard a card from
-				your hand. Then, draw cards until you have 6 cards in your hand. (If
-				you can't draw any cards, you can't play this card.) Illus. Ken
-				Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends,
+				discard this card.
+				You may discard a card from your hand. Then, draw
+				cards until you have 6 cards in your hand. (If you can't draw any
+				cards, you can't play this card.)
+			</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>99</id>
@@ -2869,16 +2895,18 @@
 		<name>Darkness Energy</name>
 		<energy>
 			<type>SPECIAL</type>
-			<provides>00</provides>
-			<text>applying Weakness and Resistance). Ignore this effect if the
-				Pokemon that Darkness Energy is attached to isn't {D}. Darkness
-				Energy provides {D} Energy. (Doesn't count as a basic Energy card.)
-				Illus. Takumi Akabane </text>
+			<provides>D</provides>
+			<text>If the Pokémon Darkness Energy is attached to attacks, the
+				attack does 10 more damage to the Active Pokémon (before
+				applying
+				Weakness and Resistance). Ignore this effect if the Pokémon that
+				Darkness Energy is attached to isn't {D}.
+				Darkness Energy provides
+				{D} Energy. (Doesn't count as a basic Energy card.)
+			</text>
 		</energy>
 		<rarity>U</rarity>
-		<illustration>If the Pokemon Darkness Energy is attached to attacks,
-			the attack does 10 more damage to the Active Pokemon (before
-		</illustration>
+		<illustration>Takumi Akabane</illustration>
 	</card>
 	<card>
 		<id>100</id>
@@ -2886,15 +2914,17 @@
 		<name>Metal Energy</name>
 		<energy>
 			<type>SPECIAL</type>
-			<provides>00</provides>
-			<text>and Resistance). Ignore this effect if the Pokemon that Metal
-				Energy is attached to isn't {M}. Metal Energy provides {M} Energy.
-				(Doesn't count as a basic Energy card.) Illus. Takumi Akabane </text>
+			<provides>M</provides>
+			<text>Damage done by attacks to the Pokémon that Metal Energy is
+				attached to is reduced by 10 (after applying Weakness
+				and
+				Resistance). Ignore this effect if the Pokémon that Metal Energy is
+				attached to isn't {M}. Metal Energy provides {M} Energy. (Doesn't
+				count as a basic Energy card.)
+ 			</text>
 		</energy>
 		<rarity>U</rarity>
-		<illustration>Damage done by attacks to the Pokemon that Metal Energy
-			is attached to is reduced by 10 (after applying Weakness
-		</illustration>
+		<illustration>Takumi Akabane</illustration>
 	</card>
 	<card>
 		<id>101</id>
@@ -2902,14 +2932,17 @@
 		<name>SP Energy</name>
 		<energy>
 			<type>SPECIAL</type>
-			<provides>00</provides>
-			<text>type of Energy but provides only 1 Energy at a time. (Doesn't
-				count as a basic Energy card.) Illus. Kent Kanetsuna </text>
+			<provides>C</provides>
+			<text>SP Energy provides {C} Energy. If the Pokémon SP Energy is
+				attached to is a Pokémon SP, SP Energy provides every
+				type of Energy
+				but provides only 1 Energy at a time. (Doesn’t count as a
+				basic
+				Energy card.)
+			</text>
 		</energy>
 		<rarity>U</rarity>
-		<illustration>SP Energy provides {C} Energy. If the Pokemon SP Energy
-			is attached to is a Pokemon SP, SP Energy provides every
-		</illustration>
+		<illustration>Kent Kanetsuna</illustration>
 	</card>
 	<card>
 		<id>102</id>
@@ -2918,23 +2951,24 @@
 		<energy>
 			<type>SPECIAL</type>
 			<provides>00</provides>
-			<text>Pokemon (excluding Pokemon LV.x), Upper Energy provides {C}{C}
-				Energy. Illus. Ryo Ueda </text>
+			<text>Upper Energy provides {C} Energy. If you have more Prize cards
+				left than your opponent and this card is attached to a
+				Pokémon
+				(excluding Pokémon LV.X), Upper Energy provides {C}{C} Energy.
+			</text>
 		</energy>
 		<rarity>U</rarity>
-		<illustration>Upper Energy provides {C} Energy. If you have more Prize
-			cards left than your opponent and this card is attached to a
-		</illustration>
+		<illustration>Ryo Ueda</illustration>
 	</card>
 	<card>
 		<id>103</id>
 		<uniqueName>Alakazam [E4]</uniqueName>
-		<name>Alakazam [E4] LV. x</name>
+		<name>Alakazam [E4] LV.X</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>P</type>
 			<stage>LV.X</stage>
-			<prestage>Alakazam [E4] LV. x</prestage>
+			<prestage>Alakazam [E4] LV.X</prestage>
 			<attack>
 				<name>Mind Shock</name>
 				<cost>PPC</cost>
@@ -2952,12 +2986,12 @@
 	<card>
 		<id>104</id>
 		<uniqueName>Floatzel [GL]</uniqueName>
-		<name>Floatzel [GL] LV. x</name>
+		<name>Floatzel [GL] LV.X</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>W</type>
 			<stage>LV.X</stage>
-			<prestage>Floatzel [GL] LV. x</prestage>
+			<prestage>Floatzel [GL] LV.X</prestage>
 			<attack>
 				<name>Energy Cyclone</name>
 				<cost>WW</cost>
@@ -2977,12 +3011,12 @@
 	<card>
 		<id>105</id>
 		<uniqueName>Flygon</uniqueName>
-		<name>Flygon LV. x</name>
+		<name>Flygon LV.X</name>
 		<pokemon>
 			<hp>140</hp>
 			<type>C</type>
 			<stage>LV.X</stage>
-			<prestage>Flygon LV. x</prestage>
+			<prestage>Flygon LV.X</prestage>
 			<attack>
 				<name>Extreme Attack</name>
 				<cost>CCC</cost>
@@ -3001,12 +3035,12 @@
 	<card>
 		<id>106</id>
 		<uniqueName>Gallade [E4]</uniqueName>
-		<name>Gallade [E4] LV. x</name>
+		<name>Gallade [E4] LV.X</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>P</type>
 			<stage>LV.X</stage>
-			<prestage>Gallade [E4] LV. x</prestage>
+			<prestage>Gallade [E4] LV.X</prestage>
 			<attack>
 				<name>Aimed Cut</name>
 				<cost>PCC</cost>
@@ -3024,12 +3058,12 @@
 	<card>
 		<id>107</id>
 		<uniqueName>Hippowdon</uniqueName>
-		<name>Hippowdon LV. x</name>
+		<name>Hippowdon LV.X</name>
 		<pokemon>
 			<hp>130</hp>
 			<type>F</type>
 			<stage>LV.X</stage>
-			<prestage>Hippowdon LV. x</prestage>
+			<prestage>Hippowdon LV.X</prestage>
 			<attack>
 				<name>Double Shoot</name>
 				<cost>FFCC</cost>
@@ -3049,12 +3083,12 @@
 	<card>
 		<id>108</id>
 		<uniqueName>Infernape [E4]</uniqueName>
-		<name>Infernape [E4] LV. x</name>
+		<name>Infernape [E4] LV.X</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>R</type>
 			<stage>LV.X</stage>
-			<prestage>Infernape [E4] LV. x</prestage>
+			<prestage>Infernape [E4] LV.X</prestage>
 			<attack>
 				<name>Fire Spin</name>
 				<cost>RRC</cost>
@@ -3071,12 +3105,12 @@
 	<card>
 		<id>109</id>
 		<uniqueName>Luxray [GL]</uniqueName>
-		<name>Luxray [GL] LV. x</name>
+		<name>Luxray [GL] LV.X</name>
 		<pokemon>
 			<hp>110</hp>
 			<type>L</type>
 			<stage>LV.X</stage>
-			<prestage>Luxray [GL] LV. x</prestage>
+			<prestage>Luxray [GL] LV.X</prestage>
 			<attack>
 				<name>Flash Impact</name>
 				<cost>LC</cost>
@@ -3094,12 +3128,12 @@
 	<card>
 		<id>110</id>
 		<uniqueName>Mismagius [GL]</uniqueName>
-		<name>Mismagius [GL] LV. x</name>
+		<name>Mismagius [GL] LV.X</name>
 		<pokemon>
 			<hp>100</hp>
 			<type>P</type>
 			<stage>LV.X</stage>
-			<prestage>Mismagius [GL] LV. x</prestage>
+			<prestage>Mismagius [GL] LV.X</prestage>
 			<attack>
 				<name>Darkness Magic</name>
 				<cost>PPC</cost>
@@ -3118,12 +3152,12 @@
 	<card>
 		<id>111</id>
 		<uniqueName>Snorlax</uniqueName>
-		<name>Snorlax LV. x</name>
+		<name>Snorlax LV.X</name>
 		<pokemon>
 			<hp>130</hp>
 			<type>C</type>
 			<stage>LV.X</stage>
-			<prestage>Snorlax LV. x</prestage>
+			<prestage>Snorlax LV.X</prestage>
 			<attack>
 				<name>Exercise</name>
 				<cost>CCCC</cost>
@@ -3142,7 +3176,7 @@
 	<card>
 		<id>112</id>
 		<uniqueName>Pikachu</uniqueName>
-		<name>Pikachu LV. 12</name>
+		<name>Pikachu LV.12</name>
 		<pokemon>
 			<hp>40</hp>
 			<type>L</type>
@@ -3171,7 +3205,7 @@
 	<card>
 		<id>113</id>
 		<uniqueName>Flying Pikachu</uniqueName>
-		<name>Flying Pikachu LV. 12</name>
+		<name>Flying Pikachu LV.12</name>
 		<pokemon>
 			<hp>40</hp>
 			<type>L</type>
@@ -3201,7 +3235,7 @@
 	<card>
 		<id>114</id>
 		<uniqueName>Surfing Pikachu</uniqueName>
-		<name>Surfing Pikachu LV. 13</name>
+		<name>Surfing Pikachu LV.13</name>
 		<pokemon>
 			<hp>50</hp>
 			<type>L</type>
@@ -3223,7 +3257,7 @@
 	<card>
 		<id>RT1</id>
 		<uniqueName>Fan Rotom</uniqueName>
-		<name>Fan Rotom LV. 46</name>
+		<name>Fan Rotom LV.46</name>
 		<pokemon>
 			<hp>70</hp>
 			<type>L</type>
@@ -3257,7 +3291,7 @@
 	<card>
 		<id>RT2</id>
 		<uniqueName>Frost Rotom</uniqueName>
-		<name>Frost Rotom LV. 46</name>
+		<name>Frost Rotom LV.46</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>L</type>
@@ -3292,7 +3326,7 @@
 	<card>
 		<id>RT3</id>
 		<uniqueName>Heat Rotom</uniqueName>
-		<name>Heat Rotom LV. 46</name>
+		<name>Heat Rotom LV.46</name>
 		<pokemon>
 			<hp>80</hp>
 			<type>L</type>
@@ -3325,7 +3359,7 @@
 	<card>
 		<id>RT4</id>
 		<uniqueName>Mow Rotom</uniqueName>
-		<name>Mow Rotom LV. 46</name>
+		<name>Mow Rotom LV.46</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>L</type>
@@ -3359,7 +3393,7 @@
 	<card>
 		<id>RT5</id>
 		<uniqueName>Wash Rotom</uniqueName>
-		<name>Wash Rotom LV. 46</name>
+		<name>Wash Rotom LV.46</name>
 		<pokemon>
 			<hp>90</hp>
 			<type>L</type>
@@ -3395,16 +3429,21 @@
 		<uniqueName>Charon's Choice</uniqueName>
 		<name>Charon's Choice</name>
 		<supporter>
-			<text>your turn ends, put this card into your hand instead of
-				discarding it. Search your deck for any Rotom and switch it with any
-				Rotom you have in play. Any cards attached to Rotom and damage
-				counters on it are now on the new Pokemon. (Remove all Special
-				Conditions and effects from Rotom.) Put Rotom on top of your deck.
-				Shuffle your deck afterward. Illus. Ken Sugimori </text>
+			<text>You can play only one Supporter card each turn. When you play
+				this card, put it next to your Active Pokémon. When
+				your turn ends,
+				put this card into your hand instead of discarding it.
+				Search your
+				deck for any Rotom and switch it with any Rotom you have
+				in play. Any
+				cards attached to Rotom and
+				damage counters on it are now on the new
+				Pokémon. (Remove all Special
+				Conditions and effects from Rotom.) Put
+				Rotom on top of your deck. Shuffle your deck afterward.
+			</text>
 		</supporter>
 		<rarity>H</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 </cardset>
