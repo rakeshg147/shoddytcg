@@ -57,9 +57,9 @@ public class SetParser {
 								//								System.out.println("Pokemon");
 								card.setName(card.getUniqueName()+" "+tempType);
 								PokemonCard pokemon = new PokemonCard();
-								pokemon.setHP(Integer.parseInt(br.readLine().split(" ")[1]));
+								pokemon.setHP(Integer.parseInt(br.readLine().split(" ")[0]));
 								String temp = br.readLine();
-								temp = temp.replace("Pokemon Energy Type: ","");
+								temp = temp.replace("Pokemon Type: ","");
 								pokemon.setPokemonType(PokemonCard.StringToPokemonType(temp));
 
 								temp = br.readLine();
@@ -76,7 +76,11 @@ public class SetParser {
 										pokemon.setPreStage("");
 									}
 								}
-
+								
+								temp = br.readLine();
+								temp = temp.replace("Illus. ","");
+								card.setIllustrator(temp);
+								
 								boolean stop = false;
 								while(!stop){
 									line = br.readLine();
@@ -94,6 +98,13 @@ public class SetParser {
 										line = br.readLine();
 										pp.setText(line);
 										pokemon.addPokepower(pp);
+									}else if(line.contains("[Item]")){
+										line = line.replace("[Item] ","");
+										Item item = new Item();
+										item.setName(line);
+										line = br.readLine();
+										item.setText(line);
+										pokemon.setItem(item);
 									}else{
 										try{
 											String[] attack = line.split("\\|");
@@ -116,18 +127,13 @@ public class SetParser {
 										}catch(Exception e){
 											e.printStackTrace();
 										}
-
 									}
-									if(line.contains("Illus")){
+									if(line.contains("Weakness: ")||line.contains("Resistance: ")){
 										stop = true;
 										temp = line;
 									}
 								}
 
-								temp = temp.replace("Illus. ","");
-								card.setIllustrator(temp);
-
-								temp = br.readLine();
 								if(temp.contains("Weakness")){
 									temp = temp.replace("Weakness: ","");
 									pokemon.setWeakness(temp);
@@ -172,7 +178,9 @@ public class SetParser {
 									temp = temp.replace("Rarity: ","");
 									card.setRarity(temp);
 								}
-
+								
+								
+								
 								if(pokemon.getWeakness()==null)
 									pokemon.setWeakness("");
 								if(pokemon.getResistance()==null)
@@ -351,14 +359,16 @@ public class SetParser {
 
 								card.setName(card.getUniqueName());
 								TrainerCard trainer = new TrainerCard();
-								String temp = "";
-								
+
+								String temp = br.readLine();
+								temp = temp.replace("Illus. ","");
+								card.setIllustrator(temp);
 
 								boolean stop = false;
 								String text = "";
 								while(!stop){
 									temp = br.readLine();
-									if(temp.contains("Illus"))
+									if(temp.contains("Collector"))
 										stop=true;
 									else
 										text += temp+ " ";
