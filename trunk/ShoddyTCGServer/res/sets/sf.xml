@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cardset code="PL">
+<cardset code="SF">
 	<card>
 		<id>1</id>
 		<uniqueName>Dusknoir</uniqueName>
@@ -2644,6 +2644,7 @@
 		<uniqueName>Energy Link</uniqueName>
 		<name>Energy Link</name>
 		<trainer>
+			<type>Tool</type>
 			<text>Attach Energy Link to 1 of your Pokemon that doesn't already
 				have a Pokemon Tool attached to it. If that Pokemon is Knocked Out,
 				discard this card. As long as Energy Link is attached to a Pokemon,

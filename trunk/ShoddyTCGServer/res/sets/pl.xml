@@ -3276,6 +3276,7 @@
 		<uniqueName>Memory Berry</uniqueName>
 		<name>Memory Berry</name>
 		<trainer>
+			<type>tool</type>
 			<text>Attach Memory Berry to 1 of your Pokemon that doesn't already
 				have a Pokemon Tool attached to it. If that Pokemon is Knocked Out,
 				discard this card. The Pokemon this card is attached to can use any
@@ -3353,6 +3354,7 @@
 		<uniqueName>Team Galactic's Invention G-101 Energy Gain</uniqueName>
 		<name>Team Galactic's Invention G-101 Energy Gain</name>
 		<trainer>
+			<type>tool</type>
 			<text>Attach Team Galactic's Invention G-101 Energy Gain to 1 of your
 				Pokemon SP that doesn't already have a Pokemon Tool attached to it.
 				If that Pokemon is Knocked Out, discard this card. When the Pokemon
@@ -3394,6 +3396,8 @@
 		<uniqueName>Armor Fossil</uniqueName>
 		<name>Armor Fossil</name>
 		<trainer>
+			<type>pokemon</type>
+			<hp>50</hp>
 			<text>Play Armor Fossil as if it were a {C} Basic Pokemon. (Armor
 				Fossil counts as a Trainer card as well, but if Armor Fossil is
 				Knocked Out, this counts as a Knocked Out Pokemon.) Armor Fossil
@@ -3412,6 +3416,8 @@
 		<uniqueName>Skull Fossil</uniqueName>
 		<name>Skull Fossil</name>
 		<trainer>
+			<type>pokemon</type>
+			<hp>50</hp>
 			<text>Play Skull Fossil as if it were a {C} Basic Pokemon. (Skull
 				Fossil counts as a Trainer card as well, but if Skull Fossil is
 				Knocked Out, this counts as a Knocked Out Pokemon.) Skull Fossil

@@ -1,0 +1,1863 @@
+Deoxys Normal Forme
+LV.50
+90 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] Form Change
+Once during your turn (before your attack), you may search your deck for any Deoxys and switch it with Deoxys Normal Forme. (Any cards attached to Deoxys Normal Forme, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) If you do, put Deoxys Normal Forme on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poke-Power each turn.
+PC|Energy Crush|20+|Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokemon.
+Weakness: Px2
+Retreat Cost: C
+Collector Number: 1/146
+Rarity: H
+Dragonite
+LV.61
+140 HP
+Pokemon Type: C
+Stage 2 Pokemon
+Evolves from Dragonair
+Illus. Mitsuhiro Arita
+CCC|Hyper Beam|40|Flip a coin. If heads, discard an Energy card attached to the Defending Pokemon.
+CCCC|Draco Meteor||Flip a coin for each of your opponent's Pokemon. If that coin flip is heads, this attack does 50 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: C+30
+Resistance: F-20
+Retreat Cost: CCC
+Collector Number: 2/146
+Rarity: H
+Froslass
+LV.46
+90 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Snorunt
+Illus. Kagemaru Himeno
+P|Destiny Bond||Discard a {P} Energy attached to Froslass. During your opponent's next turn, if Froslass would be Knocked Out by damage from an attack, the Attacking Pokemon is Knocked Out.
+WC|Icy Breath|40|The Defending Pokemon is now Asleep. Put 1 damage counter on each of your opponent's Benched Pokemon.
+Weakness: M+20
+Retreat Cost: C
+Collector Number: 3/146
+Rarity: H
+Giratina
+LV.52
+100 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kazuaki Aihara
+PC|Shadow Force||Choose 1 of your opponent's Benched Pokemon. This attack does 20 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) Flip a coin. If heads, prevent all effects of an attack, including damage, done to Giratina during your opponent's next turn.
+PPCC|Brutal Edge|50+|Does 50 damage plus 10 more damage for each damage counter on the Defending Pokemon.
+Weakness: Dx2
+Resistance: C-20
+Retreat Cost: CCC
+Collector Number: 4/146
+Rarity: H
+Gliscor
+LV.42
+80 HP
+Pokemon Type: F
+Stage 1 Pokemon
+Evolves from Gligar
+Illus. Kent Kanetsuna
+--|Burning Poison||Choose either Burned or Poisoned. The Defending Pokemon is now affected by that Special Condition. You may return Gliscor and all cards attached to it to your hand.
+FC|Pester|40+|If the Defending Pokemon is affected by a Special Condition, this attack does 40 damage plus 40 more damage.
+Weakness: W+20
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 5/146
+Rarity: H
+Heatran
+LV.47
+100 HP
+Pokemon Type: R
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] Flash Fire
+Once during your turn (before your attack), you may move a {R} Energy attached to 1 of your Pokemon to Heatran. This power can't be used if Heatran is affected by a Special Condition.
+RRCC|Magma Storm|40+|You may discard as many basic Energy cards as you like attached to Heatran. If you do, this attack does 40 damage plus 20 more damage for each Energy card you discarded.
+Weakness: Wx2
+Retreat Cost: CCCC
+Collector Number: 6/146
+Rarity: H
+Kingdra
+LV.52
+130 HP
+Pokemon Type: W
+Stage 2 Pokemon
+Evolves from Seadra
+Illus. Mitsuhiro Arita
+--|Aqua Stream|10x|Search your discard pile for as many {W} Energy cards as you like, show them to your opponent, and this attack does 10 damage for each {W} Energy card you chose. Put those cards on top of your deck. Shuffle your deck afterward.
+W|Dragon Pump|40+|You may discard 2 cards from your hand. If you do, this attack does 40 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: L+30
+Retreat Cost: C
+Collector Number: 7/146
+Rarity: H
+Luxray
+LV.51
+120 HP
+Pokemon Type: L
+Stage 2 Pokemon
+Evolves from Luxio
+Illus. Mitsuhiro Arita
+[Poke-Body] Rivalry
+If your opponent has any Pokemon LV.X in play, each of Luxray's attacks does 50 more damage to the Active Pokemon (before applying Weakness and Resistance).
+CC|Plasma|40|Search your discard pile for a {L} Energy card and attach it to Luxray.
+LLC|Shock Bolt|100|Discard all {L} Energy attached to Luxray.
+Weakness: F+30
+Resistance: M-20
+Retreat Cost: 0
+Collector Number: 8/146
+Rarity: H
+Mamoswine
+LV.54
+140 HP
+Pokemon Type: W
+Stage 2 Pokemon
+Evolves from Piloswine
+Illus. Kouki Saitou
+WCC|Ice Fang|40|Flip a coin. If heads, the Defending Pokemon is now Paralyzed and discard an Energy card attached to the Defending Pokemon.
+FCCC|Charge Through|60+|You may do 60 damage plus 40 more damage and 40 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) If you do, Mamoswine does 40 damage to itself.
+Weakness: M+40
+Resistance: L-20
+Retreat Cost: CCCC
+Collector Number: 9/146
+Rarity: H
+Metagross
+LV.58
+120 HP
+Pokemon Type: M
+Stage 2 Pokemon
+Evolves from Metang
+Illus. Kent Kanetsuna
+[Poke-Power] Magnetic Reversal
+Once during your turn (before your attack), you may flip a coin. If heads, switch 1 of your opponent's Benched Pokemon with 1 of the Defending Pokemon. This power can't be used if Metagross is affected by a Special Condition.
+MCC|Extra Comet Punch|50|During your next turn, Metagross's Extra Comet Punch attack's base damage is 100.
+Weakness: R+30
+Resistance: P-20
+Retreat Cost: CCC
+Collector Number: 10/146
+Rarity: H
+Mewtwo
+LV.42
+80 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ken Sugimori
+C|Hypnoblast|10|The Defending Pokemon is now Asleep.
+PCC|Psychic|40+|Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokemon.
+Weakness: P+20
+Retreat Cost: CC
+Collector Number: 11/146
+Rarity: H
+Politoed
+LV.49
+120 HP
+Pokemon Type: W
+Stage 2 Pokemon
+Evolves from Poliwhirl
+Illus. Masakazu Fukuda
+[Poke-Body] Happy Sign
+If you have Poliwag, Poliwhirl, and Poliwrath in play, each of these Pokemon's attacks does 60 more damage to the Defending Pokemon (before applying Weakness and Resistance).
+WC|Frog Jump|40+|Flip a coin. If heads, this attack does 40 damage plus 40 more damage.
+Weakness: G+30
+Retreat Cost: C
+Collector Number: 12/146
+Rarity: H
+Probopass
+LV.46
+90 HP
+Pokemon Type: F
+Stage 1 Pokemon
+Evolves from Nosepass
+Illus. Kent Kanetsuna
+[Poke-Body] Steel Coating
+Any damage done to Probopass by your opponent's attacks is reduced by 10 for each {M} Energy attached to Probopass (after applying Weakness and Resistance). You can't reduce more than 20 damage in this way.
+FCC|Metal Bomber|60|Choose a number of your opponent's Benched Pokemon up to the amount of {M} Energy attached to Probopass. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: W+20
+Retreat Cost: CCC
+Collector Number: 13/146
+Rarity: H
+Rayquaza
+LV.56
+100 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] Speed Gain
+Once during your turn (before your attack), you may flip a coin until you get tails. For each heads, search your discard pile for a basic {R} Energy card or a basic {L} Energy card and attach it to Rayquaza. This power can't be used if Rayquaza is affected by a Special Condition. You can't use more than 1 Speed Gain Poke-Power each turn.
+RRLL|Sky Judgment|150|Discard all Energy attached to Rayquaza.
+Weakness: Cx2
+Resistance: F-20
+Retreat Cost: CCC
+Collector Number: 14/146
+Rarity: H
+Regigigas
+LV.52
+120 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Ryo Ueda
+[Poke-Body] Slow Start
+Regigigas can't attack until your opponent has 3 or less Prize cards left.
+WFMC|Crush Grip|120|If the Defending Pokemon already has any damage counters on it, this attack's base damage is 40 instead of 120.
+Weakness: Fx2
+Retreat Cost: CCCC
+Collector Number: 15/146
+Rarity: H
+Spiritomb
+LV.44
+70 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ryo Ueda
+[Poke-Power] Curse Breath
+Once during your turn, when you put Spiritomb from your hand onto your Bench, you may put 1 damage counter on all Pokemon that already have any damage counters on them (both yours and your opponent's). You can't use more than 1 Curse Breath Poke-Power each turn.
+P|Transfer Pain||Move 1 damage counter from 1 of your Pokemon to 1 of your opponent's Pokemon.
+Resistance: C-20
+Retreat Cost: CC
+Collector Number: 16/146
+Rarity: H
+Yanmega
+LV.47
+90 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Yanma
+Illus. Kent Kanetsuna
+--|Sonic Wave|10|Does 10 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon.
+GGCC|Pursue and Turn|60+|If the Defending Pokemon already has 2 or more damage counters on it, this attack does 60 damage plus 20 more damage and switch Yanmega with 1 of your Benched Pokemon.
+Weakness: L+20
+Resistance: F-20
+Retreat Cost: 0
+Collector Number: 17/146
+Rarity: H
+Armaldo
+LV.52
+140 HP
+Pokemon Type: F
+Stage 2 Pokemon
+Evolves from Anorith
+Illus. Kazuaki Aihara
+[Poke-Body] Fossil Armor
+If Armaldo would be damaged by an attack, prevent that attack's damage done to Armaldo if that damage is 60 or less.
+FFC|Crush Claw|60|During your next turn, if an attack does damage to the Defending Pokemon (after applying Weakness and Resistance), that attack does 40 more damage.
+Weakness: G+30
+Retreat Cost: CC
+Collector Number: 18/146
+Rarity: R
+Azelf
+LV.55
+70 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ken Sugimori
+[Poke-Power] Time Walk
+Once during your turn, when you put Azelf from your hand onto your Bench, you may look at all of your face-down Prize cards. If you do, you may choose 1 Pokemon you find there, show it to your opponent, and put it into your hand. Then, choose 1 card in your hand and put it as a Prize card face down.
+P|Lock Up|20|The Defending Pokemon can't retreat during your opponent's next turn.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 19/146
+Rarity: R
+Bellossom
+LV.38
+100 HP
+Pokemon Type: G
+Stage 2 Pokemon
+Evolves from Gloom
+Illus. Atsuko Nishida
+G|Parallel Gain|30|Remove 1 damage counter from each of your Pokemon.
+GC|Blend Pollen|40+|Does 40 damage plus 20 more damage for each Vileplume and each Bellossom you have in play. Flip a coin. If heads, the Defending Pokemon is now Burned.
+Weakness: R+30
+Resistance: W-20
+Retreat Cost: C
+Collector Number: 20/146
+Rarity: R
+Cradily
+LV.49
+120 HP
+Pokemon Type: G
+Stage 2 Pokemon
+Evolves from Lileep
+Illus. Masakazu Fukuda
+G|Drain Down|30|Before doing damage, you may switch 1 of the Defending Pokemon with 1 of your opponent's Benched Pokemon. If you do, this attack does 30 damage to the new Defending Pokemon. If the Defending Pokemon would be Knocked Out by this attack, you may remove all damage counters from Cradily.
+GCC|Acid|50|The Defending Pokemon can't retreat during your opponent's next turn.
+Weakness: R+30
+Retreat Cost: CCC
+Collector Number: 21/146
+Rarity: R
+Crawdaunt
+LV.32
+90 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Corphish
+Illus. Mitsuhiro Arita
+WC|Gripthrow||Flip a coin. If heads, your opponent returns the Defending Pokemon and all cards attached to it to his or her hand.
+WCC|Prop-up Pinchers|50+|If Crawdaunt has a Technical Machine card attached to it, this attack does 50 damage plus 30 more damage.
+Weakness: L+20
+Resistance: P-20
+Retreat Cost: CC
+Collector Number: 22/146
+Rarity: R
+Delcatty
+LV.46
+80 HP
+Pokemon Type: C
+Stage 1 Pokemon
+Evolves from Skitty
+Illus. Kagemaru Himeno
+[Poke-Body] Attracting Body
+If Delcatty is your Active Pokemon and is damaged by an opponent's attack (even if Delcatty is Knocked Out), flip a coin. If heads, the Defending Pokemon is now Confused. 
+C|Energy Assist|30|Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokemon.
+Weakness: F+20
+Retreat Cost: C
+Collector Number: 23/146
+Rarity: R
+Deoxys Attack Forme
+LV.50
+80 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] Form Change
+Once during your turn (before your attack), you may search your deck for any Deoxys and switch it with Deoxys Attack Forme. (Any cards attached to Deoxys Attack Forme, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) If you do, put Deoxys Attack Forme on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poke-Power each turn.
+PPC|Psychic Boost|80|During your next turn, Deoxys's Psychic Boost attack's base damage is 20.
+Weakness: Px2
+Retreat Cost: CC
+Collector Number: 24/146
+Rarity: R
+Deoxys Defense Forme
+LV.50
+100 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] Form Change
+Once during your turn (before your attack), you may search your deck for any Deoxys and switch it with Deoxys Defense Forme. (Any cards attached to Deoxys Defense Forme, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) If you do, put Deoxys Defense Forme on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poke-Power each turn.
+PCC|Psychic Defense|40|During your opponent's next turn, prevent all effects of an attack, and any damage done to Deoxys by attacks is reduced by 20 (after applying Weakness and Resistance).
+Weakness: Px2
+Retreat Cost: CC
+Collector Number: 25/146
+Rarity: R
+Deoxys Speed Forme
+LV.50
+70 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] Form Change
+Once during your turn (before your attack), you may search your deck for any Deoxys and switch it with Deoxys Speed Forme. (Any cards attached to Deoxys Speed Forme, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) If you do, put Deoxys Speed Forme on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poke-Power each turn.
+CC|Speed Shot||Choose 1 of your opponent's Pokemon. This attack does 30 damage to that Pokemon. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokemon.
+Weakness: Px2
+Retreat Cost: 0
+Collector Number: 26/146
+Rarity: R
+Ditto
+LV.33
+60 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Ken Sugimori
+[Poke-Body] Ditto DNA
+As long as Ditto is your Active Pokemon, its maximum HP is the same as your opponent's Active Pokemon. Ditto can use the attacks of that Pokemon as its own. (You still need the necessary Energy to use each attack.)
+Weakness: F+20
+Retreat Cost: C
+Collector Number: 27/146
+Rarity: R
+Forretress
+LV.43
+90 HP
+Pokemon Type: M
+Stage 1 Pokemon
+Evolves from Pineco
+Illus. Kent Kanetsuna
+[Poke-Body] Iron Shell
+Whenever you attach a basic Energy card from your hand to Forretress (excluding effects of attacks), flip a coin. If tails, put 2 damage counters on each Pokemon (both yours and your opponent's) (excluding any Forretress).
+MMCC|Explosion|100|Forretress does 40 damage to itself.
+Weakness: R+20
+Resistance: P-20
+Retreat Cost: CC
+Collector Number: 28/146
+Rarity: R
+Groudon
+LV.45
+100 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Kazuaki Aihara
+--|Drought||Choose up to 2 basic {F} Energy cards from your hand and attach them to 1 of your Pokemon.
+FFC|Major Earthquake|100|Discard 2 {F} Energy attached to Groudon and this attack does 10 damage to each of your Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: Gx2
+Resistance: L-20
+Retreat Cost: CCC
+Collector Number: 29/146
+Rarity: R
+Heatran
+LV.45
+100 HP
+Pokemon Type: M
+Basic Pokemon
+Illus. Kouki Saitou
+[Poke-Power] Smelt
+Once during your turn (before your attack), you may move a {M} Energy attached to 1 of your Pokemon to Heatran. This power can't be used if Heatran is affected by a Special Condition.
+CCC|Heavy Metal|40+|Flip a coin for each {M} Energy attached to Heatran. This attack does 40 damage plus 20 more damage for each heads.
+Weakness: Wx2
+Retreat Cost: CCC
+Collector Number: 30/146
+Rarity: R
+Jirachi
+LV.42
+70 HP
+Pokemon Type: M
+Basic Pokemon
+Illus. Satoshi Ohta
+--|One Desire||Search your deck for any 1 card. Shuffle your deck, then put that card on top of your deck. 
+MM|Doom Desire||Discard all Energy attached to Jirachi. The Defending Pokemon is Knocked Out at the end of your opponent's next turn.
+Weakness: R+20
+Resistance: P-20
+Retreat Cost: C
+Collector Number: 31/146
+Rarity: R
+Kyogre
+LV.47
+100 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Kent Kanetsuna
+--|Drizzle||Choose up to 2 basic {W} Energy cards from your hand and attach them to 1 of your Pokemon.
+WWC|High Tide|60|Discard 2 {W} Energy attached to Kyogre. This attack does 20 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: Lx2
+Retreat Cost: CCC
+Collector Number: 32/146
+Rarity: R
+Lopunny
+LV.37
+80 HP
+Pokemon Type: C
+Stage 1 Pokemon
+Evolves from Buneary
+Illus. Kouki Saitou
+[Poke-Body] Healing Tail
+As long as Lopunny is your Active Pokemon, remove 1 damage counter from each of your Benched Pokemon between turns.
+--|Collect||Draw 3 cards.
+CC|Cross-Cut|30+|If the Defending Pokemon is an Evolved Pokemon, this attack does 30 damage plus 30 more damage.
+Weakness: F+20
+Retreat Cost: C
+Collector Number: 33/146
+Rarity: R
+Mesprit
+LV.55
+70 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ken Sugimori
+[Poke-Power] Psychic Bind
+Once during your turn, when you put Mesprit from your hand onto your Bench, you may use this power. Your opponent can't use any Poke-Powers on his or her Pokemon during your opponent's next turn.
+PP|Extrasensory|20+|If you have the same number of cards in your hand as your opponent, this attack does 20 damage plus 50 more damage.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 34/146
+Rarity: R
+Poliwrath
+LV.46
+130 HP
+Pokemon Type: W
+Stage 2 Pokemon
+Evolves from Poliwhirl
+Illus. Mitsuhiro Arita
+F|Focus Punch|60|If Poliwrath was damaged by an attack during your opponent's last turn, this attack does nothing.
+FCC|Submission|90|Poliwrath does 20 damage to itself.
+Weakness: L+30
+Retreat Cost: CC
+Collector Number: 35/146
+Rarity: R
+Regice
+LV.43
+90 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] Regi Move
+Once during your turn (before your attack), you may use this power. Discard 2 cards from your hand and choose 1 of your opponent's Active Pokemon that isn't an Evolved Pokemon. Your opponent switches that Pokemon with 1 of his or her Benched Pokemon. This power can't be used if Regice is affected by a Special Condition.
+WWC|Ice Reflect|50|If Regice was damaged by an attack during your opponent's last turn, the Defending Pokemon is now Paralyzed.
+Weakness: Mx2
+Retreat Cost: CCC
+Collector Number: 36/146
+Rarity: R
+Regigigas
+LV.48
+100 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Kouki Saitou
+[Poke-Body] Recover Mechanism
+When you attach an Energy card from your hand to Regigigas, remove all Special Conditions from Regigigas.
+CCC|Gigaton Punch|60+|Flip a coin. If heads, this attack does 60 damage plus 20 more damage and does 20 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: Fx2
+Retreat Cost: CCCC
+Collector Number: 37/146
+Rarity: R
+Regirock
+LV.51
+90 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] Regi Cycle
+Once during your turn (before your attack), if you have a {F} Energy card in your discard pile, you may discard 2 cards from your hand. Then, attach a {F} Energy card from your discard pile to Regirock. This power can't be used if Regirock is affected by a Special Condition.
+FFC|Stone Edge|40+|Flip a coin. If heads, this attack does 40 damage plus 30 more damage.
+Weakness: Wx2
+Retreat Cost: CCC
+Collector Number: 38/146
+Rarity: R
+Registeel
+LV.50
+90 HP
+Pokemon Type: M
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] Regi Heal
+Once during your turn (before your attack), you may discard 2 cards from your hand. Then, remove 3 damage counters from Registeel. This power can't be used if Registeel is affected by a Special Condition.
+MCC|Rotating Claws|50|You may discard an Energy card attached to Registeel. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Registeel.
+Weakness: Rx2
+Resistance: P-20
+Retreat Cost: CCCC
+Collector Number: 39/146
+Rarity: R
+Shedinja
+LV.34
+60 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Nincada
+Illus. Kouki Saitou
+[Poke-Power] Resent
+Once during your opponent's turn, if Shedinja would be Knocked Out by damage from an attack, you may put 4 damage counters on the Attacking Pokemon and each of your opponent's Pokemon that has the same name as the Attacking Pokemon.
+C|Curse and Deceive||Put 3 damage counters on the Defending Pokemon. If Shedinja has any damage counters on it, the Defending Pokemon is now Confused.
+Weakness: 0
+Retreat Cost: 0
+Collector Number: 40/146
+Rarity: R
+Torkoal
+LV.32
+80 HP
+Pokemon Type: R
+Basic Pokemon
+Illus. Midori Harada
+[Poke-Body] White Smoke
+As long as Torkoal is your Active Pokemon, prevent all effects, including damage, done to your Benched Pokemon by your opponent's attacks.
+RC|Black Soot|30|Flip a coin. If heads, the Defending Pokemon is now Burned and Paralyzed.
+Weakness: W+20
+Retreat Cost: CC
+Collector Number: 41/146
+Rarity: R
+Unown !
+LV.16
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] !
+Once during your turn, when you put Unown ! from your hand onto your Bench, you may flip a coin. If heads, put 2 damage counters on 1 of your opponent's Pokemon. If tails, put 2 damage counters on 1 of your Pokemon.
+P|Hidden Power|10+|Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, Unown ! does 10 damage to itself, and this attack's damage isn't affected by Weakness or Resistance. 
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 42/146
+Rarity: R
+Uxie
+LV.55
+70 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ken Sugimori
+[Poke-Power] Set Up
+Once during your turn, when you put Uxie from your hand onto your Bench, you may draw cards until you have 7 cards in your hand.
+C|Psychic Restore|20|You may put Uxie and all cards attached to it on the bottom of your deck in any order.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 43/146
+Rarity: R
+Victreebel
+LV.40
+120 HP
+Pokemon Type: G
+Stage 2 Pokemon
+Evolves from Weepinbell
+Illus. Kouki Saitou
+--|Burning Scent||The Defending Pokemon is now Burned and Poisoned. Before applying these effects, you may switch 1 of the Defending Pokemon with 1 of your opponent's Benched Pokemon. The new Defending Pokemon is now Burned and Poisoned.
+GGC|Energy Dissolve|60|Discard an Energy attached to the Defending Pokemon at the end of your opponent's next turn.
+Weakness: R+30
+Retreat Cost: CCC
+Collector Number: 44/146
+Rarity: R
+Vileplume
+LV.41
+120 HP
+Pokemon Type: G
+Stage 2 Pokemon
+Evolves from Gloom
+Illus. Kagemaru Himeno
+[Poke-Power] Energy Reaction
+Once during your turn (before your attack), when you attach a {G} or {P} Energy card from your hand to Vileplume (excluding effects of attacks or Poke-Powers), you may use this power. If you attach a {G} Energy card, the Defending Pokemon is now Asleep. If you attach a {P} Energy card, the Defending Pokemon is now Poisoned. This power can't be used if Vileplume is affected by a Special Condition.
+PCC|Disturbing Pollen|60|Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during your opponent's next turn.
+Weakness: P+30
+Retreat Cost: CC
+Collector Number: 45/146
+Rarity: R
+Anorith
+LV.29
+80 HP
+Pokemon Type: F
+Stage 1 Pokemon
+Evolves from Claw Fossil
+Illus. Kouki Saitou
+C|Guard Claw|20|During your opponent's next turn, any damage done to Anorith by attacks is reduced by 20 (after applying Weakness and Resistance).
+FC|X-Scissor|30+|Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+Weakness: G+20
+Retreat Cost: C
+Collector Number: 46/146
+Rarity: U
+Camerupt
+LV.41
+100 HP
+Pokemon Type: R
+Stage 1 Pokemon
+Evolves from Numel
+Illus. Kagemaru Himeno
+RC|Eruption|30+|Each player discards the top card of his or her deck. This attack does 30 damage plus 30 more damage for each Energy card discarded in this way.
+RCC|Take Down|80|Camerupt does 20 damage to itself.
+Weakness: W+20
+Retreat Cost: CCC
+Collector Number: 47/146
+Rarity: U
+Castform
+LV.35
+60 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Kanako Eo
+[Poke-Power] Temperament
+Once during your turn (before your attack), you may search your deck for any Castform and switch it with Castform. (Any cards attached to Castform, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) If you do, put Castform on top of your deck. Shuffle your deck afterward. You can't use more than 1 Temperament Poke-Power each turn.
+CC|Weather Ball|30+|If you have a Stadium card in play, remove 3 damage counters from Castform. If your opponent has a Stadium card in play, this attack does 30 damage plus 30 more damage.
+Weakness: F+10
+Retreat Cost: C
+Collector Number: 48/146
+Rarity: U
+Castform Rain Form
+LV.35
+70 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Emi Yoshida
+[Poke-Power] Temperament
+Once during your turn (before your attack), you may search your deck for any Castform and switch it with Castform Rain Form. (Any cards attached to Castform Rain Form, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) Shuffle Castform Rain Form back into your deck. You can't use more than 1 Temperament Poke-Power each turn.
+WC|Water Pulse|30|The Defending Pokemon is now Asleep.
+Weakness: L+10
+Retreat Cost: C
+Collector Number: 49/146
+Rarity: U
+Castform Snow-cloud Form
+LV.35
+70 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Saya Tsuruta
+[Poke-Power] Temperament
+Once during your turn (before your attack), you may search your deck for any Castform and switch it with Castform Snow-cloud Form. (Any cards attached to Castform Snow-cloud Form, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) Shuffle Castform Snow-cloud Form back into your deck. You can't use more than 1 Temperament Poke-Power each turn.
+CC|Hailstone||This attack does 10 damage to each of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: M+10
+Retreat Cost: C
+Collector Number: 50/146
+Rarity: U
+Castform Sunny Form
+LV.35
+70 HP
+Pokemon Type: R
+Basic Pokemon
+Illus. Lee HyunJung
+[Poke-Power] Temperament
+Once during your turn (before your attack), you may search your deck for any Castform and switch it with Castform Sunny Form. (Any cards attached to Castform Sunny Form, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) Shuffle Castform Sunny Form back into your deck. You can't use more than 1 Temperament Poke-Power each turn.
+RC|Ember|40|Discard a {R} Energy attached to Castform Sunny Form.
+Weakness: W+10
+Retreat Cost: C
+Collector Number: 51/146
+Rarity: U
+Dragonair
+LV.31
+70 HP
+Pokemon Type: C
+Stage 1 Pokemon
+Evolves from Dratini
+Illus. Suwama Chiaki
+CC|Wrap|20|Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+CCC|Rising Lunge|30+|Flip a coin. If heads, this attack does 30 damage plus 20 more damage.
+Weakness: C+20
+Retreat Cost: C
+Collector Number: 52/146
+Rarity: U
+Drifblim
+LV.43
+90 HP
+Pokemon Type: P
+Stage 1 Pokemon
+Evolves from Drifloon
+Illus. Ken Sugimori
+P|Expand|30|During your opponent's next turn, any damage done to Drifblim by attacks is reduced by 10 (after applying Weakness and Resistance).
+CCC|Whirlwind|60|Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon.
+Weakness: D+20
+Resistance: C-20
+Retreat Cost: 0
+Collector Number: 53/146
+Rarity: U
+Exeggutor
+LV.43
+80 HP
+Pokemon Type: P
+Stage 1 Pokemon
+Evolves from Exeggcute
+Illus. Ken Sugimori
+--|Psychic Strategy||Each player counts the number of cards in his or her opponent's hand. Each player shuffles his or her hand into his or her deck. Then, each player draws a number of cards equal to the number of cards his or her opponent had. 
+P|Super Eggsplosion|50x|Discard as many Energy cards as you like attached to your Pokemon. For each Energy card you discarded, flip a coin. This attack does 50 damage times the number of heads.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 54/146
+Rarity: U
+Gliscor
+LV.44
+90 HP
+Pokemon Type: F
+Stage 1 Pokemon
+Evolves from Gligar
+Illus. Ken Sugimori
+F|Poison Jab|20|The Defending Pokemon is now Poisoned.
+CC|Sharp Tail|30+|Flip a coin. If heads, this attack does 30 damage plus 40 more damage.
+Weakness: W+20
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 55/146
+Rarity: U
+Grumpig
+LV.36
+90 HP
+Pokemon Type: P
+Stage 1 Pokemon
+Evolves from Spoink
+Illus. Masakazu Fukuda
+--|Magical Step||The Defending Pokemon is now Confused. Put 6 damage counters instead of 3 on the Confused Pokemon.
+PC|Grind|20x|Does 20 damage times the amount of Energy attached to Grumpig.
+Weakness: P+20
+Retreat Cost: CC
+Collector Number: 56/146
+Rarity: U
+Houndoom
+LV.45
+80 HP
+Pokemon Type: R
+Stage 1 Pokemon
+Evolves from Houndour
+Illus. Kouki Saitou
+[Poke-Body] Revenge Fang
+If you have less Benched Pokemon than your opponent, each of Houndoom's attacks does 40 more damage to the Active Pokemon (before applying Weakness and Resistance).
+C|Burning Sensation|20|If the Defending Pokemon already has any damage counters on it, the Defending Pokemon is now Burned.
+RR|Bright Flame|60|Flip a coin. If tails, discard 2 {R} Energy attached to Houndoom.
+Weakness: W+20
+Retreat Cost: C
+Collector Number: 57/146
+Rarity: U
+Lanturn
+LV.39
+90 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Chinchou
+Illus. Masakazu Fukuda
+CC|Strong Current|20|Move an Energy card attached to the Defending Pokemon to another of your opponent's Pokemon.
+WL|Confuse Ray|40|The Defending Pokemon is now Confused.
+Weakness: G+20
+Retreat Cost: C
+Collector Number: 58/146
+Rarity: U
+Lanturn
+LV.43
+90 HP
+Pokemon Type: L
+Stage 1 Pokemon
+Evolves from Chinchou
+Illus. Kouki Saitou
+L|Energy Split||This attack does 30 damage to each of your opponent's Pokemon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokemon.)
+LCC|Aqua Bolt|60+|Does 60 damage plus 10 more damage for each {W} Energy attached to Lanturn.
+Weakness: F+20
+Retreat Cost: CC
+Collector Number: 59/146
+Rarity: U
+Ledian
+LV.60
+80 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Ledyba
+Illus. Midori Harada
+C|Comet Punch|20x|Flip 4 coins. This attack does 20 damage times the number of heads.
+GG|Baton Pass|50|You may switch Ledian with 1 of your Benched Pokemon. If you do, move as many Energy cards attached to Ledian as you like to the new Active Pokemon.
+Weakness: R+20
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 60/146
+Rarity: U
+Lucario
+LV.35
+90 HP
+Pokemon Type: F
+Stage 1 Pokemon
+Evolves from Riolu
+Illus. Naoyo Kimura
+F|Focus Blast||Choose 1 of your opponent's Pokemon. This attack does 30 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+FFC|Spike Lariat|60+|If the Defending Pokemon already has any damage counters on it, this attack does 60 damage plus 20 more damage.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 61/146
+Rarity: U
+Luxio
+LV.23
+80 HP
+Pokemon Type: L
+Stage 1 Pokemon
+Evolves from Shinx
+Illus. Naoyo Kimura
+LC|Spark|30|Does 10 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+LCC|Thunderous Claw|70|Flip a coin. If tails, discard all {L} Energy attached to Luxio.
+Weakness: F+20
+Resistance: M-20
+Retreat Cost: C
+Collector Number: 62/146
+Rarity: U
+Marowak
+LV.30
+90 HP
+Pokemon Type: F
+Stage 1 Pokemon
+Evolves from Cubone
+Illus. Ken Sugimori
+C|Heavy Bone|40|Flip a coin. If tails, Marowak can't use Heavy Bone during your next turn.
+FF|Bone Rush|50x|Flip a coin until you get tails. This attack does 50 damage times the number of heads.
+Weakness: W+20
+Resistance: L-20
+Retreat Cost: CC
+Collector Number: 63/146
+Rarity: U
+Metang
+LV.24
+80 HP
+Pokemon Type: M
+Stage 1 Pokemon
+Evolves from Beldum
+Illus. Midori Harada
+CC|Agility|20|Flip a coin. If heads, prevent all effects of an attack, including damage, done to Metang during your opponent's next turn.
+MCC|Metal Claw|50| 
+Weakness: R+20
+Resistance: P-20
+Retreat Cost: CC
+Collector Number: 64/146
+Rarity: U
+Metang
+LV.22
+80 HP
+Pokemon Type: M
+Stage 1 Pokemon
+Evolves from Beldum
+Illus. Masakazu Fukuda
+MC|Psyshock|20|Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+MCC|Bullet Punch|40+|Flip 2 coins. This attack does 40 damage plus 20 more damage for each heads.
+Weakness: R+20
+Resistance: P-20
+Retreat Cost: CC
+Collector Number: 65/146
+Rarity: U
+Mightyena
+LV.42
+90 HP
+Pokemon Type: D
+Stage 1 Pokemon
+Evolves from Poochyena
+Illus. Masakazu Fukuda
+D|Bite On|30|If the Defending Pokemon isn't an Evolved Pokemon, that Pokemon can't attack, retreat, or use any Poke-Powers during your opponent's next turn.
+CC|Pick On|10x|Does 10 damage times the number of Pokemon you have in play.
+Weakness: F+20
+Resistance: P-20
+Retreat Cost: C
+Collector Number: 66/146
+Rarity: U
+Ninjask
+LV.42
+80 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Nincada
+Illus. Ken Sugimori
+[Poke-Power] Cast-off Shell
+Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokemon and if your Bench isn't full, you may put Shedinja onto your Bench as a Basic Pokemon from your hand or your discard pile.
+G|Chip Off|30|If your opponent has 6 or more cards in his or her hand, discard a number of cards without looking until your opponent has 5 cards left in his or her hand.
+Weakness: R+20
+Resistance: F-20
+Retreat Cost: 0
+Collector Number: 67/146
+Rarity: U
+Persian
+LV.32
+80 HP
+Pokemon Type: C
+Stage 1 Pokemon
+Evolves from Meowth
+Illus. Ken Sugimori
+CC|Feint Attack||Choose 1 of your opponent's Pokemon. This attack does 30 damage to that Pokemon. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokemon.
+CC|Fasten Claws|40+|Flip a coin. If heads, this attack does 40 damage plus 10 more damage.
+Weakness: F+20
+Retreat Cost: 0
+Collector Number: 68/146
+Rarity: U
+Piloswine
+LV.35
+100 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Swinub
+Illus. Midori Harada
+FC|Charge Dash|30+|You may do 30 damage plus 30 more damage. If you do, Piloswine does 30 damage to itself.
+WCCC|Icy Wind|60|The Defending Pokemon is now Asleep.
+Weakness: M+20
+Resistance: L-20
+Retreat Cost: CCC
+Collector Number: 69/146
+Rarity: U
+Seadra
+LV.35
+80 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Horsea
+Illus. Atsuko Nishida
+W|Aqua Pump|30+|You may discard up to 2 {W} Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded.
+WWC|Waterfall|50| 
+Weakness: L+20
+Retreat Cost: C
+Collector Number: 70/146
+Rarity: U
+Starmie
+LV.39
+80 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Staryu
+Illus. Kouki Saitou
+W|Star Boomerang|30|You may return Starmie and all cards attached to it to your hand.
+P|Core Flash||Choose 1 of your opponent's Pokemon that has any Poke-Powers or Poke-Bodies. This attack does 50 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) 
+Weakness: L+20
+Retreat Cost: 0
+Collector Number: 71/146
+Rarity: U
+Swalot
+LV.35
+90 HP
+Pokemon Type: P
+Stage 1 Pokemon
+Evolves from Gulpin
+Illus. Midori Harada
+PC|Swallow Up|30|Before doing damage, count the remaining HP of the Defending Pokemon and Swalot. If the Defending Pokemon has fewer remaining HP than Swalot's, this attack does 80 damage instead.
+PPC|Gunk Shot|60|The Defending Pokemon is now Poisoned.
+Weakness: P+20
+Retreat Cost: CC
+Collector Number: 72/146
+Rarity: U
+Swellow
+LV.30
+80 HP
+Pokemon Type: C
+Stage 1 Pokemon
+Evolves from Taillow
+Illus. Suwama Chiaki
+[Poke-Body] Big Wing
+If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.
+CC|Mach Descent|30|If you played Swellow from your hand during this turn, this attack's base damage is 60 instead of 30.
+Weakness: L+20
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 73/146
+Rarity: U
+Tauros
+LV.26
+80 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Ken Sugimori
+CC|Herd Charge|20x|Flip a coin for each Tauros you have in play. This attack does 20 damage times the number of heads.
+CCC|Thrash|40+|Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, Tauros does 10 damage to itself.
+Weakness: F+20
+Retreat Cost: CC
+Collector Number: 74/146
+Rarity: U
+Tentacruel
+LV.37
+90 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Tentacool
+Illus. Kouki Saitou
+--|Tentacle Strike||Search your opponent's discard pile for up to 2 Energy cards and attach them to any of your opponent's Pokemon in any way you like. For each Energy card attached in this way, this attack does 20 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+WCC|Dangerous Poison|60|If Tentacruel has less Energy attached to it than the Defending Pokemon, the Defending Pokemon is now Paralyzed and Poisoned.
+Weakness: L+20
+Retreat Cost: C
+Collector Number: 75/146
+Rarity: U
+Unown J
+LV.12
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] JUNK
+Once during your turn, when you put Unown J from your hand onto your Bench, you may flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand. 
+P|Hidden Power|10|Remove the Special Condition Asleep from the Defending Pokemon.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 76/146
+Rarity: U
+Unown R
+LV.16
+60 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] RETIRE
+Once during your turn, if Unown R is on your Bench, you may discard Unown R and all cards attached to it. (This doesn't count as a Knocked Out Pokemon.) Then, draw a card.
+--|Hidden Power||Move any number of basic Energy cards attached to your Pokemon to your other Pokemon in any way you like.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 77/146
+Rarity: U
+Unown U
+LV.15
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Body] UNSEEN
+As long as Unown U is on your Bench, prevent all effects of attacks, including damage, done by your opponent's Pokemon to any Unown on your Bench.
+C|Hidden Power||Search your deck for any 1 card and discard it. Shuffle your deck afterward.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 78/146
+Rarity: U
+Unown V
+LV.17
+60 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kent Kanetsuna
+[Poke-Power] VACATION
+Once during your turn (before your attack), you may remove 2 damage counters from each of your Pokemon. If you do, your turn ends. This power can't be used if Unown V is affected by a Special Condition.
+P|Hidden Power|30|Does 10 damage to each of your Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 79/146
+Rarity: U
+Unown W
+LV.21
+90 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Body] WALL
+As long as Unown W is your Active Pokemon, any damage done to your Pokemon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).
+PCC|Hidden Power|50|Draw a card.
+Weakness: P+30
+Retreat Cost: CCC
+Collector Number: 80/146
+Rarity: U
+Unown Y
+LV.15
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] YAWN
+Once during your turn (before your attack), if Unown Y is on your Bench, you may remove 1 damage counter from 1 of your Active Unown and that Unown is now Asleep. 
+CC|Hidden Power||Search your deck for up to 2 Trainer cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 81/146
+Rarity: U
+Unown ?
+LV.18
+70 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kazuaki Aihara
+[Poke-Power] ?
+Once during your turn (before your attack), if Unown ? is on your Bench, you may choose a Pokemon in your hand and put it face down. Your opponent guesses a type of that Pokemon. Reveal that card. If your opponent guessed wrong, draw a card. Then, put that card back into your hand.
+--|Hidden Power||Discard up to 2 cards from your hand. For each card you discarded, draw a card.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 82/146
+Rarity: U
+Beldum
+LV.9
+50 HP
+Pokemon Type: M
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+[Poke-Power] Metal Chain
+Once during your turn (before your attack), when you attach a {M} Energy card from your hand to Beldum (excluding effects of attacks or Poke-Powers), you may search your deck for Beldum and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.
+MC|Take Down|30|Beldum does 10 damage to itself.
+Weakness: R+10
+Resistance: P-20
+Retreat Cost: CC
+Collector Number: 83/146
+Rarity: C
+Beldum
+LV.7
+50 HP
+Pokemon Type: M
+Basic Pokemon
+Illus. Masakazu Fukuda
+C|Allure||Draw a card.
+MC|Tackle|20| 
+Weakness: R+10
+Resistance: P-20
+Retreat Cost: C
+Collector Number: 84/146
+Rarity: C
+Bellsprout
+LV.5
+50 HP
+Pokemon Type: G
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Vine Bind||Flip a coin. If heads, the Defending Pokemon can't use any Poke-Powers during your opponent's next turn.
+G|Careless Tackle|20|Bellsprout does 10 damage to itself.
+Weakness: R+10
+Retreat Cost: C
+Collector Number: 85/146
+Rarity: C
+Buneary
+LV.10
+50 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Rest||Remove all Special Conditions and 4 damage counters from Buneary. Buneary is now Asleep.
+CC|Double Kick|20x|Flip 2 coins. This attack does 20 damage times the number of heads.
+Weakness: F+10
+Retreat Cost: C
+Collector Number: 86/146
+Rarity: C
+Chinchou
+LV.15
+60 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Supersonic||Flip a coin. If heads, the Defending Pokemon is now Confused.
+W|Wave Splash|10| 
+Weakness: G+10
+Retreat Cost: CC
+Collector Number: 87/146
+Rarity: C
+Chinchou
+LV.13
+50 HP
+Pokemon Type: L
+Basic Pokemon
+Illus. Midori Harada
+C|Razor Fin|10| 
+LC|Aqua Spark|20+|If Chinchou has any {W} Energy attached to it, this attack does 20 damage plus 10 more damage.
+Weakness: F+10
+Retreat Cost: C
+Collector Number: 88/146
+Rarity: C
+Corphish
+LV.6
+50 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+C|Knock Off||Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.
+CC|Irongrip|20| 
+Weakness: L+10
+Retreat Cost: C
+Collector Number: 89/146
+Rarity: C
+Cubone
+LV.16
+60 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Kagemaru Himeno
+C|Headbutt|10| 
+FC|Bonemerang|20x|Flip 2 coins. This attack does 20 damage times the number of heads.
+Weakness: W+10
+Resistance: L-20
+Retreat Cost: C
+Collector Number: 90/146
+Rarity: C
+Dratini
+LV.8
+40 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Ken Sugimori
+C|Tail Slap|10| 
+CC|Slam|20x|Flip 2 coins. This attack does 20 damage times the number of heads.
+Weakness: C+10
+Retreat Cost: C
+Collector Number: 91/146
+Rarity: C
+Drifloon
+LV.14
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+P|Mind Bend|10|Flip a coin. If heads, the Defending Pokemon is now Confused.
+CC|Gust|20| 
+Weakness: D+10
+Resistance: C-20
+Retreat Cost: C
+Collector Number: 92/146
+Rarity: C
+Exeggcute
+LV.11
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Midori Harada
+C|Call for Family||Search your deck for up to 2 in any combination of {G} Basic Pokemon and {P} Basic Pokemon and
+put them onto your Bench. Shuffle your deck afterward.
+P|Hypnosis|10|The Defending Pokemon is now Asleep.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 93/146
+Rarity: C
+Gligar
+LV.19
+60 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Masakazu Fukuda
+--|Light Poison|10|Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokemon is now Poisoned.
+F|Jump On|10+|Flip a coin. If heads, this attack does 10 damage plus 10 more damage.
+Weakness: W+10
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 94/146
+Rarity: C
+Gligar
+LV.14
+50 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Kouki Saitou
+C|Poison Sting||Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+FC|Slash|20| 
+Weakness: W+10
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 95/146
+Rarity: C
+Gloom
+LV.22
+70 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Oddish
+Illus. Sumiyoshi Kizuki
+G|Sleep Powder|20|The Defending Pokemon is now Asleep.
+GC|Frustration||Choose 1 of your opponent's Pokemon that doesn't have any damage counters on it. This attack does 30 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)
+Weakness: R+20
+Retreat Cost: C
+Collector Number: 96/146
+Rarity: C
+Gloom
+LV.24
+80 HP
+Pokemon Type: P
+Stage 1 Pokemon
+Evolves from Oddish
+Illus. Ken Sugimori
+--|Space Out||Remove 2 damage counters from Gloom. Gloom is now Asleep.
+PC|Stinky Nectar|30|Flip a coin. If heads, the Defending Pokemon is now Confused and Poisoned.
+Weakness: P+20
+Retreat Cost: CC
+Collector Number: 97/146
+Rarity: C
+Gulpin
+LV.17
+60 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ken Sugimori
+C|Amnesia||Choose 1 of the Defending Pokemon's attacks. That Pokemon can't use that attack during your opponent's next turn.
+P|Gastro Acid||Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+Weakness: P+10
+Retreat Cost: CC
+Collector Number: 98/146
+Rarity: C
+Hitmonchan
+LV.27
+70 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Ken Sugimori
+F|Counter Punch||During your opponent's next turn, if Hitmonchan is damaged by an opponent's attack (even if Hitmonchan is Knocked Out), put 4 damage counters on the Attacking Pokemon. 
+FC|Gut Strike|30|If Tyrogue is anywhere under Hitmonchan, this attack's base damage is 60 instead of 30.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 99/146
+Rarity: C
+Hitmonlee
+LV.24
+80 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Mitsuhiro Arita
+FC|Gut Kick|30|If Tyrogue is anywhere under Hitmonlee, you may do 30 damage to any 1 Benched Pokemon instead. (Don't apply Weakness and Resistance for Benched Pokemon.)
+FCC|Mega Kick|60| 
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 100/146
+Rarity: C
+Hitmontop
+LV.25
+80 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Masakazu Fukuda
+FC|Triple Kick|20x|Flip 3 coins. This attack does 20 damage times the number of heads.
+FCC|Gut Spin|50|If Tyrogue is anywhere under Hitmontop, you may switch Hitmontop with 1 of your Benched Pokemon.
+Weakness: P+20
+Retreat Cost: C
+Collector Number: 101/146
+Rarity: C
+Horsea
+LV.8
+50 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Ken Sugimori
+C|Smokescreen||If the Defending Pokemon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.
+W|Reverse Thrust|10|Switch Horsea with 1 of your Benched Pokemon.
+Weakness: L+10
+Retreat Cost: C
+Collector Number: 102/146
+Rarity: C
+Houndour
+LV.12
+50 HP
+Pokemon Type: D
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+C|Roar||Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon. D Bite 10
+Weakness: W+10
+Resistance: P-20
+Retreat Cost: C
+Collector Number: 103/146
+Rarity: C
+Ledyba
+LV.12
+50 HP
+Pokemon Type: G
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Supersonic||Flip a coin. If heads, the Defending Pokemon is now Confused.
+GC|Double-edge|30|Ledyba does 10 damage to itself.
+Weakness: R+10
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 104/146
+Rarity: C
+Lileep
+LV.27
+80 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Root Fossil
+Illus. Kouki Saitou
+C|Astonish|20|Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.
+GC|Absorb|30|Remove 2 damage counters from Lileep.
+Weakness: R+20
+Retreat Cost: CC
+Collector Number: 105/146
+Rarity: C
+Meowth
+LV.13
+50 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Pay Day|10|Flip a coin. If heads, draw a card.
+CC|Fury Swipes|10x|Flip 3 coins. This attack does 10 damage times the number of heads.
+Weakness: F+10
+Retreat Cost: C
+Collector Number: 106/146
+Rarity: C
+Misdreavus
+LV.18
+60 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+--|Show Off||Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.
+P|Payback|10+|If your opponent has only 1 Prize card left, this attack does 10 damage plus 20 more damage.
+Weakness: D+10
+Resistance: C-20
+Retreat Cost: C
+Collector Number: 107/146
+Rarity: C
+Nincada
+LV.10
+40 HP
+Pokemon Type: G
+Basic Pokemon
+Illus. Midori Harada
+C|Scratch|10| 
+G|Big Bite||The Defending Pokemon can't retreat during your opponent's next turn.
+Weakness: R+10
+Retreat Cost: C
+Collector Number: 108/146
+Rarity: C
+Nosepass
+LV.15
+70 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Ken Sugimori
+C|Sharpen|10| 
+FC|Nose Poke|20+|If Probopass is on your Bench, this attack does 20 damage plus 20 more damage.
+Weakness: W+20
+Retreat Cost: C
+Collector Number: 109/146
+Rarity: C
+Numel
+LV.16
+60 HP
+Pokemon Type: R
+Basic Pokemon
+Illus. Kouki Saitou
+C|Rollout|10| 
+RCC|Singe|30|Flip a coin. If heads, the Defending Pokemon is now Burned.
+Weakness: W+10
+Retreat Cost: CC
+Collector Number: 110/146
+Rarity: C
+Oddish
+LV.6
+40 HP
+Pokemon Type: G
+Basic Pokemon
+Illus. Hiroki Fuchino
+C|Stun Spore||Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+G|Blot|10|Remove 1 damage counter from Oddish.
+Weakness: R+10
+Retreat Cost: C
+Collector Number: 111/146
+Rarity: C
+Oddish
+LV.7
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Ken Sugimori
+C|Poisonpowder||Flip a coin. If heads, the Defending Pokemon is now Poisoned.
+PC|Ram|20| 
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 112/146
+Rarity: C
+Pineco
+LV.11
+50 HP
+Pokemon Type: G
+Basic Pokemon
+Illus. Masakazu Fukuda
+C|Tackle|10| 
+GC|Selfdestruct|40|This attack does 10 damage to each Benched Pokemon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokemon.) Pineco does 50 damage to itself.
+Weakness: R+10
+Retreat Cost: C
+Collector Number: 113/146
+Rarity: C
+Poliwag
+LV.5
+40 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Tackle|10| 
+W|Spin||Flip a coin. If heads, the Defending Pokemon is now Confused. If tails, the Defending Pokemon is now Asleep.
+Weakness: L+10
+Retreat Cost: C
+Collector Number: 114/146
+Rarity: C
+Poliwhirl
+LV.28
+80 HP
+Pokemon Type: W
+Stage 1 Pokemon
+Evolves from Poliwag
+Illus. Sumiyoshi Kizuki
+CC|Light Punch|20| 
+WCC|Bubblebeam|40|Flip a coin. If heads, the Defending Pokemon is now Paralyzed.
+Weakness: L+20
+Retreat Cost: C
+Collector Number: 115/146
+Rarity: C
+Poochyena
+LV.17
+50 HP
+Pokemon Type: D
+Basic Pokemon
+Illus. Kouki Saitou
+D|Corner||The Defending Pokemon can't retreat during your opponent's next turn.
+CC|Ambush|10+|Flip a coin. If heads, this attack does 10 damage plus 20 more damage.
+Weakness: F+10
+Resistance: P-20
+Retreat Cost: C
+Collector Number: 116/146
+Rarity: C
+Riolu
+LV.11
+60 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Kagemaru Himeno
+C|Punch|10| 
+FC|Low Kick|30| 
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 117/146
+Rarity: C
+Shinx
+LV.6
+50 HP
+Pokemon Type: L
+Basic Pokemon
+Illus. Masakazu Fukuda
+C|Recharge||Search your deck for a {L} Energy card and attach it to Shinx. Shuffle your deck afterward.
+LC|Double Kick|20x|Flip 2 coins. This attack does 20 damage times the number of heads.
+Weakness: F+10
+Resistance: M-20
+Retreat Cost: C
+Collector Number: 118/146
+Rarity: C
+Skitty
+LV.14
+50 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+C|Growl||During your opponent's next turn, any damage done by attacks from the Defending Pokemon is reduced by 20 (before applying Weakness and Resistance).
+C|Scratch|10| 
+Weakness: F+10
+Retreat Cost: C
+Collector Number: 119/146
+Rarity: C
+Sneasel
+LV.23
+60 HP
+Pokemon Type: D
+Basic Pokemon
+Illus. Midori Harada
+D|Rob||Look at your opponent's hand. If your opponent has any Pokemon Tool or Technical Machine cards in his or her hand, put those cards on top of his or her deck. Your opponent shuffles his or her deck afterward.
+CC|Slash|20| 
+Weakness: F+10
+Resistance: P-20
+Retreat Cost: C
+Collector Number: 120/146
+Rarity: C
+Spoink
+LV.10
+50 HP
+Pokemon Type: P
+Basic Pokemon
+Illus. Kouki Saitou
+P|Psybeam||The Defending Pokemon is now Confused.
+CC|Bounce|20|You may switch Spoink with 1 of your Benched Pokemon.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 121/146
+Rarity: C
+Staryu
+LV.14
+50 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Ken Sugimori
+C|Recover||Discard an Energy attached to Staryu and remove 3 damage counters from Staryu.
+WC|Spinning Attack|20| 
+Weakness: L+10
+Retreat Cost: C
+Collector Number: 122/146
+Rarity: C
+Swinub
+LV.13
+60 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Sumiyoshi Kizuki
+C|Sniff Out||Flip a coin. If heads, put any 1 card from your discard pile into your hand.
+FC|Lunge Out|30| 
+Weakness: M+10
+Resistance: L-20
+Retreat Cost: CC
+Collector Number: 123/146
+Rarity: C
+Taillow
+LV.12
+50 HP
+Pokemon Type: C
+Basic Pokemon
+Illus. Takao Unno
+C|Focus Energy||During your next turn, Taillow's Peck attack's base damage is 30.
+C|Peck|10| 
+Weakness: L+10
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 124/146
+Rarity: C
+Tentacool
+LV.16
+50 HP
+Pokemon Type: W
+Basic Pokemon
+Illus. Atsuko Nishida
+C|Crystal Barrier||Flip a coin. If heads, prevent all effects of an attack, including damage, done to Tentacool during your opponent's next turn.
+W|Mysterious Beam||Flip a coin. If heads, discard an Energy card attached to the Defending Pokemon.
+Weakness: L+10
+Retreat Cost: C
+Collector Number: 125/146
+Rarity: C
+Tyrogue
+LV.10
+60 HP
+Pokemon Type: F
+Basic Pokemon
+Illus. Kagemaru Himeno
+[Poke-Power] Baby Evolution
+Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.
+F|Gut Blow|10+|If the Defending Pokemon is an Evolved Pokemon, this attack does 10 damage plus 20 more damage and Tyrogue does 10 damage to itself.
+Weakness: P+10
+Retreat Cost: C
+Collector Number: 126/146
+Rarity: C
+Weepinbell
+LV.23
+80 HP
+Pokemon Type: G
+Stage 1 Pokemon
+Evolves from Bellsprout
+Illus. Ken Sugimori
+G|Poisonpowder|10|The Defending Pokemon is now Poisoned.
+GG|Razor Leaf|40|  
+Weakness: R+20
+Retreat Cost: CC
+Collector Number: 127/146
+Rarity: C
+Yanma
+LV.13
+70 HP
+Pokemon Type: G
+Basic Pokemon
+Illus. Masakazu Fukuda
+C|U-turn|10|Switch Yanma with 1 of your Benched Pokemon.
+GG|Agility|20|Flip a coin. If heads, prevent all effects of an attack, including damage, done to Yanma during your opponent's next turn.
+Weakness: L+20
+Resistance: F-20
+Retreat Cost: C
+Collector Number: 128/146
+Rarity: C
+Bubble Coat
+Pokemon Tool
+Illus. Daisuke Ito
+Attach Bubble Coat to 1 of your Pokemon that doesn't already have a Pokemon Tool attached to it. If
+that Pokemon is Knocked Out, discard this card.
+As long as Bubble Coat is attached to a Pokemon, that Pokemon has no Weakness. If that Pokemon is
+damaged by an opponent's attack, discard this card at the end of the turn.
+Collector Number: 129/146
+Rarity: U
+Buck's Training
+Supporter
+Illus. Ken Sugimori
+You can play only one Supporter card each turn. When you play this card, put it next to your Active
+Pokemon. When your turn ends, discard this card.
+Draw 2 cards. As long as Buck's Training is next to your Active Pokemon, each of your Active
+Pokemon's attacks does 10 more damage to the Active Pokemon (before applying Weakness and
+Resistance).
+Collector Number: 130/146
+Rarity: U
+Cynthia's Feelings
+Supporter
+Illus. Ken Sugimori
+You can play only one Supporter card each turn. When you play this card, put it next to your Active
+Pokemon. When your turn ends, discard this card.
+Shuffle your hand into your deck. Then, draw 4 cards. If any of your Pokemon were Knocked Out
+during your opponent's last turn, draw 4 more cards.
+Collector Number: 131/146
+Rarity: U
+Energy Pickup
+Trainer
+Illus. Kent Kanetsuna
+Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to 1 of your Pokemon.
+Collector Number: 132/146
+Rarity: U
+Poke Radar
+Trainer
+Illus. Kazuaki Aihara
+Look at the top 5 cards of your deck, choose as many Pokemon as you like, show them to your opponent,
+and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.
+Collector Number: 133/146
+Rarity: U
+Snowpoint Temple
+Stadium
+Illus. Ryo Ueda
+This card stays in play when you play it. Discard this card if another Stadium card comes into play. If
+another card with the same name is in play, you can't play this card.
+Each Pokemon that isn't an Evolved Pokemon in play (both yours and your opponent's) gets +20 HP.
+Collector Number: 134/146
+Rarity: U
+Stark Mountain
+Stadium
+Illus. Ryo Ueda
+This card stays in play when you play it. Discard this card if another Stadium card comes into play. If
+another card with the same name is in play, you can't play this card.
+Once during each player's turn, that player may choose a {R} or {F} Energy attached to 1 of his or her
+Pokemon and move that Energy to 1 of his or her {R} or {F} Pokemon.
+Collector Number: 135/146
+Rarity: U
+Technical Machine TS-1
+Technical Machine
+Illus. Ryo Ueda
+Attach this card to 1 of your Pokemon in play. That Pokemon may use this card's attack instead of its own.
+--|Evoluter||Search your deck for a card that evolves from 1 of your Pokemon and put it onto that Pokemon. (This counts as evolving that Pokemon.) Shuffle your deck afterward.
+Collector Number: 136/146
+Rarity: U
+Technical Machine TS-2
+Technical Machine
+Illus. Ryo Ueda
+Attach this card to 1 of your Pokemon in play. That Pokemon may use this card's attack instead of its own.
+--|Devoluter||Choose 1 of your opponent's Evolved Pokemon (excluding Pokemon LV.X). Remove the highest Stage Evolution card from that Pokemon and put that card back into your opponent's hand.
+Collector Number: 137/146
+Rarity: U
+Claw Fossil
+FOSSIL
+40 HP
+Illus. Ryo Ueda
+Play Claw Fossil as if it were a {C} Basic Pokemon. (Claw Fossil counts as a Trainer cards as well, but
+if Claw Fossil is Knocked Out, this counts as a Knocked Out Pokemon.) Claw Fossil can't be affected by
+any Special Conditions and can't retreat. At any time during your turn before your attack, you may
+discard Claw Fossil from play. (This doesn't count as a Knocked Out Pokemon.)
+[Poke-Body] Jagged Stone
+If Claw Fossil is your Active Pokemon and is damaged by an opponent's attack (even if Claw Fossil is
+Knocked Out), put 1 damage counter on the Attacking Pokemon.
+Collector Number: 138/146
+Rarity: C
+Root Fossil
+FOSSIL
+40 HP
+Illus. Ryo Ueda
+Play Root Fossil as if it were a {C} Basic Pokemon. (Root Fossil counts as a Trainer cards as well, but if
+Root Fossil is Knocked Out, this counts as a Knocked Out Pokemon.) Root Fossil can't be affected by
+any Special Conditions and can't retreat. At any time during your turn before your attack, you may
+discard Root Fossil from play. (This doesn't count as a Knocked Out Pokemon.)
+[Poke-Body] Spongy Stone
+At any time between turns, remove 1 damage counter from Root Fossil.
+Collector Number: 139/146
+Rarity: C
+Azelf
+LV.X
+90 HP
+Pokemon Type: P
+Level-Up Pokemon
+Illus. Shizurow
+[Poke-Body] Psychic Aura
+Each of your {P} Pokemon has no Weakness.
+P|Deep Balance||Choose 1 of your opponent's Pokemon. Put 1 damage counter on that Pokemon for each Energy attached to all of your opponent's Pokemon.
+Weakness: Px2
+Retreat Cost: C
+Collector Number: 140/146
+Rarity: RH-LV.X
+Gliscor
+LV.X
+110 HP
+Pokemon Type: F
+Level-Up Pokemon
+Illus. Ryo Ueda
+[Poke-Power] Shoot Poison
+Once during your turn (before your attack), when you put Gliscor LV.X from your hand onto your Active Gliscor, you may choose 1 of the Defending Pokemon. That Pokemon is now Paralyzed and Poisoned.
+FC|Night Slash|60|You may switch Gliscor with 1 of your Benched Pokemon.
+Weakness: Wx2
+Resistance: F-20
+Retreat Cost: 0
+Collector Number: 141/146
+Rarity: RH-LV.X
+Magnezone
+LV.X
+140 HP
+Pokemon Type: M
+Level-Up Pokemon
+Illus. Ryo Ueda
+[Poke-Power] Electric Trans
+As often as you like during your turn (before your attack), you may move a {L} or {M} Energy attached to 1 of your Pokemon to another of your Pokemon. This power can't be used if Magnezone is affected by a Special Condition.
+LM|Cyber Shock|80|Discard a {L} Energy and a {M} Energy attached to Magnezone. The Defending Pokemon is now Paralyzed.
+Weakness: Rx2
+Resistance: P-20
+Retreat Cost: CCCC
+Collector Number: 142/146
+Rarity: RH-LV.X
+Mesprit
+LV.X
+90 HP
+Pokemon Type: P
+Level-Up Pokemon
+Illus. Shizurow
+--|Healing Look||Remove 3 damage counters from each of your Benched Pokemon.
+PP|Supreme Blast|200|If you don't have Uxie LV.X and Azelf LV.X in play, this attack does nothing. Discard all Energy attached to Mesprit.
+Weakness: Px2
+Retreat Cost: C
+Collector Number: 143/146
+Rarity: RH-LV.X
+Mewtwo
+LV.X
+120 HP
+Pokemon Type: P
+Level-Up Pokemon
+Illus. Shizurow
+[Poke-Body] Psybarrier
+Prevent all effects of attacks, including damage, done to Mewtwo by your opponent's Pokemon that isn't an Evolved Pokemon.
+PPC|Giga Burn|120|Discard all Energy attached to Mewtwo.
+Weakness: Px2
+Retreat Cost: CC
+Collector Number: 144/146
+Rarity: RH-LV.X
+Rhyperior
+LV.X
+170 HP
+Pokemon Type: F
+Level-Up Pokemon
+Illus. Ryo Ueda
+--|Hard Crush|50x|Discard the top 5 cards from your deck. This attack does 50 damage for each Energy card you discarded.
+FFC|Upthrow|60|Search your discard pile for all {F} Energy cards, show them to your opponent, and shuffle them into your deck.
+Weakness: Wx2
+Resistance: L-20
+Retreat Cost: CCCC
+Collector Number: 145/146
+Rarity: RH-LV.X
+Uxie
+LV.X
+90 HP
+Pokemon Type: P
+Level-Up Pokemon
+Illus. Shizurow
+[Poke-Power] Trade Off
+Once during your turn (before your attack), you may look at the top 2 cards of your deck, choose 1 of them, and put it into your hand. Put the other card on the bottom of your deck. This power can't be used if Uxie is affected by a Special Condition. You can't use more than 1 Trade Off Poke-Power each turn.
+CC|Zen Blade|60|Uxie can't use Zen Blade during your next turn.
+Weakness: Px2
+Retreat Cost: C
+Collector Number: 146/146
+Rarity: RH-LV.X

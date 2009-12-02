@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cardset code="PL">
+<cardset code="SV">
 	<card>
 		<id>1</id>
 		<uniqueName>Absol [G]</uniqueName>
@@ -3888,98 +3888,70 @@
 		<uniqueName>Battle Tower</uniqueName>
 		<name>Battle Tower</name>
 		<stadium>
-			<text>the same name is in play, you can't play this card. Whenever
-				any player plays any Pokemon from his or her hand to level up 1 of
-				his or her Pokemon, remove 4 damage counters from that Pokemon.
-				Illus. Wataru Kawahara </text>
+			<text>Whenever any player plays any Pokémon from his or her hand to level up 1 of his or her Pokémon, remove 4 damage counters from that Pokémon.</text>
 		</stadium>
 		<rarity>U</rarity>
-		<illustration>This card stays in play when you play it. Discard this
-			card if another Stadium card comes into play. If another card with
-		</illustration>
+		<illustration>Wataru Kawahara</illustration>
 	</card>
 	<card>
 		<id>135</id>
 		<uniqueName>Champion's Room</uniqueName>
 		<name>Champion's Room</name>
 		<stadium>
-			<text>the same name is in play, you can't play this card. The Retreat
-				Cost for each Pokemon SP (both yours and your opponent's) is {C}
-				less. Illus. Yusuke Ishikawa </text>
+			<text>The Retreat Cost for each Pokémon SP (both yours and your opponent's) is {C} less.</text>
 		</stadium>
 		<rarity>U</rarity>
-		<illustration>This card stays in play when you play it. Discard this
-			card if another Stadium card comes into play. If another card with
-		</illustration>
+		<illustration>Yusuke Ishikawa</illustration>
 	</card>
 	<card>
 		<id>136</id>
 		<uniqueName>Cynthia's Guidance</uniqueName>
 		<name>Cynthia's Guidance</name>
 		<supporter>
-			<text>your turn ends, discard this card. Look at the top 7 cards of
-				your deck, choose 1 of them, and put it into your hand. Put the
-				other cards back on top of your deck. Shuffle your deck afterward.
-				Illus. Ken Sugimori </text>
+			<text>Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>137</id>
 		<uniqueName>Cyrus's Initiative</uniqueName>
 		<name>Cyrus's Initiative</name>
 		<supporter>
-			<text>your turn ends, discard this card. Flip 2 coins. If either of
-				them is heads, look at your opponent's hand. For each heads, choose
-				1 card from your opponent's hand and put it on the bottom of your
-				opponent's deck in any order. Illus. Ken Sugimori </text>
+			<text>Flip 2 coins. If either of them is heads, look at your opponent's hand. For each heads, choose 1 card from your opponent's hand and put it on the bottom of your opponent's deck in any order.</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>138</id>
 		<uniqueName>Night Teleporter</uniqueName>
 		<name>Night Teleporter</name>
 		<trainer>
-			<text>into your hand. Shuffle your deck afterward. Illus. Ryota Saito
-			</text>
+			<text>Flip a coin. If heads, put all cards in your hand on top of your deck. Then, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.</text>
 		</trainer>
 		<rarity>U</rarity>
-		<illustration>Flip a coin. If heads, put all cards in your hand on top
-			of your deck. Then, search your deck for any 1 card and put it
-		</illustration>
+		<illustration>Ryota Saito</illustration>
 	</card>
 	<card>
 		<id>139</id>
 		<uniqueName>Palmer's Contribution</uniqueName>
 		<name>Palmer's Contribution</name>
 		<supporter>
-			<text>your turn ends, discard this card. Search your discard pile for
-				up to 5 in any combination of Pokemon and basic Energy cards, show
-				them to your opponent, and put them on top of your deck. Shuffle
-				your deck afterward. Illus. Ken Sugimori </text>
+			<text>Search your discard pile for up to 5 in any combination of Pokémon and basic Energy cards, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward.</text>
 		</supporter>
 		<rarity>U</rarity>
-		<illustration>You can play only one Supporter card each turn. When you
-			play this card, put it next to your Active Pokemon. When
-		</illustration>
+		<illustration>Ken Sugimori</illustration>
 	</card>
 	<card>
 		<id>140</id>
 		<uniqueName>VS Seeker</uniqueName>
 		<name>VS Seeker</name>
 		<trainer>
-			<text>Illus. Wataru Kawahara </text>
+			<text>Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.</text>
 		</trainer>
 		<rarity>U</rarity>
-		<illustration>Search your discard pile for a Supporter card, show it
-			to your opponent, and put it into your hand.</illustration>
+		<illustration>Wataru Kawahara</illustration>
 	</card>
 	<card>
 		<id>141</id>

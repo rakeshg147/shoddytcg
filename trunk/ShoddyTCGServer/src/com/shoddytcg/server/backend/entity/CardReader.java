@@ -298,7 +298,7 @@ public class CardReader {
 												//Read Trainer Type
 												try{
 													NodeList typeList = trainerElement.getElementsByTagName("type");
-													trainer.setTrainerType(TrainerCard.returnTrainerType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+													trainer.setTrainerType(TrainerCard.StringToTrainerType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
 												}catch(Exception e){
 													trainer.setTrainerType(TrainerType.TRAINER);
 												}
@@ -331,7 +331,7 @@ public class CardReader {
 												//Read Trainer Type
 												try{
 													NodeList typeList = trainerElement.getElementsByTagName("type");
-													trainer.setTrainerType(TrainerCard.returnTrainerType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
+													trainer.setTrainerType(TrainerCard.StringToTrainerType(typeList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n","")));
 												}catch(Exception e){
 													trainer.setTrainerType(TrainerType.TRAINER); //Even if its a "Goods", we'll treat it as a trainer internally. 
 												}
@@ -346,6 +346,60 @@ public class CardReader {
 												}
 												card.setCardType(trainer);
 
+												//Read Trainer HP (If Fossil)
+												if(trainer.getTrainerType().equals(TrainerType.POKEMON)){
+													try{
+														NodeList hpList = trainerElement.getElementsByTagName("hp");
+														trainer.setHP(hpList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("HP","").replaceAll("\n",""));
+													}catch(Exception e){
+														System.out.println(card.getName()+" has missing or invalid text!");
+													}
+												}
+												
+												//Read Trainer Attack (If TM)
+												if(trainer.getTrainerType().equals(TrainerType.TM)){
+													try{
+														NodeList attackList = trainerElement.getElementsByTagName("attack");
+														Element attackElement = (Element) attackList.item(0);
+														Attack attack = new Attack();
+														// Attack Name
+														try{
+															NodeList nameList = attackElement.getElementsByTagName("name");
+															attack.setName(nameList.item(0).getChildNodes().item(0).getNodeValue());
+														}catch(Exception e){
+															System.out.println(card.getName()+" Attack Name is wrong or missing!");
+														}
+
+														// Attack Cost
+														try{
+															NodeList costList = attackElement.getElementsByTagName("cost");
+															attack.setCost(costList.item(0).getChildNodes().item(0).getNodeValue());
+														}catch(Exception e){
+															System.out.println(card.getName()+" Attack Cost is wrong or missing!");
+														}
+
+														// Attack Damage
+														try{
+															NodeList damageList = attackElement.getElementsByTagName("damage");
+															attack.setDamage(damageList.item(0).getChildNodes().item(0).getNodeValue());
+														}catch(Exception e){
+															attack.setDamage("--");
+														}
+
+														// Attack Text
+														try{
+															NodeList textList = attackElement.getElementsByTagName("text");
+															attack.setText(textList.item(0).getChildNodes().item(0).getNodeValue().replaceAll("	","").replaceAll("\n",""));
+														}catch(Exception e){
+															attack.setText("");
+														}
+														trainer.setAttack(attack);
+													}catch(Exception e){
+														System.out.println(card.getName()+" has missing or invalid text!");
+													}
+												}
+												
+												card.setCardType(trainer);
 												if(!cardDefined){
 													cardDefined=true;
 												}else{
