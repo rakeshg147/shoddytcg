@@ -139,7 +139,11 @@ public class GameClient extends JFrame {
         
         JButton loginButton = new JButton();
         loginButton.setText("Login");
-        loginButton.setBounds(new Rectangle(95, 125, 250, 34));
+        loginButton.setBounds(new Rectangle(95, 125, 125, 34));	
+        
+        JButton registerButton = new JButton();
+        registerButton.setText("Register");
+        registerButton.setBounds(new Rectangle(220, 125, 125, 34));	
         
         this.getContentPane().add(loginPanel, null);
         loginPanel.add(serverLabel);
@@ -149,6 +153,7 @@ public class GameClient extends JFrame {
         loginPanel.add(userField);
         loginPanel.add(passField);
         loginPanel.add(loginButton);
+        loginPanel.add(registerButton);
         
         this.getContentPane().add(panel,null);
         this.getContentPane().setLayout(null);
@@ -156,6 +161,7 @@ public class GameClient extends JFrame {
 	
 	private void setupMenu() {
 		JMenu menu = new JMenu("Menu");
+		menu.add("Deck Editor");
 		menu.add(new AboutAction());
 
 		// new stuff
