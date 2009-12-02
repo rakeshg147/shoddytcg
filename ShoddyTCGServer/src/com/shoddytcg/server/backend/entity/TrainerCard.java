@@ -31,8 +31,23 @@ public class TrainerCard extends CardType{
 	public enum TrainerType { TRAINER, TOOL, TM, POKEMON}
 	
 	private TrainerType type;
+	private Attack attack;
 	private String Text;
 	private String hp="0";
+
+	/**
+	 * @return the attack
+	 */
+	public Attack getAttack() {
+		return attack;
+	}
+
+	/**
+	 * @param attack the attack to set
+	 */
+	public void setAttack(Attack attack) {
+		this.attack = attack;
+	}
 
 	/**
 	 * @return the hp
@@ -54,7 +69,12 @@ public class TrainerCard extends CardType{
 	public TrainerType getTrainerType() {
 		return type;
 	}
-
+	/**
+	 * @return the type
+	 */
+	public String getTrainerTypeText() {
+		return TrainerTypeToString(type);
+	}
 	/**
 	 * @param type the type to set
 	 */
@@ -76,7 +96,7 @@ public class TrainerCard extends CardType{
 		Text = text;
 	}
 	
-	public static TrainerType returnTrainerType(String type){
+	public static TrainerType StringToTrainerType(String type){
 		try{
 			if(type.equalsIgnoreCase("Tool"))
 				return TrainerType.TOOL;
@@ -88,6 +108,20 @@ public class TrainerCard extends CardType{
 				return TrainerType.TRAINER;
 		}catch(Exception e){
 			return TrainerType.TRAINER;
+		}
+	}
+	public static String TrainerTypeToString(TrainerType type){
+		try{
+			if(type.equals(TrainerType.TOOL))
+				return "tool";
+			else if(type.equals(TrainerType.TM))
+				return "tm";
+			else if(type.equals(TrainerType.POKEMON))
+				return "pokemon";
+			else 
+				return "trainer";
+		}catch(Exception e){
+			return "trainer";
 		}
 	}
 }

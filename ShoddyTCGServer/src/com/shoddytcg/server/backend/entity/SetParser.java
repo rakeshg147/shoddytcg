@@ -359,27 +359,24 @@ public class SetParser {
 
 								card.setName(card.getUniqueName());
 								TrainerCard trainer = new TrainerCard();
-
+								
 								String temp = br.readLine();
 								temp = temp.replace("Illus. ","");
 								card.setIllustrator(temp);
 
-								boolean stop = false;
-								String text = "";
-								while(!stop){
-									temp = br.readLine();
-									if(temp.contains("Collector"))
-										stop=true;
-									else
-										text += temp+ " ";
-								}
-								trainer.setText(text);
+								temp = br.readLine();
+								trainer.setText(temp);
+								Attack attack = new Attack();
+								temp = br.readLine();
+								String[] atkinfo = temp.split("\\|");
+								attack.setCost(atkinfo[0]);
+								attack.setName(atkinfo[1]);
+								attack.setDamage("0");
+								attack.setText(atkinfo[3]);
+								trainer.setAttack(attack);
 								trainer.setTrainerType(TrainerType.TM);
 								card.setCardType(trainer);
 								//								System.out.println("Text: "+((TrainerCard)card.getCardType()).getText());
-								
-								temp = temp.replace("Illus. ","");
-								card.setIllustrator(temp);
 								
 								temp = br.readLine();
 								if(temp.contains("Collector")){
@@ -448,6 +445,7 @@ public class SetParser {
 													System.out.println("<name>"+card.getName()+"</name>");
 													System.out.println("<"+card.getCardType().getType().toString().toLowerCase()+">");
 													if(card.getCardType().isTrainer()){
+														System.out.println("<type>"+((TrainerCard)card.getCardType()).getTrainerTypeText()+"</type>");										
 														System.out.println("<text>"+((TrainerCard)card.getCardType()).getText()+"</text>");
 													}else if(card.getCardType().isSupporter()){
 														System.out.println("<text>"+((SupporterCard)card.getCardType()).getText()+"</text>");
