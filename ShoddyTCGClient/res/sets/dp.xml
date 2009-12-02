@@ -1472,8 +1472,7 @@
 		<uniqueName>Double Full Heal</uniqueName>
 		<name>Double Full Heal</name>
 		<trainer>
-			<text>Remove all Special Conditions from each of your Active Pokémon.
-			</text>
+			<text>Remove all Special Conditions from each of your Active Pokémon.</text>
 		</trainer>
 		<rarity>U</rarity>
 		<illustration>Ryo Ueda</illustration>
