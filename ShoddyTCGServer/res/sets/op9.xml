@@ -135,7 +135,6 @@
         <rarity>R</rarity>
         <illustration>Masakazu Fukuda</illustration>
     </card>
-<<<<<<< .mine
     <card>
         <id>6</id>
         <uniqueName>Buizel</uniqueName>
@@ -273,4 +272,4 @@
         <rarity>U</rarity>
         <illustration>Midori Harada</illustration>
     </card>
-</cardeset>
+</cardset>
