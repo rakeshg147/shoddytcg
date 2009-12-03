@@ -135,4 +135,142 @@
         <rarity>R</rarity>
         <illustration>Masakazu Fukuda</illustration>
     </card>
-</cardset>
+<<<<<<< .mine
+    <card>
+        <id>6</id>
+        <uniqueName>Buizel</uniqueName>
+        <name>Buizel LV.17</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>W</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Whirlpool</name>
+                <cost>W</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If heads, discard an Energy attached to the Defending Pokemon.</text>
+            </attack>
+            <attack>
+                <name>Super Fast</name>
+                <cost>WW</cost>
+                <damage>30</damage>
+                <text>If you have a Pachirisu in play, flip a coin. If heads, prevent all effects of an attack, including damage, done to Buizel during your opponent's next turn.</text>
+            </attack>
+            <weakness>L+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>7</id>
+        <uniqueName>Croagunk</uniqueName>
+        <name>Croagunk LV.19</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>P</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Knock Off</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.</text>
+            </attack>
+            <attack>
+                <name>Nimble</name>
+                <cost>PP</cost>
+                <damage>30</damage>
+                <text>If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokemon.</text>
+            </attack>
+            <weakness>P+10</weakness>
+            <resistance />
+            <retreat>CC</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>8</id>
+        <uniqueName>Gabite</uniqueName>
+        <name>Gabite LV.33</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>C</type>
+            <stage>Stage 1</stage>  
+            <prestage>Gible</prestage>   
+            <attack>
+                <name>Burrow</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>Flip a coin. I heads, prevent all damage done to Gabite by attacks during your opponent's next turn.</text>
+            </attack>
+            <attack>
+                <name>Distorted Wave</name>
+                <cost>CCC</cost>
+                <damage>60</damage>
+                <text>Before doing damage, remove 2 damage counters from the Defending Pokemon.</text>
+            </attack>
+            <weakness>C+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Kagemaru Himeno</illustration>
+    </card>
+    <card>
+        <id>9</id>
+        <uniqueName>Lopunny</uniqueName>
+        <name>Lopunny LV.36</name>
+        <pokemon>
+            <hp>80</hp>
+            <type>C</type>
+            <stage>Stage 1</stage>  
+            <prestage>Buneary</prestage>   
+            <attack>
+                <name>Jump Kick</name>
+                <cost>CC</cost>
+                <damage>20</damage>
+                <text>Does 20 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+            </attack>
+            <attack>
+                <name>Jazzed</name>
+                <cost>CCC</cost>
+                <damage>50</damage>
+                <text>If Lopunny evolved from Buneary during this turn, remove all damage counters from Lopunny.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>10</id>
+        <uniqueName>Pachirisu</uniqueName>
+        <name>Pachirisu LV.20</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>L</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Thunder Wave</name>
+                <cost>L</cost>
+                <damage>10</damage>
+                <text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</text>
+            </attack>
+            <attack>
+                <name>Poison Berry</name>
+                <cost>LC</cost>
+                <damage>20+</damage>
+                <text>If you have a Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokemon is now Poisoned.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+</cardeset>
