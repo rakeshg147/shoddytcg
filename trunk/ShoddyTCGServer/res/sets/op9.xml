@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<cardset code="OP9">
     <card>
         <id>1</id>
         <uniqueName>Garchomp</uniqueName>
@@ -18,14 +19,14 @@
                 <name>Jet Sword</name>
                 <cost>CCC</cost>
                 <damage>100</damage>
-                <text>Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokemon. (Don't applay Weakness and Resistance or Benched Pokemon.)</text>
+                <text>Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance or Benched Pokemon.)</text>
             </attack>
             <weakness>C+30</weakness>
             <resistance />
             <retreat>0</retreat>
             </pokemon>
         <rarity>R</rarity>
-        <illustration></illustration>
+        <illustration>Kagemaru Himeno</illustration>
     </card>
     <card>
         <id>2</id>
@@ -52,7 +53,7 @@
             <retreat>C</retreat>
             </pokemon>
         <rarity>R</rarity>
-        <illustration></illustration>
+        <illustration>Masakazu Fukuda</illustration>
     </card>    
     <card>
         <id>3</id>
@@ -80,7 +81,7 @@
             <retreat>C</retreat>
             </pokemon>
         <rarity>R</rarity>
-        <illustration></illustration>
+        <illustration>Midori Harada</illustration>
     </card>    
     <card>
         <id>4</id>
@@ -107,7 +108,7 @@
             <retreat>CCCC</retreat>
             </pokemon>
         <rarity>R</rarity>
-        <illustration></illustration>
+        <illustration>Kent Kanetsuna</illustration>
     </card>
     <card>
         <id>5</id>
@@ -132,6 +133,6 @@
             <retreat>C</retreat>
             </pokemon>
         <rarity>R</rarity>
-        <illustration></illustration>
+        <illustration>Masakazu Fukuda</illustration>
     </card>
-</cardeset>
+</cardset>
