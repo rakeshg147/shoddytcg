@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <card>
+        <id>1</id>
+        <uniqueName>Garchomp</uniqueName>
+        <name>Garchomp LV.64</name>
+        <pokemon>
+            <hp>130</hp>
+            <type>C</type>
+            <stage>Stage 2</stage>  
+            <prestage>Gabite</prestage>   
+            <attack>
+                <name>Dragon Rage</name>
+                <cost>C</cost>
+                <damage>80</damage>
+                <text>Flip 2 coins. If either of them is tails, this attack does noting.</text>
+            </attack>
+            <attack>
+                <name>Jet Sword</name>
+                <cost>CCC</cost>
+                <damage>100</damage>
+                <text>Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokemon. (Don't applay Weakness and Resistance or Benched Pokemon.)</text>
+            </attack>
+            <weakness>C+30</weakness>
+            <resistance />
+            <retreat>0</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration></illustration>
+    </card>
+    <card>
+        <id>2</id>
+        <uniqueName>Manaphy</uniqueName>
+        <name>Manaphy LV.25</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>W</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Dive</name>
+                <cost>W</cost>
+                <damage>0</damage>
+                <text>Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.</text>
+            </attack>
+            <attack>
+                <name>Water Glow</name>
+                <cost>W</cost>
+                <damage>0</damage>
+                <text>Choose 1 of your opponent's Pokemon. This attack does 20 damage to that Pokemon. (Don't apple Weakness and Resistance for Benched Pokemon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokemon.</text>
+            </attack>
+            <weakness>L+20</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration></illustration>
+    </card>    
+    <card>
+        <id>3</id>
+        <uniqueName>Raichu</uniqueName>
+        <name>Raichu LV.39</name>
+        <pokemon>
+            <hp>90</hp>
+            <type>L</type>
+            <stage>Stage 1</stage>  
+            <prestage>Pikachu</prestage>   
+            <attack>
+                <name>Slam</name>
+                <cost>CC</cost>
+                <damage>30x</damage>
+                <text>Flip 2 coins. This attack does 30 damage times the number of heads.</text>
+            </attack>
+            <attack>
+                <name>High Volt</name>
+                <cost>LLL</cost>
+                <damage>60</damage>
+                <text>If Raichu evolved from Pikachu during this turn, this attack's base damage is 100 instead of 60.</text>
+            </attack>
+            <weakness>F+20</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration></illustration>
+    </card>    
+    <card>
+        <id>4</id>
+        <uniqueName>Regigigas</uniqueName>
+        <name>Regigigas LV.42</name>
+        <pokemon>
+            <hp>100</hp>
+            <type>C</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Body Slam</name>
+                <cost>CCC</cost>
+                <damage>20</damage>
+                <text>Flip a coin. If heads, the Defending Pokemon is now Paralyzed.</text>
+            </attack>
+            <attack>
+                <name>Double Stomp</name>
+                <cost>CCCC</cost>
+                <damage>50+</damage>
+                <text>Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.</text>
+            </attack>
+            <weakness>Fx2</weakness>
+            <resistance />
+            <retreat>CCCC</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration></illustration>
+    </card>
+    <card>
+        <id>5</id>
+        <uniqueName>Rotom</uniqueName>
+        <name>Rotom LV.46</name>
+        <pokemon>
+            <hp>70</hp>
+            <type>L</type>
+            <stage>Basic</stage>  
+            <pokepower>
+                <name>Type Shift</name>
+                <text>Once during your turn (before your attack), you may use this power. Rotom's type is {P} until the end of your turn.</text>
+            </pokepower>
+            <attack>
+                <name>Poltergeist</name>
+                <cost>PC</cost>
+                <damage>30+</damage>
+                <text>Look at your opponent's hand. This attack does 30 damage plus 10 more damage for each Trainer, Supporter, and Stadium card in your opponent's hand.</text>
+            </attack>
+            <weakness>D+20</weakness>
+            <resistance>C-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>R</rarity>
+        <illustration></illustration>
+    </card>
+</cardeset>
