@@ -272,4 +272,186 @@
         <rarity>U</rarity>
         <illustration>Midori Harada</illustration>
     </card>
+    <card>
+        <id>11</id>
+        <uniqueName>Pichu</uniqueName>
+        <name>Pichu LV.5</name>
+        <pokemon>
+            <hp>40</hp>
+            <type>L</type>
+            <stage>Basic</stage>   
+            <pokepower>
+                <name>Baby Evolution</name>
+                <text>Once during your turn (before your attack(, you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.</text>
+            </pokepower>
+            <attack>
+                <name>Find a Friend</name>
+                <cost>0</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If heads, search your deck for a Pokemon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>U</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>12</id>
+        <uniqueName>Buneary</uniqueName>
+        <name>Buneary LV.8</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>C</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Dizzy Punch</name>
+                <cost>C</cost>
+                <damage>10x</damage>
+                <text>Flip 2 coins. This attack does 10 damage times the number of heads.</text>
+            </attack>
+            <attack>
+                <name>Defense Curl</name>
+                <cost>CC</cost>
+                <damage>0</damage>
+                <text>Flip a coin. If heads, prevent all damage done to Buneary by attacks during your opponent's next turn.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>13</id>
+        <uniqueName>Chimchar</uniqueName>
+        <name>Chimchar LV.5</name>
+        <pokemon>
+            <hp>40</hp>
+            <type>R</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Serial Swipes</name>
+                <cost>R</cost>
+                <damage>10x</damage>
+                <text>Flip 4 coins. This attack does 10 damage times the number of heads.</text>
+            </attack>
+            <attack>
+                <name>Sleepy</name>
+                <cost>RCC</cost>
+                <damage>40+</damage>
+                <text>If you have Piplup in play, this attack does 40 damage plus 20 more damage and the defending Pokemon is now Asleep.</text>
+            </attack>
+            <weakness>W+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>14</id>
+        <uniqueName>Gible</uniqueName>
+        <name>Gible LV.9</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>C</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Push Down</name>
+                <cost>C</cost>
+                <damage>10</damage>
+                <text>Your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon.</text>
+            </attack>
+            <weakness>C+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Hiiroki Fuchino</illustration>
+    </card>
+    <card>
+        <id>15</id>
+        <uniqueName>Pikachu</uniqueName>
+        <name>Pikachu LV.18</name>
+        <pokemon>
+            <hp>60</hp>
+            <type>L</type>
+            <stage>Basic</stage>   
+            <attack>
+                <name>Growl</name>
+                <cost>C</cost>
+                <damage>0</damage>
+                <text>DUring your opponent's next turn, any damage done by attacks from the Defending Pokemon is reduced by 20 (before applying Weakness and Resistance).</text>
+            </attack>
+            <attack>
+                <name>Numb</name>
+                <cost>LCC</cost>
+                <damage>30</damage>
+                <text>If Pikachu evolved from Pichu during this turn, the Defending Pokemon is now Paralyzed.</text>
+            </attack>
+            <weakness>F+10</weakness>
+            <resistance>M-20</resistance>
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id>16</id>
+        <uniqueName>Piplup</uniqueName>
+        <name>Piplup LV.6</name>
+        <pokemon>
+            <hp>50</hp>
+            <type>W</type>
+            <stage>Basic</stage>  
+            <attack>
+                <name>Water Sport</name>
+                <cost>W</cost>
+                <damage>10+</damage>
+                <text>If Piplup has less Energy attached to it than the Defending Pokmon, this attack does 10 damage plus 10 more damage.</text>
+            </attack>
+            <attack>
+                <name>Wavelet</name>
+                <cost>WCC</cost>
+                <damage>40</damage>
+                <text>If you have a Buizel in play, this attack does 10 damage to each of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.)</text>
+            </attack>
+            <weakness>L+10</weakness>
+            <resistance />
+            <retreat>C</retreat>
+            </pokemon>
+        <rarity>C</rarity>
+        <illustration>Midori Harada</illustration>
+    </card>
+    <card>
+        <id></id>
+        <uniqueName></uniqueName>
+        <name></name>
+        <pokemon>
+            <hp></hp>
+            <type></type>
+            <stage></stage>  
+            <prestage></prestage>   
+            <attack>
+                <name></name>
+                <cost></cost>
+                <damage></damage>
+                <text></text>
+            </attack>
+            <attack>
+                <name></name>
+                <cost></cost>
+                <damage></damage>
+                <text></text>
+            </attack>
+            <weakness></weakness>
+            <resistance></resistance>
+            <retreat></retreat>
+            </pokemon>
+        <rarity></rarity>
+        <illustration></illustration>
+    </card>
 </cardset>
